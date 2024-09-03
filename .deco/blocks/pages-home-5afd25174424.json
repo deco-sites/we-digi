@@ -1,42 +1,83 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
-      },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
-      }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p>Click here to tweak this text however you want.</p>",
+      "services": [
+        {
+          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "title": "Implantação de e-commerce",
+          "description": "Com mais de 1000 projetos, temos a experiência necessária para transformar seu sonho em realidade."
+        },
+        {
+          "background": "https://finger.ind.br/wp-content/uploads/2023/11/post-thumbnail-c1d98a41cae1637c797d817bc1a3a48a-1170x685.jpeg"
+        },
+        {
+          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "title": "Evolução / On-going",
+          "description": "Somos ativos em ajudar você encontrar as melhores escolhes para aumentar suas vendas."
+        },
+        {
+          "background": "https://finger.ind.br/wp-content/uploads/2023/11/post-thumbnail-c1d98a41cae1637c797d817bc1a3a48a-1170x685.jpeg"
+        },
+        {
+          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "title": "Performance",
+          "description": "Entendemos seu mercado e trazemos o público assertivo com todas as quebras de objeção para você performar com excelência!"
+        },
+        {
+          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "title": "Integrações customizadas",
+          "description": "Da integração com aplicativos à sistema de campanha de incentivo."
+        },
+        {
+          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "title": "Concierge",
+          "description": "Prestamos serviços de infraestrutura, desenvolvimento, consultoria e treinamentos nas tecnologias aplicadas."
+        },
+        {
+          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "title": "Squad dedicado",
+          "description": "É um serviço que já inicia com um time multidisciplinar montado exclusivamente para criar e evoluir continuamente a sua plataforma de e-commerce."
+        },
+        {
+          "background": "https://finger.ind.br/wp-content/uploads/2023/11/post-thumbnail-c1d98a41cae1637c797d817bc1a3a48a-1170x685.jpeg"
+        }
+      ],
+      "cta": [],
+      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true
+    },
+    {
+      "__resolveType": "site/sections/Faq.tsx"
+    },
+    {
+      "__resolveType": "Footer"
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}
