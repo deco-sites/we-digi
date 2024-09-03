@@ -7,7 +7,7 @@ export interface Post {
   excerpt: string;
   image: ImageWidget;
   date: string;
-  readingTime?: string;
+  readingTime?: string; 
   tags: string[];
 }
 
