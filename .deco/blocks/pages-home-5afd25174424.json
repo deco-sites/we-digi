@@ -7,18 +7,18 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p>Click here to tweak this text however you want.</p>",
+      "title": "<h2 style=\"text-align: center\"><span style=\"font-size: 61pt\">we</span><span style=\"color: rgb(118, 245, 247); font-size: 61pt\">.</span><span style=\"font-size: 61pt\">hear you</span></h2><p style=\"text-align: center\"></p><p style=\"text-align: center\"><img src=\"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png\"></p>",
       "services": [
         {
-          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/63e72533-bae7-4d24-ae80-e4f9532daebb/icon1.svg",
           "title": "Implantação de e-commerce",
-          "description": "Com mais de 1000 projetos, temos a experiência necessária para transformar seu sonho em realidade."
+          "description": "<p><span style=\"font-size: 12pt\">Com mais de 1000 projetos, temos a experiência necessária para transformar seu sonho em realidade.</span></p>"
         },
         {
           "background": "https://finger.ind.br/wp-content/uploads/2023/11/post-thumbnail-c1d98a41cae1637c797d817bc1a3a48a-1170x685.jpeg"
         },
         {
-          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4a8ac3d6-dd7f-48ce-ad9f-7c33d348b813/icon2.svg",
           "title": "Evolução / On-going",
           "description": "Somos ativos em ajudar você encontrar as melhores escolhes para aumentar suas vendas."
         },
@@ -26,22 +26,22 @@
           "background": "https://finger.ind.br/wp-content/uploads/2023/11/post-thumbnail-c1d98a41cae1637c797d817bc1a3a48a-1170x685.jpeg"
         },
         {
-          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/74dcb8ce-08a7-4acb-b7ba-bf6724090de6/icon3.svg",
           "title": "Performance",
           "description": "Entendemos seu mercado e trazemos o público assertivo com todas as quebras de objeção para você performar com excelência!"
         },
         {
-          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/2a5e1a9f-b1b0-4b90-a612-a5e541314d71/icon4.svg",
           "title": "Integrações customizadas",
           "description": "Da integração com aplicativos à sistema de campanha de incentivo."
         },
         {
-          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/b028af7c-66eb-46ec-83a5-98ca296b3614/icon2-(1).svg",
           "title": "Concierge",
           "description": "Prestamos serviços de infraestrutura, desenvolvimento, consultoria e treinamentos nas tecnologias aplicadas."
         },
         {
-          "logo": "https://w7.pngwing.com/pngs/829/293/png-transparent-computer-cases-housings-personal-computer-computer-icons-computer-monitors-logo-technology-computer-computer-network-rectangle-logo.png",
+          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4a9b43f1-a5fc-4a6c-8428-11108cb28543/icon2-(2).svg",
           "title": "Squad dedicado",
           "description": "É um serviço que já inicia com um time multidisciplinar montado exclusivamente para criar e evoluir continuamente a sua plataforma de e-commerce."
         },
@@ -49,28 +49,83 @@
           "background": "https://finger.ind.br/wp-content/uploads/2023/11/post-thumbnail-c1d98a41cae1637c797d817bc1a3a48a-1170x685.jpeg"
         }
       ],
-      "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
+      "cta": [
+        {
+          "href": "/",
+          "text": "CONHEÇA NOSSOS SERVIÇOS",
+          "outline": true
+        }
+      ],
+      "description": "<p style=\"text-align: center\"><span style=\"font-size: 24pt\">Somos uma consultoria digital com </span><span style=\"color: rgb(118, 245, 247); font-size: 24pt\">mais de 25 anos</span><span style=\"font-size: 24pt\"> de experiência em negócios, tecnologia e marketing.</span></p>",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/16d0f7e6-3892-4920-84b4-e4b5928378b2/bg-wave.jpg"
     },
     {
-      "__resolveType": "site/sections/Logos.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Achievements.tsx",
+        "logoSrc": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/2303ca96-cd09-48f7-a98d-e9740061fd40/VTEX_Logo-1.svg",
+        "title": "<h2><span style=\"color: rgb(126, 126, 126); font-size: 48pt\">Nossa Conquista</span></h2><h2><span style=\"font-size: 48pt\">Quadrante 2024</span></h2><p></p>",
+        "description": "<p><span style=\"color: rgb(255, 255, 255); font-size: 24pt\">Estamos entre </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 24pt\">as melhores</span></strong></p><p><strong><span style=\"color: rgb(255, 255, 255); font-size: 24pt\">agências</span></strong><span style=\"color: rgb(255, 255, 255); font-size: 24pt\"> de e-commerce.</span></p>",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/7d7d3848-8d9e-4cc1-8ae3-8f2497ef56f7/quadrante.png",
+        "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/d0f3eea9-0d15-4887-b021-ddd38c55deaf/bg.jpg"
+      }
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Partnerships.tsx",
+        "title": "<p style=\"text-align: center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://we.love\"><span style=\"color: rgb(118, 245, 247)\">we.love</span></a><span style=\"color: rgb(118, 245, 247)\"> </span></p><p style=\"text-align: center\"><span style=\"color: rgb(133, 133, 133); font-size: 40pt\">Conheça algumas parcerias de longos anos...</span></p><p style=\"text-align: center\"><span style=\"font-size: 24pt\">Estamos a mais de 24 anos cultivando relacionamentos e construindo resultados.</span></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><img src=\"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png\"></p>",
+        "logos": [
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/884ea3d1-9213-46a7-9d14-bf4f083b47d9/Camada_1.svg"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/558526bd-0ae4-41a4-b1f8-8e04a1079d21/Camada_2.svg"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/490a3532-c8ee-43c8-8aac-6935ca7733c1/Camada_3.svg"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/025eb597-46d3-4a2c-abe5-e5b64422acb9/Camada_4.svg"
+          }
+        ]
+      }
     },
     {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "__resolveType": "site/sections/Chart.tsx"
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx"
-    },
-    {
-      "__resolveType": "site/sections/Testimonials.tsx",
-      "arrows": true
-    },
-    {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Cases.tsx",
+        "title": "<p style=\"text-align: center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://we.work\"><span style=\"color: #76f5f7\">we.work</span></a></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><span style=\"color: #858585; font-size: 40pt\">Conheça alguns de nossos cases:</span></p>",
+        "cases": [
+          {
+            "title": "Espaço Smart o maior case de construção a seco do Brasil",
+            "link": "/",
+            "buttonText": "conheça mais",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/ef73c70b-8cae-433a-83a6-236b0b5b4ffe/case-espaco-smart-1.jpg"
+          },
+          {
+            "title": "Case Cloude – Parceria de Sucesso com a we.digi: A Agência VTEX Especializada em Moda",
+            "link": "/",
+            "buttonText": "conheça mais",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/d1ee1819-6022-41c5-8191-cedac864e8f3/case-cloude-1.jpg"
+          },
+          {
+            "title": "Case Ultrafeu – Cresça Seu Negócio com Martech: A Parceria de Sucesso com a we.digi",
+            "link": "/",
+            "buttonText": "conheça mais",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4c8ed6ed-000b-41f9-b56a-c3b34cbedce9/App-1.jpg"
+          },
+          {
+            "title": "Diprotec – Encontre Segurança e Confiança em uma Agência VTEX",
+            "link": "/",
+            "buttonText": "conheça mais",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/e043f15a-d00f-45d6-adbf-0378dd64c86e/image-2.jpg"
+          }
+        ]
+      }
     },
     {
       "__resolveType": "Footer"

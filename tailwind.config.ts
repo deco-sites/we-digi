@@ -7,6 +7,9 @@ export default {
   theme: {
     container: { center: true },
     extend: {
+      outline: {
+        arrow: ['2px solid #000', '2px'], // Adiciona outline customizado com espessura e cor
+      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },

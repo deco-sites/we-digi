@@ -18,5 +18,6 @@
   "mainColors": {
     "base-100": "#08151d",
     "primary": "#76f5f7"
-  }
+  },
+  "font": {}
 }

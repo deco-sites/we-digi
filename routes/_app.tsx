@@ -6,6 +6,11 @@ import Theme from "../sections/Theme/Theme.tsx";
 export default defineApp(async (_req, ctx) => {
   const revision = await Context.active().release?.revision();
 
+  // const serviceWorkerScript = () =>
+  //   addEventListener("load", () => console.log("Script inserido"));
+  
+  
+
   return (
     <>
       {/* Include default fonts and css vars */}
@@ -28,10 +33,13 @@ export default defineApp(async (_req, ctx) => {
 
         {/* Web Manifest */}
         <link rel="manifest" href={asset("/site.webmanifest")} />
+        
       </Head>
 
       {/* Rest of Preact tree */}
       <ctx.Component />
+
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </>
   );
 });

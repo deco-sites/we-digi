@@ -47,12 +47,12 @@ export default function Header({
       <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
       {/* main content */}
-      <div class="drawer-content container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
+      <div class="drawer-content lg:px-12 px-4 flex gap-8 items-center justify-between py-4">
         <a href="/">
           <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
         </a>
 
-        <div class="hidden items-center justify-between lg:flex w-full">
+        <div class="hidden items-center justify-between lg:flex w-auto">
           <ul class="flex">
             {navigation.links.map((link) => (
               <li>

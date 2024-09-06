@@ -1,1 +1,35 @@
-{"__resolveType":"site/sections/Header.tsx","navigation":{"links":[],"buttons":[]}}
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "url": "/",
+        "label": "sobre"
+      },
+      {
+        "label": "e-commerce",
+        "url": "/"
+      },
+      {
+        "label": "performance",
+        "url": "/"
+      },
+      {
+        "label": "house",
+        "url": "/"
+      },
+      {
+        "label": "blog",
+        "url": "/"
+      },
+      {
+        "label": "contato",
+        "url": "/"
+      }
+    ],
+    "buttons": []
+  },
+  "logo": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/a2f70dcc-036b-4c0d-a710-339c400ecd09/logo-wedigi.svg"
+  }
+}
