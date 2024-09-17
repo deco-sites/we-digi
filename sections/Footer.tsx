@@ -37,7 +37,7 @@ export default function Footer({
   ],
 }: Props) {
   return (
-    <div class="lg:container mx-auto md:max-w-[1520px] px-4 pt-16 pb-14 text-sm">
+    <div class="lg:container mx-auto xl:max-w-6xl 2xl:max-w-[1520px] px-4 pt-16 pb-14 text-sm">
       <div class="flex flex-col gap-8">
         <div class="flex max-md:flex-col gap-6 items-center justify-center md:justify-between ">
             <Image

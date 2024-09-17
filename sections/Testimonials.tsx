@@ -124,7 +124,7 @@ function SliderItem(
             width={62}
             height={51}
           />
-          <div class="flex flex-col max-md:[&_span]:[font-size:20px_!important]">
+          <div class="flex flex-col max-md:[&_span]:[font-size:20px_!important] max-2xl:[&_span]:[font-size:24px_!important]">
             <p class="text-lg w-full [&_span]:[font-weight:300] "
             dangerouslySetInnerHTML={{
               __html: slide.description || "",
@@ -257,7 +257,7 @@ function Carousel(props: Props) {
   return (
     <div
       id={id}
-      class="min-h-min flex flex-col lg:container md:max-w-[1520px] lg:mx-auto mx-4 py-12 lg:py-28"
+      class="min-h-min flex flex-col lg:container md:max-w-[800px] xl:max-w-6xl 2xl:max-w-[1520px] !px-4 py-12 lg:py-28"
     >
       <div class="flex flex-col gap-4">
           {tag && <p class="text-[#76F5F7] text-base ">{tag}</p>}
