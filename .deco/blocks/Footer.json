@@ -1,1 +1,24 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "Blog",
+      "href": "/"
+    },
+    {
+      "network": "Linkedin",
+      "href": "/"
+    },
+    {
+      "network": "Instagram",
+      "href": "/"
+    }
+  ],
+  "subscribe": {},
+  "logo": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/a2f70dcc-036b-4c0d-a710-339c400ecd09/logo-wedigi.svg"
+  },
+  "copyright": "Praça Sílvio Romero, 55 – CJ 35, Tatuapé – CEP: 03323-000, São Paulo, SP | Copyright © 2021 Todos os direitos reservados: We.Digi Brasil Serviços Digitais LTDA. – CNPJ: 03.167.121/0001-10 | Desenvolvimento em Vtex.IO – Consultoria de E-commerce."
+}

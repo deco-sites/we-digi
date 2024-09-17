@@ -57,7 +57,8 @@
         }
       ],
       "description": "<p style=\"text-align: center\"><span style=\"font-size: 24pt\">Somos uma consultoria digital com </span><span style=\"color: rgb(118, 245, 247); font-size: 24pt\">mais de 25 anos</span><span style=\"font-size: 24pt\"> de experiência em negócios, tecnologia e marketing.</span></p>",
-      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/16d0f7e6-3892-4920-84b4-e4b5928378b2/bg-wave.jpg"
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/16d0f7e6-3892-4920-84b4-e4b5928378b2/bg-wave.jpg",
+      "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0d9613db-1658-47e6-b3f9-10abefbe4e90/image.png"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -74,7 +75,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Partnerships.tsx",
-        "title": "<p style=\"text-align: center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://we.love\"><span style=\"color: rgb(118, 245, 247)\">we.love</span></a><span style=\"color: rgb(118, 245, 247)\"> </span></p><p style=\"text-align: center\"><span style=\"color: rgb(133, 133, 133); font-size: 40pt\">Conheça algumas parcerias de longos anos...</span></p><p style=\"text-align: center\"><span style=\"font-size: 24pt\">Estamos a mais de 24 anos cultivando relacionamentos e construindo resultados.</span></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><img src=\"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png\"></p>",
+        "title": "Conheça algumas parcerias de longos anos...",
         "logos": [
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/884ea3d1-9213-46a7-9d14-bf4f083b47d9/Camada_1.svg"
@@ -88,17 +89,36 @@
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/025eb597-46d3-4a2c-abe5-e5b64422acb9/Camada_4.svg"
           }
-        ]
+        ],
+        "tag": "we.love",
+        "description": "Estamos a mais de 24 anos cultivando relacionamentos e construindo resultados."
       }
     },
     {
-      "__resolveType": "site/sections/Chart.tsx"
+      "__resolveType": "site/sections/Chart.tsx",
+      "title": "Temos um universo todo para ajudar a  a crescer seu e-commerce!",
+      "cta": [
+        {
+          "href": "/",
+          "text": "conheça mais",
+          "outline": true,
+          "type": "inline"
+        }
+      ],
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/7d7d3848-8d9e-4cc1-8ae3-8f2497ef56f7/quadrante.png",
+      "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/549088e7-1c6d-4dc9-b85a-bddd1e9c5c28/bg_2.jpg",
+      "description": [
+        {
+          "label": "<p><span style=\"color: #76f5f7\">APP</span></p><p><span>O we.digi house&nbsp;é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro!<br></span></p><ul><li><p><span>Alguns dos serviços desta unidade:</span></p></li><li><p><span>Integrações</span></p></li><li><p><span>Sistemas customizados</span></p></li><li><p><span>Ferramentas de apoio ao e-commerce</span></p><p></p></li></ul>"
+        }
+      ],
+      "tag": "we.improve"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Cases.tsx",
-        "title": "<p style=\"text-align: center\"><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"http://we.work\"><span style=\"color: #76f5f7\">we.work</span></a></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><span style=\"color: #858585; font-size: 40pt\">Conheça alguns de nossos cases:</span></p>",
+        "title": "Conheça alguns de nossos cases:",
         "cases": [
           {
             "title": "Espaço Smart o maior case de construção a seco do Brasil",
@@ -124,7 +144,50 @@
             "buttonText": "conheça mais",
             "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/e043f15a-d00f-45d6-adbf-0378dd64c86e/image-2.jpg"
           }
-        ]
+        ],
+        "tag": "we.work"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "O que os clientes estão falando sobre nós...",
+      "arrows": true,
+      "dots": true,
+      "mark": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/96ca403c-da22-415c-bad9-671e7d519853/.png",
+      "slides": [
+        {
+          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 30pt\">…a gente tem se sentido </span><span style=\"color: #ffffff; font-size: 30pt\">muito satisfeitos</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\"> com o trabalho prestado pela we.digi…</span><span style=\"color: #fcfcfc; font-size: 30pt\">entregas consistentes</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\">…</span><span style=\"color: #ffffff; font-size: 30pt\">pessoal muito criativo</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\">. Conseguiram </span><span style=\"color: #f5f0f0; font-size: 30pt\">melhorar muito a qualidade</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\"> da nossa loja…temos três lojas hoje…</span></p>",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/78fdb428-8309-44c7-930b-87cca08070cc/Captura-de-Tela-2024-08-02-as-12.12.13-3.png",
+          "alt": "Avatar",
+          "name": "Gutenberg -",
+          "position": "CEO do grupo Diprotec"
+        },
+        {
+          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 30pt\">…a gente tem se sentido </span><span style=\"color: #ffffff; font-size: 30pt\">muito satisfeitos</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\"> com o trabalho prestado pela we.digi…</span><span style=\"color: #fcfcfc; font-size: 30pt\">entregas consistentes</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\">…</span><span style=\"color: #ffffff; font-size: 30pt\">pessoal muito criativo</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\">. Conseguiram </span><span style=\"color: #f5f0f0; font-size: 30pt\">melhorar muito a qualidade</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\"> da nossa loja…temos três lojas hoje…</span></p>",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/78fdb428-8309-44c7-930b-87cca08070cc/Captura-de-Tela-2024-08-02-as-12.12.13-3.png",
+          "alt": "Avatar",
+          "name": "Gutenberg -",
+          "position": "CEO do grupo Diprotec"
+        },
+        {
+          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 30pt\">…a gente tem se sentido </span><span style=\"color: #ffffff; font-size: 30pt\">muito satisfeitos</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\"> com o trabalho prestado pela we.digi…</span><span style=\"color: #fcfcfc; font-size: 30pt\">entregas consistentes</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\">…</span><span style=\"color: #ffffff; font-size: 30pt\">pessoal muito criativo</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\">. Conseguiram </span><span style=\"color: #f5f0f0; font-size: 30pt\">melhorar muito a qualidade</span><span style=\"color: rgb(133, 133, 133); font-size: 30pt\"> da nossa loja…temos três lojas hoje…</span></p>",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/78fdb428-8309-44c7-930b-87cca08070cc/Captura-de-Tela-2024-08-02-as-12.12.13-3.png",
+          "alt": "Avatar",
+          "name": "Gutenberg -",
+          "position": "CEO do grupo Diprotec"
+        }
+      ],
+      "tag": "we.like"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Contact.tsx",
+        "subscribe": {},
+        "tag": "we.hear you",
+        "title": "Queremos te ouvir!",
+        "description": "Preencha o formulário que logo entraremos em contato.",
+        "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/91892ee6-1619-491c-a7a9-c2a86897666f/bg-wave3.jpg"
       }
     },
     {

@@ -12,10 +12,17 @@ export interface Logo {
 
 export interface Props {
   /**
-   * @format rich-text
-   * @default Click here to tweak this text however you want.
+   * @title Tag
+   */
+  tag?: string;
+  /**
+   * @title Title
    */
   title?: string;
+  /**
+   * @title Subtitle
+   */
+  description?: string;
   logos?: Logo[];
 }
 
@@ -26,11 +33,13 @@ const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
 }));
 
 export default function Partnerships({
-  title = "Edit this heading however you want",
+  description = "we.digi",
+  title = "we.digi",
+  tag,
   logos = IMG_PLACEHODLER,
 }: Props) {
   const slideContent = (
-    <div class="flex items-center justify-around gap-72">
+    <div class="flex items-center justify-around gap-14 md:gap-72">
       {logos?.map((logo) => {
         return (
           <Image
@@ -54,15 +63,13 @@ export default function Partnerships({
     </div>
   );
   return (
-    <div class="w-full mx-auto py-6 lg:py-20 bg-[#0C1E2A]">
-      <div class="flex flex-col gap-24">
-        <div
-              class="text-center text-lg [&_a]:[margin:0_0_16px] [&_img]:[margin:16px_auto] flex flex-col gap-4"
-              dangerouslySetInnerHTML={{
-                __html: title,
-              }}
-            />
-        <div class="relative w-full overflow-hidden h-20">
+    <div class="w-full mx-auto px-4 py-8 md:py-6 lg:py-20 bg-[#0C1E2A]">
+      <div class="flex flex-col gap-4">
+        {tag && <p class="text-[#76F5F7] text-base text-center">{tag}</p>}
+        {title && <p class="text-[#7a7373] text-2xl md:text-[40px] text-center ">{title}</p>}        
+        {description && <p class="text-white  px-2 text-base md:text-2xl text-center ">{description}</p>}
+        <img class="my-2 mx-auto max-w-[75%]" src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png"/>
+        <div class="relative w-full overflow-hidden h-24 md:h-20">
           <div class="animate-sliding w-full absolute top-0 left-0 flex flex-nowrap h-20">
             {slideContent}
           </div>

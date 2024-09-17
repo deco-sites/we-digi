@@ -40,6 +40,13 @@
 
 @layer utilities {
 
+  .bg-custom-size {
+    @media (max-width: 768px) {
+      background-position: left top !important;
+      background-size: auto 50% !important;
+    }
+  }
+
   /** Remove scrollbar from overflow-auto */
   .scrollbar-none {
     scrollbar-width: none;
@@ -61,4 +68,69 @@
     margin-left: 4px; /* Espaçamento da seta */
     color: #000; /* Cor da seta */
   }
+
+  .inline-arrow {
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .inline-arrow:hover {
+    background: transparent;
+    text-decoration: underline;
+  }
+
+  .inline-arrow::before { 
+    content: url("data:image/svg+xml,%3Csvg%20width='15'%20height='8'%20viewBox='0%200%2015%208'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3E%3Cpath%20d='M14.3536%204.60429C14.5488%204.40902%2014.5488%204.09244%2014.3536%203.89718L11.1716%200.715199C10.9763%200.519936%2010.6597%200.519936%2010.4645%200.715199C10.2692%200.910461%2010.2692%201.22704%2010.4645%201.42231L13.2929%204.25073L10.4645%207.07916C10.2692%207.27442%2010.2692%207.591%2010.4645%207.78627C10.6597%207.98153%2010.9763%207.98153%2011.1716%207.78627L14.3536%204.60429ZM-81%204.75073H14V3.75073H-81V4.75073Z'%20fill='white'/%3E%3C/svg%3E");
+    margin-left: 4px; /* Espaçamento da seta */
+    color: #f10505; /* Cor da seta */
+  }
+
+  .button-link { 
+    text-decoration: none;
+  }
+
+  .button-link::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 9px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDE1IDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xNC44NTM2IDQuODUzNTVDMTUuMDQ4OCA0LjY1ODI5IDE1LjA0ODggNC4zNDE3MSAxNC44NTM2IDQuMTQ2NDVMMTEuNjcxNiAwLjk2NDQ2NkMxMS40NzYzIDAuNzY5MjA0IDExLjE1OTcgMC43NjkyMDQgMTAuOTY0NSAwLjk2NDQ2NkMxMC43NjkyIDEuMTU5NzMgMTAuNzY5MiAxLjQ3NjMxIDEwLjk2NDUgMS42NzE1N0wxMy43OTI5IDQuNUwxMC45NjQ1IDcuMzI4NDNDMTAuNzY5MiA3LjUyMzY5IDEwLjc2OTIgNy44NDAyNyAxMC45NjQ1IDguMDM1NTNDMTEuMTU5NyA4LjIzMDggMTEuNDc2MyA4LjIzMDggMTEuNjcxNiA4LjAzNTUzTDE0Ljg1MzYgNC44NTM1NVpNLTgwLjUgNUgxNC41VjRILTgwLjVWNVoiIGZpbGw9IiM3NkY1RjciLz4KPC9zdmc+Cg==");
+  }
 }
+
+/* CSS para animação de fadeIn */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* CSS para animação de fadeOut */
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Estilo para a div */
+.fade {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.fade-in {
+  animation: fadeIn 1s forwards;
+}
+.fade-out {
+  animation: fadeOut 1s forwards;
+}
+

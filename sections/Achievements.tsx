@@ -34,25 +34,25 @@ export default function Achievements({
 }: Props) {
   return (
     <section class="flex items-center justify-center" style={{backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-      <div class="container mx-auto px-4 py-20 lg:flex lg:items-center lg:gap-8">
+      <div class="container mx-auto px-4 py-8 md:pt-[115px]  md:pb-[142px] lg:flex lg:items-center lg:gap-8">
         {/* Bloco de Texto */}
         <div class="lg:w-1/2">
           <div
-              class="text-4xl md:text-6xl lg:text-7xl font-light text-white leading-tight mb-8"
+              class="text-4xl md:text-6xl lg:text-7xl font-light text-white leading-tight mb-8 max-md:[&_h2_span]:[font-size:48px_!important]"
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
             />
           <Image
             width={227}
-            class="h-auto object-cover"
+            class="h-auto object-cover max-md:max-w-[43%]"
             src={logoSrc}
             alt="Vtex"
             decoding="async"
             loading="lazy"
           />
           <div
-              class="text-lg text-gray-600 mt-20"
+              class="text-lg text-gray-600 mt-6 md:mt-20 max-md:[&_p_span]:[font-size:20px_!important]"
               dangerouslySetInnerHTML={{
                 __html: description,
               }}
