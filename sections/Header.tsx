@@ -110,7 +110,7 @@ export default function Header({
             />
           </a>
 
-          <ul class="menu">
+          <ul class="menu gap-7">
             {navigation?.links.map((link) => (
               <li>
                 <a href={link.url} aria-label={link.label}>

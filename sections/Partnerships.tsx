@@ -5,9 +5,15 @@ import type { ImageWidget } from "apps/admin/widgets.ts";
  * @title {{{src}}}
  */
 export interface Logo {
+  
+  /** @title Image */
   src?: ImageWidget;
   /** @description text alternative */
   altText?: string;
+  /** @title Width */
+  width?: number;
+  /** @title Height */
+  height?: number;
 }
 
 export interface Props {
@@ -45,8 +51,9 @@ export default function Partnerships({
           <Image
             src={logo.src || ""}
             alt={logo.altText || ""}
-            width={110}
-            class="h-auto object-cover max-h-full"
+            width={logo.width || 110}
+            height={logo.height || 110}
+            class="object-cover max-h-full"
           />
         );
       })}
@@ -56,7 +63,7 @@ export default function Partnerships({
             src={logo.src || ""}
             alt={logo.altText || ""}
             width={110}
-            class="h-auto object-cover max-h-full"
+            class="object-cover max-h-full"
           />
         );
       })}
@@ -67,10 +74,10 @@ export default function Partnerships({
       <div class="flex flex-col gap-4">
         {tag && <p class="text-[#76F5F7] text-base text-center">{tag}</p>}
         {title && <p class="text-[#7a7373] text-2xl md:text-[40px] text-center ">{title}</p>}        
-        {description && <p class="text-white  px-2 text-base md:text-2xl text-center ">{description}</p>}
-        <img class="my-2 mx-auto max-w-[75%]" src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png"/>
-        <div class="relative w-full overflow-hidden h-24 md:h-20">
-          <div class="animate-sliding w-full absolute top-0 left-0 flex flex-nowrap h-20">
+        {description && <p class="text-white  px-2 text-base md:text-2xl text-center lg:mt-2">{description}</p>}
+        <img class="my-2 mx-auto 2xl:mt-10 max-w-[75%]" src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png"/>
+        <div class="relative w-full overflow-hidden h-24 mt-16">
+          <div class="animate-sliding w-full absolute top-0 left-0 flex flex-nowrap h-24">
             {slideContent}
           </div>
         </div>

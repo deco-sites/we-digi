@@ -100,13 +100,13 @@ export default function HeroFlats({
   ],
 }: Props) {
   const device = useDevice();
-  const styleBanner = {backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}
+  const styleBanner = {backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'bottom'}
   const styleBannerMobile = {background: '#0C1E2A'}
   return (
     <div class="w-full lg:mx-auto" style={device=="mobile" ? styleBannerMobile : styleBanner}>
-      <div class="lg:container max-lg:px-4 flex flex-col items-center py-5 md:pb-14 md:pt-20">
+      <div class="lg:container max-lg:px-4 flex flex-col items-center py-5 md:pb-14 md:pt-[105px]">
         <div
-            class="text-4xl md:text-6xl lg:text-7xl font-light text-white leading-tight mb-4 [&_img]:[margin:12px_auto] md:[&_img]:[margin:30px_auto] max-md:[&_h2_span]:[font-size:48px_!important]"
+            class="text-4xl md:text-6xl lg:text-7xl font-light text-white leading-tight mb-4 md:mb-3 [&_img]:[margin:12px_auto] md:[&_img]:[margin:30px_auto] max-md:[&_h2_span]:[font-size:48px_!important]"
             dangerouslySetInnerHTML={{
               __html: title,
             }}
@@ -122,11 +122,11 @@ export default function HeroFlats({
             alt="Banner Mobile"
             class="md:hidden w-full h-auto mb-6"
           />
-          <ul class="flex scrollbar-none max-md:overflow-x-scroll md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:p-6 max-md:w-full mb-5">
+          <ul class="flex scrollbar-none max-md:overflow-x-scroll md:grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:p-6 max-md:w-full mb-5 md:mb-0 lg:mt-3">
             {services?.map((service: Service) => {
               if(!service.title && device === "mobile") return <></>
               return (
-                <li key={service?.title} class="rounded-lg p2 md:p-6 pr-1 max-md:min-w-[73vw] max-md:p-4 md:w-[304px] h-[204px] max-md:bg-[#153041]" style={{backgroundImage: `url(${service.background})`}}>
+                <li key={service?.title} class="rounded-lg p2 md:p-9 pr-1 max-md:min-w-[73vw] max-md:p-4 md:w-[304px] h-[204px] max-md:bg-[#153041]" style={{backgroundImage: `url(${service.background})`}}>
                   <div class="flex flex-col gap-4 items-center justify-center">
                     <div class="flex gap-4 items-center justify-start w-full">
                       {service.logo && <Image

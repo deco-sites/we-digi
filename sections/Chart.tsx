@@ -147,12 +147,12 @@ export default function Chart({
 
   return (
     <section class="flex items-center justify-center bg-custom-size" style={{backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-      <div class="container mx-auto px-4 py-6 md:py-24 lg:flex lg:items-center lg:gap-8">
+      <div class="container mx-auto px-4 py-6 md:pb-28 md:pt-28 lg:flex lg:items-center lg:gap-8 2xl:max-w-[1267px]">
         {/* Bloco de Texto */}
         <div class="lg:w-1/2">
-          <div class="w-full flex flex-col mb-6">
+          <div class="w-full flex flex-col mb-8">
             {tag && <p class="text-[#76F5F7] text-base">{tag}</p>}
-            {title && <p class="text-[#7a7373] text-2xl md:text-[40px] ">{title}</p>}
+            {title && <p class="text-[#7a7373] text-2xl md:text-[40px]/[50px] ">{title}</p>}
           </div>
           <div class="flex items-center gap-3">
               {cta?.map((item) => (
@@ -170,7 +170,7 @@ export default function Chart({
                 </a>
               ))}
             </div>
-            <div class="flex items-center gap-3 mt-6 md:mt-20">
+            <div class="flex items-center gap-3 mt-6 md:mt-32 lg:ml-4">
               <div
                 id="textElement"
                 class="bg-[#153042] mb-8 max-w-[465px] [&_span]:[line-height:24px] [&_span]:[display:flex] p-4 [&_ul]:[list-style:disc] [&_ul]:[padding:0px_12px]"

@@ -34,9 +34,9 @@ export default function Achievements({
 }: Props) {
   return (
     <section class="flex items-center justify-center" style={{backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
-      <div class="container mx-auto px-4 py-8 md:pt-[115px]  md:pb-[142px] lg:flex lg:items-center lg:gap-8">
+      <div class="container mx-auto px-4 py-8 md:pt-[115px]  md:pb-[142px] lg:flex lg:items-center lg:gap-8 2xl:max-w-[1267px]">
         {/* Bloco de Texto */}
-        <div class="lg:w-1/2">
+        <div class="lg:w-1/2 h-full flex flex-col justify-start">
           <div
               class="text-4xl md:text-6xl lg:text-7xl font-light text-white leading-tight mb-8 max-md:[&_h2_span]:[font-size:48px_!important]"
               dangerouslySetInnerHTML={{
@@ -62,8 +62,8 @@ export default function Achievements({
         {/* Bloco de Imagem */}
         <div class="lg:w-1/2 mt-8 lg:mt-0">
           <Image
-            width={640}
-            class="w-full h-auto object-cover"
+            width={600}
+            class="h-auto object-cover"
             sizes="(max-width: 640px) 100vw, 50vw"
             src={image}
             alt="Imagem do Quadrante 2024"

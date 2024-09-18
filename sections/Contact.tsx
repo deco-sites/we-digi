@@ -55,16 +55,15 @@ export default function Footer({
 }: Props) {
   return (
     <div class="flex w-full max-md:[&]:[background-image:none_!important] bg-[#0C1E2A]" style={{backgroundImage: `url(${background})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}> 
-      <div class="flex max-md:flex-col gap-6 md:gap-20 lg:container mx-auto md:max-w-6xl px-4 pb-8 pt-14 md:pt-24 md:pb-10 text-sm">
-          <div class="w-full md:w-1/2">
+      <div class="flex max-md:flex-col gap-6 md:gap-20 lg:container lg:max-w-[1232px] mx-auto md:max-w-6xl max-lg:px-4 pb-8 pt-8 md:pt-24 md:pb-10 text-sm">
+          <div class="w-full md:w-1/2 lg:p-4">
             {tag && <p class="text-[#76F5F7] text-base mb-4">{tag}</p>}
-            {title && <p class="text-[#858585] text-[40px] mb-12">{title}</p>}
+            {title && <p class="text-[#858585] text-[40px] mb-12 lg:mb-16">{title}</p>}
             {description && <p class="text-white text-2xl">{description}</p>}
           </div>
           
-          <div class="w-full md:w-1/2">
-            <h4 class="font-semibold mb-4">{subscribe?.title}</h4>
-            <form class="flex flex-col gap-4 md:p-4">
+          <div class="w-full md:w-[52%]">
+            <form class="flex flex-col gap-[1.7rem] md:p-4 lg:p-0">
               {/* <!-- Nome e Sobrenome --> */}
               <div class="flex gap-4">
                 <input
@@ -124,7 +123,7 @@ export default function Footer({
               {/* <!-- Botão de Enviar --> */}
               <button
                 type="submit"
-                class="btn btn-outline font-normal w-auto btn-primary text-base"
+                class="btn btn-outline font-normal btn-primary text-base mt-4 w-fit px-12 ml-auto"
                 aria-label="Enviar"
               >
                 ENVIAR →

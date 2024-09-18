@@ -71,13 +71,13 @@ export default function CasesComponent({
 
   return (
     <div class=" bg-[#0C1E2A]">
-      <div class="flex flex-col gap-12 lg:container md:max-w-6xl lg:mx-auto mx-4 py-6 lg:py-14">
-        <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-12 lg:container lg:max-w-[1520px] lg:mx-auto mx-4 py-6 lg:pb-32 lg:pt-24">
+        <div class="flex flex-col gap-4"> 
           {tag && <p class="text-[#76F5F7] text-base text-center">{tag}</p>}
           {title && <p class="text-[#7a7373] text-2xl md:text-[40px] text-center ">{title}</p>}        
-          <img class="my-2 mx-auto max-w-[75%]" src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png"/>
+          <img class="my-2 mx-auto max-w-[75%] lg:mt-6" src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png"/>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 grid-flow-dense">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 grid-flow-dense lg:mt-7">
           <div class="flex flex-col gap-8">
           {evenItems?.map((item, index) => {
             return (
@@ -92,7 +92,7 @@ export default function CasesComponent({
               />
               <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center group-hover:opacity-100 transition-opacity px-10">
                 <h3
-                  class="text-xl font-bold text-white text-center"
+                  class="text-3xl font-light text-white text-center"
                   dangerouslySetInnerHTML={{ __html: item.title }}
                 ></h3>
                 <a
@@ -120,7 +120,7 @@ export default function CasesComponent({
               />
               <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center group-hover:opacity-100 transition-opacity px-10">
                 <h3
-                  class="text-xl font-bold text-white text-center"
+                  class="text-3xl font-light text-white text-center"
                   dangerouslySetInnerHTML={{ __html: item.title }}
                 ></h3>
                 <a
