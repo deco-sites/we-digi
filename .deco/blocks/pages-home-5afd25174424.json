@@ -113,11 +113,20 @@
           "type": "inline"
         }
       ],
-      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/7d7d3848-8d9e-4cc1-8ae3-8f2497ef56f7/quadrante.png",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png",
       "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/549088e7-1c6d-4dc9-b85a-bddd1e9c5c28/bg_2.jpg",
       "description": [
         {
-          "label": "<p><span style=\"color: #76f5f7\">APP</span></p><p><span>O we.digi house&nbsp;é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro!<br></span></p><ul><li><p><span>Alguns dos serviços desta unidade:</span></p></li><li><p><span>Integrações</span></p></li><li><p><span>Sistemas customizados</span></p></li><li><p><span>Ferramentas de apoio ao e-commerce</span></p><p></p></li></ul>"
+          "title": "APP",
+          "label": "<p>O we.digi house&nbsp;é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro!</p><ul><li><p>Alguns dos serviços desta unidade:</p></li><li><p>Integrações</p></li><li><p>Sistemas customizados</p></li><li><p>Ferramentas de apoio ao e-commerce</p></li></ul>",
+          "color": " #76f5f7",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png"
+        },
+        {
+          "title": "Plataforma",
+          "label": "<p>O we.digi house&nbsp;é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro!</p><ul><li><p>Alguns dos serviços desta unidade:</p></li><li><p>Integrações</p></li><li><p>Sistemas customizados</p></li><li><p>Ferramentas de apoio ao e-commerce</p></li></ul>",
+          "color": "#73BB70",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/774c17d1-29d5-43c4-ac59-19e6fe9e6169/Group3.png"
         }
       ],
       "tag": "we.improve"
