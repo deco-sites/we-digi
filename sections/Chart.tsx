@@ -122,57 +122,111 @@ export default function Chart({
 
   const fadeItems = (texts) => 
     addEventListener("load", () => {
-      console.log(texts)
-      let currentIndex = 0; // Índice inicial
-
-    // Função para trocar o texto com animações
-    function changeText(index: number) {
-      const element = document.getElementById("textElement");
-      const title = element?.querySelector('.textElement__title') as HTMLElement;
-      const label = element?.querySelector('span');
-      const chart = document?.getElementById('chart-image') as HTMLElement;
-      if(!element || !label || !title) return;
-
-      // Aplicar animação de fade-out
-      element.classList.remove("fade-in");
-      element.classList.add("fade-out");
-      
-      chart.classList.remove("fade-in");
-      chart.classList.add("fade-out");
-
-
-      // Esperar a animação de fade-out terminar (1 segundo)
-      setTimeout(() => {
-        // Trocar o HTML usando dangerouslySetInnerHTML
-        console.log(texts[index].image)
-        chart.style.backgroundImage = `url(${texts[index].image})`;
-        label.innerHTML = texts[index].label;
-        title.innerHTML = texts[index].title;
-        title.style.color = texts[index].color
-        // Alternar para o próximo índice, com reset para o início do array
-        currentIndex = (currentIndex + 1) % texts.length;
-
-        // Aplicar animação de fade-in
-        element.classList.remove("fade-out");
-        element.classList.add("fade-in");
-        chart.classList.remove("fade-out");
-        chart.classList.add("fade-in");
-      }, 500); // Tempo igual à duração da animação fade-out
-    }
-
-    // Seleciona todos os botões com a classe 'btn'
-    const buttons = document.querySelectorAll('.chart__actions');
-
-    // Adiciona um event listener para cada botão
-    buttons.forEach(button => {
-      button.addEventListener('click', function(e:any) {
-          const index = e.target.getAttribute('data-index'); // Pega o valor do data-index do botão clicado
-          changeText(index); // Chama a função passando o index
+      console.log(texts);
+      let currentIndex = 1; // Índice inicial
+      let timeoutId: number | null = null; // Armazenar o ID do timeout para o debounce
+  
+      // Função para trocar o texto com animações
+      function changeText() {
+        console.log({ index: currentIndex });
+        const element = document.getElementById("textElement");
+        const title = element?.querySelector('.textElement__title') as HTMLElement;
+        const label = element?.querySelector('span');
+        const chart = document?.getElementById('chart-image') as HTMLElement;
+        if (!element || !label || !title) return;
+        const pause = element.getAttribute("pause");
+  
+        if (pause == "true") {
+          return; // Pausa a troca de texto
+        }
+  
+        // Aplicar animação de fade-out
+        element.classList.remove("fade-in");
+        element.classList.add("fade-out");
+  
+        chart.classList.remove("fade-in");
+        chart.classList.add("fade-out");
+  
+        // Esperar a animação de fade-out terminar (1 segundo)
+        setTimeout(() => {
+          // Trocar o HTML usando dangerouslySetInnerHTML
+          console.log(texts[currentIndex].image);
+          chart.style.backgroundImage = `url(${texts[currentIndex].image})`;
+          label.innerHTML = texts[currentIndex].label;
+          title.innerHTML = texts[currentIndex].title;
+          title.style.color = texts[currentIndex].color;
+          // Alternar para o próximo índice, com reset para o início do array
+          currentIndex = (currentIndex + 1) % texts.length;
+  
+          // Aplicar animação de fade-in
+          element.classList.remove("fade-out");
+          element.classList.add("fade-in");
+          chart.classList.remove("fade-out");
+          chart.classList.add("fade-in");
+        }, 500); // Tempo igual à duração da animação fade-out
+      }
+  
+      // Função para trocar o texto com animações via botão
+      function changeTextButton(index: number) {
+        console.log({ index2: currentIndex });
+        const element = document.getElementById("textElement");
+        const title = element?.querySelector('.textElement__title') as HTMLElement;
+        const label = element?.querySelector('span');
+        const chart = document?.getElementById('chart-image') as HTMLElement;
+        if (!element || !label || !title) return;
+  
+        // Aplicar animação de fade-out
+        element.classList.remove("fade-in");
+        element.classList.add("fade-out");
+  
+        chart.classList.remove("fade-in");
+        chart.classList.add("fade-out");
+  
+        // Esperar a animação de fade-out terminar (1 segundo)
+        setTimeout(() => {
+          // Trocar o HTML usando dangerouslySetInnerHTML
+          console.log(texts[index].image);
+          chart.style.backgroundImage = `url(${texts[index].image})`;
+          label.innerHTML = texts[index].label;
+          title.innerHTML = texts[index].title;
+          title.style.color = texts[index].color;
+          // Alternar para o próximo índice, com reset para o início do array
+          currentIndex = (index + 1) % texts.length;
+  
+          // Aplicar animação de fade-in
+          element.classList.remove("fade-out");
+          element.classList.add("fade-in");
+          chart.classList.remove("fade-out");
+          chart.classList.add("fade-in");
+        }, 500); // Tempo igual à duração da animação fade-out
+      }
+  
+      // Seleciona todos os botões com a classe 'btn'
+      const buttons = document.querySelectorAll('.chart__actions');
+  
+      // Adiciona um event listener para cada botão
+      buttons.forEach((button) => {
+        button.addEventListener('click', function (e: any) {
+          const element = document.getElementById("textElement");
+  
+          // Limpar timeout anterior se existir
+          if (timeoutId) clearTimeout(timeoutId);
+  
+          element?.setAttribute("pause", "true");
+  
+          // Definir novo timeout para restaurar o pause
+          timeoutId = setTimeout(() => {
+            element?.setAttribute("pause", "false");
+          }, 5000); // Tempo igual à duração da animação fade-out
+  
+          const index = parseInt(e.target.getAttribute('data-index')); // Pega o valor do data-index do botão clicado
+          currentIndex = index;
+          changeTextButton(index); // Chama a função passando o index
+        });
       });
-   });
-
-    // Chamar a função a cada 2 segundos Descomentar
-    // setInterval(changeText, 6000);
+  
+      // Chamar a função a cada 6 segundos
+      setInterval(changeText, 3000);
     });
 
   return (
@@ -204,7 +258,8 @@ export default function Chart({
               <div class="flex justify-start items-center gap-2 w-full">
                 {description.map(({color,title},index)=>{
                   return (
-                    <div class="chart__actions px-2 py-1 cursor-pointer" style={{border: `1px solid ${color}`,color: color}} data-index={index}>{title}</div>
+                    <div class="chart__actions px-2 py-1 cursor-pointer" style={{border: `1px solid ${color}`,color: color}} data-index={index}
+                    >{title}</div>
                   )
                 })}
               </div>
