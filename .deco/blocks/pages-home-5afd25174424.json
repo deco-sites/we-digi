@@ -115,27 +115,45 @@
       ],
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png",
       "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/549088e7-1c6d-4dc9-b85a-bddd1e9c5c28/bg_2.jpg",
-      "description": [
+      "description": {
+        "title": "APP",
+        "label": "<p>O we.digi house&nbsp;é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro!</p><ul><li><p>Alguns dos serviços desta unidade:</p></li><li><p>Integrações</p></li><li><p>Sistemas customizados</p></li><li><p>Ferramentas de apoio ao e-commerce</p></li></ul>",
+        "color": " #76f5f7",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png"
+      },
+      "tag": "we.improve",
+      "ballon": [
         {
-          "title": "APP",
-          "label": "<p>O we.digi house&nbsp;é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro!</p><ul><li><p>Alguns dos serviços desta unidade:</p></li><li><p>Integrações</p></li><li><p>Sistemas customizados</p></li><li><p>Ferramentas de apoio ao e-commerce</p></li></ul>",
-          "color": " #76f5f7",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png"
+          "size": "30%",
+          "position": {
+            "x": "10%",
+            "y": "15%"
+          },
+          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0d80ef47-f0fb-4b72-9b3f-cee1aee864a7/vtex-logo-white.svg",
+          "color": "#0C1E2A",
+          "title": "Vtex 2"
         },
         {
-          "title": "Plataforma",
-          "label": "<p>O we.digi house&nbsp;é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro!</p><ul><li><p>Alguns dos serviços desta unidade:</p></li><li><p>Integrações</p></li><li><p>Sistemas customizados</p></li><li><p>Ferramentas de apoio ao e-commerce</p></li></ul>",
-          "color": "#73BB70",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/774c17d1-29d5-43c4-ac59-19e6fe9e6169/Group3.png"
+          "size": "20%",
+          "position": {
+            "x": "70%",
+            "y": "30%"
+          },
+          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0d80ef47-f0fb-4b72-9b3f-cee1aee864a7/vtex-logo-white.svg",
+          "color": "#0C1E2A",
+          "title": "Vtex"
         },
         {
-          "title": "Ecommerce",
-          "label": "<p>O we.digi house&nbsp;é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro!</p><ul><li><p>Alguns dos serviços desta unidade:</p></li><li><p>Integrações</p></li><li><p>Sistemas customizados</p></li><li><p>Ferramentas de apoio ao e-commerce</p></li></ul>",
-          "color": "#45FB70",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/774c17d1-29d5-43c4-ac59-19e6fe9e6169/Group3.png"
+          "size": "40%",
+          "position": {
+            "x": "40%",
+            "y": "60%"
+          },
+          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0d80ef47-f0fb-4b72-9b3f-cee1aee864a7/vtex-logo-white.svg",
+          "color": "#0C1E2A",
+          "title": "Vtex"
         }
-      ],
-      "tag": "we.improve"
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

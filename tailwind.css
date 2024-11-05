@@ -135,3 +135,10 @@
   animation: fadeOut .5s forwards;
 }
 
+.ballons {
+  transition: 250ms all cubic-bezier(0.11, 1.01, 0.58, 1);
+}
+
+.ballons:hover {
+  transform: scale(1.15);
+}

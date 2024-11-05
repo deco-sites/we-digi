@@ -1,6 +1,5 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 // import { useScript } from "deco/hooks/useScript.ts";
-import Image from "apps/website/components/Image.tsx";
 import { useScript } from "deco/hooks/useScript.ts";
 
 export interface CTA {
@@ -11,6 +10,39 @@ export interface CTA {
   outline: boolean;
 }
 
+interface Ballons {
+   /**
+   * @title Title
+   */
+   title: string;
+  /**
+   * @title Label
+   */
+  label: ImageWidget;
+  /**
+   * @title Link
+   */
+  href: string;
+  /**
+   * @title Size
+   */
+  size: string;
+  
+  /**
+   * @title Color
+   * @format color-input
+   */
+  color: string;
+
+  /**
+   * @title Position
+   * @description ( % ) - Ex: 25%
+   */
+  position: {
+    x: string;
+    y: string;
+  };
+}
 interface DescriptionList {
   /**
    * @title Title
@@ -27,7 +59,7 @@ interface DescriptionList {
   /**
    * @title Gráfico
    */
-  image?: ImageWidget;
+  background?: ImageWidget;
 }
 
 export interface Props {
@@ -40,9 +72,13 @@ export interface Props {
    */
   title?: string;
   /**
-   * @title Descriptions List
+   * @title Description
    */
-  description?: DescriptionList[];
+  description?: DescriptionList;
+  /**
+   * @title Ballons
+   */
+  ballon?: Ballons[];
   /**
    * @title Imagem de Fundo
    */
@@ -55,8 +91,9 @@ export interface Props {
 export default function Chart({
   title = "we.digi",
   tag,
+  ballon = [],
   background,
-  description = [],
+  description,
   cta = [
     { id: "change-me-1", href: "/", text: "CONHEÇA NOSSOS SERVIÇOS", outline: false },
   ]
@@ -238,7 +275,35 @@ export default function Chart({
             {tag && <p class="text-[#76F5F7] text-base">{tag}</p>}
             {title && <p class="text-[#7a7373] text-2xl md:text-[40px]/[50px] ">{title}</p>}
           </div>
-          <div class="flex items-center gap-3">
+            <div class="flex flex-col items-start justify-center gap-3 mt-6 md:mt-8">
+              {/* <div class="flex justify-start items-center gap-2 w-full">
+                {description.map(({color,title},index)=>{
+                  return (
+                    <div class="chart__actions px-2 py-1 cursor-pointer" style={{border: `1px solid ${color}`,color: color}} data-index={index}
+                    >{title}</div>
+                  )
+                })}
+              </div> */}
+              <div
+                id="textElement"
+                class="mb-8 max-w-[465px] [&_span]:[line-height:24px] [&_span]:[display:flex] p-4 [&_ul]:[list-style:disc] [&_ul]:[padding:0px_12px] flex flex-col"
+                
+              >
+                <p class="textElement__title" style={{color: description?.color}}>{description?.title}</p>
+                <span class="flex-col"
+                dangerouslySetInnerHTML={{
+                  __html: description?.label,
+                }} ></span>
+              </div>
+              {/* <script
+              type="module"
+              defer
+              dangerouslySetInnerHTML={{
+                __html: useScript(fadeItems,description),
+              }}
+            /> */}
+            </div>
+            <div class="flex items-center gap-3">
               {cta?.map((item) => (
                 <a
                   key={item?.id}
@@ -254,40 +319,29 @@ export default function Chart({
                 </a>
               ))}
             </div>
-            <div class="flex flex-col items-start justify-center gap-3 mt-6 md:mt-32 lg:ml-4">
-              <div class="flex justify-start items-center gap-2 w-full">
-                {description.map(({color,title},index)=>{
-                  return (
-                    <div class="chart__actions px-2 py-1 cursor-pointer" style={{border: `1px solid ${color}`,color: color}} data-index={index}
-                    >{title}</div>
-                  )
-                })}
-              </div>
-              <div
-                id="textElement"
-                class="bg-[#153042] mb-8 max-w-[465px] [&_span]:[line-height:24px] [&_span]:[display:flex] p-4 [&_ul]:[list-style:disc] [&_ul]:[padding:0px_12px] flex flex-col"
-                
-              >
-                <p class="textElement__title" style={{color: description[0].color}}>{description[0].title}</p>
-                <span class="flex-col"
-                dangerouslySetInnerHTML={{
-                  __html: description[0].label,
-                }} ></span>
-              </div>
-              <script
-              type="module"
-              defer
-              dangerouslySetInnerHTML={{
-                __html: useScript(fadeItems,description),
-              }}
-            />
-            </div>
         </div>
 
         {/* Bloco de Imagem */}
         <div class="lg:w-1/2 mt-2 lg:mt-0 flex justify-center items-center aspect-square">
-          <div id="chart-image" style={{backgroundImage: `url(${description[0].image})`, backgroundSize: '100% auto', backgroundPosition: 'center'}} class="w-[485px] max-w-full h-[485px] max-h-full transition-all">
-            
+          <div id="chart-image" style={{backgroundImage: `url(${description?.background})`, backgroundSize: '100% auto', backgroundPosition: 'center'}} class="relative w-[485px] max-w-full h-[485px] max-h-full transition-all">
+            {ballon?.map((item,index) => (
+                <a
+                  key={index}
+                  href={item?.href}
+                  style={{
+                    width: item.size,
+                    height: item.size,
+                    position: 'absolute',
+                    left: item.position.x,
+                    top: item.position.y,
+                    background: item.color,
+                  }}
+                  class={`font-normal rounded-full flex items-center justify-center ballons`}
+                >
+                  {item?.label ?  <img class="w-full max-w-[60%] h-auto" src={item?.label} alt={item?.title}/> : item?.title}
+                 
+                </a>
+              ))}
           </div>
           
           {/* <div>
