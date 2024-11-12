@@ -43,7 +43,7 @@
         {
           "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4a9b43f1-a5fc-4a6c-8428-11108cb28543/icon2-(2).svg",
           "title": "Squad dedicado",
-          "description": "<p>Conte com um time multidisciplinar atuando exclusivamente para criar e evoluir seu e-commerce.</p>"
+          "description": "<p>Tenha um time multidisciplinar atuando exclusivamente para criar e evoluir seu e-commerce.</p>"
         },
         {
           "background": "https://finger.ind.br/wp-content/uploads/2023/11/post-thumbnail-c1d98a41cae1637c797d817bc1a3a48a-1170x685.jpeg"
@@ -227,7 +227,11 @@
           "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/bffe12ea-fb6b-40e3-9f32-cfda6d042a68/Rodrigo-Smart.jpeg"
         },
         {
-          "description": "<p>Falar da we.digi é muito fácil. É uma empresa parceira, comprometida com seu cliente, que sempre nos ajudou nos melhores e nos piores momentos. Desde que estamos com a we.digi, há um pouco mais de um ano, nossa empresa já aumentou o faturamento em 80%, sempre nos apoiando. É uma empresa preocupada com o cliente, eu recomendo a we.digi.</p>"
+          "description": "<p>Falar da we.digi é muito fácil. É uma empresa parceira, comprometida com seu cliente, que sempre nos ajudou nos melhores e nos piores momentos. Desde que estamos com a we.digi, há um pouco mais de um ano, nossa empresa já aumentou o faturamento em 80%, sempre nos apoiando. É uma empresa preocupada com o cliente, eu recomendo a we.digi.</p>",
+          "alt": "Danilo Dias",
+          "name": "Danilo Dias",
+          "position": "Ultrafeu",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/9a05d732-08e1-4eae-ac5c-d977799570ef/Danilo.png"
         }
       ],
       "tag": "we.like"
