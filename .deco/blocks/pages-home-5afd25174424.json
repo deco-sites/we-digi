@@ -133,14 +133,14 @@
           "title": "Vtex 2"
         },
         {
-          "size": "20%",
+          "size": "25%",
           "position": {
             "x": "70%",
             "y": "30%"
           },
-          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0d80ef47-f0fb-4b72-9b3f-cee1aee864a7/vtex-logo-white.svg",
+          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/232cdccf-ccdd-4143-aa0f-27e8d640f470/nuvemshop.svg",
           "color": "#0C1E2A",
-          "title": "Vtex"
+          "title": "Nuvemshop"
         },
         {
           "size": "40%",
@@ -148,12 +148,15 @@
             "x": "40%",
             "y": "60%"
           },
-          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0d80ef47-f0fb-4b72-9b3f-cee1aee864a7/vtex-logo-white.svg",
+          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/e5a619a8-8773-4754-8805-3062b6594b3f/shopify.svg",
           "color": "#0C1E2A",
-          "title": "Vtex"
+          "title": "shopify"
         },
         {
-          "position": {}
+          "position": {},
+          "title": "Uappi",
+          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/89201715-5514-40ca-be12-df4e806168db/uappi.svg",
+          "size": "30%"
         }
       ]
     },
