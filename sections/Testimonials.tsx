@@ -129,7 +129,7 @@ function SliderItem(
             dangerouslySetInnerHTML={{
               __html: slide.description || "",
             }}></p>
-            <div class="flex mt-10">
+            <div class="flex mt-10 gap-2">
               <p class="font-semibold text-base text-white">{slide?.name}</p> 
               <p class="text-base text-[#858585]">{slide?.position}</p>
             </div>

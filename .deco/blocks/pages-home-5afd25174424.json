@@ -153,10 +153,13 @@
           "title": "shopify"
         },
         {
-          "position": {},
+          "position": {
+            "x": "45%"
+          },
           "title": "Uappi",
           "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/89201715-5514-40ca-be12-df4e806168db/uappi.svg",
-          "size": "30%"
+          "size": "20%",
+          "color": "#0C1E2A"
         }
       ]
     },
