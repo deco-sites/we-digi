@@ -100,7 +100,7 @@ export default function HeroFlats({
   ],
 }: Props) {
   const device = useDevice();
-  const styleBanner = {backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'bottom'}
+  const styleBanner = {backgroundImage: `url(${image})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'bottom left'}
   const styleBannerMobile = {background: '#0C1E2A'}
   return (
     <div class="w-full lg:mx-auto" style={device=="mobile" ? styleBannerMobile : styleBanner}>
