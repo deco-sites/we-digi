@@ -161,6 +161,15 @@
           "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/89201715-5514-40ca-be12-df4e806168db/uappi.svg",
           "size": "30%",
           "color": "#0C1E2A"
+        },
+        {
+          "position": {
+            "x": "-20",
+            "y": "40"
+          },
+          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/73706ca7-6643-4399-9993-c9d38a3d4276/wake.svg",
+          "size": "30",
+          "color": "#0C1E2A"
         }
       ]
     },
