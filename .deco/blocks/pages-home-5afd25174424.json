@@ -3,7 +3,39 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header"
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [
+          {
+            "url": "https://wedigi.com.br/sobre/",
+            "label": "sobre"
+          },
+          {
+            "label": "e-commerce",
+            "url": "https://wedigi.com.br/e-commerce/"
+          },
+          {
+            "label": "performance",
+            "url": "https://wedigi.com.br/performance/"
+          },
+          {
+            "label": "house",
+            "url": "https://wedigi.com.br/house/"
+          },
+          {
+            "label": "blog",
+            "url": "https://wedigi.com.br/house/"
+          },
+          {
+            "label": "contato",
+            "url": "https://wedigi.com.br/contato-2/"
+          }
+        ],
+        "buttons": []
+      },
+      "logo": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/a2f70dcc-036b-4c0d-a710-339c400ecd09/logo-wedigi.svg"
+      }
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
@@ -133,10 +165,10 @@
           "title": "Vtex 2"
         },
         {
-          "size": "25%",
+          "size": "35%",
           "position": {
-            "x": "70%",
-            "y": "30%"
+            "x": "75%",
+            "y": "25%"
           },
           "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/232cdccf-ccdd-4143-aa0f-27e8d640f470/nuvemshop.svg",
           "color": "#0C1E2A",
