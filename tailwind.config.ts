@@ -19,6 +19,9 @@ export default {
           "100%": { transform: "translateX(-50%)" },
         },
       },
+      fontFamily: {
+        effraTrial: ["Effra Trial", "sans-serif"],
+      },
     },
   },
 };

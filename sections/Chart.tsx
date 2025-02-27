@@ -273,7 +273,7 @@ export default function Chart({
         <div class="lg:w-1/2">
           <div class="w-full flex flex-col mb-8">
             {tag && <p class="text-[#76F5F7] text-base">{tag}</p>}
-            {title && <p class="text-[#7a7373] text-2xl md:text-[40px]/[50px] ">{title}</p>}
+            {title && <p class="text-[#ababab] text-2xl md:text-[40px]/[50px] ">{title}</p>}
           </div>
             <div class="flex flex-col items-start justify-center gap-3 mt-6 md:mt-8">
               {/* <div class="flex justify-start items-center gap-2 w-full">
@@ -290,10 +290,12 @@ export default function Chart({
                 
               >
                 <p class="textElement__title" style={{color: description?.color}}>{description?.title}</p>
-                <span class="flex-col"
-                dangerouslySetInnerHTML={{
-                  __html: description?.label,
-                }} ></span>
+                {description?.label && (
+                    <span class="flex-col text-white"
+                    dangerouslySetInnerHTML={{
+                      __html: description?.label,
+                    }} ></span>
+                )}
               </div>
               {/* <script
               type="module"
@@ -310,7 +312,7 @@ export default function Chart({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`font-normal btn ${ 
+                  class={`font-effraTrial text-white btn ${ 
                     item.type == "outline" ? "btn-outline outline-arrow" :
                     item.type == "inline" ? "btn-inline inline-arrow" : "btn-primary"
                   }`}

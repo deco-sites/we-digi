@@ -125,7 +125,7 @@ export default function Footer({
             ))}
         </div>
         </div>
-        <span class="font-effra text-[14px] font-medium leading-[21px] text-left text-[#858585] text-center">{copyright}</span>
+        <span class="font-effra text-[14px] font-medium leading-[21px] text-left text-[#ababab] text-center">{copyright}</span>
         
       </div>
     </div>

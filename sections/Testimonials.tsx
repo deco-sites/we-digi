@@ -131,7 +131,7 @@ function SliderItem(
             }}></p>
             <div class="flex mt-10 gap-2">
               <p class="font-semibold text-base text-white">{slide?.name}</p> 
-              <p class="text-base text-[#858585]">{slide?.position}</p>
+              <p class="text-base text-[#ababab]">{slide?.position}</p>
             </div>
           </div>
         </div>
@@ -261,7 +261,7 @@ function Carousel(props: Props) {
     >
       <div class="flex flex-col gap-4 2xl:max-w-[1360px] mx-auto w-full lg:pl-20">
           {tag && <p class="text-[#76F5F7] text-base ">{tag}</p>}
-          {title && <p class="text-[#7a7373] text-2xl md:text-[40px]  ">{title}</p>}        
+          {title && <p class="text-[#ababab] text-2xl md:text-[40px]  ">{title}</p>}        
           </div>
       <Slider
         class="carousel carousel-center w-full col-span-full row-span-full gap-6 lg:mt-32"

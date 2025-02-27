@@ -111,7 +111,7 @@ export default function HeroFlats({
               __html: title,
             }}
           />
-          <div class="text-lg md:text-xl text-gray-300 mx-auto md:max-w-[950px] mb-9 max-md:[&_p_span]:[font-size:20px_!important]"
+          <div class="text-lg md:text-xl text-white mx-auto md:max-w-[950px] mb-9 max-md:[&_p_span]:[font-size:20px_!important] font-effraTrial"
           dangerouslySetInnerHTML={{
             __html: description,
           }}/>
@@ -135,9 +135,9 @@ export default function HeroFlats({
                         src={service?.logo}
                         alt={service?.logo}
                       />}
-                      <h3 class="text-xl/6 font-medium">{service?.title}</h3>
+                      <h3 class="text-xl/6 font-medium text-white">{service?.title}</h3>
                     </div>
-                      {service?.description && <div class=""
+                      {service?.description && <div class="text-[#ababab]"
                         dangerouslySetInnerHTML={{
                           __html: service?.description,
                         }}></div>}
