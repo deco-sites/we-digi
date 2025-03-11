@@ -270,7 +270,7 @@ export default function Chart({ title = "we.digi", tag, ballon = [], background,
 
         {/* Bloco de Imagem */}
         <div class="lg:w-1/2 mt-2 lg:mt-0 flex justify-center items-center aspect-square">
-          <div id="chart-image" style={{ backgroundImage: `url(${description?.background})`, backgroundSize: '100% auto', backgroundPosition: 'center' }} class="relative w-[485px] max-w-full h-[485px] max-h-full transition-all">
+          <div id="chart-image" style={{ backgroundImage: `url(${description?.background})`, backgroundSize: '100% auto', backgroundPosition: 'center' }} class="relative w-[485px] max-w-full h-[485px] max-h-full transition-all overflow-hidden">
             {ballon?.map((item, index) => (<a key={index} href={item?.href} style={{
                 width: item.size,
                 height: item.size,
