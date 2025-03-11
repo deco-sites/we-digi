@@ -3091,9 +3091,6 @@ input.tab:checked + .tab-content,
 .w-\[400px\] {
   width: 400px;
 }
-.w-\[485px\] {
-  width: 485px;
-}
 .w-\[4px\] {
   width: 4px;
 }
@@ -3816,6 +3813,9 @@ input.tab:checked + .tab-content,
 .font-bold {
   font-weight: 700;
 }
+.font-extralight {
+  font-weight: 200;
+}
 .font-light {
   font-weight: 300;
 }
@@ -3916,10 +3916,6 @@ input.tab:checked + .tab-content,
   --tw-text-opacity: 1;
   color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity)));
 }
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
 .text-green-500 {
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
@@ -3961,6 +3957,11 @@ input.tab:checked + .tab-content,
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
@@ -4299,16 +4300,16 @@ input.tab:checked + .tab-content,
     left: -70px;
   }
 
-  .md\:top-0 {
-    top: 0px;
-  }
-
   .md\:mb-0 {
     margin-bottom: 0px;
   }
 
   .md\:mb-3 {
     margin-bottom: 0.75rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:mt-20 {
@@ -4553,6 +4554,10 @@ input.tab:checked + .tab-content,
     max-width: 1520px;
   }
 
+  .lg\:max-w-\[360px\] {
+    max-width: 360px;
+  }
+
   .lg\:flex-\[100px\] {
     flex: 100px;
   }
@@ -4649,9 +4654,28 @@ input.tab:checked + .tab-content,
     padding-top: 7rem;
   }
 
-  .lg\:text-7xl {
-    font-size: 4.5rem;
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .lg\:text-\[40px\] {
+    font-size: 40px;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -4718,6 +4742,18 @@ input.tab:checked + .tab-content,
   }
 }
 
+.\[\&_p\]\:\!text-xl p {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+}
+
+@media (min-width: 1024px) {
+
+  .lg\:\[\&_p\]\:\!text-\[40px\] p {
+    font-size: 40px !important;
+  }
+}
+
 @media (min-width: 1280px) {
 
   .xl\:\[\&_p\]\:\[line-height\:38px_\!important\] p {
@@ -4756,6 +4792,10 @@ input.tab:checked + .tab-content,
   .max-md\:\[\&_span\]\:\[font-size\:20px_\!important\] span {
     font-size: 20px !important;
   }
+}
+
+.\[\&_strong\]\:font-semibold strong {
+  font-weight: 600;
 }
 
 .\[\&_ul\]\:\[list-style\:disc\] ul {

@@ -10,7 +10,7 @@ const HeaderComponent: FunctionalComponent<Nav> = ({ logo, navigation }) => {
     if(!logo || !navigation) return null
 
     return (
-        <nav class={`drawer drawer-end fixed transition-all duration-300 ease-in-out top-0 z-50 bg-[#08151D] ${scrolled ? 'lg:bg-[#1E1E1E80]' : 'lg:bg-transparent'} `}>
+        <nav class={`drawer drawer-end fixed transition-all backdrop-blur-sm duration-300 ease-in-out top-0 z-50 bg-[#08151D] ${scrolled ? 'lg:bg-[#1E1E1E80]' : 'lg:bg-transparent'} `}>
             <input id="mobile-drawer-nav" type="checkbox" class="drawer-toggle" />
 
             {/* main content */}
@@ -26,7 +26,7 @@ const HeaderComponent: FunctionalComponent<Nav> = ({ logo, navigation }) => {
                                 <a
                                     href={link.url}
                                     aria-label={link.label}
-                                    class="link no-underline hover:underline p-4"
+                                    class="link no-underline hover:underline p-4 text-white"
                                 >
                                     {link.label}
                                 </a>

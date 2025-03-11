@@ -1,5 +1,5 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import { useScript } from "@deco/deco/hooks";
+// import { useScript } from "@deco/deco/hooks";
 // import { useScript } from "deco/hooks/useScript.ts";
 export interface CTA {
     id?: string;
@@ -8,37 +8,37 @@ export interface CTA {
     type?: 'default' | 'outline' | 'inline';
     outline: boolean;
 }
-interface Ballons {
-    /**
-    * @title Title
-    */
-    title: string;
-    /**
-     * @title Label
-     */
-    label: ImageWidget;
-    /**
-     * @title Link
-     */
-    href: string;
-    /**
-     * @title Size
-     */
-    size: string;
-    /**
-     * @title Color
-     * @format color-input
-     */
-    color: string;
-    /**
-     * @title Position
-     * @description ( % ) - Ex: 25%
-     */
-    position: {
-        x: string;
-        y: string;
-    };
-}
+// interface Ballons {
+//     /**
+//     * @title Title
+//     */
+//     title: string;
+//     /**
+//      * @title Label
+//      */
+//     label: ImageWidget;
+//     /**
+//      * @title Link
+//      */
+//     href: string;
+//     /**
+//      * @title Size
+//      */
+//     size: string;
+//     /**
+//      * @title Color
+//      * @format color-input
+//      */
+//     color: string;
+//     /**
+//      * @title Position
+//      * @description ( % ) - Ex: 25%
+//      */
+//     position: {
+//         x: string;
+//         y: string;
+//     };
+// }
 interface DescriptionList {
     /**
      * @title Title
@@ -69,16 +69,16 @@ export interface Props {
      */
     description?: DescriptionList;
     /**
-     * @title Ballons
+     * @title Imagem Lateral
      */
-    ballon?: Ballons[];
+    sideImage?: ImageWidget;
     /**
      * @title Imagem de Fundo
      */
     background?: ImageWidget;
     cta?: CTA[];
 }
-export default function Chart({ title = "we.digi", tag, ballon = [], background, description, cta = [
+export default function Chart({ title = "we.digi", tag, sideImage, background, description, cta = [
     { id: "change-me-1", href: "/", text: "CONHEÇA NOSSOS SERVIÇOS", outline: false },
 ] }: Props) {
     // const serviceWorkerScript = () =>
@@ -246,7 +246,7 @@ export default function Chart({ title = "we.digi", tag, ballon = [], background,
             )
           })}
         </div> */}
-              <div id="textElement" class="mb-8 max-w-[465px] [&_span]:[line-height:24px] [&_span]:[display:flex] p-4 [&_ul]:[list-style:disc] [&_ul]:[padding:0px_12px] flex flex-col">
+              <div id="textElement" class="mb-8 max-w-[465px] [&_span]:[line-height:24px] [&_span]:[display:flex] p-4 [&_ul]:[list-style:disc] [&_ul]:[padding:0px_12px] flex flex-col text-sm lg:text-base">
                 <p class="textElement__title" style={{ color: description?.color }}>{description?.title}</p>
                 {description?.label && (<span class="flex-col text-white" dangerouslySetInnerHTML={{
                 __html: description?.label,
@@ -270,8 +270,9 @@ export default function Chart({ title = "we.digi", tag, ballon = [], background,
 
         {/* Bloco de Imagem */}
         <div class="lg:w-1/2 mt-2 lg:mt-0 flex justify-center items-center aspect-square">
-          <div id="chart-image" style={{ backgroundImage: `url(${description?.background})`, backgroundSize: '100% auto', backgroundPosition: 'center' }} class="relative w-[485px] max-w-full h-[485px] max-h-full transition-all overflow-hidden">
-            {ballon?.map((item, index) => (<a key={index} href={item?.href} style={{
+          <div id="chart-image" style={{ backgroundImage: `url(${description?.background})`, backgroundSize: '100% auto', backgroundPosition: 'center' }} class="relative w-full max-w-full h-[485px] max-h-full transition-all overflow-hidden">
+            <img src={sideImage} alt="" />
+            {/* {ballon?.map((item, index) => (<a key={index} href={item?.href} style={{
                 width: item.size,
                 height: item.size,
                 position: 'absolute',
@@ -281,7 +282,7 @@ export default function Chart({ title = "we.digi", tag, ballon = [], background,
             }} class={`font-normal rounded-full flex items-center justify-center ballons`}>
                   {item?.label ? <img class="w-full max-w-[60%] h-auto" src={item?.label} alt={item?.title}/> : item?.title}
                  
-                </a>))}
+                </a>))} */}
           </div>
           
           {/* <div>
