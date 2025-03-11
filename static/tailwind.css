@@ -2909,6 +2909,9 @@ input.tab:checked + .tab-content,
 .mt-10 {
   margin-top: 2.5rem;
 }
+.mt-14 {
+  margin-top: 3.5rem;
+}
 .mt-16 {
   margin-top: 4rem;
 }
@@ -4296,6 +4299,10 @@ input.tab:checked + .tab-content,
     left: -70px;
   }
 
+  .md\:top-0 {
+    top: 0px;
+  }
+
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -4508,6 +4515,10 @@ input.tab:checked + .tab-content,
 
   .lg\:mt-7 {
     margin-top: 1.75rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
