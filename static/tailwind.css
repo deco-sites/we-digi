@@ -4344,10 +4344,6 @@ input.tab:checked + .tab-content,
     max-width: 72rem;
   }
 
-  .md\:max-w-\[800px\] {
-    max-width: 800px;
-  }
-
   .md\:max-w-\[950px\] {
     max-width: 950px;
   }
@@ -4542,6 +4538,10 @@ input.tab:checked + .tab-content,
     width: 50%;
   }
 
+  .lg\:w-10\/12 {
+    width: 83.333333%;
+  }
+
   .lg\:w-2\/5 {
     width: 40%;
   }
@@ -4669,10 +4669,6 @@ input.tab:checked + .tab-content,
     line-height: 1;
   }
 
-  .lg\:text-\[40px\] {
-    font-size: 40px;
-  }
-
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
@@ -4747,17 +4743,19 @@ input.tab:checked + .tab-content,
   line-height: 1.75rem !important;
 }
 
+.\[\&_p\]\:font-light p {
+  font-weight: 300;
+}
+
+.\[\&_p\]\:text-\[\#ababab\] p {
+  --tw-text-opacity: 1;
+  color: rgb(171 171 171 / var(--tw-text-opacity));
+}
+
 @media (min-width: 1024px) {
 
   .lg\:\[\&_p\]\:\!text-\[40px\] p {
     font-size: 40px !important;
-  }
-}
-
-@media (min-width: 1280px) {
-
-  .xl\:\[\&_p\]\:\[line-height\:38px_\!important\] p {
-    line-height: 38px !important;
   }
 }
 
@@ -4766,6 +4764,11 @@ input.tab:checked + .tab-content,
   .max-md\:\[\&_p_span\]\:\[font-size\:20px_\!important\] p span {
     font-size: 20px !important;
   }
+}
+
+.\[\&_span\]\:\!text-xl span {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
 }
 
 .\[\&_span\]\:\[display\:flex\] span {
@@ -4780,18 +4783,15 @@ input.tab:checked + .tab-content,
   line-height: 24px;
 }
 
-@media not all and (min-width: 1536px) {
+@media (min-width: 1024px) {
 
-  .max-2xl\:\[\&_span\]\:\[font-size\:24px_\!important\] span {
-    font-size: 24px !important;
+  .lg\:\[\&_span\]\:\!text-\[40px\] span {
+    font-size: 40px !important;
   }
 }
 
-@media not all and (min-width: 768px) {
-
-  .max-md\:\[\&_span\]\:\[font-size\:20px_\!important\] span {
-    font-size: 20px !important;
-  }
+.\[\&_strong\]\:font-light strong {
+  font-weight: 300;
 }
 
 .\[\&_strong\]\:font-semibold strong {
