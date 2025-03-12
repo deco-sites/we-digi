@@ -297,6 +297,13 @@
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "we.digi"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
