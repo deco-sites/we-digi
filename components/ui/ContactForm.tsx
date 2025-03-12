@@ -7,7 +7,7 @@ const ContactForm = () => {
     const [phone, setPhone] = useState('');
     const [interest, setInterest] = useState('');
     const [role, setRole] = useState('');  // Novo estado para o select
-    const [showMessage, setShowMessage] = useState(true);
+    const [showMessage, setShowMessage] = useState(false);
     const [sucess, setSuccess] = useState(false)
     // const [message, setMessage] = useState('');
     const [emailMessage, setEmailMessage] = useState('');
@@ -15,12 +15,6 @@ const ContactForm = () => {
 
     const sendForm = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
-
-        // if (name === '' || email === '' || phone === '' || site === '' || role === '') {
-        //     setMessage('Erro: Preencha todos os campos');
-        //     setShowMessage(true);
-        //     return;
-        // }
 
         const templateParams = {
             from_name: `${name} ${lastname}`,

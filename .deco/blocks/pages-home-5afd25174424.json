@@ -302,7 +302,8 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "we.digi"
+        "title": "we.digi",
+        "titleTemplate": "we.digi"
       }
     }
   ],
