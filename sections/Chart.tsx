@@ -248,7 +248,7 @@ export default function Chart({ title = "we.digi", tag, sideImage, background, d
         </div> */}
               <div id="textElement" class="mb-8 max-w-[465px] [&_span]:[line-height:24px] [&_span]:[display:flex] p-4 [&_ul]:[list-style:disc] [&_ul]:[padding:0px_12px] flex flex-col text-sm lg:text-base">
                 <p class="textElement__title" style={{ color: description?.color }}>{description?.title}</p>
-                {description?.label && (<span class="flex-col text-white" dangerouslySetInnerHTML={{
+                {description?.label && (<span class="flex-col text-white [&_ul]:pl-8" dangerouslySetInnerHTML={{
                 __html: description?.label,
             }}></span>)}
               </div>
@@ -270,8 +270,8 @@ export default function Chart({ title = "we.digi", tag, sideImage, background, d
 
         {/* Bloco de Imagem */}
         <div class="lg:w-1/2 mt-2 lg:mt-0 flex justify-center items-center aspect-square">
-          <div id="chart-image" style={{ backgroundImage: `url(${description?.background})`, backgroundSize: '100% auto', backgroundPosition: 'center' }} class="relative w-full max-w-full h-[485px] max-h-full transition-all overflow-hidden">
-            <img src={sideImage} alt="" />
+          <div id="chart-image" style={{ backgroundImage: `url(${description?.background})`, backgroundSize: '100% auto', backgroundPosition: 'center' }} class="w-fit">
+            <img class="w-full" src={sideImage} alt="" />
             {/* {ballon?.map((item, index) => (<a key={index} href={item?.href} style={{
                 width: item.size,
                 height: item.size,
