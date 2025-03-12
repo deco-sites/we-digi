@@ -38,7 +38,7 @@ export default function Achievements({
         {/* Bloco de Texto */}
         <div class="lg:w-1/2 h-full flex flex-col justify-start">
           <div
-              class="text-4xl md:text-6xl lg:text-7xl font-light text-white leading-tight mb-8 max-md:[&_h2_span]:[font-size:48px_!important]"
+              class="text-4xl md:text-6xl font- lg:text-6xl font-light text-white leading-tight mb-8 max-md:[&_h2_span]:[font-size:48px_!important]"
               dangerouslySetInnerHTML={{
                 __html: title,
               }}
@@ -52,7 +52,7 @@ export default function Achievements({
             loading="lazy"
           />
           <div
-              class="text-lg text-gray-600 mt-6 md:mt-20 max-md:[&_p_span]:[font-size:20px_!important]"
+              class="text-lg lg:text-3xl lg:max-w-[360px] font-light [&_strong]:font-semibold text-white mt-6 md:mt-20 max-md:[&_p_span]:[font-size:20px_!important]"
               dangerouslySetInnerHTML={{
                 __html: description,
               }}
