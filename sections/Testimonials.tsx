@@ -102,7 +102,7 @@ function SliderItem({ slide, id, mark }: {
         <div class="flex w-full lg:gap-8 gap-1 relative overflow-visible xl:max-w-[1272px] mx-auto lg:pl-10">
           <Image class="object-cover h-max left-[-25px] md:left-[-70px] top-[-13px] max-md:max-w-[21px]" alt={mark} src={mark || ""} width={62} height={51}/>
           <div>
-            <div class="flex flex-col [&_p]:!text-xl lg:[&_p]:!text-[40px] [&_p]:font-light [&_strong]:font-light [&_span]:!text-xl lg:[&_span]:!text-[40px] [&_p]:text-[#ababab]">
+            <div class="flex flex-col [&_p]:!text-xl lg:[&_p]:!text-[40px] [&_p]:font-light [&_strong]:font-light [&_span]:!text-xl lg:[&_span]:!text-[40px] lg:[&_span]:!leading-[120%] [&_p]:text-[#ababab]">
             <p class="text-lg w-full [&_span]:[font-weight:300] [&_p]:!text-xl lg:[&_p]:!text-[40px] [&_span]:!text-xl lg:[&_span]:!text-[40px]" dangerouslySetInnerHTML={{
             __html: slide.description || "",
               }}></p>
