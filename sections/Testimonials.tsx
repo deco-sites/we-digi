@@ -1,3 +1,4 @@
+// deno-lint-ignore-file react-rules-of-hooks
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx";
@@ -98,12 +99,14 @@ function SliderItem({ slide, id, mark }: {
 }) {
     return (<div id={id} class="relative overflow-y-hidden w-full min-h-[292px]">
       <div class="flex flex-col justify-center gap-16 p-8  h-full max-w-[1661px]">
-        <div class="flex w-full gap-8 relative overflow-visible xl:max-w-[1272px] mx-auto lg:pl-10">
-          <Image class="object-cover h-max absolute left-[-25px] md:left-[-70px] top-[-13px] max-md:max-w-[21px]" alt={mark} src={mark || ""} width={62} height={51}/>
-          <div class="flex flex-col max-md:[&_span]:[font-size:20px_!important] max-2xl:[&_span]:[font-size:24px_!important] xl:[&_p]:[line-height:38px_!important] text-xl lg:text-[40px] [&_p]:!text-xl lg:[&_p]:!text-[40px]">
-            <p class="text-lg w-full [&_span]:[font-weight:300] " dangerouslySetInnerHTML={{
+        <div class="flex w-full lg:gap-8 gap-1 relative overflow-visible xl:max-w-[1272px] mx-auto lg:pl-10">
+          <Image class="object-cover h-max left-[-25px] md:left-[-70px] top-[-13px] max-md:max-w-[21px]" alt={mark} src={mark || ""} width={62} height={51}/>
+          <div>
+            <div class="flex flex-col [&_p]:!text-xl lg:[&_p]:!text-[40px] [&_p]:font-light [&_strong]:font-light [&_span]:!text-xl lg:[&_span]:!text-[40px] [&_p]:text-[#ababab]">
+            <p class="text-lg w-full [&_span]:[font-weight:300] [&_p]:!text-xl lg:[&_p]:!text-[40px] [&_span]:!text-xl lg:[&_span]:!text-[40px]" dangerouslySetInnerHTML={{
             __html: slide.description || "",
-        }}></p>
+              }}></p>
+          </div>
             <div class="flex mt-10 gap-2">
               <p class="font-semibold text-base text-white">{slide?.name}</p> 
               <p class="text-base text-[#ababab]">{slide?.position}</p>
@@ -199,7 +202,7 @@ function Buttons(props: {
 function Carousel(props: Props) {
     const id = useId();
     const { title, slides, interval, mark = "", tag } = { ...DEFAULT_PROPS, ...props };
-    return (<div id={id} class="min-h-min flex flex-col lg:container md:max-w-[800px] xl:max-w-6xl 2xl:max-w-[1520px] !px-4 py-28 lg:pt-28 lg:pb-36">
+    return (<div id={id} class="min-h-min flex flex-col !px-4 py-28 lg:pt-28 lg:pb-36 lg:w-10/12 mx-auto">
       <div class="flex flex-col gap-4 2xl:max-w-[1360px] mx-auto w-full lg:pl-20">
           {tag && <p class="text-[#76F5F7] text-base ">{tag}</p>}
           {title && <p class="text-[#ababab] text-2xl md:text-[40px]  ">{title}</p>}        

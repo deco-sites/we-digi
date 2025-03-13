@@ -44,41 +44,41 @@
         {
           "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/63e72533-bae7-4d24-ae80-e4f9532daebb/icon1.svg",
           "title": "Implantação de e-commerce",
-          "description": "<p>Com centenas de projetos entregues, sabemos os melhores caminhos para sua migração ou implantação.</p>"
+          "description": "<p><span>Com mais de </span><span style=\"color: #ffffff\">1000 projetos</span><span>, temos a experiência necessária para transformar seu sonho em realidade.</span></p>"
         },
         {
-          "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/e461a69d-0821-4585-9f67-fef685971898/foto1.png"
-        },
-        {
-          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4a8ac3d6-dd7f-48ce-ad9f-7c33d348b813/icon2.svg",
-          "title": "Evolução / On-going",
-          "description": "<p>Consideramos diferentes aspectos para melhorar a eficiência e conversão da sua loja online.</p>"
-        },
-        {
-          "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/6a0e8965-6cbe-402c-8d94-a14a3edbb20c/foto3.png"
+          "background": "https://data.decoassets.com/we-digi/44e60d1a-6eb7-4165-a31d-d643765477dc/mao.png"
         },
         {
           "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/74dcb8ce-08a7-4acb-b7ba-bf6724090de6/icon3.svg",
+          "title": "Evolução / On-going",
+          "description": "<p><span>Somos ativos em ajudar você encontrar as melhores escolhas para aumentar suas vendas.</span></p>"
+        },
+        {
+          "background": "https://data.decoassets.com/we-digi/f43a8ff1-dec6-4860-882e-c7041d2d5a94/notebook.png"
+        },
+        {
+          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4a8ac3d6-dd7f-48ce-ad9f-7c33d348b813/icon2.svg",
           "title": "Performance",
-          "description": "<p>Com métricas precisas e um olhar analítico, aplicamos soluções eficientes para  resultados reais e sustentáveis.</p>"
+          "description": "<p><span>Entendemos seu mercado e trazemos o público assertivo com todas as quebras de objeção para você performar com excelência!</span></p>"
         },
         {
           "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/2a5e1a9f-b1b0-4b90-a612-a5e541314d71/icon4.svg",
           "title": "Integrações customizadas",
-          "description": "<p>Desenvolvemos sistemas customizados e integrações.&nbsp;Aqui a complexidade é bem vinda!</p>"
+          "description": "<p><span>Da integração com aplicativos à sistema de campanha de incentivo.</span></p>"
         },
         {
           "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/b028af7c-66eb-46ec-83a5-98ca296b3614/icon2-(1).svg",
           "title": "Concierge",
-          "description": "<p>Conte com a experiência de mais de 25 anos no mercado digital para auxiliá-los no crescimento da sua operação.</p>"
+          "description": "<p><span>Prestamos serviços de infraestrutura, desenvolvimento, consultoria e treinamentos nas tecnologias aplicadas.</span></p>"
         },
         {
           "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4a9b43f1-a5fc-4a6c-8428-11108cb28543/icon2-(2).svg",
           "title": "Squad dedicado",
-          "description": "<p>Tenha um time multidisciplinar atuando exclusivamente para criar e evoluir seu e-commerce.</p>"
+          "description": "<p><span>É um serviço que já inicia com um time multidisciplinar montado exclusivamente para criar e evoluir continuamente a sua plataforma de e-commerce.</span></p>"
         },
         {
-          "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/82cfbd4a-9f8f-4d37-ac83-2d01d75f32db/foto2.png"
+          "background": "https://data.decoassets.com/we-digi/528d27b5-b392-47ba-8e97-cf596fdd6023/telefone.png"
         }
       ],
       "cta": [
@@ -131,7 +131,7 @@
           }
         ],
         "tag": "we.love",
-        "description": "Há 25 anos cultivando relacionamentos e construindo resultados."
+        "description": "Estamos a mais de 24 anos cultivando relacionamentos e construindo resultados."
       }
     },
     {
@@ -148,7 +148,7 @@
       "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png",
       "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/549088e7-1c6d-4dc9-b85a-bddd1e9c5c28/bg_2.jpg",
       "description": {
-        "label": "<p>Com centenas de projetos entregues, trabalhamos com diferentes plataformas, integrações e apps para ajudar seu e-commerce a evoluir!</p>",
+        "label": "<p>O we.digi house&nbsp;é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro!</p><p><span style=\"color: #ffffff\">Alguns dos serviços desta unidade:</span></p><ul><li><p>Integrações</p></li><li><p>Sistemas customizados</p></li><li><p>Ferramentas de apoio ao e-commerce</p></li></ul>",
         "color": " #76f5f7",
         "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png"
       },
@@ -241,41 +241,41 @@
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx",
-      "title": "O que os clientes estão falando sobre nós",
+      "title": "O que os clientes estão falando sobre nós...",
       "arrows": true,
       "dots": true,
       "mark": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/96ca403c-da22-415c-bad9-671e7d519853/.png",
       "slides": [
         {
-          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">Nós migramos para a we.digi com a expectativa de melhorias do site e performance. Tivemos várias dores com outras agências no passado, e a we.digi veio para provar que você pode prometer coisas, sugerir melhoras e de fato cumprir. A nossa evolução em vendas foi notória. Quem me pergunta de uma agência séria, de performance e evolução, eu sempre indico a we.digi.</span></p>",
+          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">Nós migramos para a we.digi com a expectativa de </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">melhorias do site e performance</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">. Tivemos várias dores com outras agências no passado, e a </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">we.digi</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> veio para provar que você pode prometer coisas, sugerir melhoras e de fato cumprir. A nossa </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">evolução</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> em vendas foi notória. Quem me pergunta de uma </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">agência séria</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">, de </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">performance e evolução</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">, eu sempre indico a </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">we.digi</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">.</span></p>",
           "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/c1e0c217-2ccc-42ed-8088-6e6d16c0772d/Livia.png",
           "alt": "Lívia Ferreira",
           "name": "Lívia Ferreira",
           "position": "Cloude"
         },
         {
-          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">Nós contratamos a we.digi para fazer um trabalho de migração e com o desafio de duas customizações com alto nível de complexidade. Foi um trabalho que exigiu muito de ambos os lados. A equipe técnica da we.digi trouxe uma bagagem fundamental para desenvolver esse projeto. Conseguimos realizar esse sonho que vinha de bastante tempo. Comprometimento é um palavra que eu definiria este trabalho.</span></p>",
+          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">Nós contratamos a </span><strong><span style=\"color: #ffffff; font-size: 29pt\">we.digi</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> para fazer um trabalho de </span><strong><span style=\"color: #ffffff; font-size: 29pt\">migração</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> e com o desafio de duas </span><strong><span style=\"color: #ffffff; font-size: 29pt\">customizações</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> com </span><strong><span style=\"color: #fafafa; font-size: 29pt\">alto nível</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> de complexidade. Foi um trabalho que exigiu muito de ambos os lados. A </span><strong><span style=\"color: #ffffff; font-size: 29pt\">equipe técnica</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> da </span><strong><span style=\"color: #fafafa; font-size: 29pt\">we.digi</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> trouxe uma bagagem fundamental para desenvolver esse projeto. </span><strong><span style=\"color: #f7f7f7; font-size: 29pt\">Conseguimos realizar esse sonho</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> que vinha de bastante tempo. </span><strong><span style=\"color: #ffffff; font-size: 29pt\">Comprometimento</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> é um palavra que eu definiria este trabalho.</span></p>",
           "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/7cdb0791-480c-44e4-9c63-3481fe366260/luiz.jpg",
           "alt": "Luiz Pina",
           "name": "Luiz Pina",
           "position": "Dipano"
         },
         {
-          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">Nós já estamos com a we.digi há um ano e meio, e estamos muito satisfeitos com o trabalho. As entregas são bastante consistentes, eles são muito criativos, conseguimos melhorar muito a qualidade de nossa loja. Temos hoje muito mais possibilidades e customizações do que tínhamos com outras agências. A equipe é muito engajada e nos trata muito bem, nossa experiência está sendo muito boa.</span></p>",
+          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">Nós já estamos com a </span><strong><span style=\"color: #f2f2f2; font-size: 29pt\">we.digi</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> há um ano e meio, e estamos </span><strong><span style=\"color: #ffffff; font-size: 29pt\">muito satisfeitos</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> com o trabalho. As entregas são bastante consistentes, </span><strong><span style=\"color: #ffffff; font-size: 29pt\">eles são muito criativos</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">, conseguimos melhorar muito a </span><strong><span style=\"color: #f5f5f5; font-size: 29pt\">qualidade</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> de nossa loja. Temos hoje muito mais </span><strong><span style=\"color: #ffffff; font-size: 29pt\">possibilidades e customizações</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> do que tínhamos com outras agências. A equipe é muito engajada e nos trata muito bem, nossa </span><strong><span style=\"color: #ffffff; font-size: 29pt\">experiência</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> está sendo muito boa.</span></p>",
           "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4e50222a-692b-4b42-81b8-ef331ee25e79/gutteneberg.jpeg",
           "alt": "Gutenberg ",
           "name": "Gutenberg ",
           "position": "Diprotec"
         },
         {
-          "description": "<p style=\"color: rgb(133, 133, 133); font-size: 29pt\">Como uma empresa inovadora, nós precisamos de parceiros de tecnologia, e é assim que considero a we.digi. Eles dão suporte para todas as camadas do negócio, de consultoria estratégica à parte técnica e operacional. Fica meu agradecimento a esse parceiro e indicação, quem tiver oportunidade de conhecer a we.digi eu tenho certeza que você não vai se arrepender.</p>",
+          "description": "<p>Como uma <strong><span style=\"color: #ffffff\">empresa inovadora</span></strong>, nós precisamos de parceiros de <strong><span style=\"color: #ffffff\">tecnologia</span></strong>, e é assim que considero a <strong><span style=\"color: #ffffff\">we.digi</span></strong>. Eles dão suporte para todas as camadas do negócio, de <strong><span style=\"color: #ffffff\">consultoria estratégica à parte técnica e operacional</span></strong>. Fica meu agradecimento a esse parceiro e indicação, quem tiver oportunidade de conhecer a <strong><span style=\"color: #ffffff\">we.digi</span></strong> eu tenho certeza que você não vai se arrepender.</p>",
           "alt": "Rodrigo Brandão",
           "name": "Rodrigo Brandão",
           "position": "Espaço Smart",
           "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/bffe12ea-fb6b-40e3-9f32-cfda6d042a68/Rodrigo-Smart.jpeg"
         },
         {
-          "description": "<p style=\"color: rgb(133, 133, 133); font-size: 29pt\">Falar da we.digi é muito fácil. É uma empresa parceira, comprometida com seu cliente, que sempre nos ajudou nos melhores e nos piores momentos. Desde que estamos com a we.digi, há um pouco mais de um ano, nossa empresa já aumentou o faturamento em 80%, sempre nos apoiando. É uma empresa preocupada com o cliente, eu recomendo a we.digi.</p>",
+          "description": "<p>Falar da <strong><span style=\"color: #ffffff\">we.digi</span></strong> é muito fácil. É uma <strong><span style=\"color: #ffffff\">empresa parceira, comprometida com seu cliente</span></strong>, que sempre nos ajudou nos melhores e nos piores momentos. Desde que estamos com a <strong><span style=\"color: #f8f7f7\">we.digi</span></strong>, há um pouco mais de um ano, <strong><span style=\"color: #ffffff\">nossa empresa já aumentou o faturamento em 80%</span></strong>, sempre nos apoiando. É uma <strong><span style=\"color: #ffffff\">empresa preocupada com o cliente</span></strong>, eu recomendo a <strong><span style=\"color: #ffffff\">we.digi</span></strong>.</p>",
           "alt": "Danilo Dias",
           "name": "Danilo Dias",
           "position": "Ultrafeu",
@@ -297,6 +297,14 @@
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "we.digi",
+        "titleTemplate": "we.digi"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",

@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import { useEffect, useState } from "preact/hooks";
 
 const ContactForm = () => {
     const [name, setName] = useState('');
@@ -9,29 +9,25 @@ const ContactForm = () => {
     const [role, setRole] = useState('');  // Novo estado para o select
     const [showMessage, setShowMessage] = useState(false);
     const [sucess, setSuccess] = useState(false)
-    const [message, setMessage] = useState('');
+    // const [message, setMessage] = useState('');
     const [emailMessage, setEmailMessage] = useState('');
 
 
     const sendForm = (e: { preventDefault: () => void; }) => {
         e.preventDefault();
 
-        // if (name === '' || email === '' || phone === '' || site === '' || role === '') {
-        //     setMessage('Erro: Preencha todos os campos');
-        //     setShowMessage(true);
-        //     return;
-        // }
-
         const templateParams = {
             from_name: `${name} ${lastname}`,
             email: email,
             phone: phone,
-            // site: site,
-            role: role
+            role: role,
+            interest: interest,
+            message: emailMessage,
+            reply_to: "felipe.trudes@wedigi.com.br",
         };
 
         // @ts-ignore
-        window.emailjs.send("service_jh34wnu", "template_nscdxwb", templateParams, "tmKMu4QTTuGaOohNF")
+        window.emailjs.send("service_afu9xae", "template_ym3xf4c", templateParams, "2vZSz2HddmGzCG-4Y")
             .then(() => {
                 setName('');
                 setLastName('');
@@ -40,25 +36,32 @@ const ContactForm = () => {
                 setRole('');
                 setEmailMessage('')
                 setInterest('')
-                setMessage('Enviado com sucesso!');
                 setShowMessage(true);
                 setSuccess(true)
 
             }, () => {
-                setMessage('Erro ao enviar. Tente novamente.');
                 setShowMessage(true);
                 setSuccess(false)
             });
     };
 
     const closeMessage = () => {
-        setMessage('');
+        // setMessage('');
         setShowMessage(false);
     };
 
+    useEffect(()=>{
+        if(showMessage){
+            setTimeout(()=>{
+                setShowMessage(false)
+            }, 10000)
+        }
+    }, [showMessage])
+
     return (
         <>
-            <form class="flex flex-col gap-[1.7rem] md:p-4 lg:p-0" onSubmit={sendForm}>
+            {!showMessage &&
+                <form class="flex flex-col gap-[1.7rem] md:p-4 lg:p-0" onSubmit={sendForm}>
                 {/* <!-- Nome e Sobrenome --> */}
                 <div class="flex gap-4">
                     <input
@@ -128,18 +131,6 @@ const ContactForm = () => {
                     value={emailMessage}
                 ></textarea>
 
-                {showMessage &&
-                    <div class="flex flex-col items-center">
-                        <div class={`${sucess ? 'text-green-500' : 'text-red-500'} p-3 text-sm text-center font-bold`}>
-                            {message}
-                        </div>
-                        <button class={`${sucess ? 'bg-green-500' : 'bg-red-500'} rounded-[50px] py-3 px-9`}
-                            onClick={closeMessage}>
-                            OK
-                        </button>
-                    </div>
-                }
-
                 {/* <!-- Alerta --> */}
                 <p class="text-sm md:text-xs text-white ">
                     Alerta de Golpe! Estão se passando pela nossa empresa oferecendo oportunidades de trabalho. Caso tenha recebido algum contato pelo WhatsApp, desconsidere, bloqueie e faça a denúncia do número.
@@ -153,7 +144,30 @@ const ContactForm = () => {
                 >
                     ENVIAR →
                 </button>
-            </form>
+            </form>}
+
+            {showMessage &&
+                <div class="flex flex-col items-center">
+                    <div class={`${sucess ? 'text-green-500' : 'text-red-500'} p-3 text-sm text-center font-bold`}>
+                        {sucess &&
+                            <>
+                                <p class="text-xl">Obrigado!</p>
+                                <p>Entraremos em contato o quanto antes</p>
+                            </>
+                        }
+                        {!sucess &&
+                            <>
+                                <p class="text-xl">Desculpe!</p>
+                                <p>Infelizmente tivemos um problema, tente novamente mais tarde</p>
+                            </>
+                        }
+                    </div>
+                    <button class={`${sucess ? 'bg-green-500' : 'bg-red-500'} rounded-[50px] py-3 px-9`}
+                        onClick={closeMessage}>
+                        OK
+                    </button>
+                </div>
+            }
         </>
     )
 }
