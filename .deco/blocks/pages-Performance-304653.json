@@ -21,6 +21,58 @@
       }
     },
     {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/FaqImage.tsx",
+        "text": "<h2><span style=\"color: rgb(255, 255, 255)\">Raio X de growth</span></h2><p style=\"text-align: start\"></p><p style=\"text-align: start\"><span style=\"color: rgb(255, 255, 255); font-size: 18px\">Conheça algumas das principais métricas que utilizamos para direcionar a evolução do seu e-commerce de acordo com as estratégias que iremos desenvolver juntos na we.digi:</span></p>",
+        "image": {
+          "src": "https://data.decoassets.com/we-digi/d8f4af3f-1d93-42f7-8d6d-00444c6dbb01/secao5.jpg"
+        },
+        "questions": [
+          {
+            "title": "Conversão",
+            "answer": "<p><span style=\"color: rgb(255, 255, 255); font-size: 18px\">A conversão é a proporção de visitantes que concluem uma compra em seu site. É uma métrica que temos sempre em nosso radar, analisando possíveis otimizações e, quando necessário, direcionando para outras áreas como IU/UX para pensar tecnicamente em toda a jornada de compra, com intuito de aumentar esses índices com qualidade e segurança.</span></p>"
+          },
+          {
+            "title": "Taxa de abandono de carrinho",
+            "answer": "<p><span style=\"color: rgb(255, 255, 255); font-size: 18px\">A taxa de abandono de carrinho é a proporção de visitantes que adicionam produtos ao carrinho, mas saem do site sem concluir a compra. Uma taxa de abandono alta pode indicar problemas com a experiência do usuário ou com os custos de envio e impostos.</span></p>"
+          },
+          {
+            "title": "Receita",
+            "answer": "<p><span style=\"color: rgb(255, 255, 255); font-size: 18px\">A receita é o dinheiro que você ganha com as vendas em seu site. A receita é afetada não apenas pelo número de vendas que você faz, mas também pelo valor médio da compra e pela frequência com que as pessoas compram de você.</span></p>"
+          },
+          {
+            "title": "Custo por Aquisição (CPA)",
+            "answer": "<p><span style=\"color: rgb(255, 255, 255); font-size: 18px\">O custo por aquisição é o valor que você gasta para adquirir um novo cliente. Isso inclui o custo de publicidade, marketing e outros custos associados à aquisição de novos clientes.</span></p>"
+          },
+          {
+            "answer": "<p><span style=\"color: rgb(255, 255, 255); font-size: 18px\">O retorno sobre investimento é a proporção do lucro que você obtém em relação ao custo total do investimento.</span></p>",
+            "title": "Retorno sobre Investimento (ROI)"
+          },
+          {
+            "answer": "<p><span style=\"color: rgb(255, 255, 255); font-size: 18px\">O tempo médio de carregamento da página é o tempo que leva para a página do seu site carregar completamente. Essa é uma métrica importante a ser acompanhada, já que os usuários tendem a abandonar sites que carregam lentamente.</span></p>",
+            "title": "Tempo médio de carregamento da página"
+          },
+          {
+            "answer": "<p><span style=\"color: rgb(255, 255, 255); font-size: 18px\">A taxa de recompra é a proporção de clientes que compram novamente de você após a primeira compra. Uma alta taxa de recompra é um sinal de que seus clientes estão satisfeitos com a experiência de compra e a qualidade dos seus produtos.</span></p>",
+            "title": "Taxa de Recompra"
+          },
+          {
+            "answer": "<p><span style=\"color: rgb(255, 255, 255); font-size: 18px\">A taxa de rejeição é a proporção de visitantes que saem do seu site sem interagir com ele. Isso pode indicar problemas com a experiência do usuário, como uma navegação complicada ou conteúdo desinteressante.</span></p>",
+            "title": "Taxa de Rejeição"
+          },
+          {
+            "answer": "<p><span style=\"color: rgb(255, 255, 255); font-size: 18px\">O número de visitantes é o número total de pessoas que visitam o seu site em um determinado período de tempo. Essa é uma métrica importante, pois indica que quanto mais visitantes acessarem o seu site, maior a chance de aumentar as vendas.</span></p>",
+            "title": "Número de Visitantes"
+          }
+        ],
+        "cta": {
+          "text": "Quero saber mais",
+          "url": "/contato"
+        }
+      }
+    },
+    {
       "__resolveType": "Footer"
     },
     {
