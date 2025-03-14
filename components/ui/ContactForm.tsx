@@ -139,7 +139,7 @@ const ContactForm = () => {
                 {/* <!-- Botão de Enviar --> */}
                 <button
                     type="submit"
-                    class="btn btn-outline font-normal btn-primary text-base mt-4 w-fit px-12 ml-auto"
+                    class="btn btn-outline font-medium btn-primary text-base mt-4 lg:w-fit px-12 lg:ml-auto w-full"
                     aria-label="Enviar"
                 >
                     ENVIAR →

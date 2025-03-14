@@ -1,0 +1,35 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "url": "/sobre",
+        "label": "sobre"
+      },
+      {
+        "label": "e-commerce",
+        "url": "/ecommerce/"
+      },
+      {
+        "label": "performance",
+        "url": "/performance"
+      },
+      {
+        "label": "house",
+        "url": "/house"
+      },
+      {
+        "label": "blog",
+        "url": "/"
+      },
+      {
+        "label": "contato",
+        "url": "/contato"
+      }
+    ],
+    "buttons": []
+  },
+  "logo": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/a2f70dcc-036b-4c0d-a710-339c400ecd09/logo-wedigi.svg"
+  }
+}

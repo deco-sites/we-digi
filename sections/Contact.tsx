@@ -60,8 +60,8 @@ export default function Footer({
       <div class="flex max-md:flex-col gap-6 md:gap-20 lg:container lg:max-w-[1232px] mx-auto md:max-w-6xl max-lg:px-4 pb-8 pt-8 md:pt-24 md:pb-10 text-sm">
         <div class="w-full md:w-1/2 lg:p-4">
           {tag && <p class="text-[#76F5F7] text-base mb-4">{tag}</p>}
-          {title && <p class="text-[#ababab] text-[40px] mb-12 lg:mb-16">{title}</p>}
-          {description && <p class="text-white text-2xl">{description}</p>}
+          {title && <p class="text-[#ababab] lg:text-[40px] text-2xl mb-4 lg:mb-16">{title}</p>}
+          {description && <p class="text-white lg:text-2xl text-base">{description}</p>}
         </div>
 
         <div class="w-full md:w-[52%]">
