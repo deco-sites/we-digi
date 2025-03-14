@@ -1,0 +1,86 @@
+{
+  "name": "Sobre",
+  "path": "/sobre",
+  "sections": [
+    {
+      "__resolveType": "Main Header"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ImageText.tsx",
+        "image": {
+          "mobile": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+          "alt": "wedigi"
+        },
+        "bgColor": "#95A9AF",
+        "text": "<h3><span style=\"color: #ffffff\">Somos especialistas em implementar e evoluir e-commerces com soluções ágeis e altamente customizadas.</span></h3><p></p><p><span style=\"color: #ffffff; font-size: 18px\">A we.digi é uma consultoria de tecnologia de e-commerce que nasceu há 23 anos como uma software house. Durante toda nossa história, sempre nos diferenciamos por termos a frente do negócio sócios desenvolvedores, elevando a capacidade técnica de entrega, oferecendo atendimento técnico a nossos clientes em todas as etapas do projeto e trabalhando em projetos complexos com agilidade e customização.</span></p>",
+        "cta": {
+          "url": "/contato",
+          "text": "agendar reunião"
+        },
+        "title": "Seção 1"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ImageText.tsx",
+        "image": {
+          "mobile": "https://data.decoassets.com/we-digi/2c80095b-2395-4f37-a4e6-ebaa3aca7cef/secao2.jpg",
+          "alt": "wedigi"
+        },
+        "bgColor": "#08151D",
+        "text": "<h2><span style=\"color: #ffffff\">we</span><span style=\"color: rgb(154, 155, 205)\">.</span><span style=\"color: #ffffff\">digi</span> <span style=\"color: rgb(154, 155, 205)\">tech</span></h2><p></p><h3><span style=\"color: #ffffff\">implantação e<br>evolução de<br>e-commerce</span></h3><p></p><p><span style=\"color: #ffffff\">Nossa unidade de negócio de tecnologia de e-commerce é responsável por criar soluções de implementação e evolução. Sempre atualizados com as últimas tecnologias disponíveis, ajudamos seu negócio a crescer com:</span></p><ul><li><p><span style=\"color: #ffffff; font-size: 18px\">Implantação</span></p></li><li><p><span style=\"color: #ffffff; font-size: 18px\">Evolução</span></p></li><li><p><span style=\"color: #ffffff; font-size: 18px\">CRO</span></p></li><li><p><span style=\"color: #ffffff; font-size: 18px\">SEO</span></p></li></ul>",
+        "cta": {},
+        "title": "Seção 1",
+        "invert": true
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ImageText.tsx",
+        "image": {
+          "mobile": "https://data.decoassets.com/we-digi/52d08ab9-a215-4fc2-b2d9-1967d6f7da47/secao3.jpg",
+          "alt": "wedigi"
+        },
+        "bgColor": "#08151D",
+        "text": "<h2><span style=\"color: rgb(255, 255, 255)\">we</span><span style=\"color: #f0857d\">.</span><span style=\"color: rgb(255, 255, 255)\">digi</span> <span style=\"color: #f08574\">growth</span></h2><p></p><h3><span style=\"color: #ffffff\">performance e<br>crescimento do<br>seu negócio</span></h3><p></p><p><span style=\"color: #ffffff\">No we.digi growth executamos ações e campanhas orientadas a dados reais para potencializar e melhorar a performance do seu negócio. Nosso olhar estratégico para o negócio e nossa metodologia exclusiva direnciam nosso trabalho de:</span></p><ul><li><p><span style=\"color: #ffffff; font-size: 18px\">performance</span></p></li><li><p><span style=\"color: #ffffff; font-size: 18px\">CRM</span></p></li></ul>",
+        "cta": {},
+        "title": "Seção 1",
+        "invert": false
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/ImageText.tsx",
+        "image": {
+          "mobile": "https://data.decoassets.com/we-digi/1b802854-d927-4ec2-909f-c4735ab71aa3/secao4.jpg",
+          "alt": "wedigi"
+        },
+        "bgColor": "#08151D",
+        "text": "<h2><span style=\"color: rgb(255, 255, 255)\">we</span><span style=\"color: #73bb70\">.</span><span style=\"color: rgb(255, 255, 255)\">digi</span> <span style=\"color: #73bb70\">house</span></h2><p></p><h3><span style=\"color: #ffffff\">nosso DNA<br>software house</span></h3><p></p><p><span style=\"color: #ffffff\">O we.digi house é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro! Alguns dos serviços desta unidade:</span></p><ul><li><p><span style=\"color: #ffffff; font-size: 18px\">Integrações</span></p></li><li><p><span style=\"color: #ffffff; font-size: 18px\">Sistemas customizados</span></p></li><li><p><span style=\"color: #ffffff; font-size: 18px\">Ferramentas de apoio ao e-commerce</span></p></li></ul><ul><li><p><span style=\"color: #ffffff; font-size: 18px\">recuperação de boletos</span></p></li><li><p><span style=\"color: #ffffff; font-size: 18px\">carrinho abandonado</span></p></li><li><p><span style=\"color: #ffffff; font-size: 18px\">mensageira por SMS e WhatsApp</span></p></li><li><p><span style=\"color: #ffffff; font-size: 18px\">integração com Google Shopping</span></p></li></ul>",
+        "cta": {},
+        "title": "Seção 1",
+        "invert": true
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "we.digi",
+        "titleTemplate": "we.digi"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
