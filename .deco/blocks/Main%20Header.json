@@ -3,28 +3,28 @@
   "navigation": {
     "links": [
       {
-        "url": "https://wedigi.com.br/sobre/",
+        "url": "/sobre",
         "label": "sobre"
       },
       {
         "label": "e-commerce",
-        "url": "https://wedigi.com.br/e-commerce/"
+        "url": "/ecommerce/"
       },
       {
         "label": "performance",
-        "url": "https://wedigi.com.br/performance/"
+        "url": "/performance"
       },
       {
         "label": "house",
-        "url": "https://wedigi.com.br/house/"
+        "url": "/house"
       },
       {
         "label": "blog",
-        "url": "https://wedigi.com.br/house/"
+        "url": "/"
       },
       {
         "label": "contato",
-        "url": "https://wedigi.com.br/contato-2/"
+        "url": "/contato"
       }
     ],
     "buttons": []

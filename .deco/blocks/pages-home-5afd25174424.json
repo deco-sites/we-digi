@@ -3,38 +3,9 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "site/sections/Header.tsx",
-      "navigation": {
-        "links": [
-          {
-            "url": "https://wedigi.com.br/sobre/",
-            "label": "sobre"
-          },
-          {
-            "label": "e-commerce",
-            "url": "https://wedigi.com.br/e-commerce/"
-          },
-          {
-            "label": "performance",
-            "url": "https://wedigi.com.br/performance/"
-          },
-          {
-            "label": "house",
-            "url": "https://wedigi.com.br/house/"
-          },
-          {
-            "label": "blog",
-            "url": "https://wedigi.com.br/house/"
-          },
-          {
-            "label": "contato",
-            "url": "https://wedigi.com.br/contato-2/"
-          }
-        ],
-        "buttons": []
-      },
-      "logo": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/a2f70dcc-036b-4c0d-a710-339c400ecd09/logo-wedigi.svg"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Main Header"
       }
     },
     {
@@ -108,6 +79,7 @@
       "section": {
         "__resolveType": "site/sections/Partnerships.tsx",
         "title": "Conheça algumas parcerias de longos anos...",
+        "description": "Estamos a mais de 24 anos cultivando relacionamentos e construindo resultados.",
         "logos": [
           {
             "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/884ea3d1-9213-46a7-9d14-bf4f083b47d9/Camada_1.svg",
@@ -130,8 +102,7 @@
             "height": 26
           }
         ],
-        "tag": "we.love",
-        "description": "Estamos a mais de 24 anos cultivando relacionamentos e construindo resultados."
+        "tag": "we.love"
       }
     },
     {
