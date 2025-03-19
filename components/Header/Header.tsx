@@ -33,7 +33,6 @@ const HeaderComponent: FunctionalComponent<Nav> = ({ logo, navigation }) => {
                         <a href="/">
                             <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
                         </a>
-
                         <div class="hidden items-center justify-between lg:flex w-auto">
                             <ul class="flex">
                                 {navigation.links.map((link) => (
