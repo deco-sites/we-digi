@@ -14,7 +14,7 @@
           "alt": "wedigi"
         },
         "bgColor": "#95A9AF",
-        "text": "<h3><span style=\"color: #ffffff\">Somos especialistas em implementar e evoluir e-commerces com soluções ágeis e altamente customizadas.</span></h3><p></p><p><span style=\"color: #ffffff; font-size: 18px\">A we.digi é uma consultoria de tecnologia de e-commerce que nasceu há 23 anos como uma software house. Durante toda nossa história, sempre nos diferenciamos por termos a frente do negócio sócios desenvolvedores, elevando a capacidade técnica de entrega, oferecendo atendimento técnico a nossos clientes em todas as etapas do projeto e trabalhando em projetos complexos com agilidade e customização.</span></p>",
+        "text": "<h1><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">we</span><span style=\"color: rgb(118, 245, 247); font-size: 27pt\">.</span><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">digi</span></h1><h2><span style=\"color: rgb(255, 255, 255); font-size: 25pt\">Somos especialistas em implementar e evoluir e-commerces com soluções ágeis e altamente customizadas</span><span style=\"color: rgb(255, 255, 255)\">.</span></h2><p></p><p><span style=\"color: rgb(255, 255, 255); font-size: 18px\">A we.digi é uma consultoria de tecnologia de e-commerce que nasceu há 23 anos como uma software house. Durante toda nossa história, sempre nos diferenciamos por termos a frente do negócio sócios desenvolvedores, elevando a capacidade técnica de entrega, oferecendo atendimento técnico a nossos clientes em todas as etapas do projeto e trabalhando em projetos complexos com agilidade e customização.</span></p>",
         "cta": {
           "url": "/contato",
           "text": "agendar reunião"
