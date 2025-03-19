@@ -10,7 +10,7 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<h2 style=\"text-align: center\"><span style=\"font-size: 96pt\">we</span><span style=\"color: rgb(118, 245, 247); font-size: 96pt\">.</span><span style=\"font-size: 96pt\">hear you</span></h2><p style=\"text-align: center\"></p><p style=\"text-align: center\"><u><span style=\"font-size: 96pt\"><img src=\"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png\"></span></u></p>",
+      "title": "<h1><span style=\"font-size: 12pt\"> we.digi</span></h1><h2><span style=\"font-size: 96pt\">we</span><span style=\"color: rgb(118, 245, 247); font-size: 96pt\">.</span><span style=\"font-size: 96pt\">hear you</span></h2><p style=\"text-align: center\"></p><p style=\"text-align: center\"><u><span style=\"font-size: 96pt\"><img src=\"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png\"></span></u></p>",
       "services": [
         {
           "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/63e72533-bae7-4d24-ae80-e4f9532daebb/icon1.svg",

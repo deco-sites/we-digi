@@ -30,12 +30,9 @@ const HeaderComponent: FunctionalComponent<Nav> = ({ logo, navigation }) => {
 
                     {/* main content */}
                     <div class="drawer-content lg:px-12 px-4 flex gap-8 items-center justify-between py-4">
-                        <h1>
-                            <a href="/">
-                                <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
-                            </a>
-                        </h1>
-
+                        <a href="/">
+                            <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
+                        </a>
                         <div class="hidden items-center justify-between lg:flex w-auto">
                             <ul class="flex">
                                 {navigation.links.map((link) => (
