@@ -1,109 +1,137 @@
+// deno-lint-ignore-file jsx-button-has-type
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
-
+import { ComponentChildren, Fragment } from "preact";
+import { BlogPost } from "apps/blog/types.ts";
+import { useId } from "../sdk/useId.ts";
+import { useSection as useSection } from "@deco/deco/hooks";
+export interface CTA {
+  text?: string;
+}
+/** @title {{{title}}} */
 export interface Post {
-  title: string;
-  author: string;
-  excerpt: string;
-  image: ImageWidget;
-  date: string;
-  readingTime?: string;
-  tags: string[];
-}
-
-export interface Props {
+  url?: string;
   title?: string;
-  description?: string;
-  posts?: Post[];
+  author?: string;
+  excerpt?: string;
+  image?: ImageWidget;
+  date?: string;
+  readingTime?: string;
+  tags?: string[];
 }
-
-const DEFAULT_IMAGE =
-  "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
-
-export default function BlogPosts({
-  title = "Here's a component for you to showcase your blogposts",
-  description = "This subheading is fully editable, remember?",
-  posts = [
-    {
-      title: "Title of blogpost #1",
-      author: "Name of the author",
-      excerpt:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-      image: DEFAULT_IMAGE,
-      date: "01 Apr 2024",
-      readingTime: "10 min",
-      tags: ["Tag #1", "Tag #2", "Tag #3"],
-    },
-    {
-      title: "Title of blogpost #2",
-      author: "Name of the author",
-      excerpt:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-      image: DEFAULT_IMAGE,
-      date: "01 Apr 2024",
-      readingTime: "10 min",
-      tags: ["Tag #1", "Tag #2", "Tag #3"],
-    },
-    {
-      title: "Title of blogpost #3",
-      author: "Name of the author",
-      excerpt:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.",
-      image: DEFAULT_IMAGE,
-      date: "01 Apr 2024",
-      readingTime: "10 min",
-      tags: ["Tag #1", "Tag #2", "Tag #3"],
-    },
-  ],
-}: Props) {
+export interface Props {
+  cta?: CTA;
+  posts?: BlogPost[] | null;
+  pagination?: {
+    /**
+     * @title First page
+     * @description Leave it as 0 to start from the first page
+     */
+    page?: number;
+    /** @title items per page */
+    perPage?: number;
+  };
+}
+function Container({ children }: {
+  children: ComponentChildren;
+}) {
   return (
-    <div class="lg:container md:max-w-6xl lg:mx-auto mx-4 text-sm py-12 lg:py-28 bg-[#0C1E2A]">
-      <div class="space-y-16">
-        <div class="flex flex-col lg:flex-row gap-4 justify-between">
-          <div class="space-y-6 lg:w-1/2">
-            <h2 class="text-4xl leading-snug">
-              {title}
-            </h2>
-            <p class="text-lg">
-              {description}
-            </p>
-          </div>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {posts?.map((post) => (
-            <div class="border border-secondary rounded-lg overflow-hidden">
+    <div class="container lg:mx-auto lg:py-14 mx-2 py-12 text-sm">
+      <div class="space-y-8">{children}</div>
+    </div>
+  );
+}
+export default function BlogPosts(
+  {
+    cta = { text: "Show more" },
+    posts,
+    pagination: { page = 0, perPage = 6 } = {},
+  }: Props,
+) {
+  const from = perPage * page;
+  const to = perPage * (page + 1);
+  // It's boring to generate ids. Let's autogen them
+  const postList = useId();
+  // Get the HTMX link for this section
+  const fetchMoreLink = useSection({
+    // Renders this section with the next page
+    props: {
+      pagination: { perPage, page: page + 1 },
+    },
+  });
+  function calculateReadingTime(words: number): string {
+    const wordsPerMinute = 250;
+    const estimatedTimeMinutes = words / wordsPerMinute;
+    const roundedReadingTime = Math.round(estimatedTimeMinutes);
+    return `${roundedReadingTime} min`;
+  }
+  const ContainerComponent = page === 0 ? Container : Fragment;
+  return (
+    <ContainerComponent>
+        <div class="gap-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+          {posts?.slice(from, to).map((post) => (
+            <a
+              href={`/blog/${post.slug}`}
+              class="border border-secondary overflow-hidden rounded-lg"
+            >
               <Image
-                width={640}
-                class="w-full object-fit z-10"
+                width={380}
+                height={274}
+                class="object-fit w-full"
                 sizes="(max-width: 640px) 100vw, 30vw"
-                src={post.image}
+                src={post.image || ""}
                 alt={post.image}
                 decoding="async"
                 loading="lazy"
               />
               <div class="p-6 space-y-4">
-                <div class="font-semibold">{post.readingTime}</div>
+                <div class="font-semibold">
+                  {calculateReadingTime(post.content.split(" ").length)}
+                </div>
                 <div class="space-y-2">
                   <h3 class="text-2xl">{post.title}</h3>
                   <p class="text-base">{post.excerpt}</p>
                 </div>
                 <div class="flex flex-wrap gap-2">
-                  {post.tags?.map((tag) => (
+                  {post.categories?.map((category) => (
                     <div class="badge badge-lg badge-primary text-xs">
-                      {tag}
+                      {category.name}
                     </div>
                   ))}
                 </div>
                 <div class="flex flex-wrap gap-2">
-                  <span>{post.date}</span>
+                  <span>
+                    {post.date
+                      ? new Date(post.date).toLocaleDateString("en-US", {
+                        month: "long",
+                        day: "numeric",
+                        year: "numeric",
+                      })
+                      : ""}
+                  </span>
                   <span>•</span>
-                  <span>{post.author}</span>
+                  <span>{post.authors[0]?.name}</span>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
-      </div>
-    </div>
+        {posts && to < posts.length && (
+          <div class="flex justify-center w-full" id={postList}>
+            <button
+              hx-get={fetchMoreLink}
+              hx-swap="outerHTML"
+              hx-target={`#${postList}`}
+              aria-label={cta.text}
+              class="btn btn-primary"
+            >
+              <span class="inline [.htmx-request_&]:hidden">
+                {cta.text}
+              </span>
+              <span class="loading loading-spinner hidden [.htmx-request_&]:block" />
+            </button>
+          </div>
+        )}
+    </ContainerComponent>
   );
 }

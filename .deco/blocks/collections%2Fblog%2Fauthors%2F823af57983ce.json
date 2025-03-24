@@ -1,0 +1,11 @@
+{
+  "name": "collections/blog/authors/823af57983ce",
+  "__resolveType": "blog/loaders/Author.ts",
+  "author": {
+    "name": "Felipe Trudes",
+    "email": "felipe.trudes@wedigi.com.br",
+    "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+    "company": "we.digi",
+    "jobTitle": "CEO"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/27135b39f6be",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "VTEX",
+    "slug": "/posts/categorias/vtex"
+  }
+}

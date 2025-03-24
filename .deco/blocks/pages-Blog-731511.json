@@ -1,0 +1,41 @@
+{
+  "name": "Blog",
+  "path": "/blog",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Main Header"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BlogPosts.tsx",
+        "posts": {
+          "__resolveType": "blog/loaders/BlogpostList.ts",
+          "sortBy": "date_desc"
+        },
+        "pagination": {
+          "perPage": 12
+        },
+        "cta": {}
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "we.digi",
+        "titleTemplate": "we.digi"
+      }
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/8847e38a029b",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Marketing de Performance",
+    "slug": "/posts/categorias/marketing-de-performance"
+  }
+}

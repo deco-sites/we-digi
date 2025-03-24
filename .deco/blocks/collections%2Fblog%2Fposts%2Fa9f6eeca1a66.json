@@ -1,0 +1,40 @@
+{
+  "name": "collections/blog/posts/a9f6eeca1a66",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "categories": [
+      {
+        "name": "E-commerce",
+        "slug": "/posts/categorias/e-commerce"
+      }
+    ],
+    "extraProps": [
+      {
+        "key": "prop-adicional-optional",
+        "value": "prop-adicional-optional"
+      }
+    ],
+    "title": "Post teste",
+    "excerpt": "except teste",
+    "image": "https://data.decoassets.com/we-digi/d8f4af3f-1d93-42f7-8d6d-00444c6dbb01/secao5.jpg",
+    "date": "2025-03-05",
+    "slug": "slug-post-teste",
+    "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget nisl felis. Nulla elementum sodales ipsum nec egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur eget justo rhoncus, vehicula lacus a, cursus erat. Aliquam eget leo lacus. Mauris egestas elit mi, commodo auctor ante rutrum a. Nam luctus purus at laoreet gravida. Etiam bibendum justo sit amet lacinia porta. Praesent vel auctor nunc. Curabitur venenatis tempor tempus. Proin varius gravida purus, sit amet dignissim est varius ut. Integer in felis ipsum.</p>",
+    "seo": {
+      "title": "seo title optional",
+      "description": "seo description potional",
+      "image": "https://data.decoassets.com/we-digi/d8f4af3f-1d93-42f7-8d6d-00444c6dbb01/secao5.jpg",
+      "canonical": "image seo optional"
+    },
+    "readTime": 2
+  }
+}
