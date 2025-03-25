@@ -3120,6 +3120,9 @@ input.tab:checked + .tab-content,
 .max-w-3xl {
   max-width: 48rem;
 }
+.max-w-5xl {
+  max-width: 64rem;
+}
 .max-w-6xl {
   max-width: 72rem;
 }

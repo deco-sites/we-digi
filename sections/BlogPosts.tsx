@@ -5,6 +5,7 @@ import { ComponentChildren, Fragment } from "preact";
 import { BlogPost } from "apps/blog/types.ts";
 import { useId } from "../sdk/useId.ts";
 import { useSection as useSection } from "@deco/deco/hooks";
+import { signal } from "apps/workflows/deps.ts";
 export interface CTA {
   text?: string;
 }
@@ -48,7 +49,7 @@ export default function BlogPosts(
     pagination: { page = 0, perPage = 6 } = {},
   }: Props,
 ) {
-  const from = perPage * page;
+  const from = signal(perPage * page);
   const to = perPage * (page + 1);
   // It's boring to generate ids. Let's autogen them
   const postList = useId();
@@ -66,6 +67,9 @@ export default function BlogPosts(
     return `${roundedReadingTime} min`;
   }
   const ContainerComponent = page === 0 ? Container : Fragment;
+
+  console.log(from, to, posts?.length, perPage, page,'consoleeeeeeeeeeeeeeeee')
+
   return (
     <ContainerComponent>
         <div class="gap-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 pr-3">

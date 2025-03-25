@@ -19,7 +19,7 @@ const BLOCKQUOTE_STYLES =
   "[&>blockquote]:my-6 [&>blockquote]:border-l-2 [&>blockquote]:border-black [&>blockquote]:text-xl [&>blockquote]:italic [&>blockquote]:pl-6";
 
 const CONTENT_STYLES =
-  `max-w-3xl mx-auto ${PARAGRAPH_STYLES} ${HEADING_STYLES} ${CODE_BLOCK_STYLES} ${IMAGE_STYLES} ${BLOCKQUOTE_STYLES}`;
+  `max-w-5xl mx-auto ${PARAGRAPH_STYLES} ${HEADING_STYLES} ${CODE_BLOCK_STYLES} ${IMAGE_STYLES} ${BLOCKQUOTE_STYLES}`;
 
 const DEFAULT_AVATAR =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e";
@@ -65,52 +65,55 @@ function SocialIcons() {
 export default function BlogPost({ page }: Props) {
   const { title, authors, image, date, content } = page?.post || DEFAULT_PROPS;
 
-  console.log(page?.post.title, 'titleeeeeeeee')
-
-  const formattedDate = new Date(date).toLocaleDateString("en-US", {
+  const formattedDate = new Date(date).toLocaleDateString("pt-BR", {
     year: "numeric",
     month: "long",
     day: "numeric",
   });
 
   return (
-    <div className="w-full flex flex-col gap-20 container mx-auto px-4 md:px-0 py-12 lg:py-28">
-      <div className="w-full flex flex-col gap-12 max-w-3xl lg:mx-auto">
-        <h1 className="text-5xl font-bold">{title}</h1>
-        <div className="flex items-center gap-4">
-          <Image
-            className="object-cover w-14 h-14 rounded-full"
-            alt={authors[0]?.name}
-            src={authors[0]?.avatar || DEFAULT_AVATAR}
-            width={56}
-            height={56}
-          />
-          <div className="flex flex-col">
-            <p className="font-semibold text-base">
-              {authors.map((author) => author.name).join(", ")}
-            </p>
-            <p className="text-base">{formattedDate}</p>
+    <div className="px-4 md:px-0 py-12 lg:py-28 container mx-auto">
+      <a class="flex" href="/blog">
+        <Icon id="ArrowRight" width={25} height={25} />
+        Voltar
+      </a>
+      <div className="w-full flex flex-col gap-20">
+        <div className="w-full flex flex-col gap-12 max-w-3xl lg:mx-auto">
+          <h1 className="text-5xl font-bold">{title}</h1>
+          <div className="flex items-center gap-4">
+            <Image
+              className="object-cover w-14 h-14 rounded-full"
+              alt={authors[0]?.name}
+              src={authors[0]?.avatar || DEFAULT_AVATAR}
+              width={56}
+              height={56}
+            />
+            <div className="flex flex-col">
+              <p className="font-semibold text-base">
+                {authors.map((author) => author.name).join(", ")}
+              </p>
+              <p className="text-base">{formattedDate}</p>
+            </div>
           </div>
         </div>
-      </div>
-      <Image
-        className="w-full object-cover aspect-video max-h-[600px] rounded-2xl"
-        width={600}
-        src={image || ""}
-      />
-      <div
-        class={CONTENT_STYLES}
-        dangerouslySetInnerHTML={{
-          __html: content,
-        }}
-      >
-      </div>
-      <div class="flex flex-col gap-10 max-w-3xl w-full mx-auto">
-        <div class="space-y-4">
+        <Image
+          className="w-full object-cover aspect-video max-h-[600px] rounded-2xl"
+          width={600}
+          src={image || "https://assets.decocache.com/we-digi/62266f95-595c-40ee-a97a-7474aa6ffc61/home-main.jpg"}
+        />
+        <div
+          class={CONTENT_STYLES}
+          dangerouslySetInnerHTML={{
+            __html: content,
+          }}
+        >
+        </div>
+        <div class="flex flex-col gap-10 max-w-5xl w-full mx-auto">
+          {/*<div class="space-y-4">
           <p class="text-lg font-bold">Share this post</p>
           <div class="flex flex-col gap-8 md:flex-row justify-between">
             <SocialIcons />
-            <div class="flex gap-2 text-white text-xs">
+             <div class="flex gap-2 text-white text-xs">
               <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
                 Tag #1
               </p>
@@ -120,28 +123,28 @@ export default function BlogPost({ page }: Props) {
               <p class="flex items-center bg-zinc-700 py-2 px-4 rounded-full">
                 Tag #3
               </p>
-            </div>
+            </div> 
           </div>
-        </div>
-        {/* divider zinc-300 */}
-        <div class="w-full h-px bg-zinc-300"></div>
-        <div className="flex items-center gap-4">
-          <Image
-            className="object-cover w-14 h-14 rounded-full"
-            alt={authors[0]?.name}
-            src={authors[0]?.avatar || ""}
-            width={56}
-            height={56}
-          />
-          <div className="flex flex-col">
-            <p className="font-semibold text-base">
-              {authors[0].name}
-            </p>
-            <p className="text-base">
-              {`${authors[0].jobTitle ?? "Job Title"}, ${
-                authors[0].company || "Company"
-              }`}
-            </p>
+        </div>*/}
+          {/* divider zinc-300 */}
+          <div class="w-full h-px bg-zinc-300"></div>
+          <div className="flex items-center gap-4">
+            <Image
+              className="object-cover w-14 h-14 rounded-full"
+              alt={authors[0]?.name}
+              src={authors[0]?.avatar || ""}
+              width={56}
+              height={56}
+            />
+            <div className="flex flex-col">
+              <p className="font-semibold text-base">
+                {authors[0].name}
+              </p>
+              <p className="text-base">
+                {`${authors[0].jobTitle ?? "Job Title"}, ${authors[0].company || "Company"
+                  }`}
+              </p>
+            </div>
           </div>
         </div>
       </div>
