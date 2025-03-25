@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/a2cf46d1",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "VTEX ECOMMERCE? ENTENDA PORQUE ELA É MAIS DO QUE ISSO",
+    "excerpt": "<p>A plataforma VTEX Ecommerce é conhecida no mundo por ser uma das opções mais completas do mercado de comércio digital. Leia e descubra porquê</p>\n",
+    "date": "2022-01-11",
+    "slug": "vtex-ecommerce",
+    "content": "\n<figure class=\"wp-block-image size-large is-style-default\"><img loading=\"lazy\" decoding=\"async\" width=\"560\" height=\"315\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2022/01/VTEX-ECOMMERCE.jpg\" alt=\"VTEX ECOMMERCE\" class=\"wp-image-2033\" srcset=\"https://wedigi.com.br/wp-content/uploads/2022/01/VTEX-ECOMMERCE.jpg 560w, https://wedigi.com.br/wp-content/uploads/2022/01/VTEX-ECOMMERCE-300x169.jpg 300w\" sizes=\"(max-width: 560px) 100vw, 560px\" /></figure>\n\n\n\n<p>A plataforma VTEX Ecommerce é conhecida no mundo todo por ser uma das opções mais completas e eficazes do mercado de comércio digital. Porém, mesmo com todo esse reconhecimento, a multinacional brasileira pode ser considerada muito mais do que isso.</p>\n\n\n\n<p>Com foco em tecnologia, a VTEX ganhou destaque em diversos países por ser uma empresa especialista em tecnologia e focada na experiência do usuário. Assim, novas ferramentas são lançadas com frequência, potencializando negócios e tornando a plataforma ainda mais completa tanto para a loja como para o consumidor final.</p>\n\n\n\n<p>Você sabe como quais são algumas das premissas da VTEX que tornam a experiência com a plataforma ainda mais promissora? Destacamos nesse artigo algumas delas para te provar que além de uma plataforma, a VTEX é uma das principais empresas de tecnologia desse segmento.</p>\n\n\n<p>[wpforms id=&#8221;130&#8243; title=&#8221;true&#8221; description=&#8221;true&#8221;]</p>\n\n\n\n<h2 class=\"wp-block-heading\">API First</h2>\n\n\n\n<p>Não é atoa que a VTEX tem um ecossistema próprio. A proposta da empresa não é que o lojista fique preso somente aos seus recursos, muito pelo contrário. Embora existam inúmeras soluções nativas da plataforma para que os e-commerces explorarem as melhores possibilidades e ofereçam uma boa experiência para o seu público, o pensamento de API First prova que o foco é facilitar e não dificultar.</p>\n\n\n\n<p>Assim, é possível combinar as soluções próprias do VTEX Ecommerce com serviços terceiros e aplicativos personalizados. A ideia é simplificar o crescimento de forma colaborativa, eficaz e funcional.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Foco na escalabilidade</h2>\n\n\n\n<p>A flexibilidade da estrutura do VTEX Ecommerce chama a atenção de qualquer serviço de tecnologia. Essa característica coloca a escalabilidade da plataforma e, consequentemente, da loja, em primeiro lugar.&nbsp;</p>\n\n\n\n<p>Indo na contramão das soluções que atuam de maneira monolítica e inteiramente integradas, a VTEX oferece microsserviços escalados independente entre si. Além de facilitar a evolução do e-commerce, essa estrutura descarta a necessidade de substituir um sistema inteiro quando a substituição pode ser de uma solução pontual, o que reflete também na redução de custos.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Inovação constante</h2>\n\n\n\n<p>Se tem uma coisa que a multinacional brasileira é experiente é em inovar. Ficar parada no tempo não faz parte do perfil da VTEX e, por esse e outros motivos, que nomeá-la somente como uma plataforma de e-commerce pode parecer equivocado.&nbsp;</p>\n\n\n\n<p>A empresa acompanha a movimentação de diferentes mercados para entender o comportamento do consumidor e traduzir em desenvolvimento de uma nova solução. Assim, cada recurso ganha vida própria e se molda às necessidades de diferentes stakeholders, como é o caso das soluções omnichannel, Smartcheckout, marketplace, prateleira infinita, entre outros.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Um olho nas tendências outro nos números</h2>\n\n\n\n<p>Não basta estar atento às tendências sem entender o que os números dizem. Não é de hoje que a VTEX investe em soluções analíticas que, além de orientar os gestores de e-commerce no dia a dia das operações, também traduzem as demandas do mercado em lançamento de novos recursos.</p>\n\n\n\n<p>Tudo isso só prova que a VTEX Ecommerce vai muito além de uma plataforma de comércio digital e está cada vez mais consolidada como uma empresa de tecnologia focada no crescimento e no amadurecimento de todo um mercado.</p>\n\n\n<p>[cta text=&#8221;Clique aqui e fale com a nossa equipe especializada em tecnologia!&#8221; link=&#8221;https://admin.wedigi.com.br/#wdt-contact&#8221; target=&#8221;_self&#8221; background=&#8221;#3498db&#8221; color=&#8221;#ffffff&#8221;]</p>\n"
+  }
+}

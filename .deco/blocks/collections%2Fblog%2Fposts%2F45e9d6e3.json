@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/45e9d6e3",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "VTEX",
+        "slug": "vtex"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case técnico: Compra de Serviços com Instalação - Moldura Minuto - wedigi",
+    "excerpt": "<p>Conheça o case técnico do recurso de compra de serviços para a Moldura Minuto</p>\n",
+    "date": "2021-12-22",
+    "slug": "case-tecnico-compra-de-servicos-com-instalacao-moldura-minuto",
+    "content": "\n<figure class=\"wp-block-image size-large is-style-default\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"414\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/12/moldura-minuto-1-1024x414.jpg\" alt=\"moldura minuto\" class=\"wp-image-1913\" srcset=\"https://wedigi.com.br/wp-content/uploads/2021/12/moldura-minuto-1-1024x414.jpg 1024w, https://wedigi.com.br/wp-content/uploads/2021/12/moldura-minuto-1-300x121.jpg 300w, https://wedigi.com.br/wp-content/uploads/2021/12/moldura-minuto-1-768x310.jpg 768w, https://wedigi.com.br/wp-content/uploads/2021/12/moldura-minuto-1-1536x620.jpg 1536w, https://wedigi.com.br/wp-content/uploads/2021/12/moldura-minuto-1.jpg 1904w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<h2 class=\"wp-block-heading\">Sobre o cliente</h2>\n\n\n\n<p>A <a href=\"https://www.molduraminuto.com.br/\" target=\"_blank\" rel=\"noreferrer noopener\">Moldura Minuto</a> é a maior rede de franquia de emolduramento de luxo do país e líder no segmento, além de ser uma galeria com foco na valorização da arte brasileira. Com mais de 20 anos de história, a empresa está presente em praticamente todo o território nacional, com mais de 50 lojas pelo Brasil. Os serviços da Moldura Minuto abrangem todas as etapas, incluindo moldura, impressão, acervo exclusivo de arte e fotografia, consultoria especializada e serviço de instalação profissional.&nbsp;</p>\n\n\n\n<h2 class=\"wp-block-heading\"><strong>Objetivo</strong> e desafio</h2>\n\n\n\n<p>Vender os serviços de instalação fornecidos pela Moldura Minuto sem ter o fluxo de compra tradicional de um e-commerce, apenas baseado na localização do cliente fornecida via cep.  Dessa forma os produtos são automaticamente selecionados e disponibilizados com os valores diferentes.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Solução e resultado</h2>\n\n\n\n<p>Após a publicação do projeto, iniciamos em 10 de junho de 2021, criamos nessa seção a possibilidade de compra do serviço de instalação de quadros ou outros equipamentos utilizando todo o fluxo de compra VTEX, porém sem uma vitrine comum. O recurso é ativado a partir de algumas perguntas que oferecem sugestões e adicionam os itens corretos ao carrinho. Essa função, assim como os outros recursos desenvolvidos para o projeto foram finalizadas e entregues dentro do prazo, em 01 de julho de 2021.</p>\n\n\n\n<figure class=\"wp-block-image size-large is-resized is-style-default\"><img loading=\"lazy\" decoding=\"async\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/12/big-image-2.png\" alt=\"\" class=\"wp-image-1955\" width=\"459\" height=\"481\" srcset=\"https://wedigi.com.br/wp-content/uploads/2021/12/big-image-2.png 450w, https://wedigi.com.br/wp-content/uploads/2021/12/big-image-2-286x300.png 286w\" sizes=\"(max-width: 459px) 100vw, 459px\" /></figure>\n\n\n<p>[cta text=&#8221;Clique aqui e fale com a nossa equipe especializada em tecnologia!&#8221; link=&#8221;https://admin.wedigi.com.br/#wdt-contact&#8221; target=&#8221;_self&#8221; background=&#8221;#3498db&#8221; color=&#8221;#ffffff&#8221;]</p>\n\n\n\n<div class=\"wp-block-media-text alignwide is-stacked-on-mobile\"><figure class=\"wp-block-media-text__media\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2022/02/Gianfranco-1-1024x1024.jpeg\" alt=\"\" class=\"wp-image-2075\" srcset=\"https://wedigi.com.br/wp-content/uploads/2022/02/Gianfranco-1-1024x1024.jpeg 1024w, https://wedigi.com.br/wp-content/uploads/2022/02/Gianfranco-1-300x300.jpeg 300w, https://wedigi.com.br/wp-content/uploads/2022/02/Gianfranco-1-150x150.jpeg 150w, https://wedigi.com.br/wp-content/uploads/2022/02/Gianfranco-1-768x768.jpeg 768w, https://wedigi.com.br/wp-content/uploads/2022/02/Gianfranco-1.jpeg 1200w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure><div class=\"wp-block-media-text__content\">\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\"><p><em>“Sempre buscamos um parceiro que pudesse compreender bem as nuances do nosso negócio e estivesse conosco para o longo prazo. Depois de muito pesquisar, encontramos a VTEX orquestrada pelo time da We.Digi. De longe passaram a nós muito mais segurança e capacidade técnica e, a experiência de mercado e comprometimento ao longo da implantação só confirmaram as nossas expectativas. Hoje não vemos possibilidade de trabalhar com outro parceiro, já estamos discutindo nossos projetos digitais para os próximos com a equipe We.Digi e temos certeza do sucesso de todos eles!”</em></p><cite>Gianfranco Zucoloto<br><strong>Moldura Minuto</strong></cite></blockquote>\n</div></div>\n"
+  }
+}

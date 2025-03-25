@@ -68,7 +68,7 @@ export default function BlogPosts(
   const ContainerComponent = page === 0 ? Container : Fragment;
   return (
     <ContainerComponent>
-        <div class="gap-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+        <div class="gap-8 grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 pr-3">
           {posts?.slice(from, to).map((post) => (
             <a
               href={`/blog/${post.slug}`}
@@ -79,7 +79,7 @@ export default function BlogPosts(
                 height={274}
                 class="object-fit w-full"
                 sizes="(max-width: 640px) 100vw, 30vw"
-                src={post.image || ""}
+                src={post.image || "https://assets.decocache.com/we-digi/62266f95-595c-40ee-a97a-7474aa6ffc61/home-main.jpg"}
                 alt={post.image}
                 decoding="async"
                 loading="lazy"
@@ -89,8 +89,9 @@ export default function BlogPosts(
                   {calculateReadingTime(post.content.split(" ").length)}
                 </div>
                 <div class="space-y-2">
-                  <h3 class="text-2xl">{post.title}</h3>
-                  <p class="text-base">{post.excerpt}</p>
+                  <h3 class="text-2xl line-clamp-3 h-24">{post.title}</h3>
+                  <div class="line-clamp-3" dangerouslySetInnerHTML={{__html: post.excerpt}} />
+                  {/* <p class="text-base">{post.excerpt}</p> */}
                 </div>
                 <div class="flex flex-wrap gap-2">
                   {post.categories?.map((category) => (
@@ -102,7 +103,7 @@ export default function BlogPosts(
                 <div class="flex flex-wrap gap-2">
                   <span>
                     {post.date
-                      ? new Date(post.date).toLocaleDateString("en-US", {
+                      ? new Date(post.date).toLocaleDateString("pt-BR", {
                         month: "long",
                         day: "numeric",
                         year: "numeric",

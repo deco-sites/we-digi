@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/8726b75c",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "VTEX",
+        "slug": "vtex"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case técnico - Funcionalidade Compre Junto",
+    "excerpt": "<p>Descubra como o Compre Junto we.digi torna possível estimular a compra de mais de um produto em promoção com outros itens relacionados</p>\n",
+    "date": "2021-12-02",
+    "slug": "case-tecnico-compre-junto-wedigi",
+    "content": "\n<figure class=\"wp-block-image size-large is-style-default\"><img loading=\"lazy\" decoding=\"async\" width=\"700\" height=\"525\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/12/compre-junto.png\" alt=\"compre junto\" class=\"wp-image-1917\" srcset=\"https://wedigi.com.br/wp-content/uploads/2021/12/compre-junto.png 700w, https://wedigi.com.br/wp-content/uploads/2021/12/compre-junto-300x225.png 300w\" sizes=\"(max-width: 700px) 100vw, 700px\" /></figure>\n\n\n\n<p>Melhorar a experiência de compra em um e-commerce é fundamental para manter as conversões ativas e aumentar as taxas de recompra, satisfação e fidelização. Para que isso seja possível, é indicado que um olhar 360º pelo site analise periodicamente todas as possíveis melhorias nesse processo. É a partir daí, que muitas novas funcionalidades e ferramentas são criadas constantemente.</p>\n\n\n\n<p>A funcionalidade Compre Junto we.digi surgiu a partir da alta demanda de solicitações de nossos clientes. Com ela, é possível estimular a compra de mais de um produto, apresentando ao usuário outros itens relacionados ao produto escolhido.&nbsp;</p>\n\n\n<p>[wpforms id=&#8221;130&#8243; title=&#8221;true&#8221; description=&#8221;true&#8221;]</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Sobre o cliente</strong></h3>\n\n\n\n<p>A Denon é uma marca japonesa fundada em 1910 e foi o primeiro e o mais antigo fabricante de eletrônica de áudio. Hoje a Denon é a marca de receiver mais vendida em todo o mundo e pertence à empresa americana Sound United, localizada no estado da Califórnia.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Desafio</h2>\n\n\n\n<p>Para garantir uma experiência de usabilidade dos usuários e promover o aumento do ticket médio, foi sugerido que uma nova função de Compre Junto fosse desenvolvida, incluindo opções com desconto para gerar mais interesse no usuário em aproveitar a indicação da loja.</p>\n\n\n\n<p>A ideia com esse novo recurso é para que sempre que um usuário navegue em uma página de produto, outras opções de compra sejam apresentadas, inclusive peças em promoção. Porém, por padrão, a <a href=\"https://vtex.com/br-pt/\" target=\"_blank\" rel=\"noreferrer noopener\">VTEX</a> utiliza um módulo pronto para que esse objetivo seja cumprido sem a possibilidade de utilizar valores de descontos.</p>\n\n\n\n<h2 class=\"wp-block-heading\">A solução</h2>\n\n\n\n<p>A <a href=\"https://admin.wedigi.com.br/tech/\" target=\"_blank\" rel=\"noreferrer noopener\">equipe de tecnologia da we.digi</a> desenvolveu um recurso próprio de Compre Junto integrado ao módulo de promoções da VTEX. A solução consulta se os produtos em questão possuem alguma promoção vinculada. Com isso, o usuário consegue visualizar os benefícios de incluir novos itens na compra, antes mesmo de colocá-los no carrinho. Isso só é possível, pois o recurso desenvolvido pela nossa equipe simula a ação do carrinho antes mesmo do cliente avançar mais uma etapa.</p>\n\n\n\n<p>Esse recurso contribui para o aumento do ticket médio, descoberta de novos produtos e categorias oferecidas pela loja, maior giro de estoque, melhor a experiência de compra, melhor relevância dos links internos e aumento das conversões.</p>\n\n\n\n<p>Além de utilizado na Denon e outras marcas do mesmo grupo, o recurso de Compre Junto da we.digi já está sendo utilizado em diversos clientes com objetivos semelhantes.</p>\n\n\n<p>[cta text=&#8221;Clique aqui e fale com a nossa equipe especializada em tecnologia!&#8221; link=&#8221;https://admin.wedigi.com.br/#wdt-contact&#8221; target=&#8221;_self&#8221; background=&#8221;#3498db&#8221; color=&#8221;#ffffff&#8221;]</p>\n"
+  }
+}

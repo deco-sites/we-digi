@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/55086db8",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Por que ter um site responsivo? - wedigi",
+    "excerpt": "<p>Ter um site responsivo não é mais uma questão de escolha. O comportamento online tem ditado como as plataformas devem se portar para acompanhar as necessidades de compra e navegação de seus usuários. Hoje em dia, com a popularização dos smartphones, com a facilidade de conexão via wifi ou pacotes de dados mais acessíveis, as [&hellip;]</p>\n",
+    "date": "2020-02-18",
+    "slug": "por-que-ter-um-site-responsivo",
+    "content": "\n<div class=\"wp-block-image\"><figure class=\"aligncenter\"><img decoding=\"async\" src=\"https://lh4.googleusercontent.com/nlhlkOV7U0d7y_XOzgutDr7u3KARmQ79kA5ZAwyQ2RI4yMMssJTeLNWiFj2nScQn5Naw_4QBvsdPAidtW8Mpsp3nIJbFf5dg3P-WPBNUJ-eHvRJm71jXgfuHDHZzRufOxgnpSRKq\" alt=\"\"/></figure></div>\n\n\n\n<p>Ter um site responsivo não é mais uma questão de escolha. O comportamento online tem ditado como as plataformas devem se portar para acompanhar as necessidades de compra e navegação de seus usuários.</p>\n\n\n\n<p>Hoje em dia, com a popularização dos smartphones, com a facilidade de conexão via wifi ou pacotes de dados mais acessíveis, as compras feitas por dispositivos mobile dominaram os meios de compra online.&nbsp;</p>\n\n\n\n<p>Segundo uma pesquisa feita pela Confederação Nacional de Dirigentes Lojistas, 86% dos compradores online fizeram pelo menos uma compra em alguma loja online nos últimos 12 meses. Dessa fatia, 67% concluiu suas compras usando um smartphone.</p>\n\n\n\n<p>Em um cenário onde o celular se tornou o principal meio de acesso a internet, não ter um site mobile e totalmente preparado para a navegação fora do desktop é deixar dinheiro na mesa e esperar que o concorrente assuma esse lugar. E não é isso que você quer que aconteça, certo?</p>\n\n\n\n<p>Então se o seu site ainda não é responsivo a hora de adaptá-lo é agora!</p>\n\n\n<p>[wpforms id=&#8221;130&#8243; title=&#8221;true&#8221; description=&#8221;true&#8221;]</p>\n\n\n\n<h2 class=\"wp-block-heading\">A importância de um site responsivo nas vendas online</h2>\n\n\n\n<p>Como pontuamos no início do artigo, ter um site responsivo não é mais uma questão de escolha, a não ser que ter lucro não seja o seu objetivo.</p>\n\n\n\n<p>Ter um site adaptado para o mobile é fundamental para oferecer uma experiência melhor de navegação ao usuário, isso envolve a velocidade de carregamento, disposição de layout e conteúdo, recurso de busca, facilidade no pagamento, entre outros quesitos essenciais para que o processo de compra aconteça sem interferências.</p>\n\n\n\n<p>Quando um possível cliente acessa uma loja online via dispositivo mobile, ele não pode sentir necessidade de consultar a página por um computador para ter mais segurança para finalizar a compra, ou então, em um cenário mais dramático, porém muito comum, abandonar de vez o site e não voltar. Um site responsivo é muito mais que uma questão estética, a responsividade está diretamente ligada com a experiência do usuário, influenciando a jornada de compra do seu cliente final.</p>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter\"><img decoding=\"async\" src=\"https://lh5.googleusercontent.com/fFG2bn1el54GQrmEY44XkDzYnby8YO3rjyQ5Rpr_cThTqfhg3aQsBrVXHTJxepOxS0wSLdGLblcFVtVMBj_4vbqwkVOv0aRueXx-zAbR-_MzIjIXN4VEKqnaLkA2mIRn_NFl2fo1\" alt=\"\"/></figure></div>\n\n\n\n<h2 class=\"wp-block-heading\">Como o Google vê um site responsivo?</h2>\n\n\n\n<p>Nem só de experiência do usuário se dá a importância de um site responsivo. Outro ponto que comprova que ter um site responsivo é urgente, está na maneira como o Google vê essa estrutura.</p>\n\n\n\n<p>Não só o Google, mas outros mecanismos de buscas buscam entregar ao usuário a melhor experiência de pesquisa para a sua necessidade. Sendo assim, sites preparados para a navegação mobile saem na frente quanto a preferência dos motores de busca. Isso quer dizer que as chances de o Google apresentar um site responsivo na frente de outro que não está adaptado para o mobile são maiores e, quem aparece primeiro, têm mais chances de ser o escolhido pelo usuário.</p>\n\n\n<p>[cta text=&#8221;Entre em contato&#8221; link=&#8221;https://admin.wedigi.com.br/#wdt-contact&#8221; target=&#8221;_self&#8221; background=&#8221;&#8221; color=&#8221;&#8221;]</p>\n\n\n\n<p>Como está a estrutura da sua loja online? Você está acompanhando o comportamento do seu usuário ou parou na era do desktop? Se você ainda não tem um site responsivo, mas não quer mais perder posições para o seu concorrente, entre em contato com a equipe <a href=\"https://admin.wedigi.com.br/?utm_source=blog&amp;utm_medium=link&amp;utm_campaign=site-responsivo&amp;utm_content=vtex\">we.dig</a>i e descubra como tornar a sua loja online totalmente preparada para vender muito mais nos smartphones do seu cliente.<br></p>\n"
+  }
+}

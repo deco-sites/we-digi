@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/0f8f438d",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "Performance",
+        "slug": "performance"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case de Sucesso Squad Glasses",
+    "excerpt": "<p>Conheça o case de sucesso em alta performance da Squad Glasses feito pela we.digi</p>\n",
+    "date": "2021-09-24",
+    "slug": "case-squad-glasses",
+    "content": "\n<h3 class=\"wp-block-heading\">Sobre o cliente&nbsp;</h3>\n\n\n\n<p>A Squad Glasses é uma marca de óculos de sol fundada em 2018, chegou como cliente para a we.digi em dezembro de 2020,&nbsp; com o objetivo de expandir o nome da marca, tornando-se conhecida no mercado e crescimento de faturamento.&nbsp;</p>\n\n\n\n<h3 class=\"wp-block-heading\">O Desafio</h3>\n\n\n\n<p>Escalar o crescimento da marca, junto ao aumento de faturamento,&nbsp; abrindo para novas frentes como o público feminino, sem perder os clientes antigos que se identificavam com uma marca 100% masculina.&nbsp;&nbsp;</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>O que foi feito</strong>&nbsp;</h3>\n\n\n\n<p>A proximidade com o cliente foi primordial para a mudança do cenário da marca. Em reuniões semanais, as estratégias foram se alinhando com o objetivo de crescimento e expansão. Testes foram iniciados abordando diversas oportunidades, de públicos, de datas comerciais importantes que não eram exploradas.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Resultados</strong>&nbsp;</h3>\n\n\n\n<ul class=\"wp-block-list\"><li>Aumento de usuários em 256,45%</li><li>Aumento de novos usuários em 283,10%</li><li>Diminuição de taxa de rejeição em 4,07%</li><li>Aumento de transações em 212,71%</li><li>Aumento de receita em 257,56%</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\"></h2>\n\n\n"
+  }
+}

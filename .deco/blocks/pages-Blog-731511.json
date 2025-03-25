@@ -14,9 +14,16 @@
         "__resolveType": "site/sections/BlogPosts.tsx",
         "posts": {
           "__resolveType": "blog/loaders/BlogpostList.ts",
-          "sortBy": "date_desc"
+          "sortBy": "date_desc",
+          "count": 12,
+          "page": 1,
+          "slug": {
+            "__resolveType": "website/functions/requestToParam.ts",
+            "param": "slug"
+          }
         },
         "pagination": {
+          "page": 0,
           "perPage": 12
         },
         "cta": {}

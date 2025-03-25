@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/e2888e3d",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Wetools Order Recovery: O app da we.digi na Vtex AppStore",
+    "excerpt": "<p>Conheça o aplicativo que vai te ajudar na recuperação de boletos do seu ecommerce, o Wetools Order Recovery disponível na Vtex AppStore</p>\n",
+    "date": "2021-02-23",
+    "slug": "wetools-order-recovery-o-app-da-we-digi-na-vtex-appstore",
+    "content": "\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"670\" height=\"419\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/02/boleto-wetools.png\" alt=\"Wetools Order Recovery\" class=\"wp-image-1043\" srcset=\"https://wedigi.com.br/wp-content/uploads/2021/02/boleto-wetools.png 670w, https://wedigi.com.br/wp-content/uploads/2021/02/boleto-wetools-300x188.png 300w\" sizes=\"(max-width: 670px) 100vw, 670px\" /></figure>\n\n\n\n<p>A quebra de boleto é sempre uma preocupação de quem trabalha com ecommerce. Essa é uma situação comum: Toda a jornada de compra é feita com sucesso, porém, muitas vezes, o cliente gera o boleto e não efetua o pagamento.</p>\n\n\n\n<p>Sabendo que esse é um grande desafio presente no segmento, a <strong>we.digi </strong>lançou o aplicativo <strong>Wetools Order Recovery</strong> para ajudar lojistas a se comunicarem com os clientes que optaram por esse meio de pagamento, com o objetivo de recuperar boletos não pagos e aumentar as conversões finais.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"337\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/02/wetools-1024x337.png\" alt=\"\" class=\"wp-image-1041\" srcset=\"https://wedigi.com.br/wp-content/uploads/2021/02/wetools-1024x337.png 1024w, https://wedigi.com.br/wp-content/uploads/2021/02/wetools-300x99.png 300w, https://wedigi.com.br/wp-content/uploads/2021/02/wetools-768x253.png 768w, https://wedigi.com.br/wp-content/uploads/2021/02/wetools-1536x506.png 1536w, https://wedigi.com.br/wp-content/uploads/2021/02/wetools.png 1753w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<p>Com o Wetools Order Recovery, o lojista poderá enviar SMS com lembretes de pagamento aos clientes que ainda não o fizeram, determinando o conteúdo das mensagens e o prazo em que devem ser enviadas, permitindo total flexibilidade na estratégia de lembrete de pagamentos via SMS. Além disso, com o app é possível se comunicar de forma eficaz com seus clientes, aumentar a taxa de conversão de seus pedidos, conhecer o perfil de seus clientes e ainda contar com relatórios gerenciais que darão ao lojista a informação necessária para acompanhar a performance do aplicativo.</p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img decoding=\"async\" src=\"https://extensions.vtexassets.com/arquivos/ids/156945/image-2ac0709659f4434ba03ceed2672d6a52.jpg?v=637480471723130000\" alt=\"\"/></figure>\n\n\n\n<p>O aplicativo está disponível na <strong>Vtex AppStore</strong> e a instalação é gratuita. Para saber mais e instalar o <strong>Wetools Order Recovery</strong> <a href=\"https://apps.vtex.com/wedigi-wetools-order-recovery/p\" target=\"_blank\" rel=\"noreferrer noopener\">clique aqui</a>. </p>\n\n\n<p>[cta text=&#8221;Clique aqui e fale com a nossa equipe especializada em tecnologia!&#8221; link=&#8221;https://admin.wedigi.com.br/#wdt-contact&#8221; target=&#8221;_self&#8221; background=&#8221;#3498db&#8221; color=&#8221;#ffffff&#8221;]</p>\n\n\n\n<p></p>\n\n\n\n<p></p>\n"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/c934eb65",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "Performance",
+        "slug": "performance"
+      }
+    ],
+    "extraProps": [],
+    "title": "5 erros que tornam um relatório de mídia uma verdadeira armadilha",
+    "excerpt": "<p>Um e-book com dicas valiosas que vão te ajudar a não cair mais em armadilhas e ter um relatório de mídia cada vez mais eficiente e funcional</p>\n",
+    "date": "2021-07-29",
+    "slug": "ebook-relatorio-de-midia",
+    "content": "\n<figure class=\"wp-block-image size-large is-resized is-style-default\"><img loading=\"lazy\" decoding=\"async\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/07/relatorio-de-midia.jpg\" alt=\"relatorio-de-midia\" class=\"wp-image-1467\" width=\"724\" height=\"475\"/></figure>\n\n\n\n<p>Uma boa campanha de mídia deve ser sempre baseada em análise de dados. Só assim é possível tomar as decisões corretas para extrair o melhores resultados. Sendo assim, um bom relatório de mídia é indispensável para o sucesso de qualquer ação de marketing digital.</p>\n\n\n\n<p>E quando o relatório não diz muita coisa? Ou então, diz tanto que não leva a lugar nenhum?</p>\n\n\n\n<p>Em situações como essas é importante estar atento e fugir das armadilhas que podem colocar sua campanha de mídia em perigo.</p>\n\n\n\n<p>Para que você não caia mais em ciladas como essa, escrevemos um e-book com dicas valiosas que vão te ajudar a não cair mais em armadilhas e ter relatórios cada vez mais eficientes e funcionais.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Veja o que você vai encontrar nesse ebook:</h2>\n\n\n\n<ul class=\"wp-block-list\"><li>A IMPORTÂNCIA DE UMA PERFORMANCE DESCOMPLICADA</li><li>COMO TER CLAREZA SOBRE O PROPÓSITO DO RELATÓRIO</li><li>POR QUE ABRIR MÃO DA AUTOMAÇÃO É UM ERRO</li><li>ENTENDA PORQUE NÃO SE DEVE IGNORAR O COMPORTAMENTO DO USUÁRIO</li><li>E MUITO MAIS!</li></ul>\n\n\n\n<p>Para fazer download gratuito do ebook <strong><a href=\"https://conteudo.wedigi.com.br/ebook-relatorio-de-midia/\" target=\"_blank\" rel=\"noreferrer noopener\">clique aqui</a> </strong>ou no botão abaixo.</p>\n\n\n\n<figure class=\"wp-block-image size-large is-resized is-style-default\"><a href=\"https://conteudo.wedigi.com.br/ebook-relatorio-de-midia/\" target=\"_blank\" rel=\"noopener noreferrer\"><img loading=\"lazy\" decoding=\"async\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/06/BOTAO.png\" alt=\"\" class=\"wp-image-1243\" width=\"177\" height=\"45\"/></a></figure>\n"
+  }
+}

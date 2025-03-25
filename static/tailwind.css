@@ -2903,6 +2903,12 @@ input.tab:checked + .tab-content,
 .box-border {
   box-sizing: border-box;
 }
+.line-clamp-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
 .block {
   display: block;
 }
@@ -3714,6 +3720,9 @@ input.tab:checked + .tab-content,
 }
 .pr-2 {
   padding-right: 0.5rem;
+}
+.pr-3 {
+  padding-right: 0.75rem;
 }
 .pr-4 {
   padding-right: 1rem;
