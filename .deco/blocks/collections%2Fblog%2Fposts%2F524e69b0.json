@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/524e69b0",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Vtex OMS e a gestão de pedidos para ecommerce",
+    "excerpt": "<p>Saiba como potencializar a gestão de pedidos do seu ecommerce e como essa tarefa pode otimizar os processos internos de uma loja online</p>\n",
+    "date": "2021-01-27",
+    "slug": "vtex-oms-e-a-gestao-de-pedidos-para-ecommerce",
+    "content": "\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"470\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/01/gestao-de-pedidos-1024x470.png\" alt=\"\" class=\"wp-image-1000\" srcset=\"https://wedigi.com.br/wp-content/uploads/2021/01/gestao-de-pedidos-1024x470.png 1024w, https://wedigi.com.br/wp-content/uploads/2021/01/gestao-de-pedidos-300x138.png 300w, https://wedigi.com.br/wp-content/uploads/2021/01/gestao-de-pedidos-768x352.png 768w, https://wedigi.com.br/wp-content/uploads/2021/01/gestao-de-pedidos-1536x704.png 1536w, https://wedigi.com.br/wp-content/uploads/2021/01/gestao-de-pedidos.png 1723w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" /></figure>\n\n\n\n<p>Como funciona a gestão de pedidos no seu ecommerce? Você sabia que é possível integrar o gerenciamento e unificar a gestão de pedidos em um único lugar, mesmo entre lojas físicas e digitais? O nome disso é <strong>VTEX OMS</strong>, a funcionalidade omnichannel que a plataforma oferece para seus usuários.</p>\n\n\n\n<p>A gestão de pedidos é uma importante função para quem atua com comércio eletrônico, já que esse gerenciamento exige uma grande atenção nos detalhes desde a origem dos pedidos, embarques de volumes e todo processo logístico, até que a compra chegue ao seu destino final.&nbsp;</p>\n\n\n\n<p>Para facilitar esse gerenciamento, a VTEX OMS se tornou um grande diferencial por ser um meio confiável para realizar a gestão de pedidos em todos os aspectos com pontualidade, eficiência e um processo sem surpresas.&nbsp;</p>\n\n\n\n<p>Não tem como negar, quando uma operação funciona sem intercorrências, a satisfação do cliente ganha destaque, aumentando ainda mais as possibilidades de novas vendas.</p>\n\n\n\n<p>Quer saber que outras vantagens o OMS da VTEX pode agregar para o crescimento do seu ecommerce? Continue a leitura e fique por dentro.</p>\n\n\n<p>[wpforms id=&#8221;130&#8243; title=&#8221;true&#8221; description=&#8221;true&#8221;]</p>\n\n\n\n<h2 class=\"wp-block-heading\">Benefícios da gestão de pedidos com o VTEX OMS&nbsp;</h2>\n\n\n\n<p>Ter um OMS (Order Management System) integrado à sua plataforma de ecommerce sem dúvidas vai ajudar a ter mais visibilidade em todos os processos da gestão de pedidos da sua loja. Uma das vantagens do recurso desenvolvido pela VTEX é unificar os dados mais relevantes em um único lugar, possibilitando a visualização dos pedidos realizados em diversos canais de vendas da sua loja, como por exemplo, lojas físicas, virtuais, apps mobile e totens.</p>\n\n\n\n<p>Essa integração é ainda importante para a unificação dos estoques, facilitando o gerenciamento de disponibilidade dos produtos com muito mais facilidade e agilidade.</p>\n\n\n\n<p>Veja outros grandes benefícios que o OMS oferece para a gestão de pedidos:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Potencializa o atendimento ao consumidor;</li><li>Facilita a administração da base de dados de clientes em todos os canais da loja</li><li>Possibilita o controle de ofertas de produtos e promoções customizadas em todos os canais</li><li>Auxilia na criação de promoções personalizadas para clientes específicos</li><li>Entrega maior consistência e precisão do estoque em todos os pontos de venda</li><li>Facilita o processamento de pagamentos e acompanhamento de reembolsos</li></ul>\n\n\n\n<p>Para gerenciar um ecommerce é preciso estar atento às novidades do mercado e entender as necessidades e oportunidades de melhoria para o seu negócio. Investir em uma opção de OMS que permite uma visão 360º do cliente e centralizar as informações de estoque irá facilitar o fluxo de trabalho e otimizar a gestão de pedidos, diminuindo possíveis gargalos que possam surgir nessa etapa.</p>\n\n\n\n<p>Para ter acesso ao OMS VTEX e ampliar as possibilidade da gestão de pedidos do seu ecommerce de forma integrada e unificada, entre em contato com a<a href=\"https://admin.wedigi.com.br/\"> equipe de tecnologia da we.digi</a>. Com foco em ajudar empresas a darem vida aos seus negócios digitais, o núcleo we.digi.tech foi montado para atuar em todas as etapas de implantação, evolução e manutenção de ecommerce com segurança e tranquilidade e se manter alinhado com as novidades do segmento.</p>\n\n\n<p>[cta text=&#8221;Clique aqui e fale com a nossa equipe especializada em tecnologia!&#8221; link=&#8221;https://admin.wedigi.com.br/#wdt-contact&#8221; target=&#8221;_self&#8221; background=&#8221;#3498db&#8221; color=&#8221;#ffffff&#8221;]</p>\n"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/b662726b516e",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Performance",
+    "slug": "/posts/categorias/performance"
+  }
+}

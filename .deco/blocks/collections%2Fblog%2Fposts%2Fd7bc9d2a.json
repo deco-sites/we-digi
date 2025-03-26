@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/d7bc9d2a",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Diprotec - Encontre Segurança e Confiança em uma Agência VTEX - wedigi",
+    "excerpt": "<p>Conheça o caso de sucesso da Diprotec, uma empresa com três sites de e-commerce: bshstore.com.br, distribuidorsika.com.br e impermarket.com.br. Apesar de ter passado por três agências renomadas no ecossistema VTEX, a Diprotec enfrentou desafios comuns no mercado de e-commerce, como distanciamento, falta de confiança nas entregas e problemas de atendimento. Parceria com a we.digi No VTEX [&hellip;]</p>\n",
+    "date": "2024-04-11",
+    "slug": "sika-como-encontrar-seguranca-em-uma-agencia-vtex",
+    "content": "\n<p>Conheça o caso de sucesso da Diprotec, uma empresa com três sites de e-commerce: bshstore.com.br, distribuidorsika.com.br e impermarket.com.br. Apesar de ter passado por três agências renomadas no ecossistema VTEX, a Diprotec enfrentou desafios comuns no mercado de e-commerce, como distanciamento, falta de confiança nas entregas e problemas de atendimento.</p>\n\n\n\n<h2 class=\"wp-block-heading\"><strong>Parceria com a we.digi</strong></h2>\n\n\n\n<p>No VTEX Day, a Diprotec foi indicada à we.digi pela própria VTEX. Inicialmente desacreditados pelas experiências negativas anteriores, fechamos um contrato para gerenciar apenas um dos sites. A confiança mútua e o comprometimento com a qualidade e eficiência nos serviços prestados permitiram que a parceria prosperasse.</p>\n\n\n\n<p>Hoje, após quase dois anos de colaboração bem-sucedida, a we.digi gerencia os três sites da Diprotec, mantendo uma relação sólida e baseada na confiança e parceria.</p>\n\n\n\n<figure class=\"wp-block-video\"><video controls src=\"https://wedigi.com.br/wp-content/uploads/2024/04/Diprotec.mp4\"></video></figure>\n"
+  }
+}

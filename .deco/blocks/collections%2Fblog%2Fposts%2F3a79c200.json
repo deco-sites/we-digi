@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/3a79c200",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case Ultrafeu - Cresça Seu Negócio com Martech: A Parceria de Sucesso com a we.digi - wedigi",
+    "excerpt": "<p>Conheça a história de sucesso da Ultrafeu, uma empresa especializada em equipamentos para restaurantes, panificadoras, açougues, pizzarias, supermercados, sorveterias e outros estabelecimentos no ramo de alimentação. Ao unir forças com a we.digi, a Ultrafeu encontrou a chave para impulsionar seu crescimento através da Evolução e Performance, dois serviços especializados da we.digi.tech e we.digi.growth. Como a [&hellip;]</p>\n",
+    "date": "2024-04-11",
+    "slug": "case-ultrafeu-cresca-seu-negocio-com-martech-a-parceria-de-sucesso-com-a-we-digi",
+    "content": "\n<p>Conheça a história de sucesso da Ultrafeu, uma empresa especializada em equipamentos para restaurantes, panificadoras, açougues, pizzarias, supermercados, sorveterias e outros estabelecimentos no ramo de alimentação. Ao unir forças com a we.digi, a Ultrafeu encontrou a chave para impulsionar seu crescimento através da Evolução e Performance, dois serviços especializados da we.digi.tech e we.digi.growth.</p>\n\n\n\n<p><strong>Como a Martech Impulsionou os Resultados da Ultrafeu</strong></p>\n\n\n\n<p>A escolha estratégica da Ultrafeu em trabalhar conosco teve um impacto significativo em seus resultados. Conseguimos alinhar as principais necessidades do time de mídia com as soluções tecnológicas oferecidas pelo time de tecnologia da we.digi, resultando em um aumento impressionante de mais de 80% no faturamento da Ultrafeu.</p>\n\n\n\n<figure class=\"wp-block-video\"><video controls src=\"blob:https://wedigi.com.br/3c9298fe-68e1-4c1e-8585-9a2487e87f72\"></video></figure>\n"
+  }
+}

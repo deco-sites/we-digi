@@ -1,0 +1,11 @@
+{
+  "name": "collections/blog/authors/aeeeb8df8b2d",
+  "__resolveType": "blog/loaders/Author.ts",
+  "author": {
+    "name": "Cleyton  Mendes",
+    "email": "cleyton.mendes@wedigi.com.br",
+    "jobTitle": "Testando Job Title",
+    "company": "We.digi",
+    "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+  }
+}

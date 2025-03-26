@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/fc5631c8",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Espaço Smart o maior case de construção a seco do Brasil - wedigi",
+    "excerpt": "<p>A Espaço Smart procurou a we.digi com um desafio ambicioso: migrar seu site de VTEX Legacy para VTEX IO e desenvolver uma plataforma para vender casas prontas online. Este projeto inovador permitiria aos clientes escolherem um projeto de casa que se adequasse às dimensões de seu terreno, personalizar diversos aspectos da casa, como estrutura em [&hellip;]</p>\n",
+    "date": "2024-04-11",
+    "slug": "espaco-smart-maior-case-de-construcao-a-seco-do-brasil",
+    "content": "\n<p>A Espaço Smart procurou a we.digi com um desafio ambicioso: migrar seu site de VTEX Legacy para VTEX IO e desenvolver uma plataforma para vender casas prontas online. Este projeto inovador permitiria aos clientes escolherem um projeto de casa que se adequasse às dimensões de seu terreno, personalizar diversos aspectos da casa, como estrutura em Steel Frame, acabamentos interno e externo, esquadrias, entre outros, e solicitar financiamento direto com a Espaço Smart em até 60x.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Desenvolvimento da Versão 1.0 da Venda de Casas</h2>\n\n\n\n<p>A we.digi, sempre em busca de desafios, abraçou este projeto e entregou a versão 1.0 da plataforma de venda de casas para a Espaço Smart. O site foi equipado com diversas funcionalidades diferenciadas, incluindo calculadoras de telhado, piso e outros recursos essenciais.<br>Contrato de Evolução e Integração de Ferramentas<br>Em 2022, a Espaço Smart assinou um contrato de evolução conosco para aprimorar ainda mais a plataforma. Trabalhamos intensivamente para superar os desafios técnicos e realizar o sonho da Espaço Smart de oferecer casas prontas online. Integramos diversas ferramentas e realizamos muitas reuniões para garantir o sucesso do projeto.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Reconhecimento e Palestra na VTEX</h2>\n\n\n\n<p>O esforço conjunto da we.digi e da Espaço Smart resultou em um projeto tão inovador que a Espaço Smart foi convidada pela VTEX para palestrar em um dos palcos como um dos cases mais disruptivos da plataforma. Utilizamos toda a estrutura da VTEX para oferecer a venda de casas prontas, incluindo calculadoras, serviços, omnichannel com mais de 28 lojas integradas, atendimento diferenciado com opção de atendimento ao vivo durante o horário comercial, assistência por chatbot com inteligência artificial, atendimento por WhatsApp e uma vila no metaverso que permite a navegação dos usuários pelas casas.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Adaptações e Inovações Contínuas</h2>\n\n\n\n<p>A Espaço Smart é uma empresa incansável e sempre em busca de inovação. Por isso, não paramos por aí. Já estamos trabalhando no novo projeto e em breve traremos mais novidades por aqui.</p>\n\n\n\n<figure class=\"wp-block-video\"></figure>\n"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/d17a65b9",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": null,
+    "categories": [
+      {
+        "name": "VTEX",
+        "slug": "vtex"
+      }
+    ],
+    "extraProps": [],
+    "title": "A Influência do Master Data na Migração de 6 milhões de SKUs",
+    "excerpt": "<p>Migrar um e-commerce completo, com mais de 6 milhões de SKUs em tempo record, sem impactar no funcionamento da operação. Já pensou em um desafio como esse? Esse foi um case de sucesso da we.digi, que contou com uma equipe de tecnologia altamente qualificada e com suporte especializado da VTEX. Nesse material, você descobrirá como [&hellip;]</p>\n",
+    "date": "2021-06-24",
+    "slug": "ebook-case-urban-arts-master-data",
+    "content": "\n<figure class=\"wp-block-image size-large is-style-default\"><img loading=\"lazy\" decoding=\"async\" width=\"700\" height=\"370\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/06/case-ebook-urban.jpg\" alt=\"master-data-case-urban-arts\" class=\"wp-image-1244\" srcset=\"https://wedigi.com.br/wp-content/uploads/2021/06/case-ebook-urban.jpg 700w, https://wedigi.com.br/wp-content/uploads/2021/06/case-ebook-urban-300x159.jpg 300w\" sizes=\"(max-width: 700px) 100vw, 700px\" /></figure>\n\n\n\n<p>Migrar um e-commerce completo, com mais de 6 milhões de SKUs em tempo record, sem impactar no funcionamento da operação. Já pensou em um desafio como esse?</p>\n\n\n\n<p>Esse foi um case de sucesso da we.digi, que contou com uma equipe de tecnologia altamente qualificada e com suporte especializado da VTEX.</p>\n\n\n\n<p>Nesse material, você descobrirá como o módulo VTEX Master Data foi fundamental para solucionar o problema, além disso,  verá passo a passo de como essa operação foi conduzida com excelência</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Veja o que você vai encontrar nesse ebook:</strong></h3>\n\n\n\n<ul class=\"wp-block-list\"><li>Master Data VTEX</li><li>Case Urban Arts</li><li>O Desafio Da Migração</li><li>A Etapa De Testes E Novos Desafios</li><li>VTEX Master Data E A Solução Tão Esperada</li><li>E muito mais</li></ul>\n\n\n\n<p>Para fazer download gratuito do ebook e conhecer o case completo <a href=\"https://conteudo.wedigi.com.br/case-urban\" target=\"_blank\" rel=\"noreferrer noopener\">clique aqui</a> ou no botão abaixo.</p>\n\n\n\n<figure class=\"wp-block-image size-full is-resized is-style-default\"><a href=\"https://conteudo.wedigi.com.br/case-urban\" target=\"_blank\" rel=\"noopener noreferrer\"><img loading=\"lazy\" decoding=\"async\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/06/BOTAO.png\" alt=\"\" class=\"wp-image-1243\" width=\"167\" height=\"43\"/></a></figure>\n"
+  }
+}
