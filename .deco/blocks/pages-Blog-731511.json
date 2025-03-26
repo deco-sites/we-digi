@@ -12,7 +12,8 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/RichText.tsx",
-        "text": "<h1 style=\"text-align: center\"><span style=\"font-size: 44pt\">Blog We.digi</span></h1><h2 style=\"text-align: center\"><span style=\"font-size: 23pt\">Receba conteúdo gratuito para crescer seu negócio:</span></h2>"
+        "text": "<h1 style=\"text-align: center\"><span style=\"font-size: 44pt\">Blog We.digi</span></h1><h2 style=\"text-align: center\"><span style=\"font-size: 23pt\">Receba conteúdo gratuito para crescer seu negócio:</span></h2>",
+        "paddingTop": 40
       }
     },
     {
@@ -23,10 +24,7 @@
           "__resolveType": "blog/loaders/BlogpostList.ts",
           "sortBy": "date_desc"
         },
-        "pagination": {
-          "page": 0,
-          "perPage": 6
-        },
+        "pagination": {},
         "cta": {
           "text": "Mostrar mais"
         }
