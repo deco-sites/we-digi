@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/519837ed",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": "https://wedigi.com.br/wp-content/uploads/2022/12/acuo.png",
+    "categories": [
+      {
+        "name": "VTEX",
+        "slug": "vtex"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case de Sucesso Acuo: migração para VTEX IO",
+    "excerpt": "<p>Entenda quais foram os ganhos, quase que imediatos, que o e-commerce da Acuo teve ao migrar para VTEX IO com a we.digi!</p>\n",
+    "date": "2022-12-05",
+    "slug": "case-acuo-vtex-io",
+    "content": "\n<figure class=\"wp-block-image size-full is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2022/12/acuo.png\" alt=\"\" class=\"wp-image-2492\" width=\"672\" height=\"296\" srcset=\"https://wedigi.com.br/wp-content/uploads/2022/12/acuo.png 672w, https://wedigi.com.br/wp-content/uploads/2022/12/acuo-300x132.png 300w\" sizes=\"(max-width: 672px) 100vw, 672px\" /></figure>\n\n\n\n<p>Quem tem medo de mudança? E de mudança de plataforma de e-commerce às vésperas da Black Friday? A equipe Acuo não se amedrontou e os resultados desse grande passo foram surpreendentes!</p>\n\n\n\n<p>Há quem diga que em time que está ganhando não se mexe, ou então, que o melhor momento para fazer uma grande mudança é quando a situação está minimamente sob controle. A verdade é que estar atento aos sinais de que a sua loja precisa de uma migração, evolução ou até mesmo uma mudança drástica faz toda a diferença para o sucesso a curto, médio e longo prazo.</p>\n\n\n\n<p>Foi exatamente isso que a equipe de e-commerce da Acuo fez e, após alguns sinais de alerta importantes, uma busca por novos parceiros para dar esse novo passo para a loja online se iniciou, dando início a parceria de sucesso com a <a href=\"https://www.wedigi.com.br/\" target=\"_blank\" rel=\"noreferrer noopener\">we.digi</a>. Continue a leitura e entenda quais foram os ganhos, quase que imediatos, que o e-commerce da Acuo teve ao migrar para VTEX IO com a we.digi!</p>\n\n\n\n<h2 class=\"wp-block-heading\">Sobre o cliente</h2>\n\n\n\n<p>Fundada em 1994, a marca busca imprimir em seus produtos a essência de levar elegância e conforto para ocasiões do cotidiano, da casa às ruas.</p>\n\n\n\n<p>A <a href=\"https://www.acuo.com.br/\" target=\"_blank\" rel=\"noreferrer noopener\">Acuo</a> tem como carro chefe pijamas e lingeries com o principal objetivo de criar momentos e emoções, participando de histórias e estando presente nas horas mais íntimas das famílias brasileiras. Além da loja online, a marca ainda possui mais 5 lojas físicas em pontos estratégicos da região Sul do país.</p>\n\n\n\n<h2 class=\"wp-block-heading\">O desafio</h2>\n\n\n\n<p>A loja online da Acuo utilizava a versão anterior da VTEX, a <a href=\"https://www.wedigi.com.br/insights/post/vtex-io-ou-legacy\" target=\"_blank\" rel=\"noreferrer noopener\">VTEX Legacy</a> (CMS) e, após alguns meses de insatisfação com o layout, com aumento de horas com a agência e dificuldade para realizar alterações no front end, a empresa iniciou uma busca por novas possibilidades que iriam solucionar os pontos críticos e proporcionar uma experiência de navegação e gestão ainda mais positiva para enfrentar uma Black Friday devidamente preparada tecnicamente.</p>\n\n\n\n<h2 class=\"wp-block-heading\">A solução</h2>\n\n\n\n<p>Após algumas reuniões e acertos de escopo, a equipe Acuo confiou na capacidade técnica da we.digi para realizar a migração a tempo da Black Friday. De VTEX Legacy, a Acuo passou a ser VTEX IO e, em 3 meses de projeto de implantação, a loja online estava pronta para enfrentar o mês mais desafiador do varejo e colher resultados inesperados.</p>\n\n\n\n<h2 class=\"wp-block-heading\">O resultado</h2>\n\n\n\n<p>Com migração para VTEX IO orquestrada pela equipe de tecnologia da we.digi, a loja online da Acuo registrou resultados surpreendentes quase que de imediato:</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Crescimento de +100% de conversão nos primeiros dias</li><li>Melhoria no Page Speed</li><li>Menos dependência da agência e mais autonomia para mudanças no front-end</li><li>Economia de horas/desenvolvimento com a agência</li><li>Mais autonomia para a equipe de design em alterações de layouts</li><li>Layout moderno e responsivo&nbsp;</li></ul>\n\n\n\n<p>Se o seu e-commerce também está dando sinais de que está na hora de migrar para uma plataforma mais completa e preparada para acompanhar as necessidades do seu público, do mercado e, principalmente, do crescimento do seu negócio, <a href=\"https://www.wedigi.com.br/contato\" target=\"_blank\" rel=\"noreferrer noopener\">fale com a nossa equipe</a> e descubra como a alta capacidade técnica da we.digi pode te ajudar a dar passos surpreendentes nessa evolução!</p>\n"
+  }
+}

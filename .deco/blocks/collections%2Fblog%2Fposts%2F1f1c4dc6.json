@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/1f1c4dc6",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": "",
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Lista de presentes customizada VTEX - wedigi",
+    "excerpt": "<p>A Fraldas Dipano tinha o desafio de migrar seu site de VTEX Legacy para VTEX IO e escolheu a we.digi como sua agência parceira nessa transição crucial. Este projeto envolveu não apenas a migração técnica, mas também a melhoria das funcionalidades e da experiência do usuário. Desafios Iniciais e Estratégia de Comunicação Desde o início, [&hellip;]</p>\n",
+    "date": "2024-04-11",
+    "slug": "fraldas-dipano-lista-presente-customizada-vtex",
+    "content": "\n<p>A Fraldas Dipano tinha o desafio de migrar seu site de VTEX Legacy para VTEX IO e escolheu a we.digi como sua agência parceira nessa transição crucial. Este projeto envolveu não apenas a migração técnica, mas também a melhoria das funcionalidades e da experiência do usuário.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Desafios Iniciais e Estratégia de Comunicação</h2>\n\n\n\n<p>Desde o início, o projeto enfrentou desafios significativos, principalmente na comunicação. Para superar esses obstáculos, Felipe Trudes e Luiz Henrique, visitaram a Dipano para entender profundamente as necessidades e expectativas do cliente. Com um alinhamento claro e uma estratégia bem definida, conseguimos estabelecer uma parceria sólida e eficaz.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Quais os desafios da Fraldas Dipano?</h2>\n\n\n\n<p>A Fraldas Dipano opera com um modelo de negócio único, baseado na lista de presentes da VTEX e na venda de Kits personalizados. Anteriormente, os kits eram vendidos no site, mas as escolhas dos produtos eram gerenciadas pelo time de atendimento da Dipano.<br>Desenvolvimento de APP para lista de presente customizada VTEX<br>Durante o projeto, identificamos que o novo APP de Lista de Presente VTEX não atendia às necessidades específicas da Dipano. Diante disso, optamos por desenvolver um APP customizado, utilizando o Master Data VTEX e o módulo de GiftCard. Além disso, criamos um APP de Admin que permite à Dipano gerenciar e editar os créditos da lista diretamente no painel administrativo da VTEX.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Solução para Kits Personalizados</h2>\n\n\n\n<p>O desenvolvimento do APP de Kit Personalizado foi um dos desafios mais significativos. Criamos uma interface intuitiva e amigável para a seleção de múltiplos produtos, com regras personalizadas definidas pela Dipano. Isso permite que a Dipano configure as categorias disponíveis para seleção pelos clientes e defina a quantidade desejada de peças. Os clientes podem facilmente selecionar os itens desejados, avançar nas etapas do processo, revisar os produtos escolhidos e adicioná-los ao carrinho. No APP de Admin, implementamos regras inteligentes que capturam pedidos customizados, enviando um e-mail ao time da Dipano para a separação e envio dos itens ao cliente.</p>\n\n\n\n<h2 class=\"wp-block-heading\">Resultados e Sucesso da Implementação</h2>\n\n\n\n<p>Estamos extremamente satisfeitos com o sucesso da implementação deste projeto. Conseguimos alcançar excelentes resultados, desenvolvendo uma interface incrível e remodelando completamente as funcionalidades existentes e novas no projeto. Foi um desafio gratificante e muito satisfatório que reforçou nossa parceria com a Fraldas Dipano.</p>\n\n\n\n<p>Assista ao vídeo de Luiz Pina, nosso cliente, parceiro e amigo, para obter mais detalhes sobre este projeto de sucesso e ver o impacto positivo que essa parceria teve no negócio da Fraldas Dipano.</p>\n\n\n\n<figure class=\"wp-block-video\"><video controls poster=\"https://wedigi.com.br/wp-content/uploads/2024/04/foto-dipano.png\" src=\"https://wedigi.com.br/wp-content/uploads/2024/04/Dipano.mp4\"></video></figure>\n"
+  }
+}

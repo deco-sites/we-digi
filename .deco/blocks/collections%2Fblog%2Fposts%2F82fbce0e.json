@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/82fbce0e",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": "https://wedigi.com.br/wp-content/uploads/2020/12/nacaoverde-case.jpg",
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case Nação Verde - evolução - wedigi",
+    "excerpt": "<p>Saiba como a we.digi aumentou a taxa de conversão da loja Nação Verde</p>\n",
+    "date": "2020-12-28",
+    "slug": "case-nacao-verde-evolucao",
+    "content": "\n<h2 class=\"wp-block-heading\"><strong>O cenário:</strong></h2>\n\n\n\n<p>A loja Nação Verde desejava aumentar sua taxa de conversão drasticamente e buscou a consultoria we.digi para identificar quais melhorias deveriam ser realizadas e executá-las.</p>\n\n\n\n<h2 class=\"wp-block-heading\">A execução:</h2>\n\n\n\n<p>Ao estudar o que poderia ser feito para otimizar a performance da loja, identificamos os seguintes pontos:</p>\n\n\n\n<p>Reestruturação na forma de adição dos produtos ao carrinho deixando mais dinâmica e com informações mais claras; </p>\n\n\n\n<p>Reformulação da página de produtos, organizando as informações e otimizando sua exibição, dando ênfase também à adição do produto ao carrinho; e</p>\n\n\n\n<p>Ainda antes da Black Friday publicamos um novo topo, organizando as informações e possibilitando uma árvore de categorias mais abrangente, organizada e possibilitando uma melhor experiência do usuário.</p>\n\n\n\n<p>Após as publicações dos ajustes citados foi possível observar uma grande melhora na performance da loja já no mês seguinte.</p>\n\n\n\n<h2 class=\"wp-block-heading\"><strong>Resultados:</strong> </h2>\n\n\n\n<p>Comparando a performance deste ano com o mesmo período do ano anterior (01/09/2020 à 30/11/2020), temos: </p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"919\" height=\"143\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2020/12/image-4.png\" alt=\"\" class=\"wp-image-900\" srcset=\"https://wedigi.com.br/wp-content/uploads/2020/12/image-4.png 919w, https://wedigi.com.br/wp-content/uploads/2020/12/image-4-300x47.png 300w, https://wedigi.com.br/wp-content/uploads/2020/12/image-4-768x120.png 768w\" sizes=\"(max-width: 919px) 100vw, 919px\" /></figure>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Usuários +72,53%</strong></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Taxa de rejeição &#8211; 7,03%</strong></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Páginas por Sessão +16,50%</strong></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Duração média da sessão +16,59%</strong></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Taxa de conversão +281,11%</strong></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Transações +543,38%</strong></li></ul>\n\n\n\n<ul class=\"wp-block-list\"><li><strong>Receita +375,07%</strong></li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">O que nosso cliente tem a dizer sobre nós 🙂</h2>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\"><p>&#8220;Procuramos a Wedigi pois estávamos muito descontentes com nossos números com relação a conversão é um alto abandono de carrinho principalmente.<br>Foram sugeridas mudanças no layout e na programação do site.<br>A equipe da Wedigi nos passou bastante confiança e segurança nessas mudanças (uma vez que o site está no ar em pleno funcionamento).<br>Os resultados começaram a vir gradualmente e puderam ser medidos por nossa equipe.<br>Principalmente o número de conversões aumentaram bastante!<br>Abandono de carrinho diminuiu muito!<br>Estamos muito próximos da meta em pouquíssimo tempo!<br>Agradeço todo suporte e parceria da equipe Wedigi! Excelentes profissionais!&#8221;</p><cite>Karina &#8211; Nação Verde<br></cite></blockquote>\n"
+  }
+}
