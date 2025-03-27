@@ -63,11 +63,8 @@ export default function Footer({
           {title && <p class="text-[#ababab] lg:text-[40px] text-2xl mb-4 lg:mb-16">{title}</p>}
           {description && <p class="text-white lg:text-2xl text-base">{description}</p>}
         </div>
-
-        <div class="w-full md:w-[52%]">
-          <ContactForm />
-        </div>
-
+        {/* <ContactForm /> */}
+        <div class="w-full md:w-[52%] contact-form-container" id="contact_form" />
       </div>
     </div>
   );
