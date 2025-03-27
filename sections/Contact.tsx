@@ -64,7 +64,7 @@ export default function Footer({
           {description && <p class="text-white lg:text-2xl text-base">{description}</p>}
         </div>
         {/* <ContactForm /> */}
-        <div class="w-full md:w-[52%] contact-form-container" id="contact_form" />
+        <div class="w-full md:w-[52%] px-5 bg-white" id="contact_form" />
       </div>
     </div>
   );
