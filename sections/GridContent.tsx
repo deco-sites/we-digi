@@ -115,8 +115,8 @@ const BlockText = ({ block }: BlockTextProps) => {
 const GridContent = ({ bg, blocks, maxWidth }: Props) => {
 
     return (
-        <div style={bg ? {backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat'} : {}}>
-            <div class="w-full h-full top-0 left-0 flex justify-center items-center py-16">
+        <div style={bg ? {backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'} : {}}>
+            <div class="w-full h-full top-0 left-0 flex justify-center items-center py-16 px-4">
                 <div style={maxWidth ? {maxWidth: `${maxWidth}px`} : {}} class="flex flex-col lg:gap-8 gap-4 items-center">
                     {blocks?.map((block) => {
                         return (

@@ -66,6 +66,35 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Partnerships.tsx",
+        "title": "Quem cresce com a we.digi...",
+        "logos": [
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/884ea3d1-9213-46a7-9d14-bf4f083b47d9/Camada_1.svg",
+            "width": 158,
+            "height": 83
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/558526bd-0ae4-41a4-b1f8-8e04a1079d21/Camada_2.svg",
+            "width": 149,
+            "height": 74
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/490a3532-c8ee-43c8-8aac-6935ca7733c1/Camada_3.svg",
+            "width": 229,
+            "height": 85
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/025eb597-46d3-4a2c-abe5-e5b64422acb9/Camada_4.svg",
+            "width": 250,
+            "height": 26
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Testimonials.tsx",
         "title": "<h2 style=\"text-align: center\"><span style=\"color: #75f5f6; font-size: 28pt\">…e se o cliente falou, tá falado!</span></h2>",
         "arrows": true,
