@@ -17,17 +17,18 @@ import * as $$$$$$6 from "./sections/Faq.tsx";
 import * as $$$$$$7 from "./sections/FaqImage.tsx";
 import * as $$$$$$8 from "./sections/Footer.tsx";
 import * as $$$$$$9 from "./sections/Header.tsx";
-import * as $$$$$$18 from "./sections/hero-1.tsx";
-import * as $$$$$$19 from "./sections/hero-2.tsx";
+import * as $$$$$$19 from "./sections/hero-1.tsx";
+import * as $$$$$$20 from "./sections/hero-2.tsx";
 import * as $$$$$$10 from "./sections/Hero.tsx";
-import * as $$$$$$20 from "./sections/hero2.tsx";
+import * as $$$$$$21 from "./sections/hero2.tsx";
 import * as $$$$$$11 from "./sections/ImageText.tsx";
 import * as $$$$$$12 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$13 from "./sections/Logos.tsx";
 import * as $$$$$$14 from "./sections/Partnerships.tsx";
 import * as $$$$$$15 from "./sections/RichText.tsx";
-import * as $$$$$$16 from "./sections/Testimonials.tsx";
-import * as $$$$$$17 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$16 from "./sections/SimpleHeader.tsx";
+import * as $$$$$$17 from "./sections/Testimonials.tsx";
+import * as $$$$$$18 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -41,17 +42,18 @@ const manifest = {
     "site/sections/FaqImage.tsx": $$$$$$7,
     "site/sections/Footer.tsx": $$$$$$8,
     "site/sections/Header.tsx": $$$$$$9,
-    "site/sections/hero-1.tsx": $$$$$$18,
-    "site/sections/hero-2.tsx": $$$$$$19,
+    "site/sections/hero-1.tsx": $$$$$$19,
+    "site/sections/hero-2.tsx": $$$$$$20,
     "site/sections/Hero.tsx": $$$$$$10,
-    "site/sections/hero2.tsx": $$$$$$20,
+    "site/sections/hero2.tsx": $$$$$$21,
     "site/sections/ImageText.tsx": $$$$$$11,
     "site/sections/ImageWithParagraph.tsx": $$$$$$12,
     "site/sections/Logos.tsx": $$$$$$13,
     "site/sections/Partnerships.tsx": $$$$$$14,
     "site/sections/RichText.tsx": $$$$$$15,
-    "site/sections/Testimonials.tsx": $$$$$$16,
-    "site/sections/Theme/Theme.tsx": $$$$$$17,
+    "site/sections/SimpleHeader.tsx": $$$$$$16,
+    "site/sections/Testimonials.tsx": $$$$$$17,
+    "site/sections/Theme/Theme.tsx": $$$$$$18,
   },
   "apps": {
     "site/apps/deco/ai-assistants.ts": $$$$$$$$$$$0,

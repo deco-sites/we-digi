@@ -5,8 +5,16 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/SimpleHeader.tsx",
+        "logo": "https://assets.decocache.com/we-digi/c16836f8-c94a-46d3-80ce-147d8835149b/logo-wedigi-1.png",
+        "alt": "we.digi"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Testimonials.tsx",
-        "title": "…e se o cliente falou, tá falado!",
+        "title": "<h2 style=\"text-align: center\"><span style=\"color: #75f5f6; font-size: 28pt\">…e se o cliente falou, tá falado!</span></h2>",
         "arrows": true,
         "dots": true,
         "mark": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/96ca403c-da22-415c-bad9-671e7d519853/.png",
