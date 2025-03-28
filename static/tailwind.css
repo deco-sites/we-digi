@@ -3122,6 +3122,9 @@ input.tab:checked + .tab-content,
 .max-w-6xl {
   max-width: 72rem;
 }
+.max-w-96 {
+  max-width: 24rem;
+}
 .max-w-\[139px\] {
   max-width: 139px;
 }
@@ -3175,6 +3178,9 @@ input.tab:checked + .tab-content,
 }
 .max-w-\[80px\] {
   max-width: 80px;
+}
+.max-w-\[94vw\] {
+  max-width: 94vw;
 }
 .max-w-full {
   max-width: 100%;
@@ -3515,6 +3521,10 @@ input.tab:checked + .tab-content,
   --tw-bg-opacity: 1;
   background-color: rgb(13 23 23 / var(--tw-bg-opacity));
 }
+.bg-\[\#46c2ee\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(70 194 238 / var(--tw-bg-opacity));
+}
 .bg-\[\#4C4B4B\] {
   --tw-bg-opacity: 1;
   background-color: rgb(76 75 75 / var(--tw-bg-opacity));
@@ -3526,6 +3536,14 @@ input.tab:checked + .tab-content,
 .bg-\[\#C9CFCF\] {
   --tw-bg-opacity: 1;
   background-color: rgb(201 207 207 / var(--tw-bg-opacity));
+}
+.bg-\[\#F2F2F2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 242 242 / var(--tw-bg-opacity));
+}
+.bg-\[\#f0857d\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 133 125 / var(--tw-bg-opacity));
 }
 .bg-\[var\(--bg-color\)\] {
   background-color: var(--bg-color);
@@ -3906,6 +3924,10 @@ input.tab:checked + .tab-content,
 .text-\[\#1e1e1e99\] {
   color: #1e1e1e99;
 }
+.text-\[\#292D6B\] {
+  --tw-text-opacity: 1;
+  color: rgb(41 45 107 / var(--tw-text-opacity));
+}
 .text-\[\#667781\] {
   --tw-text-opacity: 1;
   color: rgb(102 119 129 / var(--tw-text-opacity));
@@ -3932,6 +3954,10 @@ input.tab:checked + .tab-content,
 .text-base-content {
   --tw-text-opacity: 1;
   color: var(--fallback-bc,oklch(var(--bc)/var(--tw-text-opacity)));
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .text-green-500 {
   --tw-text-opacity: 1;
@@ -4396,6 +4422,10 @@ input.tab:checked + .tab-content,
     max-width: 36rem;
   }
 
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -4406,6 +4436,10 @@ input.tab:checked + .tab-content,
 
   .md\:flex-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
   }
 
   .md\:justify-between {
@@ -4772,6 +4806,10 @@ input.tab:checked + .tab-content,
   .xl\:max-w-\[1272px\] {
     max-width: 1272px;
   }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1536px) {
@@ -5004,6 +5042,10 @@ input.tab:checked + .tab-content,
   .lg\:\[\&_h2\]\:text-\[40px\] h2 {
     font-size: 40px;
   }
+
+  .lg\:\[\&_h2\]\:leading-\[48px\] h2 {
+    line-height: 48px;
+  }
 }
 
 @media not all and (min-width: 768px) {
@@ -5151,6 +5193,11 @@ input.tab:checked + .tab-content,
   .lg\:\[\&_p\]\:text-2xl p {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .lg\:\[\&_p\]\:text-base p {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 

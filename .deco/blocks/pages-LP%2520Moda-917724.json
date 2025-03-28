@@ -13,6 +13,33 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/TextWithCards.tsx",
+        "text": "<h2><span style=\"color: #858585\">Estratégia de tráfego que</span> <span style=\"color: rgb(0, 0, 0)\">gera resultados de verdade!</span></h2><p><br></p><p><span style=\"color: #858585\">Não basta gerenciar anúncios. Analisamos todo o ecossistema da sua marca para criar estratégias que impactam diretamente seu faturamento. Com um método exclusivo, unimos expertise técnica e conhecimento profundo do seu negócio para otimizar cada ponto da jornada do cliente.</span></p>",
+        "cards": [
+          {
+            "icon": "https://assets.decocache.com/we-digi/c1f9fe0e-9aef-4e67-85aa-57d58dee4e87/visao.png",
+            "title": "Visão 360º  do negócio",
+            "text": "O primeiro passo é te ouvir para entender com profundidade o que seu negócio precisa para prosperar. A partir disso, criamos soluções estratégicas que impactam positivamente em todos eles.",
+            "link": "/contato"
+          },
+          {
+            "icon": "https://assets.decocache.com/we-digi/b9c0ea2d-392c-4c5e-9746-993bae92dcff/metodologia.png",
+            "title": "Metodologia  personalizada",
+            "text": "De forma consultiva e proativa, te ajudamos a tomar decisões estratégicas para crescer de forma saudável, com uma abordagem que vai além do tráfego pago.",
+            "link": "/contato"
+          },
+          {
+            "icon": "https://assets.decocache.com/we-digi/dd5cebe7-82b2-4427-b830-177592df2ea0/crescimento.png",
+            "title": "Crescimento  sustentável",
+            "text": "Focamos em resultados olhando para o futuro do seu negócio,  garantindo que seu e-commerce de moda se desenvolva com solidez e consistência.",
+            "link": "/contato"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/GridContent.tsx",
         "blocks": [
           {
