@@ -13,6 +13,59 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/GridContent.tsx",
+        "blocks": [
+          {
+            "type": "Texto",
+            "text": "<h2 style=\"text-align: center\"><span style=\"color: rgb(117, 245, 246)\">Gestão de tráfego pago com foco em resultados!</span></h2><p style=\"text-align: center\"><br></p><p style=\"text-align: center\">Nosso método para e-commerces de moda vai além da otimização:</p>"
+          },
+          {
+            "type": "Imagens",
+            "images": [
+              {
+                "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+                "alt": "Segmentação avançada"
+              },
+              {
+                "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+                "alt": "Análises e relatórios em tempo real"
+              },
+              {
+                "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+                "alt": "Foco em aumentar lucratividade"
+              },
+              {
+                "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+                "alt": "Melhor custo-benefício por conversão"
+              },
+              {
+                "image": "https://assets.decocache.com/we-digi/4e53e10b-2ebc-45cc-ba99-5181957e424a/conversao-block.png",
+                "alt": "Aumento de conversão"
+              },
+              {
+                "image": "https://assets.decocache.com/we-digi/2c7451d0-0c95-440f-a64e-e1b681e6246e/ab-test.png",
+                "alt": "A/B testing e otimização continua"
+              }
+            ]
+          },
+          {
+            "type": "Texto",
+            "text": "<p style=\"text-align: center\"><span style=\"color: rgb(117, 245, 246)\">Quer alta performance em vendas?</span><br><br></p><p style=\"text-align: center\">Agende uma consultoria com a we.digi e impulsione o crescimento do seu e-commerce!</p>"
+          },
+          {
+            "type": "CTA",
+            "label": "<p><span style=\"color: rgb(0, 0, 0)\">Fale com um especialista</span></p>",
+            "link": "/contato",
+            "bgColor": "#f0857d"
+          }
+        ],
+        "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+        "maxWidth": 1008
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Testimonials.tsx",
         "title": "<h2 style=\"text-align: center\"><span style=\"color: #75f5f6; font-size: 28pt\">…e se o cliente falou, tá falado!</span></h2>",
         "arrows": true,
