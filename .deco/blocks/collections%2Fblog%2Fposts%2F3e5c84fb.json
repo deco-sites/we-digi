@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/3e5c84fb",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": "https://wedigi.com.br/wp-content/uploads/2022/10/pix-no-ecommerce.jpg",
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Seu e-commerce não aceita pix?",
+    "excerpt": "<p>O seu e-commerce já oferece essa forma de pagamento? Se ainda não, continue a leitura e entenda porque não vale a pena esperar ainda mais</p>\n",
+    "date": "2022-10-15",
+    "slug": "seu-e-commerce-nao-aceita-pix",
+    "content": "\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"800\" height=\"500\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2022/10/pix-no-ecommerce.jpg\" alt=\"pix no ecommerce\" class=\"wp-image-2430\" srcset=\"https://wedigi.com.br/wp-content/uploads/2022/10/pix-no-ecommerce.jpg 800w, https://wedigi.com.br/wp-content/uploads/2022/10/pix-no-ecommerce-300x188.jpg 300w, https://wedigi.com.br/wp-content/uploads/2022/10/pix-no-ecommerce-768x480.jpg 768w\" sizes=\"(max-width: 800px) 100vw, 800px\" /></figure>\n\n\n\n<p>Desde novembro de 2020, tanto os consumidores brasileiros como os estabelecimentos comerciais puderam contar com pagamentos instantâneos para fazer transações rápidas e sem taxas. </p>\n\n\n\n<p>O pix para e-commerce foi ganhando espaço aos poucos, até porque, as lojas precisaram implementar a nova forma de pagamento, assim como os consumidores também precisam de tempo para se habituarem ao formato. Mas não muito.</p>\n\n\n\n<p>Dois anos depois do lançamento do pix no país, o pagamento instantâneo se tornou a segunda maior modalidade de pagamento no e-commerce, alcançando 78% de aceitação no mercado. Em janeiro de 2021, essa porcentagem era somente de 16%, o que mostra que o crescimento do pix no e-commerce está sendo exponencial, projetando essa aceitação para 93% até 2023.</p>\n\n\n\n<p>O seu e-commerce já oferece essa forma de pagamento? Se ainda não, continue a leitura e entenda porque não vale a pena esperar ainda mais para incluir a modalidade na sua loja online e qual é a melhor forma para fazer isso.&nbsp;</p>\n\n\n\n<h2 class=\"wp-block-heading\">O que o pix tem a ver com as suas conversões?&nbsp;</h2>\n\n\n\n<p>Aumentar as conversões em um e-commerce depende de muitos fatores e, entender o comportamento do consumidor é o principal deles. Pagar com pix tem sido a escolha de grande parte dos brasileiros, seja em lojas físicas como nas onlines.&nbsp;</p>\n\n\n\n<p>Para se ter uma ideia, o pix no e-commerce quadruplicou no país, ultrapassando o boleto, prometendo chegar perto do cartão de crédito em pouco tempo. As compras de dia dos pais nesse ano refletiu exatamente esse movimento e reforça a importância que essa modalidade tem representado para o comércio online.</p>\n\n\n\n<p>Por mais que o pix ainda tenha pouco tempo no mercado, a modalidade já apresenta um volume expressivo de usuários cadastrados, somando mais de 130 milhões de CPFs registrados e facilitando a usabilidade. Tudo isso, favorece a conversão com um baixo custo para o lojista. Além disso, as lojas podem liberar condições especiais para compras feitas com pix para estimular ainda mais o uso da modalidade e aumentar a receita no fim do mês.</p>\n\n\n\n<p>Veja outras vantagens de incluir o pagamento por pix no seu e-commerce:</p>\n\n\n\n<p>Redução de custos de transição para lojistas</p>\n\n\n\n<ul class=\"wp-block-list\"><li>Liquidação imediata, auxiliando na saudabilidade do fluxo de caixa</li><li>Atuação para uma nova parcela de público desbancarizado, ou seja, como o Pix não exige vínculos com um banco, dando poder de compra para não correntistas</li><li>Redução de reserva de estoque, como é feito em casos de compra por boleto, já que o valor é compensado imediatamente, diferente das compras feitas via boleto</li><li>Rapidez no checkout</li><li>Facilidade de automação</li><li>Diminuição da quebra de pagamento via boleto</li><li>Forma de pagamento amigável com menos pontos de fuga</li></ul>\n\n\n\n<h2 class=\"wp-block-heading\">Como implementar o pagamento por pix no seu e-commerce</h2>\n\n\n\n<p>A implementação do pix em um e-commerce deve ser feita por especialistas em lojas online. Isso porque, é necessário configurar o meio de pagamento juntamente com a plataforma para que a comunicação nas transações ocorra corretamente.</p>\n\n\n\n<p>A <a href=\"https://www.wedigi.com.br/\" target=\"_blank\" rel=\"noreferrer noopener\">we.digi</a> é uma consultoria altamente capacitada em evolução de e-commerces, com um time técnico e preparado para acompanhar as atualizações do mercado com excelência.</p>\n\n\n\n<p>Para incluir o pix nas formas de pagamento do seu e-commerce com segurança, fale com a <a href=\"https://www.wedigi.com.br/contato\" target=\"_blank\" rel=\"noreferrer noopener\">nossa equipe</a> e entenda na prática como o pix pode ajudar a aumentar ainda mais as suas conversões, principalmente em <a href=\"https://www.wedigi.com.br/insights/post/datas-sazonais\" target=\"_blank\" rel=\"noreferrer noopener\">datas sazonais</a>.</p>\n"
+  }
+}

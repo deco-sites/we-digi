@@ -25,7 +25,7 @@ export interface Props {
     /**
     * @title Tag
     */
-    tag: string;
+    tag?: string;
     /**
     * @title Title
     */

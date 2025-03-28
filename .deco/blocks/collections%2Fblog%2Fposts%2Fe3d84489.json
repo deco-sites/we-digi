@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/e3d84489",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": "https://wedigi.com.br/wp-content/uploads/2021/11/DENON.jpg",
+    "categories": [
+      {
+        "name": "VTEX",
+        "slug": "vtex"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case de Sucesso: Denon - wedigi",
+    "excerpt": "<p>Conheça o case de sucesso da Denon + we.digi para adaptar a versão americana do site às necessidades do mercado brasileiro</p>\n",
+    "date": "2021-11-23",
+    "slug": "case-de-sucesso-denon",
+    "content": "\n<figure class=\"wp-block-image size-large is-style-default\"><img loading=\"lazy\" decoding=\"async\" width=\"721\" height=\"287\" src=\"https://admin.wedigi.com.br/wp-content/uploads/2021/11/DENON.jpg\" alt=\"\" class=\"wp-image-1896\" srcset=\"https://wedigi.com.br/wp-content/uploads/2021/11/DENON.jpg 721w, https://wedigi.com.br/wp-content/uploads/2021/11/DENON-300x119.jpg 300w\" sizes=\"(max-width: 721px) 100vw, 721px\" /></figure>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Sobre o cliente</strong></h3>\n\n\n\n<p>A Denon é uma marca japonesa fundada em 1910 e foi o primeiro e o mais antigo fabricante de eletrônica de áudio. Hoje a Denon é a marca de receiver mais vendida em todo o mundo e pertence à empresa americana Sound United, localizada no estado da Califórnia.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>O desafio</strong></h3>\n\n\n\n<p>Em 15 de julho de 2021, o projeto deu início com o objetivo de adaptar a versão brasileira do e-commerce da marca, utilizando o visual existente no site americano e inserir o toque brasileiro para se ajustar às necessidades do mercado do Brasil.</p>\n\n\n\n<p>O conteúdo anterior foi feito em HTML, impedindo o cliente de fazer qualquer alteração de texto sem os serviços de uma agência especializada.</p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>As soluções</strong></h3>\n\n\n\n<p>O site da marca recebeu mais destaque nas condições de parcelamento, preços e outras informações relevantes para o brasileiro.&nbsp;</p>\n\n\n\n<p>Embora o prazo para a conclusão do projeto ter sido muito curto, o trabalho foi concluído dentro do cronograma, em 26 de agosto de 2021, em conjunto com a equipe do grupo detentora da marca, que alimentou as informações detalhadas em paralelo do desenvolvimento das outras etapas.</p>\n\n\n\n<p>Para solucionar o desafio do formato do conteúdo em HTML, a equipe we.digi desenvolveu pequenos blocos de HTML simples de marcação, pois dessa forma, o cliente passou a ter mais autonomia para customizar a página de forma agradável e dinâmica, sem ter outros custos para realizar novas programações a cada nova atualização do site.</p>\n\n\n\n<p><strong>VERSÃO AMERICANA</strong></p>\n\n\n\n<figure class=\"wp-block-image is-style-default\"><img decoding=\"async\" src=\"https://lh5.googleusercontent.com/9rQZUypQRQfHbkge63O_yGoUX1JYJY2dHX1ikzvxPCzTksl3LiDj-T4Jk9CCty8N7Gm2eR6JU5WOoXjpWq-WArpwDVjV1YHHru7690YClm2fLk19nHj0CW4_rqHM-Etmys8A7Tpn\" alt=\"\"/></figure>\n\n\n\n<p><strong>VERSÃO BRASILEIRA</strong></p>\n\n\n\n<figure class=\"wp-block-image is-style-default\"><img decoding=\"async\" src=\"https://lh3.googleusercontent.com/nJlwGhch-ZNvnrmwriLy-dFhK7Q7c1CSJEtIHU8I8aO-HmL8OY3WZ0110knsiUy-8XO1h3TF7qbSFqiD27V61VEXWJhnyFO1TS4rz4T8tG_8rpJnhNGe9lcskpIOfEir2O4qwaui\" alt=\"\"/></figure>\n\n\n<p>[cta text=&#8221;Clique aqui e fale com a nossa equipe especializada em tecnologia!&#8221; link=&#8221;https://admin.wedigi.com.br/#wdt-contact&#8221; target=&#8221;_self&#8221; background=&#8221;#3498db&#8221; color=&#8221;#ffffff&#8221;]</p>\n"
+  }
+}

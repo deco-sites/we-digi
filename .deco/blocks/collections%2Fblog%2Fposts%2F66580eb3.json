@@ -1,0 +1,28 @@
+{
+  "name": "collections/blog/posts/66580eb3",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "jobTitle": "CEO",
+        "company": "we.digi",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg"
+      }
+    ],
+    "image": "",
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case Cloude - Parceria de Sucesso com a we.digi: A Agência VTEX Especializada em Moda - wedigi",
+    "excerpt": "<p>Conheça a trajetória de sucesso da Cloude, uma marca de moda feminina fundada em 2014 pela estilista Cristina Ferreira. A Cloude tem como missão criar peças que traduzem a liberdade e exclusividade da mulher, com carinho e dedicação presentes em cada etapa do desenvolvimento e acabamento dos modelos. Estilo Único e Diferenciado da Cloude A [&hellip;]</p>\n",
+    "date": "2024-04-11",
+    "slug": "case-cloude-parceria-de-sucesso-com-a-we-digi-a-agencia-vtex-especializada-em-moda",
+    "content": "\n<p>Conheça a trajetória de sucesso da Cloude, uma marca de moda feminina fundada em 2014 pela estilista Cristina Ferreira. A Cloude tem como missão criar peças que traduzem a liberdade e exclusividade da mulher, com carinho e dedicação presentes em cada etapa do desenvolvimento e acabamento dos modelos.</p>\n\n\n\n<p><strong>Estilo Único e Diferenciado da Cloude</strong></p>\n\n\n\n<p>A Cloude destaca-se no mercado de moda por fugir das tendências convencionais e manter um estilo único, com ênfase em rendas e detalhes especiais. Cristina Ferreira, com sua expertise como estilista, direciona a marca para uma mulher moderna e atualizada, que valoriza peças diferenciadas, tecidos de alta qualidade, estampas exclusivas e formas inusitadas.</p>\n\n\n\n<p><strong>Desafios e Soluções com a we.digi</strong></p>\n\n\n\n<p>A Cloude trouxe desafios de mercado para a we.digi, e após iniciarmos nossa parceria, conseguimos agregar muito valor aos resultados da Cloude com nossos serviços especializados da we.digi.tech e we.digi.growth. Com ações inovadoras, proatividade e proximidade, construímos mais um case de sucesso no segmento de moda.</p>\n\n\n\n<figure class=\"wp-block-video\"><video controls src=\"blob:https://wedigi.com.br/c48d2baa-5683-4226-9639-b17b9a17f73a\"></video></figure>\n"
+  }
+}

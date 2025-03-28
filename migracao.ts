@@ -76,12 +76,14 @@ function buildJsonForPost(post: any): any {
     // Aqui você pode incluir extraProps, por exemplo, para tags, se necessário.
     const extraProps: any[] = [];
 
+    // console.log(post?.yoast_head_json?.og_image, post?.yoast_head_json?.og_image[0]?.url)
+
     return {
         name: "", // Será preenchido com o identificador único depois
         __resolveType: "blog/loaders/Blogpost.ts",
         post: {
             authors,
-            image: post.yoast_head_json?.og_image?.url ?? null,
+            image: (post?.yoast_head_json?.og_image)?.[0]?.url ?? '',
             categories,
             extraProps,
             title: post.yoast_head_json.title ?? post.title.rendered,
