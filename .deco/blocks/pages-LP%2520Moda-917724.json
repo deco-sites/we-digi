@@ -13,6 +13,37 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/BannerPhone.tsx",
+        "text1": "<p><span style=\"color: rgb(118, 245, 247)\">Venda mais</span> no seu e-commerce de moda com <span style=\"color: rgb(255, 255, 255)\">estratégias de alta performance.</span></p>",
+        "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+        "text2": "<p><span>Enquanto outros apenas criam campanhas, </span><span style=\"color: #76f5f7\">nós traçamos um caminho completo para escalar suas vendas.</span></p>",
+        "cta": {
+          "label": "QUERO CONHECER",
+          "link": "/contato"
+        },
+        "images": [
+          {
+            "image": "https://assets.decocache.com/we-digi/83e1c868-acc6-4fa4-9265-feb8b9f28c10/img-lalibela.png",
+            "alt": "lalibela"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/58a35f8b-2378-4cba-87dc-6648c2c26c22/img-flaminga.png",
+            "alt": "flaminga"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/d2d52dfb-6d2d-4fde-b5f5-b0fd06aceef7/img-cloude.png",
+            "alt": "cloude"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/2b37fe82-7432-43ed-9dde-829bc3776660/img-7.png",
+            "alt": "sevens"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Statistics.tsx",
         "title": "we.digi em números",
         "cta": {
@@ -34,6 +65,12 @@
           }
         ],
         "image": "https://assets.decocache.com/we-digi/11af8ab4-7db0-4776-90d6-73c0192876b3/circle-1.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/VideoText.tsx"
       }
     },
     {
