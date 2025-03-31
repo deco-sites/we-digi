@@ -2744,11 +2744,17 @@ input.tab:checked + .tab-content,
 .bottom-0 {
   bottom: 0px;
 }
+.bottom-\[-70px\] {
+  bottom: -70px;
+}
 .left-0 {
   left: 0px;
 }
 .left-4 {
   left: 1rem;
+}
+.left-\[-150px\] {
+  left: -150px;
 }
 .left-\[-25px\] {
   left: -25px;
@@ -3155,6 +3161,9 @@ input.tab:checked + .tab-content,
 .max-w-96 {
   max-width: 24rem;
 }
+.max-w-\[1000px\] {
+  max-width: 1000px;
+}
 .max-w-\[139px\] {
   max-width: 139px;
 }
@@ -3211,6 +3220,9 @@ input.tab:checked + .tab-content,
 }
 .max-w-\[80px\] {
   max-width: 80px;
+}
+.max-w-\[900px\] {
+  max-width: 900px;
 }
 .max-w-\[90vw\] {
   max-width: 90vw;
@@ -3347,6 +3359,9 @@ input.tab:checked + .tab-content,
 }
 .gap-10 {
   gap: 2.5rem;
+}
+.gap-11 {
+  gap: 2.75rem;
 }
 .gap-12 {
   gap: 3rem;
@@ -5185,6 +5200,11 @@ input.tab:checked + .tab-content,
 
   .lg\:\[\&_h2\]\:mb-8 h2 {
     margin-bottom: 2rem;
+  }
+
+  .lg\:\[\&_h2\]\:text-4xl h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:\[\&_h2\]\:text-5xl h2 {

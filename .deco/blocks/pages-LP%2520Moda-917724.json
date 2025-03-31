@@ -63,7 +63,13 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/VideoText.tsx"
+        "__resolveType": "site/sections/VideoText.tsx",
+        "text": "<h2 style=\"text-align: center\"><strong><span style=\"color: #76f5f7\">Venda mais com quem entende de Moda!</span></strong><br><br></h2><p style=\"text-align: center\"><span>Somos a we.digi, especialistas em estratégias digitais para e-commerces de moda. Com mais de 20 anos de experiência, entregamos soluções ágeis e precisas para impulsionar seu negócio de forma estratégica e personalizada.</span></p>",
+        "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4",
+        "cta": {
+          "label": "QUERO VENDER MAIS",
+          "link": "/contato"
+        }
       }
     },
     {
