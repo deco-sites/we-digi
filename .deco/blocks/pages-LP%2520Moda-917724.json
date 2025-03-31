@@ -13,6 +13,32 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/Statistics.tsx",
+        "title": "we.digi em números",
+        "cta": {
+          "label": "FALE COM UM ESPECIALISTA",
+          "link": "/contato"
+        },
+        "items": [
+          {
+            "number": 115,
+            "text": "clientes em performance"
+          },
+          {
+            "text": "milhões investidos em mídia",
+            "number": 75
+          },
+          {
+            "number": 1125,
+            "text": "bilhões de faturamento"
+          }
+        ],
+        "image": "https://assets.decocache.com/we-digi/11af8ab4-7db0-4776-90d6-73c0192876b3/circle-1.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/TextWithCards.tsx",
         "text": "<h2><span style=\"color: #858585\">Estratégia de tráfego que</span> <span style=\"color: rgb(0, 0, 0)\">gera resultados de verdade!</span></h2><p><br></p><p><span style=\"color: #858585\">Não basta gerenciar anúncios. Analisamos todo o ecossistema da sua marca para criar estratégias que impactam diretamente seu faturamento. Com um método exclusivo, unimos expertise técnica e conhecimento profundo do seu negócio para otimizar cada ponto da jornada do cliente.</span></p>",
         "cards": [
