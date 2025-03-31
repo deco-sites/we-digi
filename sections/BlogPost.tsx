@@ -73,7 +73,7 @@ export default function BlogPost({ page }: Props) {
 
   return (
     <div className="px-4 md:px-0 py-12 lg:py-28 container mx-auto">
-      <a class="flex" href="/blog">
+      <a class="flex" href="/insights">
         <Icon id="ArrowRight" width={25} height={25} />
         Voltar
       </a>

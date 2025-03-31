@@ -1,6 +1,6 @@
 {
   "name": "Blog",
-  "path": "/blog",
+  "path": "/insights",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
