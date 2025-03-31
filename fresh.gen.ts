@@ -6,6 +6,7 @@ import * as $_app from "./routes/_app.tsx";
 import * as $BlogPostsIsland from "./islands/BlogPostsIsland.tsx";
 import * as $ContactForm from "./islands/ContactForm.tsx";
 import * as $Header from "./islands/Header.tsx";
+import * as $PhoneSlider from "./islands/PhoneSlider.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -16,6 +17,7 @@ const manifest = {
     "./islands/BlogPostsIsland.tsx": $BlogPostsIsland,
     "./islands/ContactForm.tsx": $ContactForm,
     "./islands/Header.tsx": $Header,
+    "./islands/PhoneSlider.tsx": $PhoneSlider,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

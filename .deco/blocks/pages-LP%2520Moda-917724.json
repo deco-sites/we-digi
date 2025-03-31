@@ -5,16 +5,8 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/SimpleHeader.tsx",
-        "logo": "https://assets.decocache.com/we-digi/c16836f8-c94a-46d3-80ce-147d8835149b/logo-wedigi-1.png",
-        "alt": "we.digi"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/BannerPhone.tsx",
-        "text1": "<p><span style=\"color: rgb(118, 245, 247)\">Venda mais</span> no seu e-commerce de moda com <span style=\"color: rgb(255, 255, 255)\">estratégias de alta performance.</span></p>",
+        "text1": "<h1><span style=\"color: rgb(118, 245, 247)\">Venda mais</span> no seu e-commerce de moda com <span style=\"color: rgb(255, 255, 255)\">estratégias de alta performance.</span></h1>",
         "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
         "text2": "<p><span>Enquanto outros apenas criam campanhas, </span><span style=\"color: #76f5f7\">nós traçamos um caminho completo para escalar suas vendas.</span></p>",
         "cta": {
@@ -38,18 +30,19 @@
             "image": "https://assets.decocache.com/we-digi/2b37fe82-7432-43ed-9dde-829bc3776660/img-7.png",
             "alt": "sevens"
           }
-        ]
+        ],
+        "phoneImage": "https://assets.decocache.com/we-digi/33166088-b69c-4a51-a696-7ce77523ebb3/iPhone-11-Pro.svg"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Statistics.tsx",
-        "title": "we.digi em números",
         "cta": {
           "label": "FALE COM UM ESPECIALISTA",
           "link": "/contato"
         },
+        "title": "we.digi em números",
         "items": [
           {
             "number": 115,
