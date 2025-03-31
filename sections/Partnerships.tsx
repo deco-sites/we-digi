@@ -39,7 +39,7 @@ const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
 }));
 
 export default function Partnerships({
-  description = "we.digi",
+  description,
   title = "we.digi",
   tag,
   logos = IMG_PLACEHODLER,
@@ -75,7 +75,7 @@ export default function Partnerships({
         {tag && <p class="text-[#76F5F7] text-base text-center">{tag}</p>}
         {title && <p class="text-[#ababab] text-2xl md:text-[40px] text-center ">{title}</p>}        
         {description && <p class="text-white  px-2 text-base md:text-2xl text-center lg:mt-2 font-light">{description}</p>}
-        <img class="my-2 mx-auto 2xl:mt-10 max-w-[75%]" src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png"/>
+        {/* <img class="my-2 mx-auto 2xl:mt-10 max-w-[75%]" src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png"/> */}
         <div class="relative w-full overflow-hidden h-24 mt-16">
           <div class="animate-sliding w-full absolute top-0 left-0 flex flex-nowrap h-24">
             {slideContent}

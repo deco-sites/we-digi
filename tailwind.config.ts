@@ -21,6 +21,7 @@ export default {
       },
       fontFamily: {
         effraTrial: ["Effra Trial", "sans-serif"],
+        montSerrat: ["Montserrat", "sans-serif"]
       },
     },
   },

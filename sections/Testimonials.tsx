@@ -28,6 +28,7 @@ export interface Props {
     tag?: string;
     /**
     * @title Title
+    * @format rich-text
     */
     title?: string;
     slides?: Testimonial[];
@@ -205,7 +206,9 @@ function Carousel(props: Props) {
     return (<div id={id} class="min-h-min flex flex-col !px-4 py-28 lg:pt-28 lg:pb-36 lg:w-10/12 mx-auto">
       <div class="flex flex-col gap-4 2xl:max-w-[1360px] mx-auto w-full lg:pl-20">
           {tag && <p class="text-[#76F5F7] text-base ">{tag}</p>}
-          {title && <p class="text-[#ababab] text-2xl md:text-[40px]  ">{title}</p>}        
+          {title && <div class="text-[#ababab] text-2xl md:text-[40px]" dangerouslySetInnerHTML={{
+            __html: title
+          }} />}
           </div>
       <Slider class="carousel carousel-center w-full col-span-full row-span-full gap-6 lg:mt-32" rootId={id} interval={interval && interval * 1e3} infinite>
         {slides?.map((slide, index) => (<Slider.Item index={index} class="carousel-item max-w-[1520px] w-full">

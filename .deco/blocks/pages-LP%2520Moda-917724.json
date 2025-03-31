@@ -5,8 +5,188 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "site/sections/SimpleHeader.tsx",
+        "logo": "https://assets.decocache.com/we-digi/c16836f8-c94a-46d3-80ce-147d8835149b/logo-wedigi-1.png",
+        "alt": "we.digi"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/BannerPhone.tsx",
+        "text1": "<p><span style=\"color: rgb(118, 245, 247)\">Venda mais</span> no seu e-commerce de moda com <span style=\"color: rgb(255, 255, 255)\">estratégias de alta performance.</span></p>",
+        "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+        "text2": "<p><span>Enquanto outros apenas criam campanhas, </span><span style=\"color: #76f5f7\">nós traçamos um caminho completo para escalar suas vendas.</span></p>",
+        "cta": {
+          "label": "QUERO CONHECER",
+          "link": "/contato"
+        },
+        "images": [
+          {
+            "image": "https://assets.decocache.com/we-digi/83e1c868-acc6-4fa4-9265-feb8b9f28c10/img-lalibela.png",
+            "alt": "lalibela"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/58a35f8b-2378-4cba-87dc-6648c2c26c22/img-flaminga.png",
+            "alt": "flaminga"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/d2d52dfb-6d2d-4fde-b5f5-b0fd06aceef7/img-cloude.png",
+            "alt": "cloude"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/2b37fe82-7432-43ed-9dde-829bc3776660/img-7.png",
+            "alt": "sevens"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Statistics.tsx",
+        "title": "we.digi em números",
+        "cta": {
+          "label": "FALE COM UM ESPECIALISTA",
+          "link": "/contato"
+        },
+        "items": [
+          {
+            "number": 115,
+            "text": "clientes em performance"
+          },
+          {
+            "text": "milhões investidos em mídia",
+            "number": 75
+          },
+          {
+            "number": 1125,
+            "text": "bilhões de faturamento"
+          }
+        ],
+        "image": "https://assets.decocache.com/we-digi/11af8ab4-7db0-4776-90d6-73c0192876b3/circle-1.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/VideoText.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/TextWithCards.tsx",
+        "text": "<h2><span style=\"color: #858585\">Estratégia de tráfego que</span> <span style=\"color: rgb(0, 0, 0)\">gera resultados de verdade!</span></h2><p><br></p><p><span style=\"color: #858585\">Não basta gerenciar anúncios. Analisamos todo o ecossistema da sua marca para criar estratégias que impactam diretamente seu faturamento. Com um método exclusivo, unimos expertise técnica e conhecimento profundo do seu negócio para otimizar cada ponto da jornada do cliente.</span></p>",
+        "cards": [
+          {
+            "icon": "https://assets.decocache.com/we-digi/c1f9fe0e-9aef-4e67-85aa-57d58dee4e87/visao.png",
+            "title": "Visão 360º  do negócio",
+            "text": "O primeiro passo é te ouvir para entender com profundidade o que seu negócio precisa para prosperar. A partir disso, criamos soluções estratégicas que impactam positivamente em todos eles.",
+            "link": "/contato"
+          },
+          {
+            "icon": "https://assets.decocache.com/we-digi/b9c0ea2d-392c-4c5e-9746-993bae92dcff/metodologia.png",
+            "title": "Metodologia  personalizada",
+            "text": "De forma consultiva e proativa, te ajudamos a tomar decisões estratégicas para crescer de forma saudável, com uma abordagem que vai além do tráfego pago.",
+            "link": "/contato"
+          },
+          {
+            "icon": "https://assets.decocache.com/we-digi/dd5cebe7-82b2-4427-b830-177592df2ea0/crescimento.png",
+            "title": "Crescimento  sustentável",
+            "text": "Focamos em resultados olhando para o futuro do seu negócio,  garantindo que seu e-commerce de moda se desenvolva com solidez e consistência.",
+            "link": "/contato"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/GridContent.tsx",
+        "blocks": [
+          {
+            "type": "Texto",
+            "text": "<h2 style=\"text-align: center\"><span style=\"color: rgb(117, 245, 246)\">Gestão de tráfego pago com foco em resultados!</span></h2><p style=\"text-align: center\"><br></p><p style=\"text-align: center\">Nosso método para e-commerces de moda vai além da otimização:</p>"
+          },
+          {
+            "type": "Imagens",
+            "images": [
+              {
+                "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+                "alt": "Segmentação avançada"
+              },
+              {
+                "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+                "alt": "Análises e relatórios em tempo real"
+              },
+              {
+                "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+                "alt": "Foco em aumentar lucratividade"
+              },
+              {
+                "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+                "alt": "Melhor custo-benefício por conversão"
+              },
+              {
+                "image": "https://assets.decocache.com/we-digi/4e53e10b-2ebc-45cc-ba99-5181957e424a/conversao-block.png",
+                "alt": "Aumento de conversão"
+              },
+              {
+                "image": "https://assets.decocache.com/we-digi/2c7451d0-0c95-440f-a64e-e1b681e6246e/ab-test.png",
+                "alt": "A/B testing e otimização continua"
+              }
+            ]
+          },
+          {
+            "type": "Texto",
+            "text": "<p style=\"text-align: center\"><span style=\"color: rgb(117, 245, 246)\">Quer alta performance em vendas?</span><br><br></p><p style=\"text-align: center\">Agende uma consultoria com a we.digi e impulsione o crescimento do seu e-commerce!</p>"
+          },
+          {
+            "type": "CTA",
+            "label": "<p><span style=\"color: rgb(0, 0, 0)\">Fale com um especialista</span></p>",
+            "link": "/contato",
+            "bgColor": "#f0857d"
+          }
+        ],
+        "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+        "maxWidth": 1008
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Partnerships.tsx",
+        "title": "Quem cresce com a we.digi...",
+        "logos": [
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/884ea3d1-9213-46a7-9d14-bf4f083b47d9/Camada_1.svg",
+            "width": 158,
+            "height": 83
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/558526bd-0ae4-41a4-b1f8-8e04a1079d21/Camada_2.svg",
+            "width": 149,
+            "height": 74
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/490a3532-c8ee-43c8-8aac-6935ca7733c1/Camada_3.svg",
+            "width": 229,
+            "height": 85
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/025eb597-46d3-4a2c-abe5-e5b64422acb9/Camada_4.svg",
+            "width": 250,
+            "height": 26
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/Testimonials.tsx",
-        "title": "…e se o cliente falou, tá falado!",
+        "title": "<h2 style=\"text-align: center\"><span style=\"color: #75f5f6; font-size: 28pt\">…e se o cliente falou, tá falado!</span></h2>",
         "arrows": true,
         "dots": true,
         "mark": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/96ca403c-da22-415c-bad9-671e7d519853/.png",
