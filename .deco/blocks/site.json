@@ -1,14 +1,14 @@
 {
   "seo": {
     "type": "website",
-    "title": "Landing",
+    "title": "We.digi",
     "jsonLDs": [],
     "noIndexing": false,
     "description": "Improve your page performance with deco.cx",
-    "titleTemplate": "Landing | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/0fba8a8c-ee79-47e1-8f9d-863658d056cc",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/1350f37f-88ab-4cf1-bcf6-c386bcf8b238"
+    "titleTemplate": "We.digi ",
+    "descriptionTemplate": "%s ",
+    "favicon": "https://assets.decocache.com/we-digi/3356c270-a5ad-4a8b-a0b0-1c8f66a1b951/favicon-16x16.png",
+    "image": "https://assets.decocache.com/we-digi/4b5e1ac5-f071-423f-8ea0-f1947919a68f/banner-wedigi.jpg"
   },
   "global": [
     {
