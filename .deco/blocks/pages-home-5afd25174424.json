@@ -54,7 +54,7 @@
       ],
       "cta": [
         {
-          "href": "/",
+          "href": "/contato/",
           "text": "CONHEÇA NOSSOS SERVIÇOS",
           "outline": true
         }
@@ -85,7 +85,7 @@
       "title": "Temos um universo todo para ajudar a  a crescer seu e-commerce!",
       "cta": [
         {
-          "href": "/",
+          "href": "/contato/",
           "text": "conheça mais",
           "outline": true,
           "type": "inline"
