@@ -165,35 +165,12 @@ function Buttons(props: {
       <div class="bar-custom w-full h-[2px] bg-[#4C4B4B] flex items-center max-md:hidden">
         <div class="pivot h-full bg-[#76F5F7] transition-all" style={{ width: `${(1 / total) * 100}%` }}></div>
       </div>
-      <div class="flex items-center justify-center z-10 col-start-1 row-start-2" hx-on:click={useScript((total) => {
-            const button = event?.currentTarget as HTMLButtonElement;
-            setTimeout(() => {
-                const buttonSelect = button?.parentElement?.parentElement?.querySelector("ul li button:disabled")?.getAttribute('data-dot');
-                const index = Number(buttonSelect) + 1;
-                const bar = button?.parentElement?.querySelector<HTMLElement>(".pivot");
-                const newValue = (index / total) * 100;
-                console.log({ v: total, p: Number(buttonSelect), newValue });
-                if (!bar || !buttonSelect)
-                    return;
-                bar.style.width = `${newValue}%`;
-            }, 600);
-        }, total)}>
+      <div class="flex items-center justify-center z-10 col-start-1 row-start-2">
         <Slider.PrevButton class="flex items-center justify-center btn-circle border border-base-content min-w-[65px] min-h-[65px]">
           <Icon class="text-base-content" id="ArrowRight2" width="55" height="21"/>
         </Slider.PrevButton>
       </div>
-      <div class="flex items-center justify-center z-10 col-start-3 row-start-2" hx-on:click={useScript((total) => {
-            const button = event?.currentTarget as HTMLButtonElement;
-            setTimeout(() => {
-                const buttonSelect = button?.parentElement?.parentElement?.querySelector("ul li button:disabled")?.getAttribute('data-dot');
-                const bar = button?.parentElement?.querySelector<HTMLElement>(".pivot");
-                const newValue = ((Number(buttonSelect) + 1) / total) * 100;
-                console.log({ v: total, p: Number(buttonSelect), newValue });
-                if (!bar || !buttonSelect)
-                    return;
-                bar.style.width = `${newValue}%`;
-            }, 600);
-        }, total)}>
+      <div class="flex items-center justify-center z-10 col-start-3 row-start-2">
         <Slider.NextButton class="flex items-center justify-center btn-circle border border-base-content min-w-[65px] min-h-[65px]">
         <Icon class="text-base-content" id="ArrowLeft2" width="55" height="21"/>
         </Slider.NextButton>
