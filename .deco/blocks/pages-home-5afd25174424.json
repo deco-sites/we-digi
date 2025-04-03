@@ -64,21 +64,15 @@
       "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0d9613db-1658-47e6-b3f9-10abefbe4e90/image.png"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Achievements.tsx",
-        "title": "<h2><span style=\"color: rgb(126, 126, 126); font-size: 48pt\">Nossa Conquista</span></h2><h2><span style=\"font-size: 48pt\">Quadrante 2024</span></h2><p></p>",
-        "description": "<p><span style=\"color: #ffffff\">Estamos entre </span><strong><span style=\"color: #ffffff\">as melhores agências</span></strong><span style=\"color: #ffffff\"> de e-commerce.</span></p>",
-        "logoSrc": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/2303ca96-cd09-48f7-a98d-e9740061fd40/VTEX_Logo-1.svg",
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/7d7d3848-8d9e-4cc1-8ae3-8f2497ef56f7/quadrante.png",
-        "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/d0f3eea9-0d15-4887-b021-ddd38c55deaf/bg.jpg"
-      }
+      "__resolveType": "site/sections/Achievements.tsx",
+      "title": "<h2><span style=\"color: rgb(126, 126, 126); font-size: 48pt\">Nossa Conquista</span></h2><h2><span style=\"font-size: 48pt\">Quadrante 2024</span></h2><p></p>",
+      "description": "<p><span style=\"color: #ffffff\">Estamos entre </span><strong><span style=\"color: #ffffff\">as melhores agências</span></strong><span style=\"color: #ffffff\"> de e-commerce.</span></p>",
+      "logoSrc": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/2303ca96-cd09-48f7-a98d-e9740061fd40/VTEX_Logo-1.svg",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/7d7d3848-8d9e-4cc1-8ae3-8f2497ef56f7/quadrante.png",
+      "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/d0f3eea9-0d15-4887-b021-ddd38c55deaf/bg.jpg"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Partners"
-      }
+      "__resolveType": "Partners"
     },
     {
       "__resolveType": "site/sections/Chart.tsx",
@@ -152,38 +146,35 @@
       "sideImage": "https://assets.decocache.com/we-digi/2fa6a25e-67bc-4a02-b7bb-81fb6478b604/vtex_image.png"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Cases.tsx",
-        "title": "Conheça alguns de nossos cases:",
-        "cases": [
-          {
-            "title": "Espaço Smart o maior case de construção a seco do Brasil",
-            "link": "https://wedigi.com.br/insights/post/espaco-smart-maior-case-de-construcao-a-seco-do-brasil/",
-            "buttonText": "conheça mais",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/ef73c70b-8cae-433a-83a6-236b0b5b4ffe/case-espaco-smart-1.jpg"
-          },
-          {
-            "title": "Case Cloude – Parceria de Sucesso com a we.digi: A Agência VTEX Especializada em Moda",
-            "link": "https://wedigi.com.br/insights/post/como-a-cloude-multiplicou-seu-faturamento-em-4x-com-a-estrategia-martech-da-we-digi/",
-            "buttonText": "conheça mais",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/d1ee1819-6022-41c5-8191-cedac864e8f3/case-cloude-1.jpg"
-          },
-          {
-            "title": "Case Ultrafeu – Cresça Seu Negócio com Martech: A Parceria de Sucesso com a we.digi",
-            "link": "https://wedigi.com.br/insights/post/case-ultrafeu-cresca-seu-negocio-com-martech-a-parceria-de-sucesso-com-a-we-digi/",
-            "buttonText": "conheça mais",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4c8ed6ed-000b-41f9-b56a-c3b34cbedce9/App-1.jpg"
-          },
-          {
-            "title": "Diprotec – Encontre Segurança e Confiança em uma Agência VTEX",
-            "link": "https://wedigi.com.br/insights/post/sika-como-encontrar-seguranca-em-uma-agencia-vtex/",
-            "buttonText": "conheça mais",
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/e043f15a-d00f-45d6-adbf-0378dd64c86e/image-2.jpg"
-          }
-        ],
-        "tag": "we.work"
-      }
+      "__resolveType": "site/sections/Cases.tsx",
+      "title": "Conheça alguns de nossos cases:",
+      "cases": [
+        {
+          "title": "Espaço Smart o maior case de construção a seco do Brasil",
+          "link": "https://wedigi.com.br/insights/post/espaco-smart-maior-case-de-construcao-a-seco-do-brasil/",
+          "buttonText": "conheça mais",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/ef73c70b-8cae-433a-83a6-236b0b5b4ffe/case-espaco-smart-1.jpg"
+        },
+        {
+          "title": "Case Cloude – Parceria de Sucesso com a we.digi: A Agência VTEX Especializada em Moda",
+          "link": "https://wedigi.com.br/insights/post/como-a-cloude-multiplicou-seu-faturamento-em-4x-com-a-estrategia-martech-da-we-digi/",
+          "buttonText": "conheça mais",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/d1ee1819-6022-41c5-8191-cedac864e8f3/case-cloude-1.jpg"
+        },
+        {
+          "title": "Case Ultrafeu – Cresça Seu Negócio com Martech: A Parceria de Sucesso com a we.digi",
+          "link": "https://wedigi.com.br/insights/post/case-ultrafeu-cresca-seu-negocio-com-martech-a-parceria-de-sucesso-com-a-we-digi/",
+          "buttonText": "conheça mais",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4c8ed6ed-000b-41f9-b56a-c3b34cbedce9/App-1.jpg"
+        },
+        {
+          "title": "Diprotec – Encontre Segurança e Confiança em uma Agência VTEX",
+          "link": "https://wedigi.com.br/insights/post/sika-como-encontrar-seguranca-em-uma-agencia-vtex/",
+          "buttonText": "conheça mais",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/e043f15a-d00f-45d6-adbf-0378dd64c86e/image-2.jpg"
+        }
+      ],
+      "tag": "we.work"
     },
     {
       "__resolveType": "Testimonials"
