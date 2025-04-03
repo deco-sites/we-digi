@@ -3146,6 +3146,9 @@ input.tab:checked + .tab-content,
 .min-w-\[65px\] {
   min-width: 65px;
 }
+.max-w-11 {
+  max-width: 2.75rem;
+}
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -3317,6 +3320,9 @@ input.tab:checked + .tab-content,
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .flex-row {
   flex-direction: row;
@@ -4529,6 +4535,10 @@ input.tab:checked + .tab-content,
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -4759,6 +4769,10 @@ input.tab:checked + .tab-content,
 
   .lg\:max-w-\[1520px\] {
     max-width: 1520px;
+  }
+
+  .lg\:max-w-\[240px\] {
+    max-width: 240px;
   }
 
   .lg\:max-w-\[360px\] {
