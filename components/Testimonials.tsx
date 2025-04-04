@@ -4,7 +4,7 @@ import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx";
 import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
-import { useScript } from "@deco/deco/hooks";
+
 /**
  * @titleBy alt
  */
@@ -128,19 +128,7 @@ function Dots({ slides }: Props) {
           }
           `,
         }}/>
-      <ul class="carousel col-span-full z-10 gap-4 flex-[initial]" hx-on:click={useScript((total) => {
-            const button = event?.currentTarget as HTMLButtonElement;
-            setTimeout(() => {
-                const buttonSelect = button?.parentElement?.parentElement?.querySelector("ul li button:disabled")?.getAttribute('data-dot');
-                const index = Number(buttonSelect) + 1;
-                const bar = button?.parentElement?.querySelector<HTMLElement>(".pivot");
-                const newValue = (index / total) * 100;
-                console.log({ v: total, p: Number(buttonSelect), newValue });
-                if (!bar || !buttonSelect)
-                    return;
-                bar.style.width = `${newValue}%`;
-            }, 600);
-        }, slides?.length)}>
+      <ul class="carousel col-span-full z-10 gap-4 flex-[initial]">
         {slides?.map((slide, index) => {
             return (<li class="carousel-item [&_button]:[filter:grayscale(1);] [&_button:disabled]:[filter:none]">
             <Slider.Dot index={index}>
