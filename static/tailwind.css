@@ -2723,6 +2723,9 @@ input.tab:checked + .tab-content,
   white-space: nowrap;
   border-width: 0;
 }
+.pointer-events-auto {
+  pointer-events: auto;
+}
 .visible {
   visibility: visible;
 }
@@ -2744,11 +2747,17 @@ input.tab:checked + .tab-content,
 .bottom-0 {
   bottom: 0px;
 }
+.bottom-\[-60px\] {
+  bottom: -60px;
+}
 .bottom-\[-70px\] {
   bottom: -70px;
 }
 .left-0 {
   left: 0px;
+}
+.left-1\/2 {
+  left: 50%;
 }
 .left-4 {
   left: 1rem;
@@ -2856,6 +2865,9 @@ input.tab:checked + .tab-content,
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+.mb-16 {
+  margin-bottom: 4rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -3257,6 +3269,9 @@ input.tab:checked + .tab-content,
 .flex-shrink {
   flex-shrink: 1;
 }
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
 .shrink-0 {
   flex-shrink: 0;
 }
@@ -3265,6 +3280,10 @@ input.tab:checked + .tab-content,
 }
 .grow {
   flex-grow: 1;
+}
+.-translate-x-1\/2 {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .-translate-x-3 {
   --tw-translate-x: -0.75rem;
@@ -3308,6 +3327,15 @@ input.tab:checked + .tab-content,
 }
 .cursor-pointer {
   cursor: pointer;
+}
+.snap-x {
+  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+}
+.snap-mandatory {
+  --tw-scroll-snap-strictness: mandatory;
+}
+.snap-start {
+  scroll-snap-align: start;
 }
 .list-inside {
   list-style-position: inside;
@@ -3451,6 +3479,12 @@ input.tab:checked + .tab-content,
 }
 .overflow-y-hidden {
   overflow-y: hidden;
+}
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 .truncate {
   overflow: hidden;
@@ -3662,6 +3696,9 @@ input.tab:checked + .tab-content,
 }
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
+}
+.bg-opacity-80 {
+  --tw-bg-opacity: 0.8;
 }
 .bg-cover {
   background-size: cover;
@@ -4091,6 +4128,10 @@ input.tab:checked + .tab-content,
 .outline {
   outline-style: solid;
 }
+.grayscale {
+  --tw-grayscale: grayscale(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
 .invert {
   --tw-invert: invert(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -4128,6 +4169,9 @@ input.tab:checked + .tab-content,
 }
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.ease-linear {
+  transition-timing-function: linear;
 }
 .bg-custom-size {
     @media (max-width: 768px) {
@@ -4291,6 +4335,10 @@ input.tab:checked + .tab-content,
   }
 }
 
+.hover\:bg-opacity-100:hover {
+  --tw-bg-opacity: 1;
+}
+
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -4307,6 +4355,18 @@ input.tab:checked + .tab-content,
 
 .disabled\:hidden:disabled {
   display: none;
+}
+
+.disabled\:cursor-not-allowed:disabled {
+  cursor: not-allowed;
+}
+
+.disabled\:opacity-30:disabled {
+  opacity: 0.3;
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: 0.5;
 }
 
 .group[open] .group-open\:rotate-180 {
@@ -4340,6 +4400,16 @@ input.tab:checked + .tab-content,
 .group:disabled .group-disabled\:bg-\[\#0D1717\] {
   --tw-bg-opacity: 1;
   background-color: rgb(13 23 23 / var(--tw-bg-opacity));
+}
+
+.group[data-active] .group-data-\[active\]\:border-\[\#76F5F7\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(118 245 247 / var(--tw-border-opacity));
+}
+
+.group[data-active] .group-data-\[active\]\:grayscale-0 {
+  --tw-grayscale: grayscale(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media not all and (min-width: 1024px) {
@@ -4459,12 +4529,24 @@ input.tab:checked + .tab-content,
 
 @media (min-width: 768px) {
 
+  .md\:bottom-\[-80px\] {
+    bottom: -80px;
+  }
+
   .md\:left-\[-70px\] {
     left: -70px;
   }
 
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .md\:mb-24 {
+    margin-bottom: 6rem;
   }
 
   .md\:mb-3 {
@@ -4588,6 +4670,11 @@ input.tab:checked + .tab-content,
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .md\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
   .md\:py-6 {

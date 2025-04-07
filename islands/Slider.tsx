@@ -57,6 +57,9 @@ const setup = ({ rootId, scroll = "smooth", interval, infinite = false }: Props)
     const prev = root.querySelector<HTMLButtonElement>(`[${ATTRIBUTES['data-slide="prev"']}]`);
     const next = root.querySelector<HTMLButtonElement>(`[${ATTRIBUTES['data-slide="next"']}]`);
     const dots = root.querySelectorAll<HTMLButtonElement>(`[${ATTRIBUTES["data-dot"]}]`);
+    const pivot = root.querySelector<HTMLElement>(`#slider-progress-pivot`);
+
+    console.log(pivot, root, 'pivoooooot')
 
     if (!slider || !items || items.length === 0) {
         console.warn(
@@ -95,11 +98,23 @@ const setup = ({ rootId, scroll = "smooth", interval, infinite = false }: Props)
         const indices = getElementsInsideContainer();
         if (indices.length === 0) return;
 
+        const currentIndex = indices[0]; // Índice do primeiro item visível
+        const totalItems = items.length;
+
+        const currentActiveIndex = indices.length > 0 ? indices[0] : -1;
+
         // Atualiza dots
-        dots?.forEach((dot, index) => {
-            const isActive = indices.includes(index);
+        dots?.forEach((dot) => { // Itera sobre cada elemento dot encontrado
+            const dotIndexStr = dot.getAttribute("data-dot"); // Pega o índice do atributo do dot
+            if (dotIndexStr === null) return; // Pula se não tiver o atributo
+
+            const dotIndex = parseInt(dotIndexStr, 10);
+            if (isNaN(dotIndex)) return; // Pula se não for um número
+
+            // Verifica se este dot corresponde ao ÚNICO índice ativo que definimos
+            const isActive = (dotIndex === currentActiveIndex);
+            // Adiciona/remove o atributo data-active
             dot.toggleAttribute("data-active", isActive);
-            // O atributo 'disabled' nos dots é gerenciado pelo IntersectionObserver geralmente
         });
 
         // Atualiza botões prev/next (se não for infinito)
@@ -112,6 +127,15 @@ const setup = ({ rootId, scroll = "smooth", interval, infinite = false }: Props)
              // Garante que botões estejam sempre habilitados no modo infinito
              prev?.removeAttribute("disabled");
              next?.removeAttribute("disabled");
+        }
+
+        console.log('antes if')
+        if (pivot && totalItems > 0) {
+            console.log('depois if')
+            // Calcula a porcentagem baseada no índice atual + 1
+            const percentage = ((currentIndex + 1) / totalItems) * 100;
+            // Atualiza o estilo width do elemento pivot
+            pivot.style.width = `${percentage}%`;
         }
     };
 
@@ -354,7 +378,7 @@ export function Dot({ index, children }: { index: number; children: ComponentChi
         <button
             data-dot={index}
             aria-label={`Ir para slide ${index + 1}`}
-            class="slider-dot focus:outline-none" // Adicione estilos conforme necessário
+            class="slider-dot focus:outline-none group" // Adicione estilos conforme necessário
         >
             {children}
         </button>
