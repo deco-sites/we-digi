@@ -16,7 +16,7 @@ export interface Items {
 export interface Subscribe {
   title?: string;
   description?: string;
-  instructions: string;
+  instructions?: string;
 }
 
 export interface Social {
