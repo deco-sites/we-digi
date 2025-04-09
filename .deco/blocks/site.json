@@ -30,5 +30,17 @@
   "firstByteThresholdMS": false,
   "theme": {
     "__resolveType": "We.digi - Dark"
+  },
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    },
+    "includeScriptsToBody": {
+      "includes": []
+    }
+  },
+  "flavor": {
+    "framework": "fresh"
   }
 }
