@@ -3,39 +3,37 @@
   "path": "/insights",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Main Header"
-      }
+      "__resolveType": "Main Header"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/RichText.tsx",
-        "text": "<h1 style=\"text-align: center\"><span style=\"font-size: 44pt\">Blog We.digi</span></h1><h2 style=\"text-align: center\"><span style=\"font-size: 23pt\">Receba conteúdo gratuito para crescer seu negócio:</span></h2>",
-        "paddingTop": 40
-      }
+      "__resolveType": "site/sections/RichText.tsx",
+      "text": "<h1 style=\"text-align: center\"><span style=\"font-size: 44pt\">Blog We.digi</span></h1><h2 style=\"text-align: center\"><span style=\"font-size: 23pt\">Receba conteúdo gratuito para crescer seu negócio:</span></h2>",
+      "paddingTop": 40
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/BlogPosts.tsx",
-        "posts": {
-          "__resolveType": "blog/loaders/BlogpostList.ts",
-          "sortBy": "date_desc",
-          "count": 10000
-        },
-        "pagination": {
-          "page": 0,
-          "perPage": 6
-        },
-        "cta": {
-          "text": "Mostrar mais"
-        }
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "sortBy": "date_desc",
+        "count": 10000
+      },
+      "pagination": {
+        "page": 0,
+        "perPage": 6
+      },
+      "cta": {
+        "text": "Mostrar mais"
       }
     },
     {
       "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "website/sections/Seo/SeoV2.tsx",
+        "title": "We.digi"
+      }
     }
   ],
   "seo": {

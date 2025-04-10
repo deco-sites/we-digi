@@ -6,40 +6,31 @@
       "__resolveType": "Main Header"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/ImageText.tsx",
-        "image": {
-          "mobile": "https://data.decoassets.com/we-digi/2c80095b-2395-4f37-a4e6-ebaa3aca7cef/secao2.jpg",
-          "alt": "wedigi"
-        },
-        "bgColor": "#08151D",
-        "text": "<h1><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">we</span><span style=\"color: rgb(154, 155, 205); font-size: 27pt\">.</span><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">digi</span><span style=\"font-size: 27pt\"> </span><span style=\"color: rgb(154, 155, 205); font-size: 27pt\">tech</span></h1><p></p><h2><span style=\"color: rgb(255, 255, 255); font-size: 25pt\">implantação e evolução de e-commerce</span></h2><p></p><p><span style=\"color: rgb(255, 255, 255)\">Aqui estamos sempre de ouvidos atentos, captando e extraindo as informações mais importantes para o sucesso do seu negócio, com acompanhamento técnico e suporte on going. Com uma equipe altamente capacitada, metodologias ágeis, projetos ultra personalizados e atendimento humanizado, entregamos resultados que sempre vão além das expectativas.</span></p><p><span style=\"color: rgb(255, 255, 255)\">Acreditamos muito em parcerias a longo prazo e o que nos motiva desde o ponto zero em nossos projetos é ver a evolução dos nossos clientes.</span></p><ul><li><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wedigi.com.br/e-commerce/#implantacao\"><span style=\"color: rgb(255, 255, 255)\">Implantação</span></a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wedigi.com.br/e-commerce/#evolucao\"><span style=\"color: rgb(255, 255, 255)\">Evolução - CRO - SEO</span></a></p></li></ul>",
-        "cta": {
-          "text": "vamos conversar?",
-          "url": "/contato"
-        },
-        "title": "Seção 1",
-        "invert": false
-      }
+      "__resolveType": "site/sections/ImageText.tsx",
+      "image": {
+        "mobile": "https://data.decoassets.com/we-digi/2c80095b-2395-4f37-a4e6-ebaa3aca7cef/secao2.jpg",
+        "alt": "wedigi"
+      },
+      "bgColor": "#08151D",
+      "text": "<h1><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">we</span><span style=\"color: rgb(154, 155, 205); font-size: 27pt\">.</span><span style=\"color: rgb(255, 255, 255); font-size: 27pt\">digi</span><span style=\"font-size: 27pt\"> </span><span style=\"color: rgb(154, 155, 205); font-size: 27pt\">tech</span></h1><p></p><h2><span style=\"color: rgb(255, 255, 255); font-size: 25pt\">implantação e evolução de e-commerce</span></h2><p></p><p><span style=\"color: rgb(255, 255, 255)\">Aqui estamos sempre de ouvidos atentos, captando e extraindo as informações mais importantes para o sucesso do seu negócio, com acompanhamento técnico e suporte on going. Com uma equipe altamente capacitada, metodologias ágeis, projetos ultra personalizados e atendimento humanizado, entregamos resultados que sempre vão além das expectativas.</span></p><p><span style=\"color: rgb(255, 255, 255)\">Acreditamos muito em parcerias a longo prazo e o que nos motiva desde o ponto zero em nossos projetos é ver a evolução dos nossos clientes.</span></p><ul><li><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wedigi.com.br/e-commerce/#implantacao\"><span style=\"color: rgb(255, 255, 255)\">Implantação</span></a></p></li><li><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wedigi.com.br/e-commerce/#evolucao\"><span style=\"color: rgb(255, 255, 255)\">Evolução - CRO - SEO</span></a></p></li></ul>",
+      "cta": {
+        "text": "vamos conversar?",
+        "url": "/contato"
+      },
+      "title": "Seção 1",
+      "invert": false
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/RichText.tsx",
-        "text": "<h2>Implantação</h2><p>A implantação ou migração de um e-commerce é um processo complexo, mas de extrema importância para a escalabilidade e expansão de qualquer negócio. Iremos te ouvir, apresentar e entender juntos qual plataforma faz mais sentido para ser implementada dentro das necessidades do seu negócio, sempre trazendo variáveis como: volume de tráfego, integrações, sistemas de pagamentos, logística e tantos outros pontos que iremos discutir juntos para chegar ao melhor resultado para o projeto.</p><p></p><h3>Atenção e cuidado de uma ponta a outra</h3><p>Nossa entrega com excelência é feita a partir da preocupação com a usabilidade do seu e-commerce, uma vez que já foi comprovado a diferença real nos resultados de lojas online que proporcionam uma boa experiência para seus usuários do início ao fim de sua jornada de compra. Com processos muito bem definidos e projetos on going, conseguimos ter um olhar mais afinado para encontrar as soluções mais alinhadas com as necessidades de crescimento de cada cliente.</p><p></p><h2>Evolução - CRO - SEO</h2><p>Nosso time multidisciplinar e extremamente analítico é capaz de identificar o que pode estar travando a evolução do seu e-commerce e atuar diretamente em cada um desses pontos. Vários aspectos são considerados nessa etapa do projeto e atuamos com eficácia para implementar todas as funcionalidades necessárias para melhorar a eficiência e conversão da sua loja online.</p><p>Somos experts em CRO e SEO, estratégias importantíssimas para que o seu e-commerce se destaque em meio a concorrência acirrada do mercado atual, com follow ups ativos e constantes atuamos com agilidade, entregando para você as melhores soluções e resultados.</p>"
-      }
+      "__resolveType": "site/sections/RichText.tsx",
+      "text": "<h2>Implantação</h2><p>A implantação ou migração de um e-commerce é um processo complexo, mas de extrema importância para a escalabilidade e expansão de qualquer negócio. Iremos te ouvir, apresentar e entender juntos qual plataforma faz mais sentido para ser implementada dentro das necessidades do seu negócio, sempre trazendo variáveis como: volume de tráfego, integrações, sistemas de pagamentos, logística e tantos outros pontos que iremos discutir juntos para chegar ao melhor resultado para o projeto.</p><p></p><h3>Atenção e cuidado de uma ponta a outra</h3><p>Nossa entrega com excelência é feita a partir da preocupação com a usabilidade do seu e-commerce, uma vez que já foi comprovado a diferença real nos resultados de lojas online que proporcionam uma boa experiência para seus usuários do início ao fim de sua jornada de compra. Com processos muito bem definidos e projetos on going, conseguimos ter um olhar mais afinado para encontrar as soluções mais alinhadas com as necessidades de crescimento de cada cliente.</p><p></p><h2>Evolução - CRO - SEO</h2><p>Nosso time multidisciplinar e extremamente analítico é capaz de identificar o que pode estar travando a evolução do seu e-commerce e atuar diretamente em cada um desses pontos. Vários aspectos são considerados nessa etapa do projeto e atuamos com eficácia para implementar todas as funcionalidades necessárias para melhorar a eficiência e conversão da sua loja online.</p><p>Somos experts em CRO e SEO, estratégias importantíssimas para que o seu e-commerce se destaque em meio a concorrência acirrada do mercado atual, com follow ups ativos e constantes atuamos com agilidade, entregando para você as melhores soluções e resultados.</p>"
     },
     {
       "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "we.digi",
-        "titleTemplate": "we.digi"
-      }
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "we.digi",
+      "titleTemplate": "we.digi"
     }
   ],
   "seo": {

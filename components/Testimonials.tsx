@@ -1,8 +1,8 @@
 // deno-lint-ignore-file react-rules-of-hooks
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
-import Icon from "../components/ui/Icon.tsx";
-import Slider from "../components/ui/Slider.tsx";
+import Icon from "./ui/Icon.tsx";
+import Slider from "./ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
 
 /**

@@ -174,16 +174,10 @@
       "tag": "we.work"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Testimonials2"
-      }
+      "__resolveType": "Testimonials2"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Contato"
-      }
+      "__resolveType": "Contato"
     },
     {
       "__resolveType": "Footer"
