@@ -9,6 +9,7 @@ import * as $Header from "./islands/Header.tsx";
 import * as $PhoneSlider from "./islands/PhoneSlider.tsx";
 import * as $Slider from "./islands/Slider.tsx";
 import * as $Testimonials from "./islands/Testimonials.tsx";
+import * as $ValidadeImage from "./islands/ValidadeImage.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -22,6 +23,7 @@ const manifest = {
     "./islands/PhoneSlider.tsx": $PhoneSlider,
     "./islands/Slider.tsx": $Slider,
     "./islands/Testimonials.tsx": $Testimonials,
+    "./islands/ValidadeImage.tsx": $ValidadeImage,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

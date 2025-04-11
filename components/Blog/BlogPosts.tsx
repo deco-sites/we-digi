@@ -2,6 +2,8 @@
 import { useState } from "preact/hooks";
 import {type Props} from "site/sections/BlogPosts.tsx"
 import Image from "apps/website/components/Image.tsx";
+import ValidadeImage from "site/islands/ValidadeImage.tsx";
+
 
 // Um container que pode ser um componente simples que centraliza o conteúdo
 function Container({ children }: { children: preact.ComponentChildren }) {
@@ -35,16 +37,14 @@ export default function BlogPostsIsland({
                         href={`/insights/post/${post.slug}`}
                         class="border border-secondary overflow-hidden rounded-lg"
                     >
-                        <Image
+                        <ValidadeImage
+                            fallbackUrl="https://assets.decocache.com/we-digi/62266f95-595c-40ee-a97a-7474aa6ffc61/home-main.jpg"
                             width={380}
                             height={274}
                             class="object-fit w-full"
                             sizes="(max-width: 640px) 100vw, 30vw"
-                            src={
-                                post.image ||
-                                "https://assets.decocache.com/we-digi/62266f95-595c-40ee-a97a-7474aa6ffc61/home-main.jpg"
-                            }
-                            alt={post.image || ""}
+                            imageUrl={post.image}
+                            alt={post.image || "Imagem do post"}
                             decoding="async"
                             loading="lazy"
                         />
