@@ -1,6 +1,6 @@
 {
   "name": "Obrigado!",
-  "path": "/obrigado-pelo-contato/",
+  "path": "/obrigado-pelo-contato",
   "sections": [
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -12,9 +12,21 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/RichText.tsx",
-        "text": "<h1 style=\"text-align: center\"><span style=\"font-size: 26pt\">we.digi</span></h1><h2 style=\"text-align: center\"><span style=\"font-size: 37pt\">Obrigado pelo contato!</span></h2><p style=\"text-align: center\"></p><p style=\"text-align: center\">Agradecemos seu contato. Retornaremos em breve</p>",
+        "text": "<h1 style=\"text-align: center\"><span style=\"font-size: 37pt\">Obrigado pelo contato!</span></h1><p style=\"text-align: center\"></p><p style=\"text-align: center\">Agradecemos o interesse na We.digi. Sua mensagem já está com nossa equipe. Retornaremos o mais breve possível para explorarmos juntos as melhores soluções para o seu negócio digital.</p>",
         "paddingTop": 120,
         "paddingBottom": 80
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Partners"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Testimonials"
       }
     },
     {
