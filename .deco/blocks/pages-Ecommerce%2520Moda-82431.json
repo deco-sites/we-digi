@@ -1,6 +1,6 @@
 {
-  "name": "LP Moda",
-  "path": "/lp-moda",
+  "name": "Ecommerce Moda",
+  "path": "/consultoria-ecommerce-moda",
   "sections": [
     {
       "__resolveType": "site/sections/BannerPhone.tsx",
