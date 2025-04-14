@@ -1,0 +1,37 @@
+{
+  "name": "Obrigado!",
+  "path": "/obrigado",
+  "sections": [
+    {
+      "__resolveType": "Main Header"
+    },
+    {
+      "__resolveType": "site/sections/RichText.tsx",
+      "text": "<h1 style=\"text-align: center\">Obrigado!</h1><p style=\"text-align: center\">Agradecemos seu interesse na We.digi! Sua mensagem já está com nossa equipe e retornaremos o mais breve possível para explorarmos juntos as melhores soluções para o seu negócio digital.</p>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Partners"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Testimonials2"
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    },
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "we.digi",
+      "titleTemplate": "we.digi"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
