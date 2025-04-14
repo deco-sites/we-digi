@@ -43,7 +43,7 @@ interface DescriptionList {
     /**
      * @title Title
      */
-    title: string;
+    title?: string;
     /**
      * @title Description
      * @format rich-text

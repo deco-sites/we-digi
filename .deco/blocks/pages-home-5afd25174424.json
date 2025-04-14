@@ -3,10 +3,7 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Main Header"
-      }
+      "__resolveType": "Main Header"
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
@@ -177,18 +174,10 @@
       "tag": "we.work"
     },
     {
-      "__resolveType": "Testimonials"
+      "__resolveType": "Testimonials2"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contact.tsx",
-        "subscribe": {},
-        "tag": "we.hear you",
-        "title": "Queremos te ouvir!",
-        "description": "Preencha o formulário que logo entraremos em contato.",
-        "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/91892ee6-1619-491c-a7a9-c2a86897666f/bg-wave3.jpg"
-      }
+      "__resolveType": "Contato"
     },
     {
       "__resolveType": "Footer"

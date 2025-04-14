@@ -6,25 +6,19 @@
       "__resolveType": "Main Header"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/Contact.tsx",
-        "tag": "we.hear you",
-        "title": "Queremos te ouvir!",
-        "description": "Preencha o formulário que logo entraremos em contato.",
-        "background": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png"
-      }
+      "__resolveType": "site/sections/Contact.tsx",
+      "tag": "we.hear you",
+      "title": "Queremos te ouvir!",
+      "description": "Preencha o formulário que logo entraremos em contato.",
+      "background": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png"
     },
     {
       "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "we.digi",
-        "titleTemplate": "we.digi"
-      }
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "we.digi",
+      "titleTemplate": "we.digi"
     }
   ],
   "seo": {

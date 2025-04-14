@@ -3,28 +3,21 @@
   "path": "/obrigado-pelo-contato",
   "sections": [
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "Main Header"
-      }
+      "__resolveType": "Main Header"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/RichText.tsx",
         "text": "<h1 style=\"text-align: center\"><span style=\"font-size: 37pt\">Obrigado pelo contato!</span></h1><p style=\"text-align: center\"></p><p style=\"text-align: center\">Agradecemos o interesse na We.digi. Sua mensagem já está com nossa equipe. Retornaremos o mais breve possível para explorarmos juntos as melhores soluções para o seu negócio digital.</p>",
         "paddingTop": 120,
         "paddingBottom": 80
-      }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Partners"
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "Testimonials"
       }
@@ -33,12 +26,9 @@
       "__resolveType": "Footer"
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "website/sections/Seo/SeoV2.tsx",
-        "title": "we.digi",
-        "titleTemplate": "we.digi"
-      }
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "we.digi",
+      "titleTemplate": "we.digi"
     }
   ],
   "seo": {
