@@ -19,7 +19,7 @@
       },
       "pagination": {
         "page": 0,
-        "perPage": 6
+        "perPage": 200
       },
       "cta": {
         "text": "Mostrar mais"
