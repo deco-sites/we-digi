@@ -36,7 +36,8 @@
             "__resolveType": "website/handlers/sitemap.ts",
             "excludePaths": []
           }
-        }
+        },
+        "pathTemplate": "/sitemap.xml"
       }
     ]
   ],
