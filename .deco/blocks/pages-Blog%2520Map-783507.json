@@ -1,6 +1,6 @@
 {
-  "name": "Blog",
-  "path": "/insights",
+  "name": "Blog Map",
+  "path": "/blogmap",
   "sections": [
     {
       "__resolveType": "Main Header"
@@ -19,7 +19,7 @@
       },
       "pagination": {
         "page": 0,
-        "perPage": 12
+        "perPage": 400
       },
       "cta": {
         "text": "Mostrar mais"
