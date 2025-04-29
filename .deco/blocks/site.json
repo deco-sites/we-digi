@@ -28,7 +28,17 @@
     },
     {
       "__resolveType": "website/loaders/redirects.ts"
-    }
+    },
+    [
+      {
+        "handler": {
+          "value": {
+            "__resolveType": "website/handlers/sitemap.ts",
+            "excludePaths": []
+          }
+        }
+      }
+    ]
   ],
   "caching": {
     "directives": []
