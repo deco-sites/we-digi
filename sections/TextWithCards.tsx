@@ -15,6 +15,12 @@ interface Card {
      */
     text: string
     link: string
+    linkLabel?: string
+    /**
+     * @title Cor de Background
+     * @format color
+     */
+    bgColor?: string
 }
 
 interface Props {
@@ -42,7 +48,7 @@ const Card = ({ card }: CardProps) => {
                 <div class="h-full flex justify-center items-center">
                     <p class="text-black text-sm mb-8">{card.text}</p>
                 </div>
-                <a class="text-black bg-[#f0857d] text-center text-sm font-bold w-full block px-8 py-3 rounded-xl hover:!brightness-75 transition-all duration-300 ease-in-out" href={card.link}>TENHO INTERESSE</a>
+                <a style={{ backgroundColor: card.bgColor ?? '#F0857D' }} class="text-black text-center text-sm font-bold w-full block px-8 py-3 rounded-xl hover:!brightness-75 transition-all duration-300 ease-in-out" href={card.link}>{card.linkLabel ?? 'TENHO INTERESSE'}</a>
             </div>
         </div>
     )
@@ -55,7 +61,7 @@ const TextWithCards = ({ cards, text }: Props) => {
                 <div class="flex-1">
                     <div class="lg:[&_h2]:text-[40px] lg:[&_h2]:leading-[48px] [&_h2]:text-xl lg:[&_p]:text-base" dangerouslySetInnerHTML={{ __html: text }} />
                 </div>
-                <div class="flex-1 flex gap-8 flex-wrap md:flex-row flex-col md:justify-center">
+                <div class="2xl:flex-1 lg:flex-[2] flex-1 flex gap-8 flex-wrap md:flex-row flex-col md:justify-center">
                     {cards?.map((card, index) => (<Card card={card} key={index} />))}
                 </div>
             </div>

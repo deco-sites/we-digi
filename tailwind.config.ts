@@ -10,6 +10,9 @@ export default {
       outline: {
         arrow: ['2px solid #000', '2px'], // Adiciona outline customizado com espessura e cor
       },
+      fontSize:{
+        xxs: ["0.625rem", { lineHeight: "120%" }]
+      },
       animation: {
         sliding: "sliding 30s linear infinite",
       },

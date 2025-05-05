@@ -1,0 +1,1 @@
+export { default } from 'site/components/StepSection/index.tsx'
