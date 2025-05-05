@@ -9,6 +9,11 @@ interface Props {
   cta?: {
     label: string
     link: string
+    /**
+     * @title Cor de Background
+     * @format color
+     */
+    bgColor?:string
   }
 }
 
@@ -62,7 +67,7 @@ const VideoText = ({ text, video, cta }: Props) => {
         </div>
       </div>
       {cta && cta.label && cta.link &&
-        <a class="py-3 mt-11 px-8 bg-[#F0857D] font-bold rounded-xl hover:!brightness-75 transition-all text-sm text-black duration-300 ease-in-out" href={cta.link}>{cta.label}</a>
+        <a style={{ backgroundColor: cta.bgColor ?? '#F0857D' }} class="py-3 mt-11 px-8 font-bold rounded-xl hover:!brightness-75 transition-all text-sm text-black duration-300 ease-in-out" href={cta.link}>{cta.label}</a>
       }
     </div>
   )
