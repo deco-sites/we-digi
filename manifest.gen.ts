@@ -6,6 +6,7 @@ import * as $$$$$$$$$$$0 from "./apps/deco/ai-assistants.ts";
 import * as $$$$$$$$$$$1 from "./apps/deco/blog.ts";
 import * as $$$$$$$$$$$2 from "./apps/decohub.ts";
 import * as $$$$$$$$$$$3 from "./apps/site.ts";
+import * as $$$0 from "./loaders/sitemap.ts";
 import * as $$$$$$0 from "./sections/Achievements.tsx";
 import * as $$$$$$1 from "./sections/BannerConstrucao.tsx";
 import * as $$$$$$2 from "./sections/BannerPhone.tsx";
@@ -41,6 +42,9 @@ import * as $$$$$$28 from "./sections/Theme/Theme.tsx";
 import * as $$$$$$29 from "./sections/VideoText.tsx";
 
 const manifest = {
+  "loaders": {
+    "site/loaders/sitemap.ts": $$$0,
+  },
   "sections": {
     "site/sections/Achievements.tsx": $$$$$$0,
     "site/sections/BannerConstrucao.tsx": $$$$$$1,
