@@ -54,21 +54,17 @@
       "cta": {
         "label": "FALE COM UM ESPECIALISTA",
         "link": "/contato",
-        "bgColor": "#bff776"
+        "bgColor": "#ffed7b"
       },
       "title": "we.digi em números",
       "items": [
         {
-          "number": 115,
-          "text": "clientes em performance"
+          "number": 26,
+          "text": "anos de experiência"
         },
         {
-          "text": "milhões investidos em mídia",
-          "number": 75
-        },
-        {
-          "number": 1125,
-          "text": "bilhões de faturamento"
+          "number": 1000,
+          "text": "projetos desenvolvidos"
         }
       ],
       "image": "https://assets.decocache.com/we-digi/11af8ab4-7db0-4776-90d6-73c0192876b3/circle-1.png"

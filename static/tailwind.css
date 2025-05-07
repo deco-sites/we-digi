@@ -5292,6 +5292,10 @@ input.tab:checked + .tab-content,
     gap: 2.75rem;
   }
 
+  .lg\:gap-12 {
+    gap: 3rem;
+  }
+
   .lg\:gap-16 {
     gap: 4rem;
   }
