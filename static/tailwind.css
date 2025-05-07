@@ -3466,6 +3466,9 @@ input.tab:checked + .tab-content,
 .max-w-\[94vw\] {
   max-width: 94vw;
 }
+.max-w-\[95vw\] {
+  max-width: 95vw;
+}
 .max-w-full {
   max-width: 100%;
 }
@@ -5226,6 +5229,10 @@ input.tab:checked + .tab-content,
 
   .lg\:max-w-\[240px\] {
     max-width: 240px;
+  }
+
+  .lg\:max-w-\[25\%\] {
+    max-width: 25%;
   }
 
   .lg\:max-w-\[292px\] {

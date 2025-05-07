@@ -21,10 +21,10 @@ import * as $$$$$$10 from "./sections/Footer.tsx";
 import * as $$$$$$11 from "./sections/FunnelSection.tsx";
 import * as $$$$$$12 from "./sections/GridContent.tsx";
 import * as $$$$$$13 from "./sections/Header.tsx";
-import * as $$$$$$30 from "./sections/hero-1.tsx";
-import * as $$$$$$31 from "./sections/hero-2.tsx";
+import * as $$$$$$31 from "./sections/hero-1.tsx";
+import * as $$$$$$32 from "./sections/hero-2.tsx";
 import * as $$$$$$14 from "./sections/Hero.tsx";
-import * as $$$$$$32 from "./sections/hero2.tsx";
+import * as $$$$$$33 from "./sections/hero2.tsx";
 import * as $$$$$$15 from "./sections/ImageText.tsx";
 import * as $$$$$$16 from "./sections/ImageWithParagraph.tsx";
 import * as $$$$$$17 from "./sections/Logos.tsx";
@@ -38,8 +38,9 @@ import * as $$$$$$24 from "./sections/Statistics.tsx";
 import * as $$$$$$25 from "./sections/StepSection.tsx";
 import * as $$$$$$26 from "./sections/Testimonials.tsx";
 import * as $$$$$$27 from "./sections/TextWithCards.tsx";
-import * as $$$$$$28 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$29 from "./sections/VideoText.tsx";
+import * as $$$$$$28 from "./sections/TextWithCards2.tsx";
+import * as $$$$$$29 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$30 from "./sections/VideoText.tsx";
 
 const manifest = {
   "loaders": {
@@ -60,10 +61,10 @@ const manifest = {
     "site/sections/FunnelSection.tsx": $$$$$$11,
     "site/sections/GridContent.tsx": $$$$$$12,
     "site/sections/Header.tsx": $$$$$$13,
-    "site/sections/hero-1.tsx": $$$$$$30,
-    "site/sections/hero-2.tsx": $$$$$$31,
+    "site/sections/hero-1.tsx": $$$$$$31,
+    "site/sections/hero-2.tsx": $$$$$$32,
     "site/sections/Hero.tsx": $$$$$$14,
-    "site/sections/hero2.tsx": $$$$$$32,
+    "site/sections/hero2.tsx": $$$$$$33,
     "site/sections/ImageText.tsx": $$$$$$15,
     "site/sections/ImageWithParagraph.tsx": $$$$$$16,
     "site/sections/Logos.tsx": $$$$$$17,
@@ -77,8 +78,9 @@ const manifest = {
     "site/sections/StepSection.tsx": $$$$$$25,
     "site/sections/Testimonials.tsx": $$$$$$26,
     "site/sections/TextWithCards.tsx": $$$$$$27,
-    "site/sections/Theme/Theme.tsx": $$$$$$28,
-    "site/sections/VideoText.tsx": $$$$$$29,
+    "site/sections/TextWithCards2.tsx": $$$$$$28,
+    "site/sections/Theme/Theme.tsx": $$$$$$29,
+    "site/sections/VideoText.tsx": $$$$$$30,
   },
   "apps": {
     "site/apps/deco/ai-assistants.ts": $$$$$$$$$$$0,
