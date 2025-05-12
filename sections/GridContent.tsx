@@ -132,7 +132,7 @@ const BlockCards = ({block, flex}:BlockCards) => {
                     <img class="max-w-11 w-full" src={item.icon} alt={item.text} />
                     <h3 class="text-white text-base font-bold text-center">{item.text}</h3>
                     {item?.text2 &&
-                        <p class="text-white text-sm text-center">{item.text2}</p>
+                        <p class="text-white lg:text-sm text-xs text-center">{item.text2}</p>
                     }
                 </div>
             ))}
