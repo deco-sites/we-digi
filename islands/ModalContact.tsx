@@ -64,8 +64,8 @@ const ModalContactIsland = ({ link, bg, text }: Props) => {
                     </div>
                     <div class="lg:[&_p]:text-6xl [&_p]:text-2xl text-center" dangerouslySetInnerHTML={{ __html: text }} />
                     {link &&
-                        <div class="animate-boxShadowCycle w-fit rounded-xl mx-auto">
-                            <a class="py-3 block w-fit mt-11 px-8 animate-backgroundCycle font-bold rounded-xl  text-sm text-black cursor-pointer mx-auto lg:mx-0" href={link.url}>{link.label}</a>
+                        <div class="animate-boxShadowCycle w-fit rounded-xl mx-auto mt-11">
+                            <a class="py-3 block w-fit px-8 animate-backgroundCycle font-bold rounded-xl  text-sm text-black cursor-pointer mx-auto lg:mx-0 text-center" href={link.url}>{link.label}</a>
                         </div>
                     }
                 </div>
