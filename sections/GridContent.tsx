@@ -94,7 +94,7 @@ const BlockCTA = ({ block }: BlockCTAProps) => {
         <a
             style={block.bgColor ? { backgroundColor: `${block.bgColor}` } : {}}
             href={block.link}
-            class="block w-fit px-8 py-3 rounded-xl [&_p]:text-sm hover:!brightness-75 transition-all duration-300 ease-in-out"
+            class="block w-fit px-8 max-sm:px-6 text-center py-3 rounded-xl [&_p]:text-sm hover:!brightness-75 transition-all duration-300 ease-in-out"
             dangerouslySetInnerHTML={{ __html: block.label }}
         />
     )
@@ -126,9 +126,9 @@ interface BlockCards{
 const BlockCards = ({block, flex}:BlockCards) => {
 
     return(
-        <div class={`gap-4 lg:gap-8 ${flex ? 'flex flex-wrap justify-center items-center' : 'grid grid-cols-2 md:grid-cols-3'}`}>
+        <div class={`gap-4 lg:gap-8 ${flex ? 'flex flex-wrap justify-center items-stretch' : 'grid grid-cols-2 md:grid-cols-3'}`}>
             {block.images.map((item)=>(
-                <div class={`${flex ? 'w-[50%] lg:w-[30%]' : 'w-full lg:max-w-[240px]'} gap-2 rounded-xl h-full flex flex-col items-center justify-center px-4 py-6`} style={{background: "linear-gradient(255.81deg, #46C2EE -7.22%, #0A4A60 99.2%)" }}>
+                <div class={`${flex ? 'w-[47%] lg:w-[30%]' : 'w-full lg:max-w-[240px]'} gap-2 rounded-xl flex flex-col items-center justify-center px-4 py-6`} style={{background: "linear-gradient(255.81deg, #46C2EE -7.22%, #0A4A60 99.2%)" }}>
                     <img class="max-w-11 w-full" src={item.icon} alt={item.text} />
                     <h3 class="text-white text-base font-bold text-center">{item.text}</h3>
                     {item?.text2 &&
