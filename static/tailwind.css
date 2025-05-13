@@ -2914,6 +2914,9 @@ input.tab:checked + .tab-content,
 .left-\[-45\%\] {
   left: -45%;
 }
+.left-\[80\%\] {
+  left: 80%;
+}
 .left-auto {
   left: auto;
 }
@@ -3317,6 +3320,9 @@ input.tab:checked + .tab-content,
 .w-\[90\%\] {
   width: 90%;
 }
+.w-\[calc\(100\%_-_25\%\)\] {
+  width: calc(100% - 25%);
+}
 .w-auto {
   width: auto;
 }
@@ -3566,6 +3572,31 @@ input.tab:checked + .tab-content,
 }
 .animate-backgroundCycle {
   animation: backgroundCycle 6s ease-in-out infinite;
+}
+@keyframes backgroundCycleYellow {
+
+  0%, 100% {
+    background: linear-gradient(90deg, #FFED7B 0%, #FFED7B 100%);
+  }
+
+  20% {
+    background: linear-gradient(90deg, #FFED7B 0%, #76F5F7 100%);
+  }
+
+  40% {
+    background: linear-gradient(90deg, #76F5F7 0%, #76F5F7 100%);
+  }
+
+  60% {
+    background: linear-gradient(90deg, #76F5F7 0%, #FFED7B 100%);
+  }
+
+  80% {
+    background: linear-gradient(90deg, #F79D53 0%, #F79D53 100%);
+  }
+}
+.animate-backgroundCycleYellow {
+  animation: backgroundCycleYellow 6s ease-in-out infinite;
 }
 @keyframes boxShadowCycle {
 
@@ -4730,6 +4761,10 @@ input.tab:checked + .tab-content,
     width: 34%;
   }
 
+  .max-lg\:max-w-\[450px\] {
+    max-width: 450px;
+  }
+
   .max-lg\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -5446,6 +5481,10 @@ input.tab:checked + .tab-content,
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .lg\:pb-12 {
+    padding-bottom: 3rem;
   }
 
   .lg\:pb-28 {

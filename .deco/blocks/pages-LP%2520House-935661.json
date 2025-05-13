@@ -3,40 +3,14 @@
   "path": "/lp-house",
   "sections": [
     {
-      "__resolveType": "site/sections/BannerConstrucao.tsx",
-      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
-      "text1": "<h1><strong><span style=\"color: #76f5f7\">Cresça no varejo da construção</span><span style=\"color: #f5f5f5\"> </span></strong><span style=\"color: #f5f5f5\">com estratégias de alta performance.</span></h1>",
+      "__resolveType": "site/sections/BannerHouse.tsx",
+      "text1": "<h1>Software house para <strong><span style=\"color: #76f5f7\">desenvolver soluções sob medida</span></strong> com metodologia única.</h1>",
+      "text2": "<p><span>Com a essência de uma software house desde sua fundação, </span><strong><span>a we.digi possui alta capacidade técnica para desenvolver soluções sob medida. </span></strong><span><br><br>Nosso trabalho de consultoria avalia ainda quais </span><strong><span style=\"color: #75f3f5\">soluções podem impactar no seu faturamento.&nbsp;</span></strong></p>",
       "cta": {
-        "label": "AGENDE UMA CONSULTORIA GRÁTIS",
+        "label": "SOLICITE UM ORÇAMENTO",
         "link": "/contato"
       },
-      "text2": "<p>A <strong><span style=\"color: rgb(107, 224, 227)\">we.digi</span></strong> une marketing e tecnologia para <strong><span style=\"color: rgb(111, 230, 232)\">potencializar sua marca no setor de construção.</span></strong> Com técnicas avançadas e experiência de mercado, transformamos sua <strong><span style=\"color: rgb(255, 255, 255)\">presença digital em resultados reais.</span></strong></p>",
-      "images": [
-        {
-          "image": "https://assets.decocache.com/we-digi/e8b2fbb6-3227-4189-9f2c-c7b2060ec485/slider1.png",
-          "alt": "merc"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/0c7488d5-5997-4dd1-a9c1-2d6686a4f8b4/slider2.png",
-          "alt": "Merc Pdp"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/6d72b425-ccf0-4f70-becb-6b2b1d878142/slider3.png",
-          "alt": "Casa Mimosa"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/94b9fdb1-4555-4ca4-8320-afd782596f3b/slider4.png",
-          "alt": "Casa Mimosa PDP"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/11e3b5ec-d258-48b4-b3de-7a3c27d14c39/slider5.png",
-          "alt": "BSH"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/43e3ea6a-a5a1-4e67-834a-9b5d82018407/slider6.png",
-          "alt": "BSH PDP"
-        }
-      ]
+      "bg": "https://assets.decocache.com/we-digi/8e5549e7-9374-4113-8405-1e6e5503582e/bg-modal.png"
     },
     {
       "__resolveType": "site/sections/VideoText.tsx",
