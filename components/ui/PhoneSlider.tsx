@@ -14,10 +14,15 @@ const PhoneSlider = ({ images, phoneImage, construction }: Props) => {
     const transitionDuration = 500
 
     useEffect(() => {
+        console.log('images', images, interval)
+
         if (images.length > 0) {
             const timer = setInterval(() => {
                 setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length)
             }, interval)
+            
+            console.log('images', images, interval)
+
             return () => clearInterval(timer)
         }
     }, [images, interval])
