@@ -1,5 +1,4 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
-import { Discovery } from "npm:aws-sdk@2.1585.0";
 
 /** @title {{ text }} */
 interface Cards {
@@ -7,7 +6,15 @@ interface Cards {
      * @title Ícone
      */
     icon: ImageWidget
+    /**
+     * @title Título
+     */
     text: string;
+    /**
+     * @title Texto
+     * @format textarea
+     */
+    text2?: string;
 }
 
 /** @title Texto */
@@ -75,6 +82,7 @@ interface Props {
      */
     maxWidth?: number
     blocks: Block[];
+    flex?: boolean;
 }
 
 
@@ -86,7 +94,7 @@ const BlockCTA = ({ block }: BlockCTAProps) => {
         <a
             style={block.bgColor ? { backgroundColor: `${block.bgColor}` } : {}}
             href={block.link}
-            class="block w-fit px-8 py-3 rounded-xl [&_p]:text-sm hover:!brightness-75 transition-all duration-300 ease-in-out"
+            class="block w-fit px-8 max-sm:px-6 text-center py-3 rounded-xl [&_p]:text-sm hover:!brightness-75 transition-all duration-300 ease-in-out"
             dangerouslySetInnerHTML={{ __html: block.label }}
         />
     )
@@ -112,16 +120,20 @@ const BlockCTA = ({ block }: BlockCTAProps) => {
 
 interface BlockCards{
     block: CardsBlock
+    flex?: boolean
 }
 
-const BlockCards = ({block}:BlockCards) => {
+const BlockCards = ({block, flex}:BlockCards) => {
 
     return(
-        <div class=" gap-4 lg:gap-8 grid grid-cols-2 md:grid-cols-3">
+        <div class={`gap-4 lg:gap-8 ${flex ? 'flex flex-wrap justify-center items-stretch' : 'grid grid-cols-2 md:grid-cols-3'}`}>
             {block.images.map((item)=>(
-                <div class="w-full lg:max-w-[240px] gap-2 rounded-xl h-full flex flex-col items-center justify-center px-4 py-6" style={{background: "linear-gradient(255.81deg, #46C2EE -7.22%, #0A4A60 99.2%)" }}>
+                <div class={`${flex ? 'w-[47%] lg:w-[30%]' : 'w-full lg:max-w-[240px]'} gap-2 rounded-xl flex flex-col items-center justify-center px-4 py-6`} style={{background: "linear-gradient(255.81deg, #46C2EE -7.22%, #0A4A60 99.2%)" }}>
                     <img class="max-w-11 w-full" src={item.icon} alt={item.text} />
                     <h3 class="text-white text-base font-bold text-center">{item.text}</h3>
+                    {item?.text2 &&
+                        <p class="text-white lg:text-sm text-xs text-center">{item.text2}</p>
+                    }
                 </div>
             ))}
         </div>
@@ -141,7 +153,7 @@ const BlockText = ({ block }: BlockTextProps) => {
     )
 }
 
-const GridContent = ({ bg, blocks, maxWidth }: Props) => {
+const GridContent = ({ bg, blocks, maxWidth, flex }: Props) => {
 
     return (
         <div style={bg ? { backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' } : {}}>
@@ -154,7 +166,7 @@ const GridContent = ({ bg, blocks, maxWidth }: Props) => {
                                     <BlockCTA block={block} />
                                 }
                                 {block.type === 'Cards' &&
-                                    <BlockCards block={block} />
+                                    <BlockCards block={block} flex={flex} />
                                 }
                                 {block.type === 'Texto' &&
                                     <BlockText block={block} />
