@@ -50,6 +50,26 @@
       "bgColor": "#f2f2f2"
     },
     {
+      "__resolveType": "site/sections/SectionCards.tsx",
+      "cards": [
+        {
+          "image": "https://assets.decocache.com/we-digi/1b96aad5-d8d3-434a-9557-4f9f20384682/desenvolvimento.png",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/2a5e1a9f-b1b0-4b90-a612-a5e541314d71/icon4.svg",
+          "title": "Desenvolvimento de Sistemas "
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/80754454-e2c9-4b46-844d-15c71eaa1fdb/integracao.png",
+          "icon": "https://assets.decocache.com/we-digi/d8571cda-97f1-4b89-b23c-554c08585c88/svgPC.svg",
+          "title": "Integração de Sistemas"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/3a4c11b2-558b-4d34-9295-96e195a237a2/automacao.png",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/74dcb8ce-08a7-4acb-b7ba-bf6724090de6/icon3.svg",
+          "title": "Automações com agentes de AI"
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/Statistics.tsx",
       "cta": {
         "label": "FALE COM UM ESPECIALISTA",
