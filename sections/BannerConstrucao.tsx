@@ -39,10 +39,12 @@ const BannerConstrucao = ({ text1, text2, cta, bg, images }: Props) => {
                 </a>
             </header>
             <div class="flex flex-col lg:flex-row justify-between w-full max-w-[94vw] gap-5 h-full mx-auto flex-1 relative z-10">
-                <div class="lg:max-w-[500px] [&_h1]:text-xl md:[&_h1]:text-3xl lg:[&_h1]:text-4xl xl:[&_h1]:text-5xl 2xl:[&_h1]:text-6xl [&_h1]:font-extralight max-md:[&_h1]:text-center [&_h1]:text-white flex-[2] text-center lg:text-left">
+                <div class="lg:max-w-[500px] [&_h1]:text-xl md:[&_h1]:text-3xl lg:[&_h1]:text-4xl xl:[&_h1]:text-5xl 2xl:[&_h1]:text-6xl [&_h1]:font-extralight max-md:[&_h1]:text-center [&_h1]:text-white flex-[2] text-center lg:text-left z-10">
                     <div dangerouslySetInnerHTML={{ __html: text1 }} />
                     {cta && cta.label && cta.link &&
-                        <a class="py-3 block w-fit mt-11 px-8 bg-[#BFF776] font-bold rounded-xl hover:!brightness-75 transition-all text-sm text-black duration-300 ease-in-out cursor-pointer mx-auto lg:mx-0" href={cta.link}>{cta.label}</a>
+                        <div class="animate-boxShadowCycle w-fit rounded-xl mx-auto hidden lg:block">
+                            <a class="py-3 block w-fit mt-11 px-8 animate-backgroundCycle font-bold rounded-xl  text-sm text-black cursor-pointer mx-auto lg:mx-0" href={cta.link}>{cta.label}</a>
+                        </div>
                     }
                 </div>
                 <div class="w-full lg:min-h-[600px] min-h-[50vh] flex-[3] flex items-center justify-center">
@@ -51,7 +53,12 @@ const BannerConstrucao = ({ text1, text2, cta, bg, images }: Props) => {
                     }
                 </div>
                 <div class="lg:max-w-[500px] flex items-center lg:items-start justify-end flex-col flex-[2]">
-                    <div class="max-md:[&_p]:text-center [&_p]:text-xl md:[&_p]:text-2xl text-center lg:text-left lg:[&_p]:text-3xl xl:[&_p]:text-4xl [&_p]:font-extralight text-white" dangerouslySetInnerHTML={{ __html: text2 }} />
+                    {cta && cta.label && cta.link &&
+                        <div class="animate-boxShadowCycle w-fit rounded-xl mx-auto block lg:hidden mb-3">
+                            <a class="py-3 block w-fit px-8 animate-backgroundCycle font-bold rounded-xl text-sm text-black cursor-pointer mx-auto lg:mx-0" href={cta.link}>{cta.label}</a>
+                        </div>
+                    }
+                    <div class="max-md:[&_p]:text-center [&_p]:text-xl md:[&_p]:text-2xl text-center lg:text-left lg:[&_p]:text-3xl [&_p]:font-extralight text-white" dangerouslySetInnerHTML={{ __html: text2 }} />
                 </div>
             </div>
             <div class="absolute w-full h-full flex items-center justify-center z-0">

@@ -14,9 +14,9 @@ const ModalContactIsland = ({ link, bg, text }: Props) => {
     useEffect(() => {
         const modal = sessionStorage.getItem('modalContact')
 
-        if(!modal) modalAlreadyOpen.value = true
+        if (!modal) modalAlreadyOpen.value = true
     }, [])
-    
+
 
     return (
         <Modal
@@ -64,7 +64,9 @@ const ModalContactIsland = ({ link, bg, text }: Props) => {
                     </div>
                     <div class="lg:[&_p]:text-6xl [&_p]:text-2xl text-center" dangerouslySetInnerHTML={{ __html: text }} />
                     {link &&
-                        <a class="mx-auto block lg:text-xl text-center text-base w-fit max-w-[550px] px-8 py-3 rounded-xl text-black font-bold hover:!brightness-75 transition-all duration-300 ease-in-out" style={{ backgroundColor: link.bgColor ?? '#BFF776' }} href={link.url}>{link.label}</a>
+                        <div class="animate-boxShadowCycle w-fit rounded-xl mx-auto mt-11">
+                            <a class="py-3 block w-fit px-8 animate-backgroundCycle font-bold rounded-xl  text-sm text-black cursor-pointer mx-auto lg:mx-0 text-center" href={link.url}>{link.label}</a>
+                        </div>
                     }
                 </div>
             </div>

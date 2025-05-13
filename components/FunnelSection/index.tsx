@@ -52,16 +52,16 @@ const FunnelSection = ({ link, subtitle, title, description, options }: Props) =
         <h2 class="lg:text-4xl text-[#76F5F7] text-center mb-4 max-w-[900px] mx-auto text-xl">{title}</h2>
         <p class="text-white lg:text-2xl text-center font-light text-base">{subtitle}</p>
       </div>
-      <div class="flex items-center justify-center mt-10 sm:h-[80vh] h-fit max-sm:mb-10">
+      <div class="flex items-center max-[425px]:items-stretch justify-center mt-10 sm:h-[80vh] h-fit max-sm:mb-10">
         <div class="h-full">
           <div class="hidden md:block h-full">
             <FunnelDesktop />
           </div>
-          <div class="block md:hidden h-full">
+          <div class="block md:hidden h-full max-[375px]:py-10">
             <FunnelMobile />
           </div>
         </div>
-        <div class="flex flex-col h-full justify-start pt-[10px] gap-[10px]">
+        <div class="flex flex-col h-full justify-start pt-[10px] max-[375px]:pt-[26px] gap-[10px] min-[425px]:max-[640px]:gap-[30px]">
           {options && options.map((option, index) => (
             <div key={index} class={`flex ${index === 3 ? 'sm:mb-[calc(60vh_/_23)] mb-[calc(60vh_/_23)]' : ''} flex-col justify-center sm:h-[calc(60vh_/_7)]`}>
               <p class="text-xs lg:text-base text-white font-medium">{option.title}</p>
@@ -74,7 +74,7 @@ const FunnelSection = ({ link, subtitle, title, description, options }: Props) =
         <p class="text-white lg:text-2xl text-center font-light text-base mb-3">{description}</p>
       )}
       {link && (
-        <a class="mx-auto block text-xs w-fit px-8 py-3 rounded-xl text-black font-bold lg:text-sm hover:!brightness-75 transition-all duration-300 ease-in-out" style={{ backgroundColor: link.bgColor ?? '#BFF776' }} href={link.url}>{link.label}</a>
+        <a class="mx-auto block text-xs w-fit px-8 py-3 max-sm:px-6 text-center rounded-xl text-black font-bold lg:text-sm hover:!brightness-75 transition-all duration-300 ease-in-out" style={{ backgroundColor: link.bgColor ?? '#BFF776' }} href={link.url}>{link.label}</a>
       )}
     </div>
   )
