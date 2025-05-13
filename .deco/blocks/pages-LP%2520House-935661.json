@@ -97,6 +97,33 @@
       ]
     },
     {
+      "__resolveType": "site/sections/FourBrandsSection.tsx",
+      "title": "Já desenvolvemos projetos para: ",
+      "cta": {
+        "text": "QUERO UMA SOLUÇÃO INTELIGENTE PARA MEU NEGOCIO",
+        "link": "/contato"
+      },
+      "bgColor": "#f2f2f2",
+      "brands": [
+        {
+          "logo": "https://assets.decocache.com/we-digi/d2daa4d1-6e86-4756-8720-695bae6f5daf/sadia.png",
+          "name": "Sadia"
+        },
+        {
+          "logo": "https://assets.decocache.com/we-digi/6d178b58-b559-49d5-9eea-3e998214652b/quali.png",
+          "name": "Quali"
+        },
+        {
+          "logo": "https://assets.decocache.com/we-digi/865e57cb-a18b-4c2d-8b84-7d50310dff68/liberty.png",
+          "name": "Liberty"
+        },
+        {
+          "logo": "https://assets.decocache.com/we-digi/8cc8cb42-10a4-4f30-ad89-9b111141da03/ajinomoto.png",
+          "name": "Ajinomoto"
+        }
+      ]
+    },
+    {
       "__resolveType": "Footer"
     }
   ],

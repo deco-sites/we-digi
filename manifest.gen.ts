@@ -19,30 +19,31 @@ import * as $$$$$$8 from "./sections/Contact.tsx";
 import * as $$$$$$9 from "./sections/Faq.tsx";
 import * as $$$$$$10 from "./sections/FaqImage.tsx";
 import * as $$$$$$11 from "./sections/Footer.tsx";
-import * as $$$$$$12 from "./sections/FunnelSection.tsx";
-import * as $$$$$$13 from "./sections/GridContent.tsx";
-import * as $$$$$$14 from "./sections/Header.tsx";
-import * as $$$$$$33 from "./sections/hero-1.tsx";
-import * as $$$$$$34 from "./sections/hero-2.tsx";
-import * as $$$$$$15 from "./sections/Hero.tsx";
-import * as $$$$$$35 from "./sections/hero2.tsx";
-import * as $$$$$$16 from "./sections/ImageText.tsx";
-import * as $$$$$$17 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$18 from "./sections/Logos.tsx";
-import * as $$$$$$19 from "./sections/ModalContact.tsx";
-import * as $$$$$$20 from "./sections/Partnerships.tsx";
-import * as $$$$$$21 from "./sections/RichText.tsx";
-import * as $$$$$$22 from "./sections/RoundedSection.tsx";
-import * as $$$$$$23 from "./sections/SectionCards.tsx";
-import * as $$$$$$24 from "./sections/SimpleBrands.tsx";
-import * as $$$$$$25 from "./sections/SimpleHeader.tsx";
-import * as $$$$$$26 from "./sections/Statistics.tsx";
-import * as $$$$$$27 from "./sections/StepSection.tsx";
-import * as $$$$$$28 from "./sections/Testimonials.tsx";
-import * as $$$$$$29 from "./sections/TextWithCards.tsx";
-import * as $$$$$$30 from "./sections/TextWithCards2.tsx";
-import * as $$$$$$31 from "./sections/Theme/Theme.tsx";
-import * as $$$$$$32 from "./sections/VideoText.tsx";
+import * as $$$$$$12 from "./sections/FourBrandsSection.tsx";
+import * as $$$$$$13 from "./sections/FunnelSection.tsx";
+import * as $$$$$$14 from "./sections/GridContent.tsx";
+import * as $$$$$$15 from "./sections/Header.tsx";
+import * as $$$$$$34 from "./sections/hero-1.tsx";
+import * as $$$$$$35 from "./sections/hero-2.tsx";
+import * as $$$$$$16 from "./sections/Hero.tsx";
+import * as $$$$$$36 from "./sections/hero2.tsx";
+import * as $$$$$$17 from "./sections/ImageText.tsx";
+import * as $$$$$$18 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$19 from "./sections/Logos.tsx";
+import * as $$$$$$20 from "./sections/ModalContact.tsx";
+import * as $$$$$$21 from "./sections/Partnerships.tsx";
+import * as $$$$$$22 from "./sections/RichText.tsx";
+import * as $$$$$$23 from "./sections/RoundedSection.tsx";
+import * as $$$$$$24 from "./sections/SectionCards.tsx";
+import * as $$$$$$25 from "./sections/SimpleBrands.tsx";
+import * as $$$$$$26 from "./sections/SimpleHeader.tsx";
+import * as $$$$$$27 from "./sections/Statistics.tsx";
+import * as $$$$$$28 from "./sections/StepSection.tsx";
+import * as $$$$$$29 from "./sections/Testimonials.tsx";
+import * as $$$$$$30 from "./sections/TextWithCards.tsx";
+import * as $$$$$$31 from "./sections/TextWithCards2.tsx";
+import * as $$$$$$32 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$33 from "./sections/VideoText.tsx";
 
 const manifest = {
   "loaders": {
@@ -61,30 +62,31 @@ const manifest = {
     "site/sections/Faq.tsx": $$$$$$9,
     "site/sections/FaqImage.tsx": $$$$$$10,
     "site/sections/Footer.tsx": $$$$$$11,
-    "site/sections/FunnelSection.tsx": $$$$$$12,
-    "site/sections/GridContent.tsx": $$$$$$13,
-    "site/sections/Header.tsx": $$$$$$14,
-    "site/sections/hero-1.tsx": $$$$$$33,
-    "site/sections/hero-2.tsx": $$$$$$34,
-    "site/sections/Hero.tsx": $$$$$$15,
-    "site/sections/hero2.tsx": $$$$$$35,
-    "site/sections/ImageText.tsx": $$$$$$16,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$17,
-    "site/sections/Logos.tsx": $$$$$$18,
-    "site/sections/ModalContact.tsx": $$$$$$19,
-    "site/sections/Partnerships.tsx": $$$$$$20,
-    "site/sections/RichText.tsx": $$$$$$21,
-    "site/sections/RoundedSection.tsx": $$$$$$22,
-    "site/sections/SectionCards.tsx": $$$$$$23,
-    "site/sections/SimpleBrands.tsx": $$$$$$24,
-    "site/sections/SimpleHeader.tsx": $$$$$$25,
-    "site/sections/Statistics.tsx": $$$$$$26,
-    "site/sections/StepSection.tsx": $$$$$$27,
-    "site/sections/Testimonials.tsx": $$$$$$28,
-    "site/sections/TextWithCards.tsx": $$$$$$29,
-    "site/sections/TextWithCards2.tsx": $$$$$$30,
-    "site/sections/Theme/Theme.tsx": $$$$$$31,
-    "site/sections/VideoText.tsx": $$$$$$32,
+    "site/sections/FourBrandsSection.tsx": $$$$$$12,
+    "site/sections/FunnelSection.tsx": $$$$$$13,
+    "site/sections/GridContent.tsx": $$$$$$14,
+    "site/sections/Header.tsx": $$$$$$15,
+    "site/sections/hero-1.tsx": $$$$$$34,
+    "site/sections/hero-2.tsx": $$$$$$35,
+    "site/sections/Hero.tsx": $$$$$$16,
+    "site/sections/hero2.tsx": $$$$$$36,
+    "site/sections/ImageText.tsx": $$$$$$17,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$18,
+    "site/sections/Logos.tsx": $$$$$$19,
+    "site/sections/ModalContact.tsx": $$$$$$20,
+    "site/sections/Partnerships.tsx": $$$$$$21,
+    "site/sections/RichText.tsx": $$$$$$22,
+    "site/sections/RoundedSection.tsx": $$$$$$23,
+    "site/sections/SectionCards.tsx": $$$$$$24,
+    "site/sections/SimpleBrands.tsx": $$$$$$25,
+    "site/sections/SimpleHeader.tsx": $$$$$$26,
+    "site/sections/Statistics.tsx": $$$$$$27,
+    "site/sections/StepSection.tsx": $$$$$$28,
+    "site/sections/Testimonials.tsx": $$$$$$29,
+    "site/sections/TextWithCards.tsx": $$$$$$30,
+    "site/sections/TextWithCards2.tsx": $$$$$$31,
+    "site/sections/Theme/Theme.tsx": $$$$$$32,
+    "site/sections/VideoText.tsx": $$$$$$33,
   },
   "apps": {
     "site/apps/deco/ai-assistants.ts": $$$$$$$$$$$0,
