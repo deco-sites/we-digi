@@ -3313,9 +3313,6 @@ input.tab:checked + .tab-content,
 .w-\[522px\] {
   width: 522px;
 }
-.w-\[55\%\] {
-  width: 55%;
-}
 .w-\[90\%\] {
   width: 90%;
 }
@@ -4801,11 +4798,6 @@ input.tab:checked + .tab-content,
   .max-sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  .max-sm\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
 
