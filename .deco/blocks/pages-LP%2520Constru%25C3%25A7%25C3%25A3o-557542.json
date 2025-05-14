@@ -1,6 +1,6 @@
 {
   "name": "LP Construção",
-  "path": "/lp-construcao",
+  "path": "/consultoria-ecommerce-construcao",
   "sections": [
     {
       "__resolveType": "site/sections/ModalContact.tsx",
