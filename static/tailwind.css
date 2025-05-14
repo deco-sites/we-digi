@@ -4852,10 +4852,6 @@ input.tab:checked + .tab-content,
 
 @media not all and (min-width: 640px) {
 
-  .max-sm\:mb-10 {
-    margin-bottom: 2.5rem;
-  }
-
   .max-sm\:mt-8 {
     margin-top: 2rem;
   }

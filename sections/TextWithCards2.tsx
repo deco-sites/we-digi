@@ -51,11 +51,11 @@ const Card = ({ card }: CardProps) => {
     return (
         <div class="rounded-xl overflow-hidden md:flex-1 flex flex-col">
             <div class="bg-[#46c2ee] flex flex-col items-center p-4">
-                <img src={card.icon} alt={card.title} />
+                <img src={card.icon} alt={card.label} />
                 <div dangerouslySetInnerHTML={{ __html: card.title }} />
                 {/* <h3 class="lg:text-xl text-[#292D6B] font-bold text-center">{card.title}</h3> */}
             </div>
-            <div class="bg-white py-5 px-4 flex-1 flex flex-col items-center justify-center">
+            <div class="bg-white py-5 px-4 flex-1 flex flex-col items-center justify-center gap-8">
                 <div class="h-full flex justify-center">
                     <div class="[&_p]:text-sm" dangerouslySetInnerHTML={{ __html: card.text }} />
                     {/* <p class="text-black text-sm mb-8">{card.text}</p> */}

@@ -68,7 +68,7 @@
       "text": "<h2><span style=\"color: #76f5f6\">Nossa metodologia</span></h2><p></p><p><span style=\"color: #ffffff\">Combinamos estratégia, inovação e engenharia de software para criar soluções personalizadas e escaláveis. Nossa abordagem se divide em três etapas essenciais.</span></p>",
       "cards": [
         {
-          "icon": "https://assets.decocache.com/we-digi/2f2e47ca-f9da-486f-ab38-60143fee4794/1.png",
+          "icon": "https://assets.decocache.com/we-digi/69f670c6-7a49-479e-844e-cf846c984dc5/1.svg",
           "title": "<h3 style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">DISCOVERY</span></strong></h3><p style=\"text-align: center\"><span style=\"color: rgb(41, 45, 107)\">Compreensão e Estratégia</span></p>",
           "text": "<p><span style=\"color: #000000\">Antes de começar o desenvolvimento, investigamos a fundo os desafios e oportunidades do seu negócio. <br><br>Nesta etapa, realizamos:</span></p><ul><li><p><strong><span style=\"color: #000000\">Imersão no contexto do cliente</span></strong><span style=\"color: #000000\"> – Entendimento das necessidades, objetivos e fluxos de operação.</span></p></li><li><p><strong><span style=\"color: #000000\">Mapeamento de oportunidades</span></strong><span style=\"color: #000000\"> – Identificação de pontos de melhoria e inovação que podem impactar o faturamento.</span></p></li><li><p><strong><span style=\"color: #000000\">Definição de requisitos</span></strong><span style=\"color: #000000\"> – Levantamento técnico e estratégico para garantir que a solução atenda às expectativas e demandas do mercado.</span></p></li></ul><p><span style=\"color: #000000\"><br>O resultado do Discovery é um diagnóstico detalhado, fundamentado em dados, que orienta a construção de uma solução eficiente e alinhada aos objetivos do negócio.</span></p><p></p>",
           "link": "/contato",
@@ -77,7 +77,7 @@
           "label": "DISCOVERY"
         },
         {
-          "icon": "https://assets.decocache.com/we-digi/dc55db1a-2673-40b7-9532-ab1c9ba3819b/2.png",
+          "icon": "https://assets.decocache.com/we-digi/2ff5023f-7d59-4c1f-9e2f-2e2a177c7347/2.svg",
           "title": "<h3 style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">PRODUCT CONCEPT</span></strong></h3><p style=\"text-align: center\"><span style=\"color: rgb(41, 45, 107)\">Prototipação e Validação</span></p>",
           "text": "<p><span style=\"color: rgb(0, 0, 0)\">Após compreender os desafios, transformamos insights em um conceito de produto tangível:</span><br><span style=\"color: rgb(0, 0, 0)\"><br></span></p><ul><li><p><strong><span style=\"color: rgb(0, 0, 0)\">Arquitetura da solução</span></strong><span style=\"color: rgb(0, 0, 0)\"> – Definição de tecnologias, estrutura e funcionalidades essenciais.</span></p></li><li><p><strong><span style=\"color: rgb(0, 0, 0)\">Protótipos interativos </span></strong><span style=\"color: rgb(0, 0, 0)\">– Criação de wireframes e modelos que simulam a experiência do usuário.</span></p></li><li><p><strong><span style=\"color: rgb(0, 0, 0)\">Validação e ajustes</span></strong><span style=\"color: rgb(0, 0, 0)\"> – Testamos hipóteses, coletamos feedbacks e refinamos o conceito antes do desenvolvimento.</span></p></li></ul><p><span style=\"color: rgb(0, 0, 0)\"><br>Essa fase reduz riscos e garante que a solução seja viável e eficiente antes de avançarmos para a construção.</span></p>",
           "link": "/contato",
@@ -86,7 +86,7 @@
           "label": "Product Concept Prototipação e Validação"
         },
         {
-          "icon": "https://assets.decocache.com/we-digi/fa951eb9-07e1-463e-bce5-954a42a798f7/3.png",
+          "icon": "https://assets.decocache.com/we-digi/7c65bb1b-0269-4a32-a344-6002c8832af7/3.svg",
           "title": "<h3 style=\"text-align: center\"><strong><span style=\"color: rgb(41, 45, 107)\">BUILD</span></strong></h3><p style=\"text-align: center\"><span style=\"color: rgb(41, 45, 107)\">Desenvolvimento e Entrega</span></p>",
           "text": "<p><span style=\"color: rgb(0, 0, 0)\">Com o conceito validado, entramos na fase de desenvolvimento:</span><br><span style=\"color: rgb(0, 0, 0)\"><br></span></p><ul><li><p><strong><span style=\"color: rgb(0, 0, 0)\">Código robusto e escalável</span></strong><span style=\"color: rgb(0, 0, 0)\"> – Aplicação das melhores práticas de engenharia de software.</span></p></li><li><p><strong><span style=\"color: rgb(0, 0, 0)\">Integrações inteligentes</span></strong><span style=\"color: rgb(0, 0, 0)\"> – Conexão da solução com outros sistemas e automação de processos.</span></p></li><li><p><strong><span style=\"color: rgb(0, 0, 0)\">Qualidade garantida</span></strong><span style=\"color: rgb(0, 0, 0)\"> – Testes rigorosos para assegurar desempenho, segurança e usabilidade.</span></p></li></ul><p><span style=\"color: rgb(0, 0, 0)\"><br>Ao final, entregamos um produto pronto para operar, acompanhado de suporte e melhorias contínuas para garantir a efetividade e sucesso da solução.</span></p>",
           "link": "/contato",
