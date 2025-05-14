@@ -50,7 +50,7 @@ const Card = ({ card }: CardProps) => {
 
     return (
         <div class="rounded-xl overflow-hidden md:flex-1 flex flex-col">
-            <div class="bg-[#46c2ee] flex flex-col items-center p-4">
+            <div class="bg-[#46c2ee] flex flex-col items-center p-4 gap-2">
                 <img src={card.icon} alt={card.label} />
                 <div dangerouslySetInnerHTML={{ __html: card.title }} />
                 {/* <h3 class="lg:text-xl text-[#292D6B] font-bold text-center">{card.title}</h3> */}

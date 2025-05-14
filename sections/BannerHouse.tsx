@@ -35,7 +35,7 @@ const BannerConstrucao = ({ text1, text2, cta, bg }: Props) => {
         <div class="pb-5 relative flex flex-col items-center justify-center min-h-[800px]" style={bg ? { backgroundImage: `url(${bg})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' } : {}}>
             <header class="w-full flex items-center justify-center py-10 relative z-10">
                 <a href="/">
-                    <img src='https://assets.decocache.com/we-digi/c16836f8-c94a-46d3-80ce-147d8835149b/logo-wedigi-1.png' alt="" />
+                    <img src='https://assets.decocache.com/we-digi/c16836f8-c94a-46d3-80ce-147d8835149b/logo-wedigi-1.png' alt="we.digi" />
                 </a>
             </header>
             <div class="flex flex-col lg:flex-row justify-between w-full max-w-[94vw] gap-5 h-full mx-auto flex-1 relative z-10 lg:pb-12">
