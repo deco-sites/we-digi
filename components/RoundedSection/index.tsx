@@ -22,7 +22,6 @@ const RoundedSection = ({description, link}: Props) => {
         <div class="bg-[#f2f2f2] lg:py-12 py-8 px-4">
             <div class="flex items-center justify-center relative w-full max-w-[649px] mx-auto">
                 <Rounded />
-                <h2 class="absolute lg:text-4xl text-sm max-sm:text-xl text-black text-center w-[55%]">Importância do fluxo E-commerce</h2>
             </div>
             <div class="my-8">
                 <p class="text-[#4C4B4B] text-2xl font-light text-center mb-3 max-w-[900px] mx-auto">{description}</p>
