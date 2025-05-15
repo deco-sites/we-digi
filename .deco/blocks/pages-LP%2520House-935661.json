@@ -1,6 +1,6 @@
 {
-  "name": "LP House",
-  "path": "/lp-house",
+  "name": "Software House",
+  "path": "/software-house-solucoes-sob-medida",
   "sections": [
     {
       "__resolveType": "site/sections/BannerHouse.tsx",
