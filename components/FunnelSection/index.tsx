@@ -52,20 +52,25 @@ const FunnelSection = ({ link, subtitle, title, description, options }: Props) =
         <h2 class="lg:text-4xl text-[#76F5F7] text-center mb-4 max-w-[900px] mx-auto text-xl">{title}</h2>
         <p class="text-white lg:text-2xl text-center font-light text-base">{subtitle}</p>
       </div>
-      <div class="flex items-center max-[425px]:items-stretch justify-center mt-10 sm:h-[80vh] h-fit max-sm:mb-10">
+      <div class="flex mx-auto items-center max-w-[350px] md:max-w-[unset] justify-center md:h-[80vh] h-[600px]">
         <div class="h-full">
           <div class="hidden md:block h-full">
             <FunnelDesktop />
           </div>
-          <div class="block md:hidden h-full max-[375px]:py-10">
+          <div class="flex items-center md:hidden h-full max-[375px]:py-10">
             <FunnelMobile />
           </div>
         </div>
-        <div class="flex flex-col h-full justify-start pt-[10px] max-[375px]:pt-[26px] gap-[10px] min-[425px]:max-[640px]:gap-[30px]">
+        <div class="flex flex-col h-full justify-start md:pt-[10px] md:gap-[10px] gap-[20px] mt-[90px] md:mt-0">
           {options && options.map((option, index) => (
-            <div key={index} class={`flex ${index === 3 ? 'sm:mb-[calc(60vh_/_23)] mb-[calc(60vh_/_23)]' : ''} flex-col justify-center sm:h-[calc(60vh_/_7)]`}>
+            <div
+              key={index}
+              class={
+                `${index === 3 ? 'md:mb-[calc(60vh_/_23)] mb-[calc(60vh_/_30)]' : 
+                  index === 4 ? 'md:mb-0 mb-4' : ''
+                } flex flex-col md:justify-center md:h-[calc(60vh_/_7)]`}>
               <p class="text-xs lg:text-base text-white font-medium">{option.title}</p>
-              <p class="text-xs lg:text-base text-white font-light">{option.subtitle}</p>
+              <p class="text-[10px] md:text-xs lg:text-base text-white font-light">{option.subtitle}</p>
             </div>
           ))}
         </div>

@@ -51,7 +51,7 @@ const Statistics = ({ items, title, cta, image }: Props) => {
                     </span>
                 </div>
             </div>
-            <div class="flex flex-col lg:flex-row items-center justify-between w-full gap-8 max-w-[90vw]">
+            <div class="flex flex-col lg:flex-row items-center w-full gap-8 lg:gap-12 justify-center max-w-[90vw]">
                 {items?.map((item) => {
                     const angle = Math.floor(Math.random() * 361)
 
