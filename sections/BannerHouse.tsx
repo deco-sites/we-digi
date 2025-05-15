@@ -195,7 +195,7 @@ const BannerConstrucao = ({ text1, text2, cta, bg }: Props) => {
                 <div class="flex items-center lg:items-start justify-end flex-col flex-1">
                     {cta && cta.label && cta.link &&
                         <div class="animate-boxShadowCycle w-fit rounded-xl mx-auto block lg:hidden mb-3">
-                            <a class="py-1 block w-fit px-8 animate-backgroundCycleYellow font-bold rounded-xl text-sm text-black cursor-pointer mx-auto lg:mx-0" href={cta.link}>{cta.label}</a>
+                            <a class="py-3 block w-fit px-8 animate-backgroundCycleYellow font-bold rounded-xl text-sm text-black cursor-pointer mx-auto lg:mx-0" href={cta.link}>{cta.label}</a>
                         </div>
                     }
                     <div class="max-md:[&_p]:text-center [&_p]:text-xl md:[&_p]:text-2xl text-center lg:text-left lg:[&_p]:text-3xl [&_p]:font-extralight text-white" dangerouslySetInnerHTML={{ __html: text2 }} />
