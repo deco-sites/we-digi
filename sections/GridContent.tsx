@@ -69,6 +69,11 @@ interface CtaBlock {
      * @format color
      */
     bgColor?: string
+    /**
+      * @title Cor do texto do botão
+      * @format color
+    */
+    textColor?: string
 }
 
 /** @title {{title}} */
@@ -92,7 +97,10 @@ interface BlockCTAProps {
 const BlockCTA = ({ block }: BlockCTAProps) => {
     return (
         <a
-            style={block.bgColor ? { backgroundColor: `${block.bgColor}` } : {}}
+            style={{
+            ...(block.bgColor ? { backgroundColor: block.bgColor } : {}),
+            color: block?.textColor ?? '#000000',
+            }}
             href={block.link}
             class="block w-fit px-8 max-sm:px-6 text-center py-3 rounded-xl [&_p]:text-sm hover:!brightness-75 transition-all duration-300 ease-in-out"
             dangerouslySetInnerHTML={{ __html: block.label }}
