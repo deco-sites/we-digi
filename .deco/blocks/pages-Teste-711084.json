@@ -1,0 +1,274 @@
+{
+  "name": "Teste",
+  "sections": [
+    {
+      "__resolveType": "site/sections/BannerPhone.tsx",
+      "text1": "<h1><span style=\"color: rgb(118, 245, 247)\">Venda mais</span> no seu e-commerce de moda com <span style=\"color: rgb(255, 255, 255)\">estratégias de alta performance.</span></h1>",
+      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "text2": "<p><span>Enquanto outros apenas criam campanhas, </span><span style=\"color: #76f5f7\">nós traçamos um caminho completo para escalar suas vendas.</span></p>",
+      "cta": {
+        "label": "QUERO CONHECER",
+        "link": "/contato"
+      },
+      "images": [
+        {
+          "image": "https://assets.decocache.com/we-digi/83e1c868-acc6-4fa4-9265-feb8b9f28c10/img-lalibela.png",
+          "alt": "lalibela"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/58a35f8b-2378-4cba-87dc-6648c2c26c22/img-flaminga.png",
+          "alt": "flaminga"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/d2d52dfb-6d2d-4fde-b5f5-b0fd06aceef7/img-cloude.png",
+          "alt": "cloude"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/2b37fe82-7432-43ed-9dde-829bc3776660/img-7.png",
+          "alt": "sevens"
+        }
+      ],
+      "phoneImage": "https://assets.decocache.com/we-digi/33166088-b69c-4a51-a696-7ce77523ebb3/iPhone-11-Pro.svg"
+    },
+    {
+      "__resolveType": "site/sections/Statistics.tsx",
+      "cta": {
+        "label": "FALE COM UM ESPECIALISTA",
+        "link": "/contato"
+      },
+      "title": "we.digi em números",
+      "items": [
+        {
+          "number": 115,
+          "text": "clientes em performance"
+        },
+        {
+          "text": "milhões investidos em mídia",
+          "number": 75
+        },
+        {
+          "number": 1125,
+          "text": "bilhões de faturamento"
+        }
+      ],
+      "image": "https://assets.decocache.com/we-digi/11af8ab4-7db0-4776-90d6-73c0192876b3/circle-1.png"
+    },
+    {
+      "__resolveType": "site/sections/VideoText.tsx",
+      "text": "<h2 style=\"text-align: center\"><strong><span style=\"color: #76f5f7\">Venda mais com quem entende de Moda!</span></strong><br><br></h2><p style=\"text-align: center\"><span>Somos a we.digi, especialistas em estratégias digitais para e-commerces de moda. Com mais de 20 anos de experiência, entregamos soluções ágeis e precisas para impulsionar seu negócio de forma estratégica e personalizada.</span></p>",
+      "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4",
+      "cta": {
+        "label": "QUERO VENDER MAIS",
+        "link": "/contato"
+      }
+    },
+    {
+      "__resolveType": "site/sections/TextWithCards.tsx",
+      "text": "<h2><span style=\"color: #858585\">Estratégia de tráfego que</span> <span style=\"color: rgb(0, 0, 0)\">gera resultados de verdade!</span></h2><p><br></p><p><span style=\"color: #858585\">Não basta gerenciar anúncios. Analisamos todo o ecossistema da sua marca para criar estratégias que impactam diretamente seu faturamento. Com um método exclusivo, unimos expertise técnica e conhecimento profundo do seu negócio para otimizar cada ponto da jornada do cliente.</span></p>",
+      "cards": [
+        {
+          "icon": "https://assets.decocache.com/we-digi/c1f9fe0e-9aef-4e67-85aa-57d58dee4e87/visao.png",
+          "title": "Visão 360º  do negócio",
+          "text": "O primeiro passo é te ouvir para entender com profundidade o que seu negócio precisa para prosperar. A partir disso, criamos soluções estratégicas que impactam positivamente em todos eles.",
+          "link": "/contato"
+        },
+        {
+          "icon": "https://assets.decocache.com/we-digi/b9c0ea2d-392c-4c5e-9746-993bae92dcff/metodologia.png",
+          "title": "Metodologia  personalizada",
+          "text": "De forma consultiva e proativa, te ajudamos a tomar decisões estratégicas para crescer de forma saudável, com uma abordagem que vai além do tráfego pago.",
+          "link": "/contato"
+        },
+        {
+          "icon": "https://assets.decocache.com/we-digi/dd5cebe7-82b2-4427-b830-177592df2ea0/crescimento.png",
+          "title": "Crescimento  sustentável",
+          "text": "Focamos em resultados olhando para o futuro do seu negócio,  garantindo que seu e-commerce de moda se desenvolva com solidez e consistência.",
+          "link": "/contato"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/GridContent.tsx",
+      "blocks": [
+        {
+          "type": "Texto",
+          "text": "<h2 style=\"text-align: center\"><span style=\"color: rgb(117, 245, 246)\">Gestão de tráfego pago com foco em resultados!</span></h2><p style=\"text-align: center\"><br></p><p style=\"text-align: center\">Nosso método para e-commerces de moda vai além da otimização:</p>"
+        },
+        {
+          "type": "Cards",
+          "images": [
+            {
+              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "alt": "Segmentação avançada",
+              "icon": "https://assets.decocache.com/we-digi/c80b03ba-d576-44ab-99e5-286a28f0061f/conversao.png",
+              "text": "Aumento da  conversão"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "alt": "Análises e relatórios em tempo real",
+              "icon": "https://assets.decocache.com/we-digi/789de421-402c-48cd-99b1-1d02c16496b5/segmentacao.png",
+              "text": "Segmentação avançada"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "alt": "Foco em aumentar lucratividade",
+              "icon": "https://assets.decocache.com/we-digi/34cf4f04-5525-43aa-9da0-b13ae51d0c3c/analise.png",
+              "text": "Análises e relatórios em tempo real"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "alt": "Melhor custo-benefício por conversão",
+              "icon": "https://assets.decocache.com/we-digi/3650f898-4898-47ab-afb3-582edfec5475/testea-b.png",
+              "text": "A/B Testing e  otimização contínua"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/4e53e10b-2ebc-45cc-ba99-5181957e424a/conversao-block.png",
+              "alt": "Aumento de conversão",
+              "icon": "https://assets.decocache.com/we-digi/af950c52-92c8-46d2-8048-68c826b1293d/custo-beneficio.png",
+              "text": "Melhor custo-benefício  por conversão"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/2c7451d0-0c95-440f-a64e-e1b681e6246e/ab-test.png",
+              "alt": "A/B testing e otimização continua",
+              "text": "Foco em aumentar a lucratividade",
+              "icon": "https://assets.decocache.com/we-digi/e6a59942-db9b-4910-b584-099004562f6a/foco.png"
+            }
+          ]
+        },
+        {
+          "type": "Texto",
+          "text": "<p style=\"text-align: center\"><span style=\"color: rgb(117, 245, 246)\">Quer alta performance em vendas?</span><br><br></p><p style=\"text-align: center\">Agende uma consultoria com a we.digi e impulsione o crescimento do seu e-commerce!</p>"
+        },
+        {
+          "type": "CTA",
+          "label": "<p><span style=\"color: rgb(0, 0, 0)\">Fale com um especialista</span></p>",
+          "link": "/contato",
+          "bgColor": "#f0857d"
+        }
+      ],
+      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "maxWidth": 1008
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/FunnelSection.tsx",
+        "title": "Como ampliar o STT ? Aplicando um funil! Conheça mais sobre o nosso método!",
+        "subtitle": "Etapas de foco para a comunicação.",
+        "link": {
+          "label": "QUERO IMPLEMENTAR NO MEU E-COMMERCE",
+          "url": "/contato",
+          "bgColor": "#bff776"
+        },
+        "description": "Transformaremos todo o conceito em pontos objetivos e aplicáveis, para você ter muito mais resultado.",
+        "options": [
+          {
+            "title": "Awaerness | Posicionamento de marca",
+            "subtitle": "\"Se posicionar como solucionador de determinado problema \""
+          },
+          {
+            "title": "Topo | Consideração",
+            "subtitle": "\"Abordar as soluções oferecidas\""
+          },
+          {
+            "title": "Meio | Reconhecimento do problema",
+            "subtitle": "\" Formas de entrega da solução \""
+          },
+          {
+            "title": "Fundo | Ações de conversão em compra",
+            "subtitle": "\" Oferta clara de preço e valor \""
+          },
+          {
+            "title": "Pós venda | Pesquisa",
+            "subtitle": "\" Identificar pontos de melhorias\""
+          },
+          {
+            "title": "Fidelizar | Incentivos para diminuir CAC",
+            "subtitle": "\" Fazer com que comprem mais vezes \""
+          },
+          {
+            "title": "Indicar | Criar apoiadores e defensores da marca",
+            "subtitle": "\" Incentivar a influência por indicação \""
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/Partnerships.tsx",
+      "title": "Quem cresce com a we.digi...",
+      "logos": [
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/884ea3d1-9213-46a7-9d14-bf4f083b47d9/Camada_1.svg",
+          "width": 158,
+          "height": 83
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/558526bd-0ae4-41a4-b1f8-8e04a1079d21/Camada_2.svg",
+          "width": 149,
+          "height": 74
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/490a3532-c8ee-43c8-8aac-6935ca7733c1/Camada_3.svg",
+          "width": 229,
+          "height": 85
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/025eb597-46d3-4a2c-abe5-e5b64422acb9/Camada_4.svg",
+          "width": 250,
+          "height": 26
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "<h2 style=\"text-align: center\"><span style=\"color: rgb(117, 245, 246); font-size: 28pt\">…e se o cliente falou, tá falado!</span></h2>",
+      "arrows": true,
+      "dots": true,
+      "mark": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/96ca403c-da22-415c-bad9-671e7d519853/.png",
+      "slides": [
+        {
+          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">Nós migramos para a we.digi com a expectativa de </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">melhorias do site e performance</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">. Tivemos várias dores com outras agências no passado, e a </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">we.digi</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> veio para provar que você pode prometer coisas, sugerir melhoras e de fato cumprir. A nossa </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">evolução</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> em vendas foi notória. Quem me pergunta de uma </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">agência séria</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">, de </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">performance e evolução</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">, eu sempre indico a </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 29pt\">we.digi</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">.</span></p>",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/c1e0c217-2ccc-42ed-8088-6e6d16c0772d/Livia.png",
+          "alt": "Lívia Ferreira",
+          "name": "Lívia Ferreira",
+          "position": "Cloude"
+        },
+        {
+          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">Nós contratamos a </span><strong><span style=\"color: #ffffff; font-size: 29pt\">we.digi</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> para fazer um trabalho de </span><strong><span style=\"color: #ffffff; font-size: 29pt\">migração</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> e com o desafio de duas </span><strong><span style=\"color: #ffffff; font-size: 29pt\">customizações</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> com </span><strong><span style=\"color: #fafafa; font-size: 29pt\">alto nível</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> de complexidade. Foi um trabalho que exigiu muito de ambos os lados. A </span><strong><span style=\"color: #ffffff; font-size: 29pt\">equipe técnica</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> da </span><strong><span style=\"color: #fafafa; font-size: 29pt\">we.digi</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> trouxe uma bagagem fundamental para desenvolver esse projeto. </span><strong><span style=\"color: #f7f7f7; font-size: 29pt\">Conseguimos realizar esse sonho</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> que vinha de bastante tempo. </span><strong><span style=\"color: #ffffff; font-size: 29pt\">Comprometimento</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> é um palavra que eu definiria este trabalho.</span></p>",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/7cdb0791-480c-44e4-9c63-3481fe366260/luiz.jpg",
+          "alt": "Luiz Pina",
+          "name": "Luiz Pina",
+          "position": "Dipano"
+        },
+        {
+          "description": "<p><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">Nós já estamos com a </span><strong><span style=\"color: #f2f2f2; font-size: 29pt\">we.digi</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> há um ano e meio, e estamos </span><strong><span style=\"color: #ffffff; font-size: 29pt\">muito satisfeitos</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> com o trabalho. As entregas são bastante consistentes, </span><strong><span style=\"color: #ffffff; font-size: 29pt\">eles são muito criativos</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\">, conseguimos melhorar muito a </span><strong><span style=\"color: #f5f5f5; font-size: 29pt\">qualidade</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> de nossa loja. Temos hoje muito mais </span><strong><span style=\"color: #ffffff; font-size: 29pt\">possibilidades e customizações</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> do que tínhamos com outras agências. A equipe é muito engajada e nos trata muito bem, nossa </span><strong><span style=\"color: #ffffff; font-size: 29pt\">experiência</span></strong><span style=\"color: rgb(133, 133, 133); font-size: 29pt\"> está sendo muito boa.</span></p>",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4e50222a-692b-4b42-81b8-ef331ee25e79/gutteneberg.jpeg",
+          "alt": "Gutenberg ",
+          "name": "Gutenberg ",
+          "position": "Diprotec"
+        },
+        {
+          "description": "<p>Como uma <strong><span style=\"color: #ffffff\">empresa inovadora</span></strong>, nós precisamos de parceiros de <strong><span style=\"color: #ffffff\">tecnologia</span></strong>, e é assim que considero a <strong><span style=\"color: #ffffff\">we.digi</span></strong>. Eles dão suporte para todas as camadas do negócio, de <strong><span style=\"color: #ffffff\">consultoria estratégica à parte técnica e operacional</span></strong>. Fica meu agradecimento a esse parceiro e indicação, quem tiver oportunidade de conhecer a <strong><span style=\"color: #ffffff\">we.digi</span></strong> eu tenho certeza que você não vai se arrepender.</p>",
+          "alt": "Rodrigo Brandão",
+          "name": "Rodrigo Brandão",
+          "position": "Espaço Smart",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/bffe12ea-fb6b-40e3-9f32-cfda6d042a68/Rodrigo-Smart.jpeg"
+        },
+        {
+          "description": "<p>Falar da <strong><span style=\"color: #ffffff\">we.digi</span></strong> é muito fácil. É uma <strong><span style=\"color: #ffffff\">empresa parceira, comprometida com seu cliente</span></strong>, que sempre nos ajudou nos melhores e nos piores momentos. Desde que estamos com a <strong><span style=\"color: #f8f7f7\">we.digi</span></strong>, há um pouco mais de um ano, <strong><span style=\"color: #ffffff\">nossa empresa já aumentou o faturamento em 80%</span></strong>, sempre nos apoiando. É uma <strong><span style=\"color: #ffffff\">empresa preocupada com o cliente</span></strong>, eu recomendo a <strong><span style=\"color: #ffffff\">we.digi</span></strong>.</p>",
+          "alt": "Danilo Dias",
+          "name": "Danilo Dias",
+          "position": "Ultrafeu",
+          "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/9a05d732-08e1-4eae-ac5c-d977799570ef/Danilo.png"
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx",
+  "path": "/ogrow"
+}

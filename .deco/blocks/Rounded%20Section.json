@@ -1,0 +1,9 @@
+{
+  "__resolveType": "site/sections/RoundedSection.tsx",
+  "description": "Analisamos ponta a ponta do seu negócio para intervir exatamente onde te trás o maior resultado.",
+  "link": {
+    "label": "QUERO UMA CONSULTA GRÁTIS",
+    "url": "/contato",
+    "bgColor": "#bff776"
+  }
+}

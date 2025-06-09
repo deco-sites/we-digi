@@ -73,47 +73,7 @@
       "image": "https://assets.decocache.com/we-digi/11af8ab4-7db0-4776-90d6-73c0192876b3/circle-1.png"
     },
     {
-      "__resolveType": "site/sections/SimpleBrands.tsx",
-      "title": "Um pouco do nosso sucesso!",
-      "brands": [
-        {
-          "image": "https://assets.decocache.com/we-digi/694b2bf5-06bd-4825-b46e-f972ffc432ba/saci.png",
-          "title": "Saci Tintas"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/a86dfa0d-d47a-44dc-9733-3e7d477b29b3/merce.png",
-          "title": "Merc"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/a720b46b-566c-45ca-a916-80b7c459579d/di-pratos.png",
-          "title": "dipratos"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/ac82d718-31a7-4f69-b03b-180c73c64526/casa-mimosa.png",
-          "title": "Casa Mimosa"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/dbcbbcb2-2b6d-4ad2-9f0f-06c0cafc3549/sika.png",
-          "title": "Sika"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/b5dda61b-1b36-4e0a-802e-b4bf1c526981/padovani.png",
-          "title": "Padovani"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/3135b989-bf3e-41ed-8e3b-f99383e33743/imper.png",
-          "title": "Imper"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/d67b6bb7-230c-4c7a-885e-9162e383a187/casa-contente.png",
-          "title": "Casa Contente"
-        },
-        {
-          "image": "https://assets.decocache.com/we-digi/569a6db9-08e7-4120-a390-06bce3a105a1/bsh.png",
-          "title": "BSH"
-        }
-      ],
-      "bgColor": "#f2f2f2"
+      "__resolveType": "Simple Brands"
     },
     {
       "__resolveType": "site/sections/TextWithCards.tsx",
@@ -146,45 +106,7 @@
       ]
     },
     {
-      "__resolveType": "site/sections/FunnelSection.tsx",
-      "title": "Como ampliar o STT ? Aplicando um funil! Conheça mais sobre o nosso método!",
-      "subtitle": "Etapas de foco para a comunicação.",
-      "link": {
-        "label": "QUERO IMPLEMENTAR NO MEU E-COMMERCE",
-        "url": "/contato",
-        "bgColor": "#bff776"
-      },
-      "description": "Transformaremos todo o conceito em pontos objetivos e aplicáveis, para você ter muito mais resultado.",
-      "options": [
-        {
-          "title": "Awaerness | Posicionamento de marca",
-          "subtitle": "\"Se posicionar como solucionador de determinado problema \""
-        },
-        {
-          "title": "Topo | Consideração",
-          "subtitle": "\"Abordar as soluções oferecidas\""
-        },
-        {
-          "title": "Meio | Reconhecimento do problema",
-          "subtitle": "\" Formas de entrega da solução \""
-        },
-        {
-          "title": "Fundo | Ações de conversão em compra",
-          "subtitle": "\" Oferta clara de preço e valor \""
-        },
-        {
-          "title": "Pós venda | Pesquisa",
-          "subtitle": "\" Identificar pontos de melhorias\""
-        },
-        {
-          "title": "Fidelizar | Incentivos para diminuir CAC",
-          "subtitle": "\" Fazer com que comprem mais vezes \""
-        },
-        {
-          "title": "Indicar | Criar apoiadores e defensores da marca",
-          "subtitle": "\" Incentivar a influência por indicação \""
-        }
-      ]
+      "__resolveType": "Funil de Vendas"
     },
     {
       "__resolveType": "site/sections/GridContent.tsx",
@@ -245,13 +167,7 @@
       "flex": true
     },
     {
-      "__resolveType": "site/sections/RoundedSection.tsx",
-      "description": "Analisamos ponta a ponta do seu negócio para intervir exatamente onde te trás o maior resultado.",
-      "link": {
-        "label": "QUERO UMA CONSULTA GRÁTIS",
-        "url": "/contato",
-        "bgColor": "#bff776"
-      }
+      "__resolveType": "Rounded Section"
     },
     {
       "__resolveType": "site/sections/VideoText.tsx",

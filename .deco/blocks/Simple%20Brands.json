@@ -1,0 +1,43 @@
+{
+  "__resolveType": "site/sections/SimpleBrands.tsx",
+  "title": "Um pouco do nosso sucesso!",
+  "brands": [
+    {
+      "image": "https://assets.decocache.com/we-digi/694b2bf5-06bd-4825-b46e-f972ffc432ba/saci.png",
+      "title": "Saci Tintas"
+    },
+    {
+      "image": "https://assets.decocache.com/we-digi/a86dfa0d-d47a-44dc-9733-3e7d477b29b3/merce.png",
+      "title": "Merc"
+    },
+    {
+      "image": "https://assets.decocache.com/we-digi/a720b46b-566c-45ca-a916-80b7c459579d/di-pratos.png",
+      "title": "dipratos"
+    },
+    {
+      "image": "https://assets.decocache.com/we-digi/ac82d718-31a7-4f69-b03b-180c73c64526/casa-mimosa.png",
+      "title": "Casa Mimosa"
+    },
+    {
+      "image": "https://assets.decocache.com/we-digi/dbcbbcb2-2b6d-4ad2-9f0f-06c0cafc3549/sika.png",
+      "title": "Sika"
+    },
+    {
+      "image": "https://assets.decocache.com/we-digi/b5dda61b-1b36-4e0a-802e-b4bf1c526981/padovani.png",
+      "title": "Padovani"
+    },
+    {
+      "image": "https://assets.decocache.com/we-digi/3135b989-bf3e-41ed-8e3b-f99383e33743/imper.png",
+      "title": "Imper"
+    },
+    {
+      "image": "https://assets.decocache.com/we-digi/d67b6bb7-230c-4c7a-885e-9162e383a187/casa-contente.png",
+      "title": "Casa Contente"
+    },
+    {
+      "image": "https://assets.decocache.com/we-digi/569a6db9-08e7-4120-a390-06bce3a105a1/bsh.png",
+      "title": "BSH"
+    }
+  ],
+  "bgColor": "#f2f2f2"
+}

@@ -1,0 +1,41 @@
+{
+  "__resolveType": "site/sections/FunnelSection.tsx",
+  "title": "Como ampliar o STT ? Aplicando um funil! Conheça mais sobre o nosso método!",
+  "subtitle": "Etapas de foco para a comunicação.",
+  "link": {
+    "label": "QUERO IMPLEMENTAR NO MEU E-COMMERCE",
+    "url": "/contato",
+    "bgColor": "#bff776"
+  },
+  "description": "Transformaremos todo o conceito em pontos objetivos e aplicáveis, para você ter muito mais resultado.",
+  "options": [
+    {
+      "title": "Awaerness | Posicionamento de marca",
+      "subtitle": "\"Se posicionar como solucionador de determinado problema \""
+    },
+    {
+      "title": "Topo | Consideração",
+      "subtitle": "\"Abordar as soluções oferecidas\""
+    },
+    {
+      "title": "Meio | Reconhecimento do problema",
+      "subtitle": "\" Formas de entrega da solução \""
+    },
+    {
+      "title": "Fundo | Ações de conversão em compra",
+      "subtitle": "\" Oferta clara de preço e valor \""
+    },
+    {
+      "title": "Pós venda | Pesquisa",
+      "subtitle": "\" Identificar pontos de melhorias\""
+    },
+    {
+      "title": "Fidelizar | Incentivos para diminuir CAC",
+      "subtitle": "\" Fazer com que comprem mais vezes \""
+    },
+    {
+      "title": "Indicar | Criar apoiadores e defensores da marca",
+      "subtitle": "\" Incentivar a influência por indicação \""
+    }
+  ]
+}

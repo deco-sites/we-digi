@@ -1,0 +1,363 @@
+{
+  "name": "Lp Growth",
+  "path": "/growth",
+  "sections": [
+    {
+      "__resolveType": "site/sections/BannerPhone.tsx",
+      "text1": "<h1><span style=\"color: rgb(118, 245, 247)\">Venda mais com estratégias digitais</span> <span>de alta performance para o seu e-commerce.</span></h1>",
+      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "text2": "<p><span style=\"color: #76f5f7\">Seja no segmento de moda, construção</span><span> ou qualquer outro, a </span><span style=\"color: #76f5f7\">we.digi</span><span> traça um caminho completo para escalar seus resultados. Mais do que criar campanhas, unimos marketing e tecnologia para transformar sua presença digital em faturamento real.</span></p>",
+      "cta": {
+        "label": "QUERO CONHECER",
+        "link": "/contato"
+      },
+      "images": [
+        {
+          "image": "https://assets.decocache.com/we-digi/83e1c868-acc6-4fa4-9265-feb8b9f28c10/img-lalibela.png",
+          "alt": "lalibela"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/58a35f8b-2378-4cba-87dc-6648c2c26c22/img-flaminga.png",
+          "alt": "flaminga"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/d2d52dfb-6d2d-4fde-b5f5-b0fd06aceef7/img-cloude.png",
+          "alt": "cloude"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/2b37fe82-7432-43ed-9dde-829bc3776660/img-7.png",
+          "alt": "sevens"
+        }
+      ],
+      "phoneImage": "https://assets.decocache.com/we-digi/33166088-b69c-4a51-a696-7ce77523ebb3/iPhone-11-Pro.svg"
+    },
+    {
+      "__resolveType": "site/sections/Statistics.tsx",
+      "cta": {
+        "label": "FALE COM UM ESPECIALISTA",
+        "link": "/contato",
+        "bgColor": "#9747ff"
+      },
+      "title": "we.digi em números",
+      "items": [
+        {
+          "number": 115,
+          "text": "clientes em performance"
+        },
+        {
+          "text": "milhões investidos em mídia",
+          "number": 75
+        },
+        {
+          "number": 1125,
+          "text": "bilhões de faturamento"
+        }
+      ],
+      "image": "https://assets.decocache.com/we-digi/11af8ab4-7db0-4776-90d6-73c0192876b3/circle-1.png"
+    },
+    {
+      "__resolveType": "site/sections/VideoText.tsx",
+      "text": "<h2 style=\"text-align: center\"><strong><span style=\"color: rgb(118, 245, 247)\">Somos especialistas em vender mais</span></strong><br><br></h2><p style=\"text-align: center\"><span>Com mais de 20 anos de experiência, somos especialistas em estratégias digitais para e-commerces. Atendemos empresas de moda, construção e outros setores com soluções ágeis, consultivas e altamente personalizadas.</span></p>",
+      "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4",
+      "cta": {
+        "label": "QUERO VENDER MAIS",
+        "link": "/contato",
+        "bgColor": "#9747ff"
+      }
+    },
+    {
+      "__resolveType": "site/sections/TextWithCards.tsx",
+      "text": "<h2><span>Estratégia que </span><strong><span style=\"color: #000000\">gera resultados reais</span></strong></h2><p></p><p style=\"text-align: justify\"><span>Não basta gerenciar anúncios. Nossa atuação é estratégica e completa, analisando o ecossistema do seu negócio para impactar diretamente no faturamento.</span></p>",
+      "cards": [
+        {
+          "icon": "https://assets.decocache.com/we-digi/a34f0877-1645-4006-bc7f-e9f4937adf11/Camada_1-(5).svg",
+          "title": "Visão 360º  do negócio",
+          "text": "Te ouvimos, entendemos, e criamos soluções que atuam em todas as frentes do seu e-commerce.",
+          "link": "/contato",
+          "bgColor": "#9747ff",
+          "linkLabel": "TENHO INTERESSE"
+        },
+        {
+          "icon": "https://assets.decocache.com/we-digi/eb80d08f-ea04-4ce1-9a9f-f21fef40421b/Camada_1-(6).svg",
+          "title": "Ticket Médio",
+          "text": "Estratégias comerciais e promoções",
+          "link": "/contato",
+          "linkLabel": "TENHO INTERESSE",
+          "bgColor": "#9747ff"
+        },
+        {
+          "icon": "https://assets.decocache.com/we-digi/3e0fa2e9-4ed4-43d9-9a01-e1d02abf069d/Camada_1-(7).svg",
+          "title": "Crescimento  sustentável",
+          "text": "Foco no futuro do seu negócio, com consistência e lucratividade.",
+          "link": "/contato",
+          "linkLabel": "TENHO INTERESSE",
+          "bgColor": "#9747ff"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/GridContent.tsx",
+      "blocks": [
+        {
+          "type": "Texto",
+          "text": "<h2><span style=\"color: rgb(118, 245, 247)\">Nosso método de tráfego pago</span></h2><h1></h1><h1></h1><h2></h2><p style=\"text-align: center\">Muito além da otimização!</p>"
+        },
+        {
+          "type": "Cards",
+          "images": [
+            {
+              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "alt": "Segmentação avançada",
+              "icon": "https://assets.decocache.com/we-digi/0ddae594-dce0-411e-bbc6-fa7d0c6ed834/icon.svg",
+              "text": "Aumento da  conversão"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "alt": "Análises e relatórios em tempo real",
+              "icon": "https://assets.decocache.com/we-digi/20c1b5b4-5a2f-4aa4-a0a0-b4d395ff7d3e/icon-1.svg",
+              "text": "Segmentação avançada"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "alt": "Foco em aumentar lucratividade",
+              "icon": "https://assets.decocache.com/we-digi/5efba2ee-1814-49a2-98cf-d9623a5df2b0/icon-2.svg",
+              "text": "Análises e relatórios em tempo real"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "alt": "Melhor custo-benefício por conversão",
+              "icon": "https://assets.decocache.com/we-digi/8bd51eb8-5857-46b3-9536-d3ac6221453f/icon-3.svg",
+              "text": "A/B Testing e otimização contínua"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/4e53e10b-2ebc-45cc-ba99-5181957e424a/conversao-block.png",
+              "alt": "Aumento de conversão",
+              "icon": "https://assets.decocache.com/we-digi/41670611-9868-4066-8977-28b6796c220b/icon-4.svg",
+              "text": "Melhor custo-benefício por conversão"
+            },
+            {
+              "text": "Foco em aumentar a lucratividade",
+              "icon": "https://assets.decocache.com/we-digi/0312f739-9e35-44a1-a1e3-020232a3de74/icon-5.svg"
+            }
+          ]
+        },
+        {
+          "type": "Texto",
+          "text": "<p style=\"text-align: center\"><strong><span style=\"color: #76f5f7\">Quer alta performance em vendas? </span></strong><span><br>Agende uma consultoria com a we.digi!</span></p>"
+        },
+        {
+          "type": "CTA",
+          "label": "<p><span>Fale com um especialista</span></p>",
+          "link": "/contato",
+          "bgColor": "#9747ff"
+        }
+      ],
+      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "maxWidth": 1008,
+      "flex": true
+    },
+    {
+      "__resolveType": "site/sections/TextWithCards.tsx",
+      "text": "<h2><span>Como vamos </span><strong><span style=\"color: #000000\">escalar o seu e-commerce?</span></strong><br></h2><p style=\"text-align: justify\"><span>Olhos treinados para identificar os pontos mais lucrativos do seu funil:</span></p>",
+      "cards": [
+        {
+          "icon": "https://assets.decocache.com/we-digi/ee34b37f-62e0-4ef6-b9a1-3e83c99dd669/Camada_1-(2).svg",
+          "title": "Sessões",
+          "text": "Mapeamento e aumento de acessos",
+          "link": "/contato",
+          "bgColor": "#9747ff",
+          "linkLabel": "QUERO UMA CONSULTA GRÁTIS"
+        },
+        {
+          "icon": "https://assets.decocache.com/we-digi/79924b4b-53ee-467c-b7f7-81ba480f1068/Camada_1-(3).svg",
+          "title": "Ticket Médio",
+          "text": "Estratégias comerciais e promoções",
+          "link": "/contato",
+          "linkLabel": "QUERO UMA CONSULTA GRÁTIS",
+          "bgColor": "#9747ff"
+        },
+        {
+          "icon": "https://assets.decocache.com/we-digi/5f895921-f3ba-4373-8d2e-2d4c7aab8556/Camada_1-(4).svg",
+          "title": "Taxa de conversão",
+          "text": "Otimização da experiência do usuário e navegação",
+          "link": "/contato",
+          "linkLabel": "QUERO UMA CONSULTA GRÁTIS",
+          "bgColor": "#9747ff"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/FunnelSection.tsx",
+        "title": "Como ampliar o STT ? Aplicando um funil! Conheça mais sobre o nosso método!",
+        "subtitle": "Etapas de foco para a comunicação.",
+        "link": {
+          "label": "QUERO IMPLEMENTAR NO MEU E-COMMERCE",
+          "url": "/contato",
+          "bgColor": "#9747ff"
+        },
+        "description": "Transformaremos todo o conceito em pontos objetivos e aplicáveis, para você ter muito mais resultado.",
+        "options": [
+          {
+            "title": "Awaerness | Posicionamento de marca",
+            "subtitle": "\"Se posicionar como solucionador de determinado problema \""
+          },
+          {
+            "title": "Topo | Consideração",
+            "subtitle": "\"Abordar as soluções oferecidas\""
+          },
+          {
+            "title": "Meio | Reconhecimento do problema",
+            "subtitle": "\" Formas de entrega da solução \""
+          },
+          {
+            "title": "Fundo | Ações de conversão em compra",
+            "subtitle": "\" Oferta clara de preço e valor \""
+          },
+          {
+            "title": "Pós venda | Pesquisa",
+            "subtitle": "\" Identificar pontos de melhorias\""
+          },
+          {
+            "title": "Fidelizar | Incentivos para diminuir CAC",
+            "subtitle": "\" Fazer com que comprem mais vezes \""
+          },
+          {
+            "title": "Indicar | Criar apoiadores e defensores da marca",
+            "subtitle": "\" Incentivar a influência por indicação \""
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "site/sections/GridContent.tsx",
+      "blocks": [
+        {
+          "type": "Texto",
+          "text": "<h2><span style=\"color: rgb(118, 245, 247)\">Sites que vendem muito precisam de:</span></h2><p style=\"text-align: center\"></p>"
+        },
+        {
+          "type": "Cards",
+          "images": [
+            {
+              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "alt": "Segmentação avançada",
+              "icon": "https://assets.decocache.com/we-digi/aeccf95b-6e0c-40c0-a703-df595849ca32/icon-(2).svg",
+              "text": "Pesquisa e Intervenção",
+              "text2": "Estratégias pagas e orgânicas para gerar tráfego qualificado"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "alt": "Análises e relatórios em tempo real",
+              "icon": "https://assets.decocache.com/we-digi/789de421-402c-48cd-99b1-1d02c16496b5/segmentacao.png",
+              "text": "Encontrabilidade",
+              "text2": "SEO técnico e relevante"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "alt": "Foco em aumentar lucratividade",
+              "icon": "https://assets.decocache.com/we-digi/b743892f-970b-4b26-afc3-1d50980ac46f/icon-(2).png",
+              "text": "Usabilidade",
+              "text2": "Site rápido, responsivo e intuitivo"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "alt": "Melhor custo-benefício por conversão",
+              "icon": "https://assets.decocache.com/we-digi/39886248-d2d2-47f5-9ed5-3f03b830c9c2/icon-(3).png",
+              "text": "Personalização",
+              "text2": "O DNA da sua marca traduzido para o digital"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/4e53e10b-2ebc-45cc-ba99-5181957e424a/conversao-block.png",
+              "alt": "Aumento de conversão",
+              "icon": "https://assets.decocache.com/we-digi/5e549043-a3dc-450d-b2c4-d596373a1255/icon-(4).png",
+              "text": "Coleta de dados e atribuições",
+              "text2": "Tags, pixels e inteligência de análise de ponta"
+            }
+          ]
+        },
+        {
+          "type": "CTA",
+          "label": "<p><span>Experimente hoje o resultado com a we.digi</span></p>",
+          "link": "/contato",
+          "bgColor": "#9747ff"
+        }
+      ],
+      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "maxWidth": 1008,
+      "flex": true
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/RoundedSection.tsx",
+        "description": "Analisamos ponta a ponta do seu negócio para intervir exatamente onde te trás o maior resultado.",
+        "link": {
+          "label": "QUERO UMA CONSULTA GRÁTIS",
+          "url": "/contato",
+          "bgColor": "#9749ff"
+        }
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/SimpleBrands.tsx",
+        "title": "Quem cresce com a we.digi…",
+        "brands": [
+          {
+            "image": "https://assets.decocache.com/we-digi/694b2bf5-06bd-4825-b46e-f972ffc432ba/saci.png",
+            "title": "Saci Tintas"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/a86dfa0d-d47a-44dc-9733-3e7d477b29b3/merce.png",
+            "title": "Merc"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/a720b46b-566c-45ca-a916-80b7c459579d/di-pratos.png",
+            "title": "dipratos"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/ac82d718-31a7-4f69-b03b-180c73c64526/casa-mimosa.png",
+            "title": "Casa Mimosa"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/dbcbbcb2-2b6d-4ad2-9f0f-06c0cafc3549/sika.png",
+            "title": "Sika"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/b5dda61b-1b36-4e0a-802e-b4bf1c526981/padovani.png",
+            "title": "Padovani"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/3135b989-bf3e-41ed-8e3b-f99383e33743/imper.png",
+            "title": "Imper"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/d67b6bb7-230c-4c7a-885e-9162e383a187/casa-contente.png",
+            "title": "Casa Contente"
+          },
+          {
+            "image": "https://assets.decocache.com/we-digi/569a6db9-08e7-4120-a390-06bce3a105a1/bsh.png",
+            "title": "BSH"
+          }
+        ],
+        "bgColor": "#f2f2f2"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "Testimonials"
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
