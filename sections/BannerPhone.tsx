@@ -32,6 +32,16 @@ interface Props {
     cta?: {
         label: string
         link: string
+        /**
+         * @title Cor de background do botão
+         * @format color
+         */
+        bgColor?: string
+        /**
+         * @title Cor do texto do botão
+         * @format color
+         */
+        textColor?: string
     }
 }
 
@@ -55,7 +65,7 @@ const BannerPhone = ({ text1, text2, phoneImage, cta, bg, images }: Props) => {
                 <div class="max-w-[500px] flex items-center lg:items-start justify-end flex-col">
                     <div class="max-md:[&_p]:text-center [&_p]:text-xl md:[&_p]:text-2xl lg:[&_p]:text-3xl xl:[&_p]:text-4xl [&_p]:font-extralight text-white" dangerouslySetInnerHTML={{ __html: text2 }} />
                     {cta && cta.label && cta.link &&
-                        <a class="py-3 mt-11 px-8 bg-[#F0857D] font-bold rounded-xl hover:!brightness-75 transition-all text-sm text-black duration-300 ease-in-out" href={cta.link}>{cta.label}</a>
+                        <a style={{ backgroundColor: cta.bgColor ?? '#F0857D', color: cta?.textColor ?? '#000000'}} class="py-3 mt-11 px-8 font-bold rounded-xl hover:!brightness-75 transition-all text-sm duration-300 ease-in-out" href={cta.link}>{cta.label}</a>
                     }
                 </div>
             </div>

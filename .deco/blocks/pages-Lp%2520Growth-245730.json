@@ -9,7 +9,9 @@
       "text2": "<p><span style=\"color: #76f5f7\">Seja no segmento de moda, construção</span><span> ou qualquer outro, a </span><span style=\"color: #76f5f7\">we.digi</span><span> traça um caminho completo para escalar seus resultados. Mais do que criar campanhas, unimos marketing e tecnologia para transformar sua presença digital em faturamento real.</span></p>",
       "cta": {
         "label": "QUERO CONHECER",
-        "link": "/contato"
+        "link": "/contato",
+        "bgColor": "#9747ff",
+        "textColor": "#ffffff"
       },
       "images": [
         {
@@ -36,7 +38,8 @@
       "cta": {
         "label": "FALE COM UM ESPECIALISTA",
         "link": "/contato",
-        "bgColor": "#9747ff"
+        "bgColor": "#9747ff",
+        "textColor": "#ffffff"
       },
       "title": "we.digi em números",
       "items": [
@@ -57,13 +60,15 @@
     },
     {
       "__resolveType": "site/sections/VideoText.tsx",
-      "text": "<h2 style=\"text-align: center\"><strong><span style=\"color: rgb(118, 245, 247)\">Somos especialistas em vender mais</span></strong><br><br></h2><p style=\"text-align: center\"><span>Com mais de 20 anos de experiência, somos especialistas em estratégias digitais para e-commerces. Atendemos empresas de moda, construção e outros setores com soluções ágeis, consultivas e altamente personalizadas.</span></p>",
+      "text": "<h2 style=\"text-align: center\"><strong><span style=\"color: rgb(118, 245, 247)\">Somos especialistas em vender mais</span></strong><br><br></h2><p style=\"text-align: center\">Com mais de 20 anos de experiência, somos especialistas em estratégias digitais para e-commerces. Atendemos empresas de moda, construção e outros setores com soluções ágeis, consultivas e altamente personalizadas.</p>",
       "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4",
       "cta": {
         "label": "QUERO VENDER MAIS",
         "link": "/contato",
-        "bgColor": "#9747ff"
-      }
+        "bgColor": "#9747ff",
+        "textColor": "#ffffff"
+      },
+      "bgColor": "#08151d"
     },
     {
       "__resolveType": "site/sections/TextWithCards.tsx",
@@ -75,7 +80,8 @@
           "text": "Te ouvimos, entendemos, e criamos soluções que atuam em todas as frentes do seu e-commerce.",
           "link": "/contato",
           "bgColor": "#9747ff",
-          "linkLabel": "TENHO INTERESSE"
+          "linkLabel": "TENHO INTERESSE",
+          "textColor": "#ffffff"
         },
         {
           "icon": "https://assets.decocache.com/we-digi/eb80d08f-ea04-4ce1-9a9f-f21fef40421b/Camada_1-(6).svg",
@@ -83,7 +89,8 @@
           "text": "Estratégias comerciais e promoções",
           "link": "/contato",
           "linkLabel": "TENHO INTERESSE",
-          "bgColor": "#9747ff"
+          "bgColor": "#9747ff",
+          "textColor": "#ffffff"
         },
         {
           "icon": "https://assets.decocache.com/we-digi/3e0fa2e9-4ed4-43d9-9a01-e1d02abf069d/Camada_1-(7).svg",
@@ -91,7 +98,8 @@
           "text": "Foco no futuro do seu negócio, com consistência e lucratividade.",
           "link": "/contato",
           "linkLabel": "TENHO INTERESSE",
-          "bgColor": "#9747ff"
+          "bgColor": "#9747ff",
+          "textColor": "#ffffff"
         }
       ]
     },
@@ -143,13 +151,14 @@
         },
         {
           "type": "Texto",
-          "text": "<p style=\"text-align: center\"><strong><span style=\"color: #76f5f7\">Quer alta performance em vendas? </span></strong><span><br>Agende uma consultoria com a we.digi!</span></p>"
+          "text": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(118, 245, 247)\">Quer alta performance em vendas? </span></strong><br><span style=\"color: #ffffff\">Agende uma consultoria com a we.digi!</span></p>"
         },
         {
           "type": "CTA",
-          "label": "<p><span>Fale com um especialista</span></p>",
+          "label": "<p><strong>FALE COM UM ESPECIALISTA</strong></p>",
           "link": "/contato",
-          "bgColor": "#9747ff"
+          "bgColor": "#9747ff",
+          "textColor": "#ffffff"
         }
       ],
       "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
@@ -166,7 +175,8 @@
           "text": "Mapeamento e aumento de acessos",
           "link": "/contato",
           "bgColor": "#9747ff",
-          "linkLabel": "QUERO UMA CONSULTA GRÁTIS"
+          "linkLabel": "QUERO UMA CONSULTA GRÁTIS",
+          "textColor": "#ffffff"
         },
         {
           "icon": "https://assets.decocache.com/we-digi/79924b4b-53ee-467c-b7f7-81ba480f1068/Camada_1-(3).svg",
@@ -174,7 +184,8 @@
           "text": "Estratégias comerciais e promoções",
           "link": "/contato",
           "linkLabel": "QUERO UMA CONSULTA GRÁTIS",
-          "bgColor": "#9747ff"
+          "bgColor": "#9747ff",
+          "textColor": "#ffffff"
         },
         {
           "icon": "https://assets.decocache.com/we-digi/5f895921-f3ba-4373-8d2e-2d4c7aab8556/Camada_1-(4).svg",
@@ -182,7 +193,8 @@
           "text": "Otimização da experiência do usuário e navegação",
           "link": "/contato",
           "linkLabel": "QUERO UMA CONSULTA GRÁTIS",
-          "bgColor": "#9747ff"
+          "bgColor": "#9747ff",
+          "textColor": "#ffffff"
         }
       ]
     },
@@ -195,7 +207,8 @@
         "link": {
           "label": "QUERO IMPLEMENTAR NO MEU E-COMMERCE",
           "url": "/contato",
-          "bgColor": "#9747ff"
+          "bgColor": "#9747ff",
+          "textColor": "#ffffff"
         },
         "description": "Transformaremos todo o conceito em pontos objetivos e aplicáveis, para você ter muito mais resultado.",
         "options": [
@@ -279,9 +292,10 @@
         },
         {
           "type": "CTA",
-          "label": "<p><span>Experimente hoje o resultado com a we.digi</span></p>",
+          "label": "<p><strong>EXPERIMENTE HOJE O RESULTADO COM A WE.DIGI</strong></p>",
           "link": "/contato",
-          "bgColor": "#9747ff"
+          "bgColor": "#9747ff",
+          "textColor": "#ffffff"
         }
       ],
       "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
@@ -296,7 +310,8 @@
         "link": {
           "label": "QUERO UMA CONSULTA GRÁTIS",
           "url": "/contato",
-          "bgColor": "#9749ff"
+          "bgColor": "#9749ff",
+          "textColor": "#ffffff"
         }
       }
     },

@@ -14,6 +14,11 @@ interface Props {
          * @format color
          */
         bgColor?: string
+        /**
+         * @title Cor do texto do botão
+         * @format color
+        */
+        textColor?: string
     }
 }
 
@@ -27,7 +32,7 @@ const RoundedSection = ({description, link}: Props) => {
                 <p class="text-[#4C4B4B] text-2xl font-light text-center mb-3 max-w-[900px] mx-auto">{description}</p>
             </div>
             {link && link.label && link.url &&
-                <a style={{backgroundColor: link.bgColor ?? '#BFF776' }} class="block rounded-[10px] text-black text-xs lg:text-sm w-fit py-3 px-8 hover:!brightness-75 transition-all duration-300 ease-in-out font-bold mx-auto" href={link.url}>{link.label}</a>
+                <a style={{backgroundColor: link.bgColor ?? '#BFF776', color: link?.textColor ?? '#000000' }} class="block rounded-[10px] text-xs lg:text-sm w-fit py-3 px-8 hover:!brightness-75 transition-all duration-300 ease-in-out font-bold mx-auto" href={link.url}>{link.label}</a>
             }
         </div>
     )

@@ -21,6 +21,11 @@ interface Card {
      * @format color
      */
     bgColor?: string
+    /**
+      * @title Cor do texto do botão
+      * @format color
+    */
+    textColor?: string
 }
 
 interface Props {
@@ -48,7 +53,7 @@ const Card = ({ card }: CardProps) => {
                 <div class="h-full flex justify-center items-center">
                     <p class="text-black text-sm mb-8">{card.text}</p>
                 </div>
-                <a style={{ backgroundColor: card.bgColor ?? '#F0857D' }} class="text-black text-center text-sm font-bold w-full block px-8 py-3 rounded-xl hover:!brightness-75 transition-all duration-300 ease-in-out" href={card.link}>{card.linkLabel ?? 'TENHO INTERESSE'}</a>
+                <a style={{ backgroundColor: card.bgColor ?? '#F0857D', color: card?.textColor ?? '#000000'  }} class="text-center text-sm font-bold w-full block px-8 py-3 rounded-xl hover:!brightness-75 transition-all duration-300 ease-in-out" href={card.link}>{card.linkLabel ?? 'TENHO INTERESSE'}</a>
             </div>
         </div>
     )
