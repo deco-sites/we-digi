@@ -19,6 +19,7 @@ export default function BlogPostsIsland({
     posts: initialPosts,
     pagination: { page: initialPage = 0, perPage = 6 } = {},
 }: Props) {
+    console.log("posts", initialPosts)
     // Estado para controlar quantos grupos de posts estão sendo exibidos
     const [page, setPage] = useState(initialPage);
     // Nesta versão, começamos sempre do início e vamos mostrando mais posts

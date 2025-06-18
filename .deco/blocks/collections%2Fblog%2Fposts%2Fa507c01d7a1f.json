@@ -2,25 +2,27 @@
   "name": "collections/blog/posts/a507c01d7a1f",
   "__resolveType": "blog/loaders/Blogpost.ts",
   "post": {
-    "__resolveType": "blog/loaders/Blogpost.ts",
-    "post": {
-      "authors": [
-        {
-          "name": "Felipe Trudes",
-          "email": "felipe.trudes@wedigi.com.br",
-          "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
-          "company": "we.digi",
-          "jobTitle": "CEO"
-        }
-      ],
-      "categories": [],
-      "extraProps": [],
-      "title": "Case VTEX: como otimizamos a velocidade do site da Casa Mimosa e melhoramos a experiência digital!",
-      "image": "https://assets.decocache.com/we-digi/f9dadcf6-2fa2-4f9a-8273-39e9ddf8a2aa/casamimosa2.jpg",
-      "content": "<p>Referência nacional no segmento de materiais hidráulicos e acabamentos, a Casa Mimosa já havia dado passos importantes no digital ao migrar sua operação para a plataforma VTEX. A estrutura estava bem montada, mas os números de performance indicavam que a experiência ainda precisava melhorar.</p><p></p><h2>O Desafio</h2><p>Os desafios eram claros. A nota mobile no Lighthouse estava em 54. O Speed Index chegava a 13 segundos. O layout apresentava deslocamentos frequentes, com um Cumulative Layout Shift de 0.471, e o LCP (tempo de carregamento do conteúdo principal da página) marcava quase 4 segundos. Tudo isso indicava uma experiência lenta, instável e pouco fluida, especialmente para os usuários que acessavam via dispositivos móveis.&nbsp;</p><p></p><p>Com uma operação que já funcionava bem do ponto de vista comercial e estrutural, o desafio exigia um olhar técnico e estratégico. A missão era clara: melhorar a performance do site sem comprometer a identidade da marca, as funcionalidades já existentes ou a estrutura construída até ali.</p><p></p><h2>A solução</h2><p>Nosso primeiro passo foi revisar a arquitetura de carregamento do site. Reestruturamos a forma como scripts e imagem eram processados, com foco em reduzir o tempo de carregamento sem afetar o layout ou o funcionamento da loja. Implementamos lazy loading de imagens e iframes, fizemos a compactação de scripts não essenciais e otimizamos o uso do thread principal para reduzir o Total Blocking Time. Também estabilizamos o layout acima da dobra, reservando espaço para elementos dinâmicos e minimizando os deslocamentos de conteúdo durante o carregamento.</p><p>Todas as melhorias foram implementadas de forma progressiva, respeitando as características da operação e validando cada etapa para garantir que o desempenho melhorasse sem interferir na experiência de navegação ou nas estratégias de conversão. </p><p></p><h2>O resultado</h2><p>O impacto foi imediato. A nota de desempenho mobile no Lighthouse subiu de 54 para 83, um salto de mais de 50%. O Speed Index caiu de 13 para 3,3 segundos. O LCP foi reduzido para 0,8s e o CLS despencou para 0.038, garantindo um layout mais estável e agradável desde o primeiro acesso.</p><p></p><p>Além da melhora técnica, esses números representam uma experiência muito mias fluida para o usuário. O site passou a carregar de forma mais rápida e estável, o que naturalmente contribui para aumentar a permanência dos visitantes, reduzir a taxa de rejeição e elevar as chances de conversão. E claro, impacta diretamente no posicionamento orgânico da marca.</p><p></p><h3>Pronto para transformar a experiência digital da sua marca?</h3><p>Se o seu e-commerce também enfrenta problemas de velocidade ou instabilidade, talvez o que falte seja um plano de ação sob medida, com foco em resultado real. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wedigi.com.br/contato-2/\">Entre em contato com o nosso time. </a>Vamos transformar sua performance em um diferencial.</p><p></p><p></p>",
-      "excerpt": "A performance de um site não é só uma questão técnica. Ela impacta diretamente a experiência do usuário, o SEO e, principalmente, a conversão. Um e-commerce lento e instável afasta clientes, reduz o tempo de permanência e dificulta a jornada de compra. Esse era o cenário enfrentado pela Casa Mimosa quando nos procurou. [",
-      "date": "2025-06-16",
-      "slug": "case-vtex-como-otimizamos-a-velocidade-do-site-da-casa-mimosa-e-melhoramos-a-experiência-digital"
-    }
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+        "company": "we.digi",
+        "jobTitle": "CEO"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "sem-categoria"
+      }
+    ],
+    "extraProps": [],
+    "title": "Case VTEX: como otimizamos a velocidade do site da Casa Mimosa e melhoramos a experiência digital!",
+    "image": "https://assets.decocache.com/we-digi/f9dadcf6-2fa2-4f9a-8273-39e9ddf8a2aa/casamimosa2.jpg",
+    "content": "<p>Referência nacional no segmento de materiais hidráulicos e acabamentos, a Casa Mimosa já havia dado passos importantes no digital ao migrar sua operação para a plataforma VTEX. A estrutura estava bem montada, mas os números de performance indicavam que a experiência ainda precisava melhorar.</p><p></p><h2>O Desafio</h2><p>Os desafios eram claros. A nota mobile no Lighthouse estava em 54. O Speed Index chegava a 13 segundos. O layout apresentava deslocamentos frequentes, com um Cumulative Layout Shift de 0.471, e o LCP (tempo de carregamento do conteúdo principal da página) marcava quase 4 segundos. Tudo isso indicava uma experiência lenta, instável e pouco fluida, especialmente para os usuários que acessavam via dispositivos móveis.&nbsp;</p><p></p><p>Com uma operação que já funcionava bem do ponto de vista comercial e estrutural, o desafio exigia um olhar técnico e estratégico. A missão era clara: melhorar a performance do site sem comprometer a identidade da marca, as funcionalidades já existentes ou a estrutura construída até ali.</p><p></p><h2>A solução</h2><p>Nosso primeiro passo foi revisar a arquitetura de carregamento do site. Reestruturamos a forma como scripts e imagem eram processados, com foco em reduzir o tempo de carregamento sem afetar o layout ou o funcionamento da loja. Implementamos lazy loading de imagens e iframes, fizemos a compactação de scripts não essenciais e otimizamos o uso do thread principal para reduzir o Total Blocking Time. Também estabilizamos o layout acima da dobra, reservando espaço para elementos dinâmicos e minimizando os deslocamentos de conteúdo durante o carregamento.</p><p>Todas as melhorias foram implementadas de forma progressiva, respeitando as características da operação e validando cada etapa para garantir que o desempenho melhorasse sem interferir na experiência de navegação ou nas estratégias de conversão. </p><p></p><h2>O resultado</h2><p>O impacto foi imediato. A nota de desempenho mobile no Lighthouse subiu de 54 para 83, um salto de mais de 50%. O Speed Index caiu de 13 para 3,3 segundos. O LCP foi reduzido para 0,8s e o CLS despencou para 0.038, garantindo um layout mais estável e agradável desde o primeiro acesso.</p><p></p><p>Além da melhora técnica, esses números representam uma experiência muito mias fluida para o usuário. O site passou a carregar de forma mais rápida e estável, o que naturalmente contribui para aumentar a permanência dos visitantes, reduzir a taxa de rejeição e elevar as chances de conversão. E claro, impacta diretamente no posicionamento orgânico da marca.</p><p></p><h3>Pronto para transformar a experiência digital da sua marca?</h3><p>Se o seu e-commerce também enfrenta problemas de velocidade ou instabilidade, talvez o que falte seja um plano de ação sob medida, com foco em resultado real. <a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://wedigi.com.br/contato-2/\">Entre em contato com o nosso time. </a>Vamos transformar sua performance em um diferencial.</p><p></p><p></p>",
+    "excerpt": "A performance de um site não é só uma questão técnica. Ela impacta diretamente a experiência do usuário, o SEO e, principalmente, a conversão. Um e-commerce lento e instável afasta clientes, reduz o tempo de permanência e dificulta a jornada de compra. Esse era o cenário enfrentado pela Casa Mimosa quando nos procurou. [",
+    "date": "2025-06-16",
+    "slug": "case-vtex-como-otimizamos-a-velocidade-do-site-da-casa-mimosa-e-melhoramos-a-experiência-digital"
   }
 }
