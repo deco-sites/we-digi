@@ -12,7 +12,10 @@
       }
     ],
     "categories": [
-      {}
+      {
+        "name": "Sem categoria",
+        "slug": "/posts/categorias/sem-categoria"
+      }
     ],
     "imageCarousel": {
       "banners": []
