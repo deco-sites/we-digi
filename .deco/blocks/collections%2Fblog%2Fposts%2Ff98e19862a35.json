@@ -1,0 +1,41 @@
+{
+  "name": "collections/blog/posts/f98e19862a35",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+        "company": "we.digi",
+        "jobTitle": "CEO"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "/posts/categorias/sem-categoria"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Case Hey!Mu: migração rápida e estratégica",
+    "excerpt": "Migrar uma operação robusta de e-commerce pode parecer um desafio técnico e estratégico. Mas, quando bem conduzida, é também o primeiro passo para uma nova fase de crescimento, mais rápido, estruturado e sustentável.",
+    "image": "https://assets.decocache.com/we-digi/3eedcbd5-eeed-4c3b-9467-d14644ffb594/heymu.avif",
+    "date": "2025-07-07",
+    "content": "<p>Migrar uma operação robusta de e-commerce pode parecer um desafio técnico e estratégico. Mas, quando bem conduzida, é também o primeiro passo para uma nova fase de crescimento, mais rápido, estruturado e sustentável.</p><p>Foi exatamente isso que aconteceu com a <strong>Hey!Mu</strong>, marca que passou recentemente pela migração para a <strong>Nuvem Next</strong>, a solução da Nuvem Shop voltada exclusivamente para empresas de alto faturamento e grandes demandas operacionais.</p><p></p><h2>Sobre o cliente </h2><p>A <strong>Hey!Mu</strong> é uma marca brasileira do setor alimentício que vem ganhando espaço com uma proposta clara: oferecer um doce de leite leve, cremoso e com baixo teor calórico, sem abrir mão do sabor. Voltada para consumidores que buscam opções mais equilibradas no dia a dia, a marca aposta no e-commerce como canal principal e investe em uma identidade moderna, produto de qualidade e experiência de compra diferenciada para sustentar seu crescimento no digital.</p><p></p><h2>A escolha certa para negócios que querem escalar</h2><p>A <strong>we.digi atua com marcas em crescimento acelerado e alta exigência operacional. Dentro do ecossistema da Nuvem Shop, nosso foco são exclusivamente clientes Nuvem Next</strong>, ou seja, operações que já atingiram um novo estágio e precisam de estrutura para continuar crescendo.</p><p>No caso da Hey!Mu, o projeto tinha um desafio claro: <strong>tempo</strong>. Toda a implantação e personalização visual da loja precisavam ser finalizadas em aproximadamente 30 dias. E não se tratava apenas de migrar a operação, o objetivo era<strong> replicar fielmente o design de um site anterior</strong>, preservando identidade e experiência.</p><p></p><h2>Personalizações que elevam a experiência</h2><p>Além da fidelidade visual, a we.digi implementou novas <strong>animações e transições</strong>, trazendo mais dinamismo para a navegação e valorizando a estética da marca.</p><p></p><p>Funcionalmente, também foram desenvolvidas <strong>duas personalizações estratégicas</strong>:</p><p></p><ul><li><p>Um recurso que exibe a<strong> duração da oferta por produto</strong>, reforçando o gatilho de escassez com uma contagem regressiva visual;</p></li><li><p>Uma <strong>validação de estoque personalizada</strong>, que avisa o cliente automaticamente quando restam poucas unidades disponíveis, ideal para aumentar a taxa de conversão em momentos críticos.</p></li></ul><p></p><p>Apesar de o projeto não demandar grande complexidade de desenvolvimento, a combinação de <strong>velocidade, precisão visual e foco em conversão</strong> foi o que determinou o sucesso da entrega.</p><p></p><p></p><h2>Validado por quem importa: o cliente</h2><p><em>“A equipe da we.digi demonstrou grande competência e precisão, entregando resultados que atenderam plenamente às nossas expectativas. Após algumas reuniões onde apresentamos o briefing completo, a equipe se mostrou atenta, prestativa, proativa e solícita.</em></p><p><em>O resultado foi a concretização da nossa proposta e identidade visual, com um site que reflete perfeitamente a essência do nosso negócio, a Hey!Mu, e todos os nossos objetivos.”</em> – <strong>Lucas Olimpio, CEO da Hey!Mu</strong><br></p><h2>Está na hora de levar sua operação para o próximo nível?</h2><p>A we.digi pode ser o seu parceiro estratégico nesta virada.</p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.wedigi.com.br/contato\">Entre em contato com o nosso time</a></p><p></p><p></p>",
+    "slug": "case-hey-mu-migração-rápida-e-estratégica"
+  }
+}
