@@ -1,0 +1,40 @@
+{
+  "name": "collections/blog/posts/e0b4676964a4",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+        "company": "we.digi",
+        "jobTitle": "CEO"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "/posts/categorias/sem-categoria"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "content": "<p>Investir em marketing digital é fundamental para qualquer marca que quer crescer. Mas será que só isso basta?</p><p>Quando falamos em operações que já estão em um estágio mais avançado, com metas ousadas, mídia rodando e metas agressivas de faturamento, o jogo muda. Não dá mais para tratar marketing e estrutura como assuntos separados.</p><p>E é aí que muitas empresas se atrapalham.<br></p><h2>Não adianta fazer marketing se a base não está pronta </h2><p><strong>Performance não vem só da campanha</strong>. Vem da soma de vários fatores técnicos e operacionais que precisam estar alinhados para que o marketing realmente funcione.</p><p>Se o site é lento, o tráfego pago se perde.</p><p>Se o checkout não converte, a mídia vira desperdício.</p><p>Se o estoque não está sincronizado, o CAC dispara.</p><p>Antes de investir pesado para crescer, <strong>é preciso garantir que a operação esteja pronta para sustentar esse crescimento</strong>. E isso significa: revisar a estrutura com um olhar técnico e estratégico.</p><p></p><h2>O que analisamos antes de acelerar </h2><p>Na we.digi, nosso trabalho começa antes do anúncio ir pro ar.</p><p>Avaliamos pontos-chave da operação como:</p><ul><li><p>velocidade e estabilidade da plataforma;</p></li><li><p>fluidez da jornada de compra;</p></li><li><p>aderência visual à identidade da marca;</p></li><li><p>integrações logísticas e de estoque.</p></li></ul><p></p><p>É a partir desse diagnóstico que definimos o plano de ação. Porque <strong>cada cliente tem um estágio, uma dor e uma ambição diferente</strong>. O que todos têm em comum? A vontade de crescer com consistência.</p><p></p><h2>Quer escalar com segurança?</h2><p>Se sua operação já está em um ponto de virada e você sabe que só fazer marketing não é suficiente, talvez seja a hora de olhar para estrutura com mais atenção.</p><p><strong>A we.digi pode te ajudar nessa jornada!</strong><br><strong>Entre em contato com nosso time!</strong></p><p></p><p></p><p></p>",
+    "date": "2025-07-14",
+    "title": "Estrutura para escalar: o que vem antes da performance",
+    "slug": "estrutura-para-escalar-o-que-vem-antes-da-performance",
+    "excerpt": "Investir em marketing digital é fundamental para qualquer marca que quer crescer. Mas será que só isso basta?"
+  }
+}
