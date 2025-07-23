@@ -29,12 +29,6 @@ export default defineApp(async (_req, ctx) => {
       `}}>
       </script>
 
-      <script>
-        window.varify = window.varify || {};
-        window.varify.iid = 4580;
-      </script>
-      <script src="https://app.varify.io/varify.js"></script>
-
       {/* Tailwind v3 CSS file */}
       <link href={asset(`/styles.css?revision=${revision}`)} rel="stylesheet" />
 
