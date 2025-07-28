@@ -1,0 +1,36 @@
+{
+  "name": "collections/blog/posts/350123a003fe",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+        "company": "we.digi",
+        "jobTitle": "CEO"
+      }
+    ],
+    "categories": [],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Como digitalizamos a operação B2B da Espaço Smart com a VTEX",
+    "excerpt": "Cliente da we.digi desde 2021, a Espaço Smart confiou novamente no nosso time para liderar um projeto estratégico: desenvolver sua nova plataforma B2B, voltada exclusivamente para construtoras, empresas e revendedores de todo o país.",
+    "date": "2025-07-28",
+    "slug": "como-digitalizamos-a-operacao-b2b-da-espaco-smart-com-a-vtex",
+    "content": "<p>Cliente da we.digi desde 2021, a <strong>Espaço Smart </strong>confiou novamente no nosso time para liderar um projeto estratégico: <strong>desenvolver sua nova plataforma B2B</strong>, voltada exclusivamente para construtoras, empresas e revendedores de todo o país.</p><p></p><h2>O desafio</h2><p>Com o avanço do setor de construção a seco, a marca precisava de um canal digital que atendesse exclusivamente empresas com CNPJ ativo, interessadas em comprar direto da fábrica com condições comerciais diferenciadas.</p><p></p><p>Nosso desafio era claro: <strong>estruturar uma operação B2B robusta,</strong> moderna e segura, sem abrir mão da usabilidade e da identidade da marca. Entre os requisitos principais estavam:</p><p></p><p>- Visual sofisticado, alinhado ao posicionamento de liderança da Espaço Smart;</p><p>- Navegação fluida para diferentes perfis de compradores (como construtoras, revendedores e lojistas);</p><p>- Acesso restrito e validado manualmente, com possibilidade de análise de crédito antes da liberação da conta.</p><p></p><p></p><h2>O projeto</h2><p>Toda a plataforma foi construída sobre o VTEX B2B Suite, uma solução completa e escalável para vendas corporativas. A estratégia combinou recursos nativos da suite com personalizações criadas sob medida para a Espaço Smart. </p><p></p><p><strong>Loja com acesso controlado</strong></p><p>A vitrine, os produtos e os preços são acessíveis apenas para usuários com cadastro aprovado. Isso permite que a marca mantenha o controle total sobre quem compra, aplicando políticas de crédito e relacionamento específicas para cada tipo de cliente.</p><p></p><p><strong>Sistema de cotação avançado</strong></p><p>Empresas logadas conseguem montar um carrinho e solicitar uma cotação personalizada, sugerindo até mesmo percentuais de desconto. </p><p></p><p>O sistema permite:</p><p>- Aprovação automática para valores abaixo de um limite definido;</p><p>- Análise manual para negociações especiais;</p><p>- Histórico de cotações acessível via painel administrativo.</p><p></p><p><strong>Envio de listas e compras por SKU</strong></p><p>Para grandes obras e compras recorrentes, a plataforma permite:</p><p>- Envio de planilhas com listas de materiais para cotação manual pela equipe;</p><p>- Inserção rápida de múltiplos SKUs direto no carrinho.</p><p>- Essas funcionalidades otimizam o tempo e garantem praticidade para compradores que já sabem exatamente o que precisam.<br></p><p><strong>Experiência adaptada ao perfil do cliente</strong></p><p>Após o login, cada tipo de empresa vê uma jornada de navegação personalizada. A comunicação, os produtos e as condições comerciais são ajustadas de acordo com o perfil, o que melhora a conversão e fortalece o relacionamento com o cliente B2B.</p><p></p><h2>Resultados</h2><p>A Espaço Smart agora conta com um canal de vendas B2B estruturado, seguro e pronto para escalar:</p><p>- A operação ganhou agilidade com cotação automatizada, compras rápidas e análise de crédito integrada;</p><p>- O controle de leads e acessos permite negociações mais inteligentes;</p><p>- A jornada foi pensada para o segmento de construção civil, respeitando as necessidades específicas do setor.</p><p></p><h2>Especialistas em B2B com VTEX</h2><p>A we.digi é especialista em projetos B2B usando o <strong>VTEX B2B Suite</strong>, unindo tecnologia e estratégia para transformar canais de venda corporativa.</p><p>Se a sua empresa precisa de um canal digital exclusivo para grandes contas, com regras comerciais personalizadas e tecnologia escalável, <strong>fale com a gente</strong>.</p><p></p><p></p>",
+    "image": "https://assets.decocache.com/we-digi/fcf4d643-5a81-4de5-9b00-97c95457f197/espaco-smart.jpg"
+  }
+}
