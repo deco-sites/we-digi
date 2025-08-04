@@ -1,0 +1,272 @@
+{
+  "name": "LP Tech",
+  "path": "/consultoria-ecommerce-tech",
+  "sections": [
+    {
+      "__resolveType": "site/sections/BannerTech.tsx",
+      "text1": "<h1><span style=\"color: rgb(118, 245, 247);font-weight: 500\">Impulsione seu e‑commerce</span> com <span style=\";font-weight: 300\">estratégias personalizadas</span> e evolução contínua.</h1>",
+      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "text2": "<p>Na <span style=\"color: rgb(118, 245, 247);font-weight: 400\">we.digi</span>, criamos <span style=\";font-weight: 300\">projetos sob medida com suporte contínuo e atendimento humanizado.</span> Acreditamos em <span style=\";font-weight: 300\">parcerias duradouras e evoluímos junto</span> com o seu negócio.</p>",
+      "cta": {
+        "label": "QUERO CONHECER",
+        "link": "/contato",
+        "bgColor": "#ff861c"
+      },
+      "phoneImage": "https://assets.decocache.com/we-digi/33166088-b69c-4a51-a696-7ce77523ebb3/iPhone-11-Pro.svg",
+      "images": [
+        {
+          "image": "https://assets.decocache.com/we-digi/16f8a2ee-539f-4316-83b4-6b29e2c8c170/wireframe-3.png",
+          "alt": "Wireframe Home"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/ec35d1fd-056c-4b26-a078-ab3866287e98/wireframe2.png",
+          "alt": "Wireframe Home 2"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/6fa54d8b-cb16-41db-8d1c-460f617114eb/wireframe3.png",
+          "alt": "Ilustração Home"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/2e957269-1b37-439b-baf8-a83f4f8ec6cf/wireframe4.png",
+          "alt": "Ilustração PDP"
+        },
+        {
+          "image": "https://assets.decocache.com/we-digi/dacbf0b9-6aa0-433e-b5b2-fb82c2b7c909/wireframe5.png",
+          "alt": "Ilustração Minicart"
+        }
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Services.tsx",
+      "bgColor": "#FFFFFF",
+      "title": {
+        "text": "Nossos serviços:",
+        "color": "#0A4A60"
+      },
+      "leftText": {
+        "text": "Implantação de E‑commerce",
+        "color": "#000000"
+      },
+      "rightText": {
+        "text": "Evolução",
+        "color": "#FFFFFF"
+      },
+      "cta": {
+        "href": "/contato/",
+        "text": "QUERO SABER MAIS"
+      },
+      "sideImage1": "https://assets.decocache.com/we-digi/e4702bbe-3314-494c-9914-14c34a5e3909/Group-14.png",
+      "sideImage2": "https://assets.decocache.com/we-digi/7e3a1788-d190-4617-9ebe-78b0efec1bad/Group-16.png",
+      "services": [
+        "CONSULTORIA",
+        "SUPORTE CONTÍNUO DE PLATAFORMA E TREINAMENTOS",
+        "UX/UI E OTIMIZAÇÃO DA EXPERIÊNCIA DO USUÁRIO",
+        "DESENVOLVIMENTO DE FUNCIONALIDADES E LAYOUT",
+        "CRO",
+        "SEO TÉCNICO",
+        "TRACKING"
+      ]
+    },
+    {
+      "__resolveType": "site/sections/Chart.tsx",
+      "title": {
+        "text": "Implantação de E‑commerce",
+        "color": "#76F5F7"
+      },
+      "cta": [
+        {
+          "href": "/contato/",
+          "text": "QUERO PARA O MEU E‑COMMERCE",
+          "outline": false,
+          "type": "rounded"
+        }
+      ],
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png",
+      "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/549088e7-1c6d-4dc9-b85a-bddd1e9c5c28/bg_2.jpg",
+      "description": {
+        "label": "<p>A implantação ou migração de um e-commerce é um processo complexo, mas de extrema importância para a escalabilidade e expansão de qualquer negócio.</p><br><p>Nosso trabalho envolve:</p><ul><li><p>Entendimento profundo das necessidades do seu negócio.</p></li><li><p>Análise e escolha da plataforma mais adequada (VTEX, Shopify, Linx, Wake, Vnda, Uappi, etc.).</p></li><li><p>Consideração de variáveis como volume de tráfego, integrações, sistemas de pagamento, logística e experiência do usuário.</p></li><li><p>Planejamento estratégico para garantir um resultado eficiente e escalável.</p></li><li><p>Treinamentos e suporte contínuo para garantir autonomia no uso da plataforma.</p></li></ul>",
+        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png"
+      },
+      "sideImage": "https://assets.decocache.com/we-digi/2fa6a25e-67bc-4a02-b7bb-81fb6478b604/vtex_image.png",
+      "tech": true
+    },
+    {
+      "__resolveType": "site/sections/ImageText.tsx",
+      "image": {
+        "mobile": "https://assets.decocache.com/we-digi/98a4b0a1-13d6-4e77-bb18-f066eeb18e8f/Group-22.png",
+        "alt": "Evolução - Consultoria - CRO - SEO"
+      },
+      "bgColor": "#fff",
+      "text": "<h2><span style=\"color: rgb(10, 74, 96)\">Evolução - Consultoria - CRO - SEO</span></h2><p></p><br><p><span style=\"color: #4C4B4B\">Nosso time multidisciplinar e altamente analítico identifica os principais gargalos que travam a evolução do seu e-commerce e atua diretamente em cada um deles.</span></p><br><p><span style=\"color: #4C4B4B\">Trabalhamos para:</span></p><ul style=\"color: #4C4B4B\"><li><p><span style=\"color: #4C4B4B\">Implementar melhorias que aumentam a conversão da sua loja online.</span></p></li><li><p><span style=\"color: #4C4B4B\">Utilizar estratégias de CRO (Otimização da Taxa de Conversão) para potencializar resultados.</span></p></li><li><p><span style=\"color: #4C4B4B\">Aplicar técnicas avançadas de SEO para destacar sua loja nos mecanismos de busca.</span></p></li><li><p><span style=\"color: #4C4B4B\">Realizar follow-ups constantes para garantir que as soluções implementadas gerem impacto positivo.</span></p></li><li><p><span style=\"color: #4C4B4B\">Monitoramento e Tracking via Google Analytics, Meta, RD Station, entre outras ferramentas.</span></p></li></ul><br><p><span style=\"color: #4C4B4B\">Com um mercado altamente competitivo, contar com estratégias sólidas e um time experiente faz toda a diferença para o sucesso do seu e-commerce</span></p>",
+      "cta": {
+        "text": "QUERO PARA O MEU E-COMMERCE",
+        "url": "/contato",
+        "bgColor": "#FF861C"
+      },
+      "title": "Seção 1",
+      "invert": false,
+      "maxWidth": 1600,
+      "textWidth": 500,
+      "id": "tech"
+    },
+    {
+      "__resolveType": "site/sections/GridContent.tsx",
+      "blocks": [
+        {
+          "type": "Texto",
+          "text": "<h2><span style=\"color: #76F5F7\">Consultoria<br>Especializada</span></h2><p><br></p><p style=\"color: #fff\">Nossa consultoria está baseada em entender seu negócio e guiar você para o próximo nível. Auxiliamos desde a escolha de ferramentas até decisões estratégicas como:</p>",
+          "maxWidth": 430
+        },
+        {
+          "type": "Cards",
+          "images": [
+            {
+              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "alt": "PARCEIRO LOGÍSTICO IDEAL",
+              "icon": "https://assets.decocache.com/we-digi/5cd74c94-f43e-423e-953e-3b406c6bf19f/icon-(7).png",
+              "text": " PARCEIRO LOGÍSTICO IDEAL"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "alt": "MELHOR GATEWAY DE PAGAMENTO",
+              "icon": "https://assets.decocache.com/we-digi/c4b692fa-ea47-4083-b7b7-b7c9c682a7b5/Camada_1-(1).png",
+              "text": "MELHOR GATEWAY DE PAGAMENTO"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "alt": "FERRAMENTAS DE CRM",
+              "icon": "https://assets.decocache.com/we-digi/8ed0cc8b-71dc-46c7-85cf-276975854963/icon-(8).png",
+              "text": "FERRAMENTAS DE CRM"
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "alt": "ESTRATÉGIAS DE BONIFICAÇÃO E CASHBACK",
+              "icon": "https://assets.decocache.com/we-digi/8230b244-4015-4531-b7a4-c9a1f92f501d/icon-(9).png",
+              "text": "ESTRATÉGIAS DE BONIFICAÇÃO E CASHBACK"
+            }
+          ],
+          "cardsBgColor": "#46C2EE",
+          "cardsColor": "#292D6B"
+        }
+      ],
+      "maxWidth": 1160,
+      "flexLayout": true,
+      "flex": true
+    },
+    {
+      "__resolveType": "site/sections/GridContent.tsx",
+      "blocks": [
+        {
+          "type": "Texto",
+          "text": "<h2><span style=\"color: rgb(117, 245, 246)\">Para um suporte ainda mais eficaz, realizamos diagnósticos com questões essenciais como:</span></h2><br><ul><li>Quais os principais desafios do seu e-commerce?</li><li>Qual o custo atual da plataforma e dos gateways de pagamento?</li><li>Quais os principais concorrentes e benchmarks do seu setor?</li></ul>"
+        },
+        {
+          "type": "CTA",
+          "label": "<p><strong>AGENDE HOJE UMA CALL<br> COM O NOSSO TIME</strong></p>",
+          "link": "/contato",
+          "bgColor": "#FF861C"
+        }
+      ],
+      "maxWidth": 1200
+    },
+    {
+      "__resolveType": "site/sections/GridContent.tsx",
+      "blocks": [
+        {
+          "type": "Texto",
+          "text": "<h2 style=\"text-align: center\"><span style=\"color: #0A4A60\">UX/UI</span></h2><p style=\"text-align: center\"><br></p><p style=\"text-align: center; color: #858585\">Nosso time de UX/UI aprimora sua loja para melhorar a experiência do usuário e aumentar conversões.</p>"
+        },
+        {
+          "type": "Cards",
+          "images": [
+            {
+              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "alt": "Customização de layout e componentes visuais.",
+              "icon": "https://assets.decocache.com/we-digi/19f09283-f35b-45a3-9a00-193ae4cb273f/icon.png",
+              "text": "Customização de layout e componentes visuais."
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "alt": "Criação de landing pages otimizadas para conversão.",
+              "icon": "https://assets.decocache.com/we-digi/2b4eb5ee-41b6-47d2-bbe8-017910781a8a/icon-(1).png",
+              "text": "Criação de landing pages otimizadas para conversão."
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "alt": "Personalização da jornada de compra do cliente.",
+              "icon": "https://assets.decocache.com/we-digi/1538f877-02d1-4543-b6d2-59a326cc2cbd/icon-(2).png",
+              "text": "Personalização da jornada de compra do cliente."
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "alt": "Análise de mapa de calor e comportamento do usuário.",
+              "icon": "https://assets.decocache.com/we-digi/75379c09-13b6-45cc-99c1-cbbab31faf19/icon-(6).png",
+              "text": "Análise de mapa de calor e comportamento do usuário."
+            }
+          ]
+        },
+        {
+          "type": "Texto",
+          "text": "<br><h2 style=\"text-align: center\"><span style=\"color: #0A4A60\">Desenvolvimento</span></h2><p style=\"text-align: center\"><br></p><p style=\"text-align: center; color: #858585\">Nossa equipe de desenvolvimento codifica e implementa soluções, garantindo:</p>"
+        },
+        {
+          "type": "Cards",
+          "images": [
+            {
+              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "alt": "Correção de bugs e otimização de desempenho.",
+              "icon": "https://assets.decocache.com/we-digi/5c0a2c41-eb96-4a11-b1f0-5dfe62d46a6b/Camada_1.png",
+              "text": "Correção de bugs e otimização de desempenho."
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "alt": "SEO On-page baseado em análises de palavras-chave.",
+              "icon": "https://assets.decocache.com/we-digi/ba240897-988f-46e1-a2a6-2006ae8887ce/icon-(3).png",
+              "text": "SEO On-page baseado em análises de palavras-chave."
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "alt": "Testes A/B para otimização de páginas e CTAs.",
+              "icon": "https://assets.decocache.com/we-digi/db329ea2-f36c-4d0b-b9d9-2d0f204a400b/icon-(4).png",
+              "text": "Testes A/B para otimização de páginas e CTAs."
+            },
+            {
+              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "alt": "Criação de funcionalidades customizadas conforme o projeto.",
+              "icon": "https://assets.decocache.com/we-digi/3c7d0eed-ca77-49db-89f7-62fe1f1bedf7/icon-(5).png",
+              "text": "Criação de funcionalidades customizadas conforme o projeto."
+            }
+          ]
+        },
+        {
+          "type": "CTA",
+          "label": "<p><strong>EXPERIMENTE HOJE O<br> RESULTADO COM A WE.DIGI</strong></p>",
+          "link": "/contato",
+          "bgColor": "#FF861C"
+        }
+      ],
+      "bgColor": "#ffffff",
+      "maxWidth": 1050,
+      "fourCols": true,
+      "flex": false,
+      "notBoldCards": true
+    },
+    {
+      "__resolveType": "site/sections/VideoText.tsx",
+      "text": "<h2><span style=\"color: rgb(118, 245, 247)\">Monitoramento, Tracking e SLA de Atendimento</span><br><br></h2><ul><li><p>Google Analytics, Meta, RD Station e ferramentas de tracking personalizadas.</p></li><li><p>Análises periódicas sobre desempenho da loja, SEO e CRO.</p></li><li><p>SLA de atendimento para bugs impeditivos de venda (1 hora) e abertura de chamados (24 horas úteis).</p></li><li><p>Relatórios mensais de performance e evolução do projeto.</p></li></ul>",
+      "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4",
+      "cta": {
+        "label": "VAMOS TRANSFORMAR O SEU E‑COMMERCE?",
+        "link": "/contato",
+        "bgColor": "#ff861c"
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

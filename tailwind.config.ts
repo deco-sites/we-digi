@@ -15,6 +15,8 @@ export default {
       },
       animation: {
         sliding: "sliding 30s linear infinite",
+        slidingArrows: "slidingArrows 1.5s ease infinite",
+        backgroundGradient: "backgroundGradient 2s linear infinite",
         backgroundCycle: 'backgroundCycle 6s ease-in-out infinite',
         backgroundCycleYellow: 'backgroundCycleYellow 6s ease-in-out infinite',
         boxShadowCycle: 'boxShadowCycle 1s ease-in-out infinite',
@@ -23,6 +25,30 @@ export default {
         sliding: {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-50%)" },
+        },
+        slidingArrows: {
+          "0%": { transform: "translateY(-50%)" },
+          "66%": { transform: "translateY(0%)" },
+          "100%": { transform: "translateY(0%)" },
+        },
+        backgroundGradient: {
+          '0%' : { 
+            backgroundPosition: '0%, 50%',
+            boxShadow: '#76F5F780 0 0 0 0'
+          },
+          '50%' : { 
+            boxShadow: '#76F5F700 0 0 0 7px'
+          },
+          '25%' : { 
+            boxShadow: '#76F5F780 0 0 0 0'
+          },
+          '75%' : { 
+            boxShadow: '#76F5F700 0 0 0 7px'
+          },
+          '100%' : { 
+            backgroundPosition: '100%, 50%',
+            boxShadow: '#76F5F780 0 0 0 0'
+          }
         },
         backgroundCycle: {
           '0%, 100%': { background: 'linear-gradient(90deg, #BFF776 0%, #BFF776 100%)'},
@@ -48,6 +74,7 @@ export default {
       },
       fontFamily: {
         effraTrial: ["Effra Trial", "sans-serif"],
+        objective: ["Objective", "sans-serif"],
         montSerrat: ["Montserrat", "sans-serif"]
       },
     },
