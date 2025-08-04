@@ -31,10 +31,10 @@ const VideoText = ({ text, video, cta, bgColor }: Props) => {
   return (
     <div style={bgColor ? {backgroundColor: bgColor} : {}}>
       <div class={`max-w-[90vw] w-full mx-auto py-12 flex flex-col gap-11 items-center justify-center`}>
-        <div class="[&_h2]:text-xl lg:[&_h2]:text-4xl [&_p]:text-base lg:[&_p]:text-2xl" dangerouslySetInnerHTML={{ __html: text }} />
+        <div class="[&_h2]:text-xl [&_h2]:text-left lg:[&_h2]:text-center lg:[&_h2]:text-4xl [&_p]:text-base lg:[&_p]:text-2xl lg:[&_ul]:text-center [&_li]:list-disc lg:[&_li]:list-none [&_ul]:pl-5 lg:[&_ul]:pl-0" dangerouslySetInnerHTML={{ __html: text }} />
         <div class="relative">
-          <div class="max-w-[1000px] absolute w-full z-0 left-[-150px] bottom-[-70px]">
-            <svg width="100%" viewBox="0 0 1061 613" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div class="max-w-[1060px] w-full z-0 pr-[10vw] lg:pr-0">
+            <svg class="w-full h-auto aspect-[1061/613]" width="1061" height="613" viewBox="0 0 1061 613" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_9_381)">
                 <path d="M123.03 1.31067H939.013C952.92 1.31067 964.221 12.6744 964.221 26.6596V587.651H97.8351V26.6596C97.8351 12.6744 109.136 1.31067 123.043 1.31067H123.03Z" stroke={`${bgColor ? '#4c4b4b' : 'white'}`} stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
                 <path d="M941.698 37.7087H119.342V556.47H941.698V37.7087Z" stroke={`${bgColor ? '#4c4b4b' : 'white'}`} stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -73,12 +73,12 @@ const VideoText = ({ text, video, cta, bgColor }: Props) => {
               </defs>
             </svg>
           </div>
-          <div class="relative z-10 max-w-[900px]">
+          <div class="absolute z-10 max-w-[calc(100%-20vw)] lg:max-w-[900px] right-0 top-[-15px] lg:right-[-120px] lg:top-[-20px]">
             <video src={video} loop muted autoplay />
           </div>
         </div>
         {cta && cta.label && cta.link &&
-          <a style={{ backgroundColor: cta.bgColor ?? '#F0857D', color: cta?.textColor ?? '#000000' }} class="py-3 mt-11 px-8 font-bold rounded-xl hover:!brightness-75 transition-all text-sm duration-300 ease-in-out text-center" href={cta.link}>{cta.label}</a>
+          <a style={{ backgroundColor: cta.bgColor ?? '#F0857D', color: cta?.textColor ?? '#000000' }} class="py-3 px-8 font-bold rounded-xl hover:!brightness-75 transition-all text-sm duration-300 ease-in-out text-center" href={cta.link}>{cta.label}</a>
         }
       </div>
     </div>
