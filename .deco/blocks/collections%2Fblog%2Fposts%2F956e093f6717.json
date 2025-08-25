@@ -1,0 +1,41 @@
+{
+  "name": "collections/blog/posts/956e093f6717",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+        "company": "we.digi",
+        "jobTitle": "CEO"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "/posts/categorias/sem-categoria"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "title": "Tangle Teezer acelera crescimento com +52% de faturamento ",
+    "excerpt": "Criada em Londres, a Tangle Teezer se tornou conhecida mundialmente pelas escovas que desembaraçam os fios sem quebrar ou danificar. Presente em mais de 70 países, a marca conquistou espaço não apenas pela inovação, mas também pelo design diferenciado e pelo posicionamento premium no setor de beleza e cuidados pessoais. No Brasil, a Tangle Teezer encontrou um público fiel e com alto potencial de recompra, fator essencial para o desenho da estratégia digital.",
+    "image": "https://assets.decocache.com/we-digi/da2891bd-d18b-495c-84f6-0fb805d94fbc/Captura-de-Tela-2025-08-25-as-17.09.36.png",
+    "date": "2025-08-25",
+    "slug": "tangle-teezer-acelera-o-crescimento-com-52-de-faturamento",
+    "content": "<p></p><p></p><h2><strong>Sobre a Tangle Teezer</strong></h2><p>Criada em Londres, a <strong>Tangle Teezer</strong> se tornou conhecida mundialmente pelas escovas que desembaraçam os fios sem quebrar ou danificar. Presente em mais de 70 países, a marca conquistou espaço não apenas pela inovação, mas também pelo design diferenciado e pelo posicionamento premium no setor de beleza e cuidados pessoais.</p><p>No Brasil, a Tangle Teezer encontrou um público fiel e com alto potencial de recompra, fator essencial para o desenho da estratégia digital.</p><p></p><h2><strong>O desafio</strong></h2><p>Antes da entrada da we.digi, alguns pontos limitavam a performance digital da marca:</p><p>- Apenas<strong> 73% da receita de compra era registrada no GA4;</strong></p><p>- A mídia paga tinha pouca representatividade: <strong>21% da receita total;</strong></p><p>- ROAS alto (9,59), mas dependente de baixo volume de investimento;</p><p>- Base de clientes em crescimento, porém com espaço para maior <strong>recorrência.</strong></p><p></p><h2><strong>Estratégia aplicada</strong></h2><p>Para transformar esse cenário, estruturamos uma atuação em múltiplas frentes:<br><br><strong>Google Ads:</strong><br>- Ajustes de configuração para otimizar a entrega;</p><p>- Monitoramento constante para garantir competitividade nos leilões.</p><p><br><strong>Meta Ads:</strong><br>- Expansão de<strong> público novo (topo de funil)</strong> com segmentação qualificada;</p><p>- Investimento em <strong>ofertas competitivas</strong> e promoções do site;</p><p>- Otimização contínua, mantendo o <strong>custo por compra entre R$25 e R$30.</strong><br></p><p><strong>Ações estratégicas</strong><br>- Campanhas de lançamentos voltadas para a base de clientes;</p><p>- Grande volume de criativos em <strong>GIF e estático;</strong></p><p>- Exploração de <strong>colabs</strong> e campanhas de “compre e ganhe”;</p><p>- Início da exploração de <strong>TikTok Ads;</strong></p><p>- Planejamento de <strong>UGC (User Generated Content)</strong> para aumentar confiança;</p><p>- Calls semanais para análise detalhada de performance e ajustes.</p><p></p><p></p><h2><strong>Resultados alcançados (Jan-Jul 2025)</strong></h2><ul><li><p>+52% no faturamento, em relação ao mesmo período de 2024;</p></li><li><p>Receita registrada no GA4 saltou de 73% → 95%;</p></li><li><p>+300% na receita de mídia paga, que passou a representar 43% da receita total;</p></li><li><p>ROAS em 7,76, muito próximo da meta projetada de 8;</p></li><li><p>+45% no total de clientes, com melhora na recorrência de compra.</p><p><br></p></li></ul><h2><strong>O que vem pela frente</strong></h2><p>Com uma base de clientes cada vez mais consolidada, os próximos passos envolvem <strong>aprofundar o uso de UGC, fortalecer a presença no TikTok</strong> e manter o equilíbrio entre <strong>escala de vendas e rentabilidade.</strong></p><p>A jornada da <strong>Tangle Teezer</strong> no digital mostra que, com dados bem mensurados e estratégia de growth consistente, é possível alcançar resultados sólidos e sustentáveis.</p><p></p>"
+  }
+}
