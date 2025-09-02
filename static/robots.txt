@@ -4,4 +4,4 @@ Disallow: /
 User-agent: Googlebot
 Allow: /
 
-Sitemap: https://www.wedigi.com.br/sitemap.xmlsitemap.xml
+Sitemap: https://www.wedigi.com.br/sitemap.xml
