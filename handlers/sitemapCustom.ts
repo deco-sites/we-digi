@@ -52,11 +52,20 @@ export default function SiteMap({ excludePaths = [] }: Props) {
         routes: Route[];
       };
     };
+
+    const blogSitemap = `
+    <url>
+      <loc>${reqUrl.origin}/sitemapblog.xml</loc>
+      <lastmod>${new Date().toISOString().substring(0, 10)}</lastmod>
+      <changefreq>weekly</changefreq>
+    </url>`;
+
     return new Response(
       `
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${siteMapFromRoutes(reqUrl.origin, ctx.state.routes ?? [], excludePaths)}
-</urlset>`,
+        <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+        ${blogSitemap}
+        ${siteMapFromRoutes(reqUrl.origin, ctx.state.routes ?? [], excludePaths)}
+        </urlset>`,
       { headers: { "content-type": "text/xml", status: "200" } },
     );
   };

@@ -38,6 +38,20 @@
           }
         },
         "pathTemplate": "/sitemap.xml"
+      },
+      {
+        "handler": {
+          "value": {
+            "__resolveType": "site/handlers/sitemapblog.ts",
+            "posts": {
+              "__resolveType": "blog/loaders/BlogpostList.ts",
+              "postSlugs": [],
+              "sortBy": "date_desc",
+              "count": 1000
+            }
+          }
+        },
+        "pathTemplate": "/sitemapblog.xml"
       }
     ]
   ],
