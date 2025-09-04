@@ -33,7 +33,7 @@
       {
         "handler": {
           "value": {
-            "__resolveType": "website/handlers/sitemap.ts",
+            "__resolveType": "site/handlers/sitemapCustom.ts",
             "excludePaths": []
           }
         },
@@ -47,7 +47,7 @@
               "__resolveType": "blog/loaders/BlogpostList.ts",
               "postSlugs": [],
               "sortBy": "date_desc",
-              "count": 1000
+              "count": 10000
             }
           }
         },
