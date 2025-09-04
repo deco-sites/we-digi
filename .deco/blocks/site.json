@@ -33,11 +33,25 @@
       {
         "handler": {
           "value": {
-            "__resolveType": "website/handlers/sitemap.ts",
+            "__resolveType": "site/handlers/sitemapCustom.ts",
             "excludePaths": []
           }
         },
         "pathTemplate": "/sitemap.xml"
+      },
+      {
+        "handler": {
+          "value": {
+            "__resolveType": "site/handlers/sitemapblog.ts",
+            "posts": {
+              "__resolveType": "blog/loaders/BlogpostList.ts",
+              "postSlugs": [],
+              "sortBy": "date_desc",
+              "count": 10000
+            }
+          }
+        },
+        "pathTemplate": "/sitemapblog.xml"
       }
     ]
   ],
