@@ -76,10 +76,11 @@
       ]
     }
   },
-  "nodeModulesDir": "auto",
+  "nodeModulesDir": true,
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "preact"
+    "jsxImportSource": "preact",
+    "experimentalDecorators": true
   },
   "lock": false
 }

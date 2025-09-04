@@ -38,6 +38,11 @@
           }
         },
         "pathTemplate": "/sitemap.xml"
+      },
+      {
+        "handler": {
+          "value": {}
+        }
       }
     ]
   ],

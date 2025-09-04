@@ -34,7 +34,7 @@ export interface Props {
 export default function BlogPosts(
   props: Props,
 ) {
-  console.log(props.posts?.length, 'leeeeength')
+  console.log(props.posts, 'leeeeength')
   return (
     <BlogPostsIsland {...props}/>
   );
