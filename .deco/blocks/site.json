@@ -33,11 +33,11 @@
       {
         "handler": {
           "value": {
-            "__resolveType": "site/handlers/sitemapCustom.ts",
+            "__resolveType": "website/handlers/sitemap.ts",
             "excludePaths": []
           }
         },
-        "pathTemplate": "/sitemap.xml"
+        "pathTemplate": "/sitemap/deco.xml"
       },
       {
         "handler": {
@@ -51,7 +51,19 @@
             }
           }
         },
-        "pathTemplate": "/sitemapblog.xml"
+        "pathTemplate": "/sitemap/blog.xml"
+      },
+      {
+        "handler": {
+          "value": {
+            "__resolveType": "site/handlers/sitemapIndex.ts",
+            "sitemaps": [
+              "/sitemap/deco.xml",
+              "/sitemap/blog.xml"
+            ]
+          }
+        },
+        "pathTemplate": "/sitemap.xml"
       }
     ]
   ],
