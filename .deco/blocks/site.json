@@ -37,7 +37,8 @@
             "excludePaths": []
           }
         },
-        "pathTemplate": "/sitemap/deco.xml"
+        "pathTemplate": "/sitemap/deco.xml",
+        "isHref": false
       },
       {
         "handler": {
