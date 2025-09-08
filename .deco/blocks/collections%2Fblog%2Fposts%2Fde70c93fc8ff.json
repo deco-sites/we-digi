@@ -1,0 +1,41 @@
+{
+  "name": "collections/blog/posts/de70c93fc8ff",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+        "company": "we.digi",
+        "jobTitle": "CEO"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "/posts/categorias/sem-categoria"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "content": "<p></p><h2>Sobre a marca</h2><p>A <strong>CLOUDE</strong>, fundada em 2014 pela estilista Cristina Ferreira no Rio Grande do Sul, é <strong>referência em moda de luxo</strong>, com vestidos sofisticados e exclusivos. Sua força está em uma <strong>comunidade fiel</strong> que valoriza qualidade, estilo único e uma <strong>identidade</strong> que conecta profundamente quem consome a marca.</p><p></p><p></p><h2>O desafio</h2><p>A CLOUDE <strong>buscava uma evolução no faturamento de e-commerce</strong> sem diluir sua identidade de exclusividade. O desafio era claro: <strong>crescer mantendo a essência e lidando com limitações estruturais como estoque, logística e jornada de compra.</strong> A marca precisava de uma abordagem integrada, que alinhasse tecnologia e marketing para potencializar os resultados, sem abrir mão do DNA  da marca. </p><p></p><p></p><h2>A parceria estratégica: mentalidade Martech da we.digi</h2><p>Implementamos nossa abordagem Martech, que une marketing e tecnologia de forma consultiva e customizada:<br></p><p><strong>- Análise da jornada do consumidor: </strong>revisão completa de pontos críticos como checkout, navegação mobile, vitrine, home e páginas de produto.</p><p><strong>- Comunicação coesa: </strong>os anúncios foram ajustados para refletir a linguagem orgânica da CLOUDE, preservando exclusividade e pertencimento e explorando antecipação como gatilho emocional.</p><p></p><h2>Táticas bem-sucedidas implementadas em julho de 2025</h2><p>Com esse embasamento estratégico, as ações aplicadas em julho foram decisivas:<br></p><p><strong>- TikTok Ads </strong>validado como canal de alta performance</p><p><strong>- Alocação de orçamento </strong>baseada em performance, alinhada a um CPA desejado</p><p><strong>- Segmentação de público</strong>s de aquisição com criação de públicos estratégicos</p><p><strong>- Lançamentos semanais</strong> com criativos exclusivos, aliando novidade e força de marca</p><p><strong>- Rotatividade inteligente de criativos</strong>, equilibrando inovação e performance</p><p><strong>- Foco total em meio e fundo de funil no Google Ads</strong>, com anúncios de alta qualidade e otimizados periodicamente</p><p><strong>- Ênfase em produtos de lançamento,</strong> garantindo relevância e conversão constantes<br></p><h2>Resultados extraordinários</h2><p>Resultado das estratégias integradas, <strong>a CLOUDE alcançou recordes históricos em julho de 2025:</strong><br></p><ul><li><p><strong>+41,5% em faturamento comparado ao mês anterior</strong></p></li><li><p><strong>+85,8% em relação à média mensal do primeiro semestre de 2025</strong></p></li><li><p><strong>+9% acima do melhor mês anterior da marca, a Black Friday de 2024</strong></p></li><li><p>E,<strong> comparando com o primeiro semestre de 2024</strong>, o crescimento foi de <strong>+19,7%,</strong> reforçando que o salto foi parte de uma<strong> evolução contínua e sustentável,</strong> não apenas um pico pontual.</p></li></ul><p><br></p><h2>Evolução além dos números</h2><p>Esse case não trata apenas de resultados imediatos, mas de transformação:<br></p><ol><li><p><strong>Autonomia e consistência de comunicação,</strong> anúncios alinhados à voz da marca.</p></li><li><p><strong>Performance estruturada, </strong>com mídia inteligente que entrega dentro de um CPA esperado.</p></li><li><p><strong>Escalabilidade com identidade, </strong>lançamentos frequentes que mantêm o tom premium da CLOUDE.</p></li></ol><p></p><p></p><h2>Depoimento do cliente</h2><p><em>“Nós migramos para a we.digi com a expectativa de melhorias do site e performance… a nossa evolução em vendas foi notória. Quem me pergunta de uma agência séria, de performance e evolução, eu sempre indico a we.digi.”</em></p><p>— Lívia Ferreira, CLOUDE</p><p></p><p></p><h2>Conclusão</h2><p><strong>CLOUDE e we.digi juntos alcançaram o maior faturamento da história da marca, </strong>unindo marketing estratégico, tecnologia e execução criativa. Este case exemplifica como a abordagem Martech, com foco em dados, performance e identidade, é capaz de transformar e escalar negócios de moda digital com solidez e sofisticação.<br></p><p><strong>Quer levar o seu e-commerce para um novo patamar? Fale com a we.digi e descubra como transformar estratégia em resultados reais.</strong></p><p></p>",
+    "title": "Case de sucesso: CLOUDE e we.digi juntas no maior faturamento da história da marca",
+    "excerpt": "A CLOUDE buscava uma evolução no faturamento de e-commerce sem diluir sua identidade de exclusividade. O desafio era claro: crescer mantendo a essência e lidando com limitações estruturais como estoque, logística e jornada de compra. A marca precisava de uma abordagem integrada, que alinhasse tecnologia e marketing para potencializar os resultados, sem abrir mão do DNA exclusivo da marca ",
+    "date": "2025-09-08",
+    "slug": "case-de-sucesso-cloude-e-wedigi-juntas-no-maior-faturamento-da-historia-da-marca",
+    "image": "https://assets.decocache.com/we-digi/4473fe1e-e501-41c2-b41b-d8960a53031b/cloudeblog.webp"
+  }
+}
