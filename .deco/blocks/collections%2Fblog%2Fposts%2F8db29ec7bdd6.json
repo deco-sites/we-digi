@@ -1,0 +1,41 @@
+{
+  "name": "collections/blog/posts/8db29ec7bdd6",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+        "company": "we.digi",
+        "jobTitle": "CEO"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "/posts/categorias/sem-categoria"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "video": null,
+      "image": null
+    },
+    "content": "<p>A história da we.digi começa lá atrás, em 1999, antes mesmo de o digital ser o que é hoje.<br></p><p>Na época, éramos conhecidos como <strong>Link e Cérebro</strong>, uma software house dedicada a desenvolver soluções digitais orientadas à comunicação e à gestão. Desde o início, nosso foco era claro: <strong>criar valor para clientes e parceiros, com tecnologia e visão estratégica.</strong><br></p><p>Com o passar dos anos, vieram os desafios, as conquistas e o crescimento. Ampliamos nossa estrutura, formamos um time mais robusto e acompanhamos as novas demandas que surgiam com a expansão do mercado digital. Foi nesse movimento que percebemos: <strong>era hora de mudar.</strong><br></p><h2>A transformação para we.digi</h2><p>Em 2014, nos tornamos oficialmente <strong>we.digi</strong>, uma consultoria digital criada para ajudar pequenas e médias empresas a crescerem online.<br></p><p>De lá pra cá, conquistamos inúmeros clientes e parceiros com um jeito<strong> próximo, prestativo e descomplicado</strong> de trabalhar. Em 2019, essa essência ganhou um nome: <strong>Performance Descomplicada.</strong><br></p><p>Sem enrolação, sem jargões técnicos e com uma comunicação transparente, mostramos que é possível gerar<strong> resultados reais com uma equipe humana, capacitada e totalmente focada em performance.</strong></p><p></p><h2>2022: um novo olhar sobre quem somos</h2><p>O tempo passou, o digital evoluiu, e nós também. Em 2022, iniciamos uma nova fase, um retorno às nossas origens, mas com um olhar renovado.<br></p><p>Percebemos que o que sempre nos moveu foi a combinação entre<strong> tecnologia e relacionamento</strong>. Por isso, passamos a valorizar ainda mais o que temos de mais autêntico: <strong>nossa escuta ativa, nosso cuidado com cada projeto e nossa busca constante por evolução.</strong><br></p><p>Foi assim que nasceu nosso novo lema:</p><p><strong><em>Ouvir, cuidar e evoluir.</em></strong></p><p>Essas três palavras traduzem não só a forma como trabalhamos com nossos clientes, mas também como crescemos internamente, como equipe e marca.</p><p></p><h2>Hoje, quem é a we.digi?</h2><p><br>Hoje,<strong> somos uma consultoria digital com mais de 25 anos de experiência em negócios, tecnologia e marketing.</strong><br></p><p>Unimos nossa origem como software house à nossa vivência profunda no e-commerce para entregar uma <strong>consultoria premium em conversão</strong>, feita para transformar o potencial das marcas em resultados concretos.<br></p><p>Nosso propósito é <strong>ajudar marcas a evoluírem junto com o mercado</strong>, enfrentando desafios com <strong>técnica, criatividade e estratégia.</strong><br></p><p>Com uma <strong>metodologia exclusiva e comprovada</strong>, construímos <strong>parcerias sólidas</strong> e resolvemos <strong>projetos complexos</strong> com um olhar consultivo e personalizado.</p><p></p><h2>Nossa proposta de valor</h2><p><strong>Transformamos o potencial do seu e-commerce em resultados concretos.</strong></p><p>Fazemos isso por meio de uma consultoria premium que combina <strong>profundidade técnica, metodologia validada e foco inabalável no ROI.</strong><br><br>Deixamos para trás o modelo tradicional de “vender horas” e nos posicionamos como <strong>parceiros estratégicos</strong>, comprometidos em entregar valor real, crescimento mensurável e lucratividade.</p><p>Aqui, <strong>a sua taxa de conversão é a nossa métrica de sucesso.</strong></p><p></p><p></p><h2>O que nos diferencia</h2><p></p><p><strong>1. DNA de Software House — Profundidade Técnica que Ninguém Mais Oferece</strong></p><p>Mais do que entender marketing, entendemos tecnologia.</p><p>Nosso histórico em desenvolvimento nos permite diagnosticar problemas ocultos, otimizar a experiência do usuário na raiz e criar <strong>soluções personalizadas</strong> que impactam diretamente a conversão.<br></p><p><strong>2. Metodologia Exclusiva e Testada — Resultados Comprovados em Conversão</strong></p><p>Aplicamos um <strong>framework proprietário</strong> desenvolvido e validado em anos de atuação, com resultados consistentes em:</p><p>- Aumento da taxa de conversão</p><p>- Otimização do ticket médio</p><p>- Crescimento do faturamento<br></p><p><strong>3. Foco no ROI — De “Horas” para Resultados</strong></p><p>Cada ação é desenhada para gerar impacto financeiro direto.</p><p>Medimos, acompanhamos e otimizamos continuamente, garantindo <strong>transparência e retorno real sobre o investimento.</strong><br></p><p><strong>4. Parceria Estratégica de Longo Prazo</strong></p><p>Não vendemos um projeto, mas construímos uma jornada.</p><p>Acompanhamos a evolução do negócio, adaptamos estratégias conforme o mercado e crescemos junto com nossos clientes — de forma contínua, colaborativa e proativa.</p><p></p><p></p><h2>Nosso manifesto</h2><p>Acreditamos que os <strong>opostos nos constroem.</strong><br></p><p>De um lado, a<strong> base técnica</strong>, que nos faz pensar estrategicamente e buscar soluções inovadoras.</p><p>Do outro, a <strong>essência humana</strong>, que nos conecta aos clientes, gera empatia e dá sentido a tudo o que fazemos.</p><p>Essa união é o que nos mantém vivos, atentos e prontos para o futuro.<br></p><p>Carregamos nossa origem de <em>software house</em> no olhar consultivo, na capacidade de resolver desafios complexos e na vontade de entregar projetos realmente únicos.</p><p>Mas é o nosso lado humano, o cuidado, a escuta e o relacionamento, que torna cada resultado ainda mais especial.<br></p><p>Porque aqui, na we.digi, <strong>a tecnologia é meio, não fim.</strong></p><p>O que importa de verdade <strong>é o impacto que criamos junto com quem acredita no nosso trabalho.</strong></p><p>Estamos prontos para continuar ouvindo, cuidando e evoluindo.</p><p>Com cada cliente, com cada projeto e com cada conquista.</p><p>we hear you, we.digi</p><p></p>",
+    "title": "Conheça a we.digi: tecnologia, propósito e performance descomplicada",
+    "excerpt": "A história da we.digi começa lá atrás, em 1999, antes mesmo de o digital ser o que é hoje.  Na época, éramos conhecidos como Link e Cérebro, uma software house dedicada a desenvolver soluções digitais orientadas à comunicação e à gestão. Desde o início, nosso foco era claro: criar valor para clientes e parceiros, com tecnologia e visão estratégica.",
+    "slug": "conheca-a-we-digi-tecnologia-proposito-performance-descomplicada",
+    "date": "2025-10-13",
+    "image": "https://assets.decocache.com/we-digi/df919b69-6342-4f2d-b251-7eca17cceada/IMG_0718.JPG"
+  }
+}
