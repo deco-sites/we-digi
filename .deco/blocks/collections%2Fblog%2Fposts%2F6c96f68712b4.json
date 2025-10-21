@@ -1,0 +1,40 @@
+{
+  "name": "collections/blog/posts/6c96f68712b4",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+        "company": "we.digi",
+        "jobTitle": "CEO"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Sem categoria",
+        "slug": "/posts/categorias/sem-categoria"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "content": "<p>Na <strong>we.digi</strong>, acreditamos que design e performance devem caminhar juntos. Cada detalhe da interface pode transformar a forma como o usuário interage com uma marca e impactar diretamente seus resultados.<br></p><p>Esse foi o ponto de partida do projeto com a <strong>Sergio K</strong>, marca de moda masculina reconhecida pelo estilo contemporâneo e atitude irreverente, que buscava aprimorar sua presença digital e oferecer uma jornada de compra mais fluida, intuitiva e eficiente.<br></p><p></p><h2>O desafio: equilibrar estilo e usabilidade</h2><p><br>O site da Sergio K refletia bem a identidade visual da marca, mas apresentava <strong>barreiras de navegação e usabilidade </strong>que comprometiam a experiência do usuário e, possivelmente, a taxa de conversão.<br></p><p>Entre os principais pontos diagnosticados estavam:<br></p><p>- Contraste fraco nos textos e botões, prejudicando a legibilidade;</p><p>- Campos de interação pouco acessíveis, especialmente em dispositivos móveis;</p><p>- Falhas no comportamento responsivo, afetando a visualização de banners e menus;</p><p>- Estrutura de menu confusa, exigindo muitos cliques até chegar ao destino desejado.</p><p><br>Esses problemas criavam fricções ao longo da jornada de compra e dificultavam o caminho até a conversão. O desafio era, portanto, redesenhar o site sem perder a essência da marca, mantendo o equilíbrio entre <strong>estética, funcionalidade e performance.</strong></p><p></p><h2>A estratégia: UX e CRO trabalhando lado a lado</h2><p><br><br>O projeto foi guiado por uma metodologia orientada a<strong> UX (User Experience)</strong> e <strong>CRO (Conversion Rate Optimization)</strong>, com foco em entender o comportamento do usuário e eliminar obstáculos na jornada.<br></p><p>O trabalho envolveu uma <strong>reestruturação completa das principais interfaces</strong>, desde a home até as páginas de produto, com ênfase na navegação, hierarquia visual e clareza das informações.<br></p><p>Entre as principais melhorias implementadas, destacam-se:<br>- <strong>Reestruturação da home e da PDP (página de produto):</strong> priorizando informações -relevantes e uma hierarquia clara.</p><p>- <strong>Campo de busca sempre visível:</strong> facilitando o acesso rápido ao catálogo.</p><p>- <strong>Novo menu com submenus expansíveis: </strong>reduzindo cliques e tornando a navegação mais intuitiva.</p><p>- <strong>Área de login redesenhada: </strong>destacando funcionalidades do usuário logado.</p><p>- <strong>Newsletter otimizada:</strong> com campos mais claros e botão de ação mais atrativo.</p><p>- <strong>Ajustes no comportamento responsivo: </strong>garantindo uma experiência consistente em todas as telas.</p><p>- <strong>Modal de compra rápida na PLP: </strong>permitindo selecionar tamanhos e cores sem sair da página.</p><p></p><p></p><p></p><h2>O redesign em ação</h2><p>O novo site da Sergio K foi pensado para oferecer uma n<strong>avegação fluida e natural</strong>, eliminando distrações e reforçando os pontos de conversão.<br></p><p>Na <strong>home</strong>, a estrutura foi reorganizada com foco em clareza visual e storytelling da marca.</p><p>No menu <strong>mobile</strong>, os submenus expansíveis reduziram significativamente o número de cliques, tornando o acesso a categorias e produtos mais direto.</p><p>Já na <strong>PDP</strong>, as informações principais — nome, preço, variações e botão de compra — agora aparecem na primeira dobra, garantindo que o usuário encontre tudo o que precisa sem precisar rolar a página.<br></p><p>A <strong>galeria de imagens</strong> ganhou um comportamento mais dinâmico, e o uso de ícones e diferenciais do produto reforçou a percepção de valor. No <strong>mobile</strong>, a experiência foi refinada ao máximo: banners com comportamento ajustado, elementos de toque ampliados e hierarquia de conteúdo otimizada para telas menores.<br></p><p>Essas melhorias, embora sutis em alguns casos, <strong>têm impacto direto no tempo de navegação, na taxa de cliques e nas conversões.</strong></p><p></p><h2>O resultado</h2><p><br>O novo site da <strong>Sergio K</strong> entrega uma <strong>experiência digital moderna, intuitiva e orientada à conversão.</strong></p><p>Agora, design e performance trabalham lado a lado para oferecer uma jornada de compra sem fricções, fortalecendo a presença da marca no ambiente digital.<br></p><p>Mais do que um novo layout, o projeto representa uma evolução na relação entre marca e consumidor, onde cada detalhe visual, cada clique e cada interação têm propósito, impacto e resultado.</p><p><br></p><h2>Conclusão</h2><p></p><p>Um dos maiores diferenciais deste projeto foi o trabalho conjunto entre design e desenvolvimento. Desde o início, as equipes atuaram de forma integrada, garantindo que as melhorias propostas em UX fossem traduzidas em código com eficiência e alinhamento à estratégia de negócio.<br></p><p>Além disso, todo o processo foi guiado por princípios de UX focados em performance e conversão, sem comprometer a identidade visual da marca, um equilíbrio essencial em projetos de redesign para marcas consolidadas.<br><br><strong>Quer otimizar sua operação digital e gerar mais resultados?</strong></p><p><strong>Fale com a we.digi e leve seu e-commerce para o próximo nível.</strong></p><p></p>",
+    "date": "2025-10-20",
+    "title": "Case de sucesso Sergio K: redesign com foco em experiência e performance",
+    "excerpt": "Na we.digi, acreditamos que design e performance devem caminhar juntos. Cada detalhe da interface pode transformar a forma como o usuário interage com uma marca e impactar diretamente seus resultados.",
+    "slug": "case-de-sucesso-sergio-k-redesign-com-foco-em-experiencia-e-performance"
+  }
+}
