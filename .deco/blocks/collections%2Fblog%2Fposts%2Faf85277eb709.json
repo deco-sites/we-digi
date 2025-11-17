@@ -1,0 +1,41 @@
+{
+  "name": "collections/blog/posts/af85277eb709",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Felipe Trudes",
+        "email": "felipe.trudes@wedigi.com.br",
+        "avatar": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+        "company": "we.digi",
+        "jobTitle": "CEO"
+      }
+    ],
+    "categories": [
+      {
+        "name": "VTEX",
+        "slug": "/posts/categorias/vtex"
+      }
+    ],
+    "imageCarousel": {
+      "banners": []
+    },
+    "extraProps": [],
+    "aggregateRating": {
+      "@type": "AggregateRating"
+    },
+    "review": [],
+    "contentRating": [],
+    "interactionStatistic": {
+      "@type": "InteractionCounter",
+      "image": null,
+      "video": null
+    },
+    "content": "<p>A <strong>Dipano</strong>, marca referência em fraldas ecológicas e sustentáveis, buscava modernizar a maneira como vendia seus kits completos de enxoval. O que antes era um processo manual, lento e cheio de etapas extras, se tornou uma jornada digital fluida, intuitiva e totalmente integrada graças a um módulo customizado desenvolvido pela <strong>we.digi</strong>.</p><p></p><h2><strong>O desafio: kits personalizados sem fricção e sem operações manuais</strong></h2><p>A venda dos kits completos acontecia no <strong>modelo Legado da VTEX</strong>, o que impedia que o cliente selecionasse diretamente no site os itens personalizados que compunham o enxoval.</p><p>Após comprar, era necessário enviar e-mail para a Dipano ou aguardar contato do time — um fluxo totalmente desconectado da experiência esperada por quem está montando um enxoval de bebê.</p><p></p><p>Essa etapa extra causava:</p><p>- atrito na jornada de compra,</p><p>- atrasos no pedido,</p><p>- aumento de custos operacionais,</p><p>- queda na conversão dos kits personalizados.</p><p></p><p>O objetivo era claro: permitir que o cliente fizesse <strong>todas as escolhas dentro do próprio e-commerce</strong>, com autonomia total e sem esforço operacional do lado da marca.</p><p></p><h2><strong>A solução: um módulo customizado de kits configuráveis dentro do Site Editor da VTEX</strong></h2><p>A we.digi desenvolveu uma solução personalizada utilizando VTEX, criando um módulo inteligente e administrável que dá flexibilidade total à equipe da Dipano, além de uma experiência impecável ao usuário.</p><p></p><h2><strong>Principais funcionalidades implementadas:</strong></h2><p><strong>1. Etapas configuráveis diretamente no admin</strong></p><p>A equipe pode definir todas as etapas do kit: categorias, filtros, quantidades, itens obrigatórios e até kits com etapas fixas ou selecionáveis.</p><p></p><p><strong>2. Navegação intuitiva e fluída</strong></p><p>O cliente monta seu kit passo a passo, aplicando filtros por categoria, cor e especificações — tudo em um fluxo claro, rápido e com excelente usabilidade.</p><p></p><p><strong>3. Resumo completo antes da compra</strong></p><p>Um carrinho de seleção que mostra exatamente o que o cliente escolheu, garantindo segurança e clareza antes de finalizar o pedido.</p><p></p><p><strong>4. Integração total com o sistema de pedidos VTEX</strong></p><p>Todas as seleções são sincronizadas automaticamente, eliminando qualquer necessidade de processos manuais.</p><p><br>Essa solução também se aplica perfeitamente a operações B2B, onde a criação de kits customizáveis e configuráveis é essencial.</p><p></p><h2><strong>O impacto: mais autonomia, mais conversão, mais receita</strong></h2><p>A transformação não só otimizou a experiência de compra como destravou crescimento real para o negócio.</p><p></p><p><strong>Benefícios para os clientes:</strong></p><p>- Compra 100% intuitiva e sem interação pós-venda</p><p>- Autonomia total para montar o kit ideal</p><p>- Agilidade para finalizar o pedido</p><p></p><p><strong>Benefícios para a Dipano:</strong></p><p>- Redução expressiva das demandas operacionais</p><p>- Autonomia para editar kits pelo próprio Site Editor</p><p>- Gestão flexível de produtos, categorias e etapas<br></p><p><strong>Resultados alcançados:</strong></p><p>- <strong>180% de aumento nas vendas de kits personalizados em 1 ano</strong></p><p><strong>- 43% de crescimento na receita dos itens personalizados</strong></p><p>- Processo totalmente automatizado, sem necessidade de e-mails ou contato manual</p><p>- Experiência de compra mais clara, rápida e eficiente</p><p></p><h2><strong>Conclusão</strong></h2><p>O novo módulo de kits personalizados desenvolvido pela we.digi reinventou a jornada de compra na <strong>Dipano</strong>, oferecendo uma experiência fluída para o consumidor e eliminando gargalos operacionais para a marca.</p><p></p><p>Mais do que um projeto técnico, essa solução reforça o compromisso da we.digi em entregar resultados reais, autonomia e crescimento sustentável para seus clientes.</p><p></p>",
+    "excerpt": "A Dipano, marca referência em fraldas ecológicas e sustentáveis, buscava modernizar a maneira como vendia seus kits completos de enxoval. O que antes era um processo manual, lento e cheio de etapas extras, se tornou uma jornada digital fluida, intuitiva e totalmente integrada graças a um módulo customizado desenvolvido pela we.digi.",
+    "title": "Novo módulo personalizado aumenta em 180% as vendas de kits na Dipano",
+    "date": "2025-11-17",
+    "slug": "novo-modulo-personalizado-aumenta-em-180-as-vendas-de-kits-na-dipano",
+    "image": "https://assets.decocache.com/we-digi/b2b2048d-04d8-4b19-9b66-83d2b3b2e541/Captura-de-Tela-2025-11-17-as-17.24.22.png"
+  }
+}
