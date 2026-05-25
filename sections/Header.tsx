@@ -25,7 +25,7 @@ export interface Nav {
 export default function Header({
   logo = {
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
+      "https://decoims.com/we-digi/09585ded-0432-44a0-becd-f73bf0278870/67120bcd_67120bcd-936a-4ea5-a760-02ed5c4a3d04.svg",
     alt: "Logo",
   },
   navigation = {

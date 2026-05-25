@@ -44,14 +44,14 @@ export interface Props {
     services?: Service[];
     cta?: CTA[];
 }
-export default function HeroFlats({ title = "we.hear you", description = "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.", image, imageMobile = "https://cdnm.westwing.com.br/glossary/uploads/br/2015/03/02025025/escrit%C3%B3rio-moderno-com-estande-grade-de-metal-e-plantas_c-a1495.jpg", services = [
+export default function HeroFlats({ title = "we.hear you", description = "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.", image, imageMobile = "https://decoims.com/we-digi/247661d2-78e1-4152-996e-83cc71d9cb54/655e3116_655e3116a06b5ce832b8d9c42913525b.jpg", services = [
     {
         logo: "/path/to/logo1.png",
         title: "Implantação de e-commerce",
         description: "Com mais de 1000 projetos, temos a experiência necessária para transformar seu sonho em realidade.",
     },
     {
-        background: "https://cdnm.westwing.com.br/glossary/uploads/br/2015/03/02025025/escrit%C3%B3rio-moderno-com-estande-grade-de-metal-e-plantas_c-a1495.jpg",
+        background: "https://decoims.com/we-digi/247661d2-78e1-4152-996e-83cc71d9cb54/655e3116_655e3116a06b5ce832b8d9c42913525b.jpg",
     },
     {
         logo: "/path/to/logo2.png",
@@ -59,7 +59,7 @@ export default function HeroFlats({ title = "we.hear you", description = "This t
         description: "Somos ativos em ajudar você encontrar as melhores escolhes para aumentar suas vendas.",
     },
     {
-        background: "https://cdnm.westwing.com.br/glossary/uploads/br/2015/03/02025025/escrit%C3%B3rio-moderno-com-estande-grade-de-metal-e-plantas_c-a1495.jpg",
+        background: "https://decoims.com/we-digi/247661d2-78e1-4152-996e-83cc71d9cb54/655e3116_655e3116a06b5ce832b8d9c42913525b.jpg",
     },
     {
         logo: "/path/to/logo3.png",
@@ -82,7 +82,7 @@ export default function HeroFlats({ title = "we.hear you", description = "This t
         description: "É um serviço que já inicia com um time multidisciplinar montado exclusivamente para criar e evoluir continuamente a sua plataforma de e-commerce.",
     },
     {
-        background: "https://cdnm.westwing.com.br/glossary/uploads/br/2015/03/02025025/escrit%C3%B3rio-moderno-com-estande-grade-de-metal-e-plantas_c-a1495.jpg",
+        background: "https://decoims.com/we-digi/247661d2-78e1-4152-996e-83cc71d9cb54/655e3116_655e3116a06b5ce832b8d9c42913525b.jpg",
     },
 ], cta = [
     { id: "change-me-1", href: "/", text: "CONHEÇA NOSSOS SERVIÇOS", outline: false },

@@ -7,10 +7,10 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<h2><span style=\"font-size: 96pt\">we</span><span style=\"color: rgb(118, 245, 247); font-size: 96pt\">.</span><span style=\"font-size: 96pt\">hear you</span></h2><p style=\"text-align: center\"></p><p style=\"text-align: center\"><u><span style=\"font-size: 96pt\"><img src=\"https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png\"></span></u></p>",
+      "title": "<h2><span style=\"font-size: 96pt\">we</span><span style=\"color: rgb(118, 245, 247); font-size: 96pt\">.</span><span style=\"font-size: 96pt\">hear you</span></h2><p style=\"text-align: center\"></p><p style=\"text-align: center\"><u><span style=\"font-size: 96pt\"><img src=\"https://decoims.com/we-digi/4df03ade-12a4-4e80-9702-47b359820eab/0eee39dc_0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6.png\"></span></u></p>",
       "services": [
         {
-          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/63e72533-bae7-4d24-ae80-e4f9532daebb/icon1.svg",
+          "logo": "https://decoims.com/we-digi/19abeb4d-b6d2-4a35-8a8e-1c36c53e7e81/63e72533_63e72533-bae7-4d24-ae80-e4f9532daebb.svg",
           "title": "Implantação de e-commerce",
           "description": "<p><span>Com mais de </span><span style=\"color: #ffffff\">1000 projetos</span><span>, temos a experiência necessária para transformar seu sonho em realidade.</span></p>"
         },
@@ -18,7 +18,7 @@
           "background": "https://data.decoassets.com/we-digi/44e60d1a-6eb7-4165-a31d-d643765477dc/mao.png"
         },
         {
-          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/74dcb8ce-08a7-4acb-b7ba-bf6724090de6/icon3.svg",
+          "logo": "https://decoims.com/we-digi/4fe5bd40-c968-4e6f-82cd-3e7f05f7e825/74dcb8ce_74dcb8ce-08a7-4acb-b7ba-bf6724090de6.svg",
           "title": "Evolução / On-going",
           "description": "<p><span>Somos ativos em ajudar você encontrar as melhores escolhas para aumentar suas vendas.</span></p>"
         },
@@ -26,12 +26,12 @@
           "background": "https://data.decoassets.com/we-digi/f43a8ff1-dec6-4860-882e-c7041d2d5a94/notebook.png"
         },
         {
-          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4a8ac3d6-dd7f-48ce-ad9f-7c33d348b813/icon2.svg",
+          "logo": "https://decoims.com/we-digi/b8003b8b-d9d4-48c8-b2d5-83be1a976c72/4a8ac3d6_4a8ac3d6-dd7f-48ce-ad9f-7c33d348b813.svg",
           "title": "Performance",
           "description": "<p><span>Entendemos seu mercado e trazemos o público assertivo com todas as quebras de objeção para você performar com excelência!</span></p>"
         },
         {
-          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/2a5e1a9f-b1b0-4b90-a612-a5e541314d71/icon4.svg",
+          "logo": "https://decoims.com/we-digi/a03c53e8-7696-450c-a43b-c4588f6707be/2a5e1a9f_2a5e1a9f-b1b0-4b90-a612-a5e541314d71.svg",
           "title": "Integrações customizadas",
           "description": "<p><span>Da integração com aplicativos à sistema de campanha de incentivo.</span></p>"
         },
@@ -58,15 +58,15 @@
       ],
       "description": "<p style=\"text-align: center\"><span>Somos uma consultoria digital com </span><span style=\"color: #76f5f7\">mais de 25 anos</span><span> de experiência em negócios, tecnologia e marketing.</span></p>",
       "image": "https://data.decoassets.com/we-digi/f1f8cbf7-51c9-442d-bea4-6835a9ef114e/bg-wave.png",
-      "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0d9613db-1658-47e6-b3f9-10abefbe4e90/image.png"
+      "imageMobile": "https://decoims.com/we-digi/4d66cf69-9a7c-4648-8556-9961fc414c26/0d9613db_0d9613db-1658-47e6-b3f9-10abefbe4e90.png"
     },
     {
       "__resolveType": "site/sections/Achievements.tsx",
       "title": "<h2><span style=\"color: rgb(126, 126, 126); font-size: 48pt\">Nossa Conquista</span></h2><h2><span style=\"font-size: 48pt\">Quadrante 2024</span></h2><p></p>",
       "description": "<p><span style=\"color: #ffffff\">Estamos entre </span><strong><span style=\"color: #ffffff\">as melhores agências</span></strong><span style=\"color: #ffffff\"> de e-commerce.</span></p>",
-      "logoSrc": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/2303ca96-cd09-48f7-a98d-e9740061fd40/VTEX_Logo-1.svg",
-      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/7d7d3848-8d9e-4cc1-8ae3-8f2497ef56f7/quadrante.png",
-      "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/d0f3eea9-0d15-4887-b021-ddd38c55deaf/bg.jpg"
+      "logoSrc": "https://decoims.com/we-digi/ab4db26e-016c-4e7a-b8e3-11ac70deef87/2303ca96_2303ca96-cd09-48f7-a98d-e9740061fd40.svg",
+      "image": "https://decoims.com/we-digi/465b9e50-dfec-456a-8bcb-30c0a24c31c8/7d7d3848_7d7d3848-8d9e-4cc1-8ae3-8f2497ef56f7.png",
+      "background": "https://decoims.com/we-digi/095dc64d-38d5-43dd-97c6-ddd9350f57c4/d0f3eea9_d0f3eea9-0d15-4887-b021-ddd38c55deaf.jpg"
     },
     {
       "__resolveType": "Partners"
@@ -84,12 +84,12 @@
           "type": "inline"
         }
       ],
-      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png",
-      "background": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/549088e7-1c6d-4dc9-b85a-bddd1e9c5c28/bg_2.jpg",
+      "image": "https://decoims.com/we-digi/f1f89089-4cc9-4019-a2e5-22f1f2425053/00cf4d98_00cf4d98-8207-4abf-ac53-de102a51a165.png",
+      "background": "https://decoims.com/we-digi/8f412b3b-4308-4cb3-87dc-82f7efd0ac8a/549088e7_549088e7-1c6d-4dc9-b85a-bddd1e9c5c28.jpg",
       "description": {
         "label": "<p>O we.digi house&nbsp;é nossa unidade de negócio que integra, customiza e cria ferramentas que ajudam o e-commerce e seu negócio a evoluir para o futuro!</p><br><p><span style=\"color: #ffffff\">Alguns dos serviços desta unidade:</span></p><ul><li><p>Integrações</p></li><li><p>Sistemas customizados</p></li><li><p>Ferramentas de apoio ao e-commerce</p></li></ul>",
         "color": " #76f5f7",
-        "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/00cf4d98-8207-4abf-ac53-de102a51a165/Group-2.png"
+        "image": "https://decoims.com/we-digi/f1f89089-4cc9-4019-a2e5-22f1f2425053/00cf4d98_00cf4d98-8207-4abf-ac53-de102a51a165.png"
       },
       "tag": "we.improve",
       "ballon": [
@@ -99,7 +99,7 @@
             "x": "10%",
             "y": "15%"
           },
-          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0d80ef47-f0fb-4b72-9b3f-cee1aee864a7/vtex-logo-white.svg",
+          "label": "https://decoims.com/we-digi/965e82fb-5b10-4b2d-90c1-351502f03c48/0d80ef47_0d80ef47-f0fb-4b72-9b3f-cee1aee864a7.svg",
           "color": "#0C1E2A",
           "title": "Vtex 2"
         },
@@ -109,7 +109,7 @@
             "x": "75%",
             "y": "25%"
           },
-          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/232cdccf-ccdd-4143-aa0f-27e8d640f470/nuvemshop.svg",
+          "label": "https://decoims.com/we-digi/f272bba1-350f-40f5-9401-158ca89bf2fe/232cdccf_232cdccf-ccdd-4143-aa0f-27e8d640f470.svg",
           "color": "#0C1E2A",
           "title": "Nuvemshop"
         },
@@ -119,7 +119,7 @@
             "x": "50%",
             "y": "60%"
           },
-          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/e5a619a8-8773-4754-8805-3062b6594b3f/shopify.svg",
+          "label": "https://decoims.com/we-digi/c9d15096-430d-4964-a2fd-b0827d5a46f2/e5a619a8_e5a619a8-8773-4754-8805-3062b6594b3f.svg",
           "color": "#0C1E2A",
           "title": "shopify"
         },
@@ -128,7 +128,7 @@
             "x": "50%"
           },
           "title": "Uappi",
-          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/89201715-5514-40ca-be12-df4e806168db/uappi.svg",
+          "label": "https://decoims.com/we-digi/7e9ba7f5-73bb-4301-b34f-cb90e535e41e/89201715_89201715-5514-40ca-be12-df4e806168db.svg",
           "size": "30%",
           "color": "#0C1E2A"
         },
@@ -137,7 +137,7 @@
             "x": "10%",
             "y": "55%"
           },
-          "label": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/73706ca7-6643-4399-9993-c9d38a3d4276/wake.svg",
+          "label": "https://decoims.com/we-digi/30e7fd98-b104-448f-be14-dbece7ace9ea/73706ca7_73706ca7-6643-4399-9993-c9d38a3d4276.svg",
           "size": "30%",
           "color": "#0C1E2A"
         }
@@ -152,25 +152,25 @@
           "title": "Espaço Smart o maior case de construção a seco do Brasil",
           "link": "https://wedigi.com.br/insights/post/espaco-smart-maior-case-de-construcao-a-seco-do-brasil/",
           "buttonText": "conheça mais",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/ef73c70b-8cae-433a-83a6-236b0b5b4ffe/case-espaco-smart-1.jpg"
+          "image": "https://decoims.com/we-digi/4873505b-65f2-4ecb-b377-4e5628676eec/ef73c70b_ef73c70b-8cae-433a-83a6-236b0b5b4ffe.jpg"
         },
         {
           "title": "Case Cloude – Parceria de Sucesso com a we.digi: A Agência VTEX Especializada em Moda",
           "link": "https://wedigi.com.br/insights/post/como-a-cloude-multiplicou-seu-faturamento-em-4x-com-a-estrategia-martech-da-we-digi/",
           "buttonText": "conheça mais",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/d1ee1819-6022-41c5-8191-cedac864e8f3/case-cloude-1.jpg"
+          "image": "https://decoims.com/we-digi/42a990ca-a501-4f1f-b558-710ff87ec022/d1ee1819_d1ee1819-6022-41c5-8191-cedac864e8f3.jpg"
         },
         {
           "title": "Case Ultrafeu – Cresça Seu Negócio com Martech: A Parceria de Sucesso com a we.digi",
           "link": "https://wedigi.com.br/insights/post/case-ultrafeu-cresca-seu-negocio-com-martech-a-parceria-de-sucesso-com-a-we-digi/",
           "buttonText": "conheça mais",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4c8ed6ed-000b-41f9-b56a-c3b34cbedce9/App-1.jpg"
+          "image": "https://decoims.com/we-digi/822e5796-0223-4080-a45e-02907f94f035/4c8ed6ed_4c8ed6ed-000b-41f9-b56a-c3b34cbedce9.jpg"
         },
         {
           "title": "Diprotec – Encontre Segurança e Confiança em uma Agência VTEX",
           "link": "https://wedigi.com.br/insights/post/sika-como-encontrar-seguranca-em-uma-agencia-vtex/",
           "buttonText": "conheça mais",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/e043f15a-d00f-45d6-adbf-0378dd64c86e/image-2.jpg"
+          "image": "https://decoims.com/we-digi/528eb364-5c70-454b-bf15-5cbe68c2dd9e/e043f15a_e043f15a-d00f-45d6-adbf-0378dd64c86e.jpg"
         }
       ],
       "tag": "we.work"

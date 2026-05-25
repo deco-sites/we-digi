@@ -32,7 +32,7 @@ export interface CaseType {
 
 // const IMG_PLACEHODLER = Array(30).fill(0).map(() => ({
 //   src:
-//     "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/03fbcc78-ca86-4616-a59a-b8aa18331a9c",
+//     "https://decoims.com/we-digi/665d1b79-105b-47ba-abda-25739615a9f0/03fbcc78_03fbcc78-ca86-4616-a59a-b8aa18331a9c.svg",
 //   altText: "Logo",
 // })); 
 
@@ -49,7 +49,7 @@ export default function CasesComponent({
   //     <Image
   //       width={227}
   //       class="w-full h-auto object-cover group-hover:scale-110"
-  //       src={item.image || "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/03fbcc78-ca86-4616-a59a-b8aa18331a9c"}
+  //       src={item.image || "https://decoims.com/we-digi/665d1b79-105b-47ba-abda-25739615a9f0/03fbcc78_03fbcc78-ca86-4616-a59a-b8aa18331a9c.svg"}
   //       alt="Vtex"
   //       decoding="async"
   //       loading="lazy"
@@ -75,7 +75,7 @@ export default function CasesComponent({
         <div class="flex flex-col gap-4"> 
           {tag && <p class="text-[#76F5F7] text-base text-center">{tag}</p>}
           {title && <p class="text-[#ABABAB] text-2xl md:text-[40px] text-center ">{title}</p>}        
-          <img class="my-2 mx-auto max-w-[75%] lg:mt-6" src="https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6/box-dots.png"/>
+          <img class="my-2 mx-auto max-w-[75%] lg:mt-6" src="https://decoims.com/we-digi/4df03ade-12a4-4e80-9702-47b359820eab/0eee39dc_0eee39dc-0b46-4ffd-b5a1-ff3bbe0f2fa6.png"/>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 grid-flow-dense lg:mt-7">
           <div class="flex flex-col gap-8">
