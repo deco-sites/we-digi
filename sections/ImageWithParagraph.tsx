@@ -28,7 +28,7 @@ const PLACEMENT = {
 };
 
 const DEFAULT_IMAGE =
-  "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f";
+  "https://decoims.com/we-digi/60a1b29c-ed0d-430d-9c17-8c281f6a19e3/772e246e_772e246e-1959-46ac-a309-3f25ab20af6f.png";
 
 export default function ImageWithParagraph({
   title = "Here's an intermediate size heading you can edit",
