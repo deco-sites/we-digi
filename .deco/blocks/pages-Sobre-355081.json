@@ -8,7 +8,7 @@
     {
       "__resolveType": "site/sections/ImageText.tsx",
       "image": {
-        "mobile": "https://data.decoassets.com/we-digi/259f61c9-f133-452d-aeb2-70db0427f2f7/secao1.jpg",
+        "mobile": "https://decoims.com/we-digi/2edf3b47-928b-4c70-8305-49250fccb512/secao1.jpg",
         "alt": "wedigi"
       },
       "bgColor": "#95A9AF",
@@ -22,7 +22,7 @@
     {
       "__resolveType": "site/sections/ImageText.tsx",
       "image": {
-        "mobile": "https://data.decoassets.com/we-digi/2c80095b-2395-4f37-a4e6-ebaa3aca7cef/secao2.jpg",
+        "mobile": "https://decoims.com/we-digi/a5f2b1d7-c892-4f0f-be8c-a7d2134e3084/secao2.jpg",
         "alt": "wedigi"
       },
       "bgColor": "#08151D",
@@ -34,7 +34,7 @@
     {
       "__resolveType": "site/sections/ImageText.tsx",
       "image": {
-        "mobile": "https://data.decoassets.com/we-digi/52d08ab9-a215-4fc2-b2d9-1967d6f7da47/secao3.jpg",
+        "mobile": "https://decoims.com/we-digi/244f6df5-df0c-420a-a466-66103d3e8ed0/secao3.jpg",
         "alt": "wedigi"
       },
       "bgColor": "#08151D",
@@ -46,7 +46,7 @@
     {
       "__resolveType": "site/sections/ImageText.tsx",
       "image": {
-        "mobile": "https://data.decoassets.com/we-digi/1b802854-d927-4ec2-909f-c4735ab71aa3/secao4.jpg",
+        "mobile": "https://decoims.com/we-digi/e3da6863-6a77-4e8b-9324-db939dcf53cf/secao4.jpg",
         "alt": "wedigi"
       },
       "bgColor": "#08151D",

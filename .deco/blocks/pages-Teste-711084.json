@@ -4,7 +4,7 @@
     {
       "__resolveType": "site/sections/BannerPhone.tsx",
       "text1": "<h1><span style=\"color: rgb(118, 245, 247)\">Venda mais</span> no seu e-commerce de moda com <span style=\"color: rgb(255, 255, 255)\">estratégias de alta performance.</span></h1>",
-      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "bg": "https://decoims.com/we-digi/fbbdbbf2-f359-40a8-82f6-401f30d9137a/bg.png",
       "text2": "<p><span>Enquanto outros apenas criam campanhas, </span><span style=\"color: #76f5f7\">nós traçamos um caminho completo para escalar suas vendas.</span></p>",
       "cta": {
         "label": "QUERO CONHECER",
@@ -12,23 +12,23 @@
       },
       "images": [
         {
-          "image": "https://assets.decocache.com/we-digi/83e1c868-acc6-4fa4-9265-feb8b9f28c10/img-lalibela.png",
+          "image": "https://decoims.com/we-digi/0ca38b38-ce57-40cc-8328-44c9ebbf78a4/img-lalibela.png",
           "alt": "lalibela"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/58a35f8b-2378-4cba-87dc-6648c2c26c22/img-flaminga.png",
+          "image": "https://decoims.com/we-digi/c38929b9-b86e-4ecc-bdd3-08ba2b3487d3/img-flaminga.png",
           "alt": "flaminga"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/d2d52dfb-6d2d-4fde-b5f5-b0fd06aceef7/img-cloude.png",
+          "image": "https://decoims.com/we-digi/d89e5ba5-2036-4e0d-9141-81fedb0c1680/img-cloude.png",
           "alt": "cloude"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/2b37fe82-7432-43ed-9dde-829bc3776660/img-7.png",
+          "image": "https://decoims.com/we-digi/b5f279bf-c369-4996-9e23-3a8fe274de01/img-7.png",
           "alt": "sevens"
         }
       ],
-      "phoneImage": "https://assets.decocache.com/we-digi/33166088-b69c-4a51-a696-7ce77523ebb3/iPhone-11-Pro.svg"
+      "phoneImage": "https://decoims.com/we-digi/a7ce5bb3-dc7c-4bf4-870a-d6d345847cb2/iPhone-11-Pro.svg"
     },
     {
       "__resolveType": "site/sections/Statistics.tsx",
@@ -51,12 +51,12 @@
           "text": "bilhões de faturamento"
         }
       ],
-      "image": "https://assets.decocache.com/we-digi/11af8ab4-7db0-4776-90d6-73c0192876b3/circle-1.png"
+      "image": "https://decoims.com/we-digi/e2c14003-b326-4321-8179-f56c8ae350e8/circle-1.png"
     },
     {
       "__resolveType": "site/sections/VideoText.tsx",
       "text": "<h2 style=\"text-align: center\"><strong><span style=\"color: #76f5f7\">Venda mais com quem entende de Moda!</span></strong><br><br></h2><p style=\"text-align: center\"><span>Somos a we.digi, especialistas em estratégias digitais para e-commerces de moda. Com mais de 20 anos de experiência, entregamos soluções ágeis e precisas para impulsionar seu negócio de forma estratégica e personalizada.</span></p>",
-      "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4",
+      "video": "https://decoims.com/we-digi/ab27e1f8-6b6e-40bf-a024-e9d0b1e4595d/video-LP-moda.mp4",
       "cta": {
         "label": "QUERO VENDER MAIS",
         "link": "/contato"
@@ -67,19 +67,19 @@
       "text": "<h2><span style=\"color: #858585\">Estratégia de tráfego que</span> <span style=\"color: rgb(0, 0, 0)\">gera resultados de verdade!</span></h2><p><br></p><p><span style=\"color: #858585\">Não basta gerenciar anúncios. Analisamos todo o ecossistema da sua marca para criar estratégias que impactam diretamente seu faturamento. Com um método exclusivo, unimos expertise técnica e conhecimento profundo do seu negócio para otimizar cada ponto da jornada do cliente.</span></p>",
       "cards": [
         {
-          "icon": "https://assets.decocache.com/we-digi/c1f9fe0e-9aef-4e67-85aa-57d58dee4e87/visao.png",
+          "icon": "https://decoims.com/we-digi/2bea36b0-38d7-4246-a84c-728e81b3cdc3/visao.png",
           "title": "Visão 360º  do negócio",
           "text": "O primeiro passo é te ouvir para entender com profundidade o que seu negócio precisa para prosperar. A partir disso, criamos soluções estratégicas que impactam positivamente em todos eles.",
           "link": "/contato"
         },
         {
-          "icon": "https://assets.decocache.com/we-digi/b9c0ea2d-392c-4c5e-9746-993bae92dcff/metodologia.png",
+          "icon": "https://decoims.com/we-digi/28d3215d-5413-412d-826f-c7b17a8d4cc2/metodologia.png",
           "title": "Metodologia  personalizada",
           "text": "De forma consultiva e proativa, te ajudamos a tomar decisões estratégicas para crescer de forma saudável, com uma abordagem que vai além do tráfego pago.",
           "link": "/contato"
         },
         {
-          "icon": "https://assets.decocache.com/we-digi/dd5cebe7-82b2-4427-b830-177592df2ea0/crescimento.png",
+          "icon": "https://decoims.com/we-digi/6d70747c-7400-438f-a89d-864d5497f459/crescimento.png",
           "title": "Crescimento  sustentável",
           "text": "Focamos em resultados olhando para o futuro do seu negócio,  garantindo que seu e-commerce de moda se desenvolva com solidez e consistência.",
           "link": "/contato"
@@ -97,40 +97,40 @@
           "type": "Cards",
           "images": [
             {
-              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "image": "https://decoims.com/we-digi/a46372d2-7a87-4b68-aced-2b879968919a/segmentacao-block.png",
               "alt": "Segmentação avançada",
-              "icon": "https://assets.decocache.com/we-digi/c80b03ba-d576-44ab-99e5-286a28f0061f/conversao.png",
+              "icon": "https://decoims.com/we-digi/225b38bf-16db-4c28-8e39-cc711f854aee/conversao.png",
               "text": "Aumento da  conversão"
             },
             {
-              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "image": "https://decoims.com/we-digi/4ccfa266-ba8c-490b-a7ba-4f705c55008f/relatorios.png",
               "alt": "Análises e relatórios em tempo real",
-              "icon": "https://assets.decocache.com/we-digi/789de421-402c-48cd-99b1-1d02c16496b5/segmentacao.png",
+              "icon": "https://decoims.com/we-digi/1da594e4-223d-4330-9866-4d2aebac8460/segmentacao.png",
               "text": "Segmentação avançada"
             },
             {
-              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "image": "https://decoims.com/we-digi/6317ebeb-5308-4f9c-b34c-728506bd13bb/lucratividade-block.png",
               "alt": "Foco em aumentar lucratividade",
-              "icon": "https://assets.decocache.com/we-digi/34cf4f04-5525-43aa-9da0-b13ae51d0c3c/analise.png",
+              "icon": "https://decoims.com/we-digi/c4cabb07-f9fb-4da7-92fe-9351b4fedb0d/analise.png",
               "text": "Análises e relatórios em tempo real"
             },
             {
-              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "image": "https://decoims.com/we-digi/ef06a862-990a-44ae-919f-51e7eb2a647a/custo.png",
               "alt": "Melhor custo-benefício por conversão",
-              "icon": "https://assets.decocache.com/we-digi/3650f898-4898-47ab-afb3-582edfec5475/testea-b.png",
+              "icon": "https://decoims.com/we-digi/cd9f33fa-bc4d-4e37-8b04-624551c818ac/testea-b.png",
               "text": "A/B Testing e  otimização contínua"
             },
             {
-              "image": "https://assets.decocache.com/we-digi/4e53e10b-2ebc-45cc-ba99-5181957e424a/conversao-block.png",
+              "image": "https://decoims.com/we-digi/83207910-720a-4585-8fab-b07b25087567/conversao-block.png",
               "alt": "Aumento de conversão",
-              "icon": "https://assets.decocache.com/we-digi/af950c52-92c8-46d2-8048-68c826b1293d/custo-beneficio.png",
+              "icon": "https://decoims.com/we-digi/e20a9c1c-4aae-4e97-93cf-56128d279859/custo-beneficio.png",
               "text": "Melhor custo-benefício  por conversão"
             },
             {
-              "image": "https://assets.decocache.com/we-digi/2c7451d0-0c95-440f-a64e-e1b681e6246e/ab-test.png",
+              "image": "https://decoims.com/we-digi/764ca61d-45a9-4b11-9b57-9bb61baa0033/ab-test.png",
               "alt": "A/B testing e otimização continua",
               "text": "Foco em aumentar a lucratividade",
-              "icon": "https://assets.decocache.com/we-digi/e6a59942-db9b-4910-b584-099004562f6a/foco.png"
+              "icon": "https://decoims.com/we-digi/99c2e585-cb0d-40ef-99a0-09457ba9ed39/foco.png"
             }
           ]
         },
@@ -145,7 +145,7 @@
           "bgColor": "#f0857d"
         }
       ],
-      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "bg": "https://decoims.com/we-digi/fbbdbbf2-f359-40a8-82f6-401f30d9137a/bg.png",
       "maxWidth": 1008
     },
     {

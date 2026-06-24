@@ -39,7 +39,7 @@ export default function BlogPostsIsland({
                         class="border border-secondary overflow-hidden rounded-lg"
                     >
                         <ValidadeImage
-                            fallbackUrl="https://assets.decocache.com/we-digi/62266f95-595c-40ee-a97a-7474aa6ffc61/home-main.jpg"
+                            fallbackUrl="https://decoims.com/we-digi/075b396e-3604-4630-a456-3e5d09778134/home-main.jpg"
                             width={380}
                             height={274}
                             class="object-fit w-full"

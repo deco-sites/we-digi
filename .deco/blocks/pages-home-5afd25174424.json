@@ -15,7 +15,7 @@
           "description": "<p><span>Com mais de </span><span style=\"color: #ffffff\">1000 projetos</span><span>, temos a experiência necessária para transformar seu sonho em realidade.</span></p>"
         },
         {
-          "background": "https://data.decoassets.com/we-digi/44e60d1a-6eb7-4165-a31d-d643765477dc/mao.png"
+          "background": "https://decoims.com/we-digi/190168a5-f937-46ca-a4b0-cefa9161b210/mao.png"
         },
         {
           "logo": "https://decoims.com/we-digi/4fe5bd40-c968-4e6f-82cd-3e7f05f7e825/74dcb8ce_74dcb8ce-08a7-4acb-b7ba-bf6724090de6.svg",
@@ -23,7 +23,7 @@
           "description": "<p><span>Somos ativos em ajudar você encontrar as melhores escolhas para aumentar suas vendas.</span></p>"
         },
         {
-          "background": "https://data.decoassets.com/we-digi/f43a8ff1-dec6-4860-882e-c7041d2d5a94/notebook.png"
+          "background": "https://decoims.com/we-digi/858b0894-f687-4685-8111-a8f22f4834a6/notebook.png"
         },
         {
           "logo": "https://decoims.com/we-digi/b8003b8b-d9d4-48c8-b2d5-83be1a976c72/4a8ac3d6_4a8ac3d6-dd7f-48ce-ad9f-7c33d348b813.svg",
@@ -36,17 +36,17 @@
           "description": "<p><span>Da integração com aplicativos à sistema de campanha de incentivo.</span></p>"
         },
         {
-          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/b028af7c-66eb-46ec-83a5-98ca296b3614/icon2-(1).svg",
+          "logo": "https://decoims.com/we-digi/b028af7c-66eb-46ec-83a5-98ca296b3614/icon2-(1).svg",
           "title": "Concierge",
           "description": "<p><span>Prestamos serviços de infraestrutura, desenvolvimento, consultoria e treinamentos nas tecnologias aplicadas.</span></p>"
         },
         {
-          "logo": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/we-digi/4a9b43f1-a5fc-4a6c-8428-11108cb28543/icon2-(2).svg",
+          "logo": "https://decoims.com/we-digi/4a9b43f1-a5fc-4a6c-8428-11108cb28543/icon2-(2).svg",
           "title": "Squad dedicado",
           "description": "<p><span>É um serviço que já inicia com um time multidisciplinar montado exclusivamente para criar e evoluir continuamente a sua plataforma de e-commerce.</span></p>"
         },
         {
-          "background": "https://data.decoassets.com/we-digi/528d27b5-b392-47ba-8e97-cf596fdd6023/telefone.png"
+          "background": "https://decoims.com/we-digi/15eb70da-27f3-4c1b-84f2-d56b4db918ee/telefone.png"
         }
       ],
       "cta": [
@@ -57,7 +57,7 @@
         }
       ],
       "description": "<p style=\"text-align: center\"><span>Somos uma consultoria digital com </span><span style=\"color: #76f5f7\">mais de 25 anos</span><span> de experiência em negócios, tecnologia e marketing.</span></p>",
-      "image": "https://data.decoassets.com/we-digi/f1f8cbf7-51c9-442d-bea4-6835a9ef114e/bg-wave.png",
+      "image": "https://decoims.com/we-digi/00062a07-7ff9-445d-840b-0af69fec72b5/bg-wave.png",
       "imageMobile": "https://decoims.com/we-digi/4d66cf69-9a7c-4648-8556-9961fc414c26/0d9613db_0d9613db-1658-47e6-b3f9-10abefbe4e90.png"
     },
     {
@@ -142,7 +142,7 @@
           "color": "#0C1E2A"
         }
       ],
-      "sideImage": "https://assets.decocache.com/we-digi/2fa6a25e-67bc-4a02-b7bb-81fb6478b604/vtex_image.png"
+      "sideImage": "https://decoims.com/we-digi/2ac492cf-9681-4c7e-a24d-8c93ad037715/vtex_image.png"
     },
     {
       "__resolveType": "site/sections/Cases.tsx",
