@@ -83,7 +83,7 @@ export default function BlogPost({ page }: SectionProps<typeof loader>) {
         <Image
           className="w-full object-cover aspect-video max-h-[600px] rounded-2xl"
           width={600}
-          src={image || "https://assets.decocache.com/we-digi/62266f95-595c-40ee-a97a-7474aa6ffc61/home-main.jpg"}
+          src={image || "https://decoims.com/we-digi/075b396e-3604-4630-a456-3e5d09778134/home-main.jpg"}
         />
         <div
           class={CONTENT_STYLES}

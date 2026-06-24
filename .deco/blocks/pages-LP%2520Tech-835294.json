@@ -5,33 +5,33 @@
     {
       "__resolveType": "site/sections/BannerTech.tsx",
       "text1": "<h1><span style=\"color: rgb(118, 245, 247);font-weight: 500\">Impulsione seu e‑commerce</span> com <span style=\";font-weight: 300\">estratégias personalizadas</span> e evolução contínua.</h1>",
-      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "bg": "https://decoims.com/we-digi/fbbdbbf2-f359-40a8-82f6-401f30d9137a/bg.png",
       "text2": "<p>Na <span style=\"color: rgb(118, 245, 247);font-weight: 400\">we.digi</span>, criamos <span style=\";font-weight: 300\">projetos sob medida com suporte contínuo e atendimento humanizado.</span> Acreditamos em <span style=\";font-weight: 300\">parcerias duradouras e evoluímos junto</span> com o seu negócio.</p>",
       "cta": {
         "label": "QUERO CONHECER",
         "link": "/contato",
         "bgColor": "#ff861c"
       },
-      "phoneImage": "https://assets.decocache.com/we-digi/33166088-b69c-4a51-a696-7ce77523ebb3/iPhone-11-Pro.svg",
+      "phoneImage": "https://decoims.com/we-digi/a7ce5bb3-dc7c-4bf4-870a-d6d345847cb2/iPhone-11-Pro.svg",
       "images": [
         {
-          "image": "https://assets.decocache.com/we-digi/16f8a2ee-539f-4316-83b4-6b29e2c8c170/wireframe-3.png",
+          "image": "https://decoims.com/we-digi/bf5c9064-6052-485f-949c-3565dadd10af/wireframe-3.png",
           "alt": "Wireframe Home"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/ec35d1fd-056c-4b26-a078-ab3866287e98/wireframe2.png",
+          "image": "https://decoims.com/we-digi/126bd880-1030-4b10-a9de-00a6d7003d51/wireframe2.png",
           "alt": "Wireframe Home 2"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/6fa54d8b-cb16-41db-8d1c-460f617114eb/wireframe3.png",
+          "image": "https://decoims.com/we-digi/c0500389-7cce-4e3f-81d4-d12d0066788f/wireframe3.png",
           "alt": "Ilustração Home"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/2e957269-1b37-439b-baf8-a83f4f8ec6cf/wireframe4.png",
+          "image": "https://decoims.com/we-digi/949bfbbb-547a-4ea0-ad1e-e24c094e069f/wireframe4.png",
           "alt": "Ilustração PDP"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/dacbf0b9-6aa0-433e-b5b2-fb82c2b7c909/wireframe5.png",
+          "image": "https://decoims.com/we-digi/528e1c8d-e43b-4764-9cb1-e1c9b64cb9d1/wireframe5.png",
           "alt": "Ilustração Minicart"
         }
       ]
@@ -55,8 +55,8 @@
         "href": "/contato/",
         "text": "QUERO SABER MAIS"
       },
-      "sideImage1": "https://assets.decocache.com/we-digi/e4702bbe-3314-494c-9914-14c34a5e3909/Group-14.png",
-      "sideImage2": "https://assets.decocache.com/we-digi/7e3a1788-d190-4617-9ebe-78b0efec1bad/Group-16.png",
+      "sideImage1": "https://decoims.com/we-digi/d1dfc24b-50b7-4234-9842-1b24a7608890/Group-14.png",
+      "sideImage2": "https://decoims.com/we-digi/bc97a300-2b6e-4e1b-a3bb-b14123a52843/Group-16.png",
       "services": [
         "CONSULTORIA",
         "SUPORTE CONTÍNUO DE PLATAFORMA E TREINAMENTOS",
@@ -87,13 +87,13 @@
         "label": "<p>A implantação ou migração de um e-commerce é um processo complexo, mas de extrema importância para a escalabilidade e expansão de qualquer negócio.</p><br><p>Nosso trabalho envolve:</p><ul><li><p>Entendimento profundo das necessidades do seu negócio.</p></li><li><p>Análise e escolha da plataforma mais adequada (VTEX, Shopify, Linx, Wake, Vnda, Uappi, etc.).</p></li><li><p>Consideração de variáveis como volume de tráfego, integrações, sistemas de pagamento, logística e experiência do usuário.</p></li><li><p>Planejamento estratégico para garantir um resultado eficiente e escalável.</p></li><li><p>Treinamentos e suporte contínuo para garantir autonomia no uso da plataforma.</p></li></ul>",
         "image": "https://decoims.com/we-digi/f1f89089-4cc9-4019-a2e5-22f1f2425053/00cf4d98_00cf4d98-8207-4abf-ac53-de102a51a165.png"
       },
-      "sideImage": "https://assets.decocache.com/we-digi/2fa6a25e-67bc-4a02-b7bb-81fb6478b604/vtex_image.png",
+      "sideImage": "https://decoims.com/we-digi/2ac492cf-9681-4c7e-a24d-8c93ad037715/vtex_image.png",
       "tech": true
     },
     {
       "__resolveType": "site/sections/ImageText.tsx",
       "image": {
-        "mobile": "https://assets.decocache.com/we-digi/98a4b0a1-13d6-4e77-bb18-f066eeb18e8f/Group-22.png",
+        "mobile": "https://decoims.com/we-digi/28de9439-ce6a-4972-ad18-47582f64e74e/Group-22.png",
         "alt": "Evolução - Consultoria - CRO - SEO"
       },
       "bgColor": "#fff",
@@ -121,27 +121,27 @@
           "type": "Cards",
           "images": [
             {
-              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "image": "https://decoims.com/we-digi/a46372d2-7a87-4b68-aced-2b879968919a/segmentacao-block.png",
               "alt": "PARCEIRO LOGÍSTICO IDEAL",
-              "icon": "https://assets.decocache.com/we-digi/5cd74c94-f43e-423e-953e-3b406c6bf19f/icon-(7).png",
+              "icon": "https://decoims.com/we-digi/af420fd7-113a-4b4e-83f4-0aa392bb2ead/icon-(7).png",
               "text": " PARCEIRO LOGÍSTICO IDEAL"
             },
             {
-              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "image": "https://decoims.com/we-digi/4ccfa266-ba8c-490b-a7ba-4f705c55008f/relatorios.png",
               "alt": "MELHOR GATEWAY DE PAGAMENTO",
-              "icon": "https://assets.decocache.com/we-digi/c4b692fa-ea47-4083-b7b7-b7c9c682a7b5/Camada_1-(1).png",
+              "icon": "https://decoims.com/we-digi/d3845881-72c6-42a2-acd4-9b79b3f97be6/Camada_1-(1).png",
               "text": "MELHOR GATEWAY DE PAGAMENTO"
             },
             {
-              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "image": "https://decoims.com/we-digi/6317ebeb-5308-4f9c-b34c-728506bd13bb/lucratividade-block.png",
               "alt": "FERRAMENTAS DE CRM",
-              "icon": "https://assets.decocache.com/we-digi/8ed0cc8b-71dc-46c7-85cf-276975854963/icon-(8).png",
+              "icon": "https://decoims.com/we-digi/c72ce089-0735-4fc6-8b84-cb757eee2553/icon-(8).png",
               "text": "FERRAMENTAS DE CRM"
             },
             {
-              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "image": "https://decoims.com/we-digi/ef06a862-990a-44ae-919f-51e7eb2a647a/custo.png",
               "alt": "ESTRATÉGIAS DE BONIFICAÇÃO E CASHBACK",
-              "icon": "https://assets.decocache.com/we-digi/8230b244-4015-4531-b7a4-c9a1f92f501d/icon-(9).png",
+              "icon": "https://decoims.com/we-digi/530566f5-a984-46e4-a53f-6a25feec9a00/icon-(9).png",
               "text": "ESTRATÉGIAS DE BONIFICAÇÃO E CASHBACK"
             }
           ],
@@ -180,27 +180,27 @@
           "type": "Cards",
           "images": [
             {
-              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "image": "https://decoims.com/we-digi/a46372d2-7a87-4b68-aced-2b879968919a/segmentacao-block.png",
               "alt": "Customização de layout e componentes visuais.",
-              "icon": "https://assets.decocache.com/we-digi/19f09283-f35b-45a3-9a00-193ae4cb273f/icon.png",
+              "icon": "https://decoims.com/we-digi/e1fe5000-26bc-4cfe-83d3-952633e3c235/icon.png",
               "text": "Customização de layout e componentes visuais."
             },
             {
-              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "image": "https://decoims.com/we-digi/4ccfa266-ba8c-490b-a7ba-4f705c55008f/relatorios.png",
               "alt": "Criação de landing pages otimizadas para conversão.",
-              "icon": "https://assets.decocache.com/we-digi/2b4eb5ee-41b6-47d2-bbe8-017910781a8a/icon-(1).png",
+              "icon": "https://decoims.com/we-digi/78738afa-1277-446b-8af1-668fc82a0a18/icon-(1).png",
               "text": "Criação de landing pages otimizadas para conversão."
             },
             {
-              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "image": "https://decoims.com/we-digi/6317ebeb-5308-4f9c-b34c-728506bd13bb/lucratividade-block.png",
               "alt": "Personalização da jornada de compra do cliente.",
-              "icon": "https://assets.decocache.com/we-digi/1538f877-02d1-4543-b6d2-59a326cc2cbd/icon-(2).png",
+              "icon": "https://decoims.com/we-digi/fa38c3d3-a8ab-44a7-89f1-0ccdc0ce149d/icon-(2).png",
               "text": "Personalização da jornada de compra do cliente."
             },
             {
-              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "image": "https://decoims.com/we-digi/ef06a862-990a-44ae-919f-51e7eb2a647a/custo.png",
               "alt": "Análise de mapa de calor e comportamento do usuário.",
-              "icon": "https://assets.decocache.com/we-digi/75379c09-13b6-45cc-99c1-cbbab31faf19/icon-(6).png",
+              "icon": "https://decoims.com/we-digi/537dda60-e7ea-4127-b8c0-97be2d25a566/icon-(6).png",
               "text": "Análise de mapa de calor e comportamento do usuário."
             }
           ]
@@ -213,27 +213,27 @@
           "type": "Cards",
           "images": [
             {
-              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "image": "https://decoims.com/we-digi/a46372d2-7a87-4b68-aced-2b879968919a/segmentacao-block.png",
               "alt": "Correção de bugs e otimização de desempenho.",
-              "icon": "https://assets.decocache.com/we-digi/5c0a2c41-eb96-4a11-b1f0-5dfe62d46a6b/Camada_1.png",
+              "icon": "https://decoims.com/we-digi/f92baa22-0f2a-4c7f-9b6f-253d2bf207ca/Camada_1.png",
               "text": "Correção de bugs e otimização de desempenho."
             },
             {
-              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "image": "https://decoims.com/we-digi/4ccfa266-ba8c-490b-a7ba-4f705c55008f/relatorios.png",
               "alt": "SEO On-page baseado em análises de palavras-chave.",
-              "icon": "https://assets.decocache.com/we-digi/ba240897-988f-46e1-a2a6-2006ae8887ce/icon-(3).png",
+              "icon": "https://decoims.com/we-digi/b59aca1c-486b-48e1-b251-f729b5ae1aa0/icon-(3).png",
               "text": "SEO On-page baseado em análises de palavras-chave."
             },
             {
-              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "image": "https://decoims.com/we-digi/6317ebeb-5308-4f9c-b34c-728506bd13bb/lucratividade-block.png",
               "alt": "Testes A/B para otimização de páginas e CTAs.",
-              "icon": "https://assets.decocache.com/we-digi/db329ea2-f36c-4d0b-b9d9-2d0f204a400b/icon-(4).png",
+              "icon": "https://decoims.com/we-digi/2aca3057-32d4-4bc5-afb7-5513d8b7d247/icon-(4).png",
               "text": "Testes A/B para otimização de páginas e CTAs."
             },
             {
-              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "image": "https://decoims.com/we-digi/ef06a862-990a-44ae-919f-51e7eb2a647a/custo.png",
               "alt": "Criação de funcionalidades customizadas conforme o projeto.",
-              "icon": "https://assets.decocache.com/we-digi/3c7d0eed-ca77-49db-89f7-62fe1f1bedf7/icon-(5).png",
+              "icon": "https://decoims.com/we-digi/f145f9e6-5fc2-43d7-ab0a-2143f6826420/icon-(5).png",
               "text": "Criação de funcionalidades customizadas conforme o projeto."
             }
           ]
@@ -254,7 +254,7 @@
     {
       "__resolveType": "site/sections/VideoText.tsx",
       "text": "<h2><span style=\"color: rgb(118, 245, 247)\">Monitoramento, Tracking e SLA de Atendimento</span><br><br></h2><ul><li><p>Google Analytics, Meta, RD Station e ferramentas de tracking personalizadas.</p></li><li><p>Análises periódicas sobre desempenho da loja, SEO e CRO.</p></li><li><p>SLA de atendimento para bugs impeditivos de venda (1 hora) e abertura de chamados (24 horas úteis).</p></li><li><p>Relatórios mensais de performance e evolução do projeto.</p></li></ul>",
-      "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4",
+      "video": "https://decoims.com/we-digi/ab27e1f8-6b6e-40bf-a024-e9d0b1e4595d/video-LP-moda.mp4",
       "cta": {
         "label": "VAMOS TRANSFORMAR O SEU E‑COMMERCE?",
         "link": "/contato",

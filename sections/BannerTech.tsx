@@ -60,7 +60,7 @@ const BannerTech = (
       <header class="w-full flex items-center justify-center py-5 lg:py-10">
         <a href="/">
           <img
-            src="https://assets.decocache.com/we-digi/c16836f8-c94a-46d3-80ce-147d8835149b/logo-wedigi-1.png"
+            src="https://decoims.com/we-digi/1de02acf-71ae-40b6-b040-9abf5c23447d/logo-wedigi-1.png"
             alt=""
           />
         </a>

@@ -8,7 +8,7 @@
     {
       "__resolveType": "site/sections/ImageText.tsx",
       "image": {
-        "mobile": "https://data.decoassets.com/we-digi/52d08ab9-a215-4fc2-b2d9-1967d6f7da47/secao3.jpg",
+        "mobile": "https://decoims.com/we-digi/244f6df5-df0c-420a-a466-66103d3e8ed0/secao3.jpg",
         "alt": "wedigi"
       },
       "bgColor": "#08151D",
@@ -21,7 +21,7 @@
       "__resolveType": "site/sections/FaqImage.tsx",
       "text": "<h2><span style=\"color: rgb(255, 255, 255)\">Raio X de growth</span></h2><p style=\"text-align: start\"></p><p style=\"text-align: start\"><span style=\"color: rgb(255, 255, 255); font-size: 18px\">Conheça algumas das principais métricas que utilizamos para direcionar a evolução do seu e-commerce de acordo com as estratégias que iremos desenvolver juntos na we.digi:</span></p>",
       "image": {
-        "src": "https://data.decoassets.com/we-digi/d8f4af3f-1d93-42f7-8d6d-00444c6dbb01/secao5.jpg"
+        "src": "https://decoims.com/we-digi/0a4a3897-96be-4e29-b332-c8606b6b4cdf/secao5.jpg"
       },
       "questions": [
         {

@@ -10,7 +10,7 @@
         "url": "/contato",
         "bgColor": "#bff776"
       },
-      "bg": "https://assets.decocache.com/we-digi/8e5549e7-9374-4113-8405-1e6e5503582e/bg-modal.png"
+      "bg": "https://decoims.com/we-digi/f2b25e66-3e31-4aba-b345-a5ac160073be/bg-modal.png"
     },
     {
       "__resolveType": "site/sections/BannerConstrucao.tsx",
@@ -19,31 +19,31 @@
         "label": "AGENDE UMA CONSULTORIA GRÁTIS",
         "link": "/contato"
       },
-      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "bg": "https://decoims.com/we-digi/fbbdbbf2-f359-40a8-82f6-401f30d9137a/bg.png",
       "text2": "<p>A <strong><span style=\"color: rgb(107, 224, 227)\">we.digi</span></strong> une marketing e tecnologia para <strong><span style=\"color: rgb(111, 230, 232)\">potencializar sua marca no setor de construção.</span></strong> Com técnicas avançadas e experiência de mercado, transformamos sua <strong><span style=\"color: rgb(255, 255, 255)\">presença digital em resultados reais.</span></strong></p>",
       "images": [
         {
-          "image": "https://assets.decocache.com/we-digi/e8b2fbb6-3227-4189-9f2c-c7b2060ec485/slider1.png",
+          "image": "https://decoims.com/we-digi/0afc7f00-4046-4a65-8be1-1c933575d039/slider1.png",
           "alt": "merc"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/0c7488d5-5997-4dd1-a9c1-2d6686a4f8b4/slider2.png",
+          "image": "https://decoims.com/we-digi/6ab1f2b8-7d29-4f03-b744-87cbf325b5d1/slider2.png",
           "alt": "Merc Pdp"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/6d72b425-ccf0-4f70-becb-6b2b1d878142/slider3.png",
+          "image": "https://decoims.com/we-digi/6dda910a-593f-49fc-8b0f-3b10cd8862a6/slider3.png",
           "alt": "Casa Mimosa"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/94b9fdb1-4555-4ca4-8320-afd782596f3b/slider4.png",
+          "image": "https://decoims.com/we-digi/0fdbee3d-d5a6-4f06-b4b4-04e895600a63/slider4.png",
           "alt": "Casa Mimosa PDP"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/11e3b5ec-d258-48b4-b3de-7a3c27d14c39/slider5.png",
+          "image": "https://decoims.com/we-digi/1f31c173-2e05-4c2f-8939-ae05695734e4/slider5.png",
           "alt": "BSH"
         },
         {
-          "image": "https://assets.decocache.com/we-digi/43e3ea6a-a5a1-4e67-834a-9b5d82018407/slider6.png",
+          "image": "https://decoims.com/we-digi/07cc454b-c443-444e-a1cd-054357f039e9/slider6.png",
           "alt": "BSH PDP"
         }
       ]
@@ -70,7 +70,7 @@
           "text": "bilhões de faturamento"
         }
       ],
-      "image": "https://assets.decocache.com/we-digi/11af8ab4-7db0-4776-90d6-73c0192876b3/circle-1.png"
+      "image": "https://decoims.com/we-digi/e2c14003-b326-4321-8179-f56c8ae350e8/circle-1.png"
     },
     {
       "__resolveType": "Simple Brands"
@@ -80,7 +80,7 @@
       "text": "<h2><span style=\"color: rgb(133, 133, 133)\">Como vamos</span> <span style=\"color: rgb(0, 0, 0)\">escalar o seu e-commerce?</span></h2><p><br></p><p><span style=\"color: #858585\">Olhos treinados e focados para o aumento de faturamento do seu negócio. Nossa missão é garantir que você tenha pessoas acessando e comprando com frequência no seu canal.</span></p>",
       "cards": [
         {
-          "icon": "https://assets.decocache.com/we-digi/b9edff8f-645b-432d-887e-86036f531682/secao.png",
+          "icon": "https://decoims.com/we-digi/574ad08d-ddd4-4391-92f2-b853063b968d/secao.png",
           "text": "Fundamental, pois mensurar e mapear as sessões é o que permite monitorar o seu volume de acesso.",
           "link": "/contato",
           "linkLabel": "QUERO UMA CONSULTA GRATIS",
@@ -88,7 +88,7 @@
           "title": "Sessões"
         },
         {
-          "icon": "https://assets.decocache.com/we-digi/ccd20190-04b9-4853-bd0a-7aa288a56038/ticket.png",
+          "icon": "https://decoims.com/we-digi/9e10af7a-861c-461e-ab90-128b435c3a54/ticket.png",
           "title": "Ticket Médio",
           "text": "Está relacionado a oferta feita comercialmente.\nComo: Promoções, Elasticidade de preço e demanda de mercado.",
           "link": "/contato",
@@ -96,7 +96,7 @@
           "bgColor": "#bff776"
         },
         {
-          "icon": "https://assets.decocache.com/we-digi/cbd38f6b-1605-4d8b-8fbb-a43136673e8c/conversao.png",
+          "icon": "https://decoims.com/we-digi/1b43daac-336b-4ce5-8e2b-10e9e8b09c21/conversao.png",
           "title": "Taxa de Conversão",
           "text": "É o quanto de pessoas acessam vs pessoas que compram.\nÉ sensível a todas as outras métricas e tem com o principal fator a qualidade do site.",
           "link": "/contato",
@@ -119,37 +119,37 @@
           "type": "Cards",
           "images": [
             {
-              "image": "https://assets.decocache.com/we-digi/1c956ce9-76b2-4c40-87e7-2cc4e7e7444b/segmentacao-block.png",
+              "image": "https://decoims.com/we-digi/a46372d2-7a87-4b68-aced-2b879968919a/segmentacao-block.png",
               "alt": "Segmentação avançada",
-              "icon": "https://assets.decocache.com/we-digi/8c537cd5-7cdd-42f5-a339-ed672e33c2c5/PESQUISA.png",
+              "icon": "https://decoims.com/we-digi/9d996562-b21c-4370-b9b0-7dc807abcf82/PESQUISA.png",
               "text": "Pesquisa e Intervenção",
               "text2": "Mídias orgânicas e pagas otimizadas para atrair clientes de forma eficaz."
             },
             {
-              "image": "https://assets.decocache.com/we-digi/29a5fcb5-59a3-4cff-8647-585a8f0ef80d/relatorios.png",
+              "image": "https://decoims.com/we-digi/4ccfa266-ba8c-490b-a7ba-4f705c55008f/relatorios.png",
               "alt": "Análises e relatórios em tempo real",
-              "icon": "https://assets.decocache.com/we-digi/bc6b26f8-3b51-4801-baf6-12ab8550c618/ENCONTRABILIDADE.png",
+              "icon": "https://decoims.com/we-digi/33208fb9-7b98-424f-9ddf-348dae1bd24d/ENCONTRABILIDADE.png",
               "text": "Encontrabilidade",
               "text2": "Indexação precisa nos motores de busca para melhor visibilidade."
             },
             {
-              "image": "https://assets.decocache.com/we-digi/b8a06d4e-3206-4b4e-a8a9-6aea1e0964c8/lucratividade-block.png",
+              "image": "https://decoims.com/we-digi/6317ebeb-5308-4f9c-b34c-728506bd13bb/lucratividade-block.png",
               "alt": "Foco em aumentar lucratividade",
-              "icon": "https://assets.decocache.com/we-digi/48d9ec1b-1002-40b3-b0be-e82369adf9df/USABILIDADE.png",
+              "icon": "https://decoims.com/we-digi/357224b3-a56e-45fc-a89b-964e57f7ba07/USABILIDADE.png",
               "text": "Usabilidade",
               "text2": "Carregamento rápido, design responsivo e navegação intuitiva."
             },
             {
-              "image": "https://assets.decocache.com/we-digi/0aef7a36-12e0-4c06-af79-4dab5c0ec4e3/custo.png",
+              "image": "https://decoims.com/we-digi/ef06a862-990a-44ae-919f-51e7eb2a647a/custo.png",
               "alt": "Melhor custo-benefício por conversão",
-              "icon": "https://assets.decocache.com/we-digi/a19bbb15-5a3b-43d2-baf5-e0fb2cec5d3e/PERSONALIZACAO.png",
+              "icon": "https://decoims.com/we-digi/7ed68dab-2705-4027-9a2f-daeaec95e32d/PERSONALIZACAO.png",
               "text": "Personalização",
               "text2": "Transmitir a essência do negócio no digital com autenticidade."
             },
             {
-              "image": "https://assets.decocache.com/we-digi/4e53e10b-2ebc-45cc-ba99-5181957e424a/conversao-block.png",
+              "image": "https://decoims.com/we-digi/83207910-720a-4585-8fab-b07b25087567/conversao-block.png",
               "alt": "Aumento de conversão",
-              "icon": "https://assets.decocache.com/we-digi/2f00291b-4650-4a70-815c-9f6eff5dbc27/COLETA.png",
+              "icon": "https://decoims.com/we-digi/a51d961b-cb23-4b48-a4d3-45a4df10139a/COLETA.png",
               "text": "Coleta de dados e atribuições",
               "text2": "Tags e pixels atualizados para inteligência e otimização de anúncios."
             }
@@ -162,7 +162,7 @@
           "bgColor": "#bff776"
         }
       ],
-      "bg": "https://assets.decocache.com/we-digi/690f2c80-7076-415b-af36-2265e9e40de9/bg.png",
+      "bg": "https://decoims.com/we-digi/fbbdbbf2-f359-40a8-82f6-401f30d9137a/bg.png",
       "maxWidth": 1050,
       "flex": true
     },
@@ -177,7 +177,7 @@
         "link": "/contato",
         "bgColor": "#bff776"
       },
-      "video": "https://assets.decocache.com/we-digi/f11a8936-add7-4926-8389-0c15d3dcfe92/video-LP-moda.mp4"
+      "video": "https://decoims.com/we-digi/ab27e1f8-6b6e-40bf-a024-e9d0b1e4595d/video-LP-moda.mp4"
     },
     {
       "__resolveType": "site/sections/StepSection.tsx",
